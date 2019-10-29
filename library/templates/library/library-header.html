@@ -1,0 +1,21 @@
+<header class="library-header" style="position:fixed;z-index: 4">
+    <div class="lib-container">
+        <div class="lib-logo">
+            <img src="/static/LOGO7.png" alt="LOGO" class="nav-logo">
+            <span class="nav-logo-heading">WISE CLUB</span>
+        </div>
+        <nav class="nav-library">
+        <ul class="nav-ul">
+            {% if request.user.is_authenticated == False %}
+            <li class="lib-item lib-items lib-1"><a href="{% url 'user:sign-up' %}">Sign-up</a></li>
+            <li class="lib-item lib-items lib-2"><a href="#" class="no loginPopup">Login</a></li>
+            {% else %}
+            <li class="lib-item lib-4"><a href="{% url 'user:profile' user_id=request.user.user_id %}" class="lib-profile"><img class="lib-profile-image" src={{request.user.image}} alt=""><span>{{request.user.username}}</span></a></li>
+            <li class="lib-item lib-items lib-3"><a href="{% url 'user:logout' %}?next={{request.path}}" class="library-login">Logout</a></li>
+            {% endif %}
+            <!-- <li class="lib-item lib-4"><a></a></li> -->
+        </ul>
+        </nav>
+    </div>
+</header>
+

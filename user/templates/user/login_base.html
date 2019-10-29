@@ -1,0 +1,42 @@
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
+<script src="/static/js/library.js"></script>
+<script>
+
+    document.querySelector('.lib-login-username').addEventListener('input', checkUsernames);
+
+    function checkUsernames(event){
+        let list_user = "{{all_users|safe}}";
+        let val = event.target.value.toString();
+        if(list_user.includes(val)&&val!=""){
+            $('.lib-login-username').css({'border-bottom': '5px solid #00FF00'});
+        }
+        else{
+                $('.lib-login-username').css({'border-bottom': '5px solid red'});
+            }
+
+    }
+
+    var valid_user = '{{valid_user}}';
+    console.log(valid_user);
+    var timer = '{{timer}}';
+    console.log(timer);
+    if(timer == "yes"){
+        setTimeout(showPopup, 4000);
+    }
+    function showPopup(){
+    $('.model-back').css({'visibility': 'visible'});
+    }
+    if(valid_user == "True"){
+        $('.model-back').css({'visibility': 'hidden'});
+    }
+    else if(timer == "Not Exists"){
+        $('.model-back').css({'visibility': 'visible'});
+    }
+    $('a.loginPopup').on('click', function(e){$('.model-back').css({'visibility': 'visible'})
+    $('.error-popup').css({'display': 'none'});
+});
+    $('a.close-svg').on('click', function(e){
+        $('.model-back').css({'visibility': 'hidden'});
+});
+</script>

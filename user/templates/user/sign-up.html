@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/css/home.css">
+    <!-- <link rel="stylesheet" href="/static/css/card.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chilanka&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font&display=swap" rel="stylesheet">
+    <title>Sign-up</title>
+</head>
+<body style="padding: 0;height: 100%;position: relative;">
+    <div class="sign-up-video-box">
+        <video class="bg-video-sign-up" autoplay muted loop>
+            <source src="/static/globe.mp4">
+                VIDEO NOT SUPPORTED
+        </video>
+    </div>
+    <div class="sign-up-page-box">
+        <img class="sign-up-image" src="/static/LOGO7.png" alt="">
+        <div class="sign-up-box">
+            <h1 class="sign-up-heading">
+                Sign-up
+            </h1>
+            <form action="{% url 'user:sign-up' %}" method="post">
+                {% csrf_token %}
+                <div class="form-group">
+                    <input name="username" type="text" placeholder="Username" id="username" required class="form-input sign-username" autocomplete="off">
+                    <label for="username" class="label">Username</label>
+                </div>
+                <div class="form-group">
+                    <input name="name" type="text" placeholder="Name" id="name" required class="form-input">
+                    <label for="name" class="label">Name</label>
+                </div>
+                <div class="form-group">
+                    <input name="email" type="email" placeholder="Email" id="email" required class="form-input" >
+                    <label for="email" class="label">Email</label>
+                </div>
+                <div class="form-group">
+                    <input name="password1" type="password" placeholder="Password" id="password1" required class="form-input sign-password" autocomplete="off">
+                    <label for="password1" class="label">Password</label>
+                </div>
+                <div class="form-group">
+                    <input name="password2" type="password" placeholder="Password Confirm" id="password2" required class="form-input sign-password-confirm" autocomplete="off">
+                    <label for="password2" class="label">Password Confirm</label>
+                </div>
+                <button type="submit" class="btn-fire">Submit</button>
+            </form>
+        </div>
+        {% if error %}
+        <div class="sign-up-error-box">
+            <img src="/static/error_icon.png" alt="ERROR">
+            <span>{{error}}</span>
+        </div>
+        {% endif %}
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
+    <script>
+
+        // document.querySelector('.sign-username').addEventListener('input', checkUsernames);
+        $('.sign-username').on('input', checkUsernames);
+        $('.sign-password-confirm').on('input', checkPasswordConfirm);
+
+        function checkUsernames(event){
+            let list_user = {{all_users|safe}};
+            let val = event.target.value.toString();
+            console.log(list_user);
+            if(!list_user.includes(val)&&val!=""){
+                $('.sign-username').css({'border-bottom': '5px solid #00FF00'});
+            }
+            else{
+                    $('.sign-username').css({'border-bottom': '5px solid red'});
+                }
+
+        }
+        function checkPasswordConfirm(event){
+            let list_user = {{all_users|safe}};
+            let val = event.target.value.toString();
+            let passVal = document.querySelector('.sign-password').value.toString();
+            console.log(val,passVal);
+            if(val == passVal&&val!=""){
+                $('.sign-password-confirm').css({'border-bottom': '5px solid #00FF00'});
+            }
+            else{
+                // console.log('not')
+                    $('.sign-password-confirm').css({'border-bottom': '5px solid red'});
+                }
+
+        }
+
+    </script>
+</body>
+</html>

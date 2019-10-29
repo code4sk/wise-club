@@ -1,0 +1,58 @@
+.comment-box
+    text-align: left
+    .comment-box-heading
+        padding: 50px 0px
+        padding-top: 90px
+        font-size: 50px
+        font-family: Chilanka
+        background-image: $linear-gradient-frost
+        -webkit-background-clip: text
+        color: transparent
+    
+    input
+        padding: 15px
+        border-radius: 80px
+        outline: none
+        border: 0px
+        width: 55%
+        font-size: 20px
+        color: darken(grey, 80%)
+        font-family: Pacifico
+        font-weight: 100
+
+        &::-webkit-input-placeholder
+            font-size: 20px
+            font-weight: 100
+            color: grey
+            font-family: Pacifico
+
+.previous-comment
+    margin: 40px 0px
+    display: flex
+    img
+        width: 60px
+        display: inline-block
+        margin-top: 3px
+        height: 60px
+        border-radius: 50%
+
+    .previous-comment-text-box
+        margin-left: 2px
+        background-image: linear-gradient(to right, #d9a7c7, #fffcdc)
+        border-radius: 90px
+        display: inline-block
+        padding: 8px
+        font-family: Pacifico
+        font-weight: 100
+        font-size: 20px
+        .previous-comment-username
+            background-color: transparent
+            font-family: Chilanka
+            font-size: 20px
+            color: blue
+
+        .previous-comment-text
+            padding: 8px
+
+.btn-comment
+    display: inline-block

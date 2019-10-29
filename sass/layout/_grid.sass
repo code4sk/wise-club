@@ -1,0 +1,32 @@
+.layout
+    position: relative
+    display: flex
+    flex-wrap: wrap
+    perspective: 1000px
+
+    .layout__item
+        display: inline-block
+        margin-left: calc((100% - 1000px)/6)
+        flex-shrink: 1
+        margin-bottom: 5rem
+        flex-grow: 0
+
+.layout__detail
+    position: relative
+
+    .layout__item
+        display: inline-block
+
+.grid-center
+    text-align: center
+
+.grid
+    padding: 0 60px
+    justify-content: space-around
+    display: grid
+    grid-row-gap: 50px
+    grid-template-columns: 230px 230px 230px 230px 230px
+    grid-column-gap: 40px
+
+    .grid__item
+        display: inline-block

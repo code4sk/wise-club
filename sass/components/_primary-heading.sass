@@ -1,0 +1,59 @@
+.primary__heading-box
+    text-align: center
+    margin: 0 auto
+    position: absolute
+    display: inline-block
+    left: 50%
+    top: 68%
+    background-image: url('/static/paper.jpg')
+    -webkit-background-clip: text
+    transform: translateX(-50%) translateY(40px)
+    // animation-name: fadeIn
+    // animation-duration: 1s
+    // animation-fill-mode: forwards
+    // animation-timing-function: cubic-bezier(0.5, 1.5, 0.4, 0.7)
+    opacity: 0
+    animation: fadeIn 1s cubic-bezier(0.5, 1.5, 0.4, 0.7) .8s forwards
+
+.letter
+    font-family: Pacifico
+    display: inline-block
+    font-weight: 900
+    color: lightblue
+    // color: transparent
+    // color: $color-secondary-dark
+    font-size: 90px
+    transform-style: preserve-3d
+    perspective: 400
+    z-index: 1
+    position: relative
+
+.letter::before, .letter::after
+    position: absolute
+    content: attr(data-letter)
+    top: 0
+    left: 0
+    transform-origin: top left
+    transition: all 0.3s
+
+.letter::before
+    // color: transparent
+    // color: #4f3127
+    color: $color-coconut-milk
+    opacity: 1
+    text-shadow: 1px 0 1px rgba(0, 0, 0,.8), -1px 0 1px rgba(255, 255, 255,.8)
+    z-index: 3
+    transform: rotateY(-12deg)
+
+.letter::after
+    color: #0000001f
+    z-index: 2
+    transform: scaleX(1.08) skewY(1deg)
+
+.letter:hover::after
+    transform: rotateY(40deg)
+    transform: skewY(22deg)
+
+
+.letter:hover::before
+    transform: rotateY(-40deg)

@@ -1,0 +1,34 @@
+"""learn URL Configuration
+
+The `urlpatterns` list routes URLs to views. For more information please see:
+    https://docs.djangoproject.com/en/2.2/topics/http/urls/
+Examples:
+Function views
+    1. Add an import:  from my_app import views
+    2. Add a URL to urlpatterns:  path('', views.home, name='home')
+Class-based views
+    1. Add an import:  from other_app.views import Home
+    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
+Including another URLconf
+    1. Import the include() function: from django.urls import include, path
+    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
+"""
+from django.contrib import admin
+from django.urls import path
+from learn import settings
+from django.conf.urls import url, include
+from django.conf.urls.static import static
+from home import urls as home_url
+from library import urls as library_url
+from book import urls as book_url
+from author import urls as author_url
+from user import urls as user_url
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include(home_url)),
+    path('library/', include(library_url)),
+    path('book/', include(book_url)),
+    path('author/', include(author_url)),
+    path('user/', include(user_url)),
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

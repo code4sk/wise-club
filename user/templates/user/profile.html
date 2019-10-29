@@ -1,0 +1,91 @@
+{% extends 'home/base.html' %}
+{% block body %}
+<body style="padding:0px">
+   {% include 'library/library-header.html' %}
+<main class="u-padding-top-medium u-padding-bottom-medium home" style="padding-top: 140px">
+   <div class="profile-main-box">
+    <div class="profile-primary-box">
+       <div class="profile-detail-box">
+         <div class="profile-user-image"><img src={{request.user.image}} alt=""></div>
+         <div class="profile-user-detail">
+            <span class="user-label">Name </span><span class="user-info">{{request.user.name}}</span>
+            <br><br><br>
+            {% if request.user.interests %}
+            <span class="user-label">Interests </span><span class="user-info">{{request.user.interests|safe}}</span>
+            {% endif %}
+            <br><br><br>
+            {% if request.user.fav_books %}
+            <span class="user-label">Favourite Books </span><span class="user-info">{{request.user.fav_books}}</span>
+            {% endif %}
+         </div>
+      </div>
+    <div class="profile-quote-box">
+      {% if request.user.best_quote %}
+      <span class="quote-head"><a href="#" style="text-decoration: none;">{{request.user.name}}</a>'s Best Quote<span>
+      <span class="user-quote"><q>{{request.user.best_quote|safe}}</q></span>
+      {% endif %}
+    </div>
+    </div>
+    <div class="profile-secondary-box">
+       <div class="profile-flex-item updates">
+         {% for status in statuses %}
+         {% if status.body %}
+         <div class="status-box">
+            <div class="status-action-box"><a href="#">{{request.user.name}}</a> {{status.action_text|safe}}</div>
+            <div class="status-container">
+               <div class="status-image-box"><img src={{status.image}} alt=""></div>
+               <div class="status-body-box"><q>{{status.body|safe}}</q></div>
+            </div>
+            <div class="status-updated-at">{{status.updated_at|safe}}</div>
+         </div>
+         {% else %}
+         <div class="status-box">
+            <!-- <div class="status-action-box">{{request.user.name}} {{status.action_text|safe}}</div> -->
+            <div class="status-container">
+               <div class="status-image-box"><img src={{status.image}} alt=""></div>
+               <div class="status-body-box"><q><a href="#">{{request.user.name}}</a> {{status.action_text|safe}}</q></div>
+            </div>
+            <div class="status-updated-at">{{status.updated_at|safe}}</div>
+         </div>
+         {% endif %}
+         {% endfor %}
+       </div>
+       <div class="profile-flex-item user-data">
+          <div class="shelves">
+             {% if user_shelves %}
+               <span><a href="#" style="text-decoration: none;">{{request.user.name}}</a>'s book shelves</span>
+             {% endif %}
+            {% for shelf in user_shelves %}
+            <li class="shelves-item"><a class="shelves-link" href="{% url 'user:shelves' user_id=request.user.user_id shelf_id=shelf.shelf_id %}">{{shelf.name}}</a>({{shelf.books.all.count}})</li>
+            {% endfor %}
+         </div>
+         <div class="friends">
+            {% if friends %}
+               <span><a href="#" style="text-decoration: none;">{{request.user.name}}</a>'s friends</span>
+            {% endif %}
+               {% for friend in friends %}
+               <div class="friend">
+                  <div class="friend-image"><img src={{friend.image}} alt=""></div>
+                  <div class="friend-info">
+                     <div class="friend-name">{{friend.name}}</div>
+                     <div class="friend-count">{{friend.friends_count}} frien{{friend.friends_count|pluralize:"d,ds"}}  |  {{friend.reviews_count}} revie{{friend.reviews_count|pluralize:"w,ws"}}</div>
+                     <div class="friend-count"></div>
+                  </div>
+               </div>
+               {% endfor %}
+         </div>
+         <div class="quotes">
+               {% if user_quotes %}
+                 <span><a href="#" style="text-decoration: none;">{{request.user.name}}</a>'s Quotes</span>
+               {% endif %}
+              {% for quote in user_quotes %}
+              <li class="quote"><q>{{quote.body|safe}}</q></li>
+              {% endfor %}
+         </div>
+       </div>
+    </div>
+       </div>
+   </div>
+</main>         
+</body>
+{% endblock %}

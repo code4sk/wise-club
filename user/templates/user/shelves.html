@@ -1,0 +1,44 @@
+{% extends 'home/base.html' %}
+{% block body %}
+<body style="padding:0px">
+   {% include 'library/library-header.html' %}
+<main class="u-padding-top-medium u-padding-bottom-medium home" style="padding-top: 140px">
+   <div class="shelves-main-box">
+      <div class="shelves-list">
+         <h3 class="shelves-list-head">My Bookshelves</h3>
+         {% for shelf in shelves %}
+         <div class="shelf-item"><a href={% url 'user:shelves' user_id=request.user.user_id shelf_id=shelf.shelf_id %} class="shelf-link">{{shelf.name}}</a>({{shelf.books.all.count}})</div>
+         {% endfor %}
+      </div>
+      <div class="shelf-info">
+         <div class="single-book">
+               <div class="book-item head" style="width:113.33px;text-align: left;padding: 20px 23px;">Cover</div>
+               <div class="book-item book-title head">Title</div>
+               <div class="book-item book-authors head">Author</div>
+               <div class="book-item average-rating head">Average Rating</div>
+               <div class="book-item rating head">Rating</div>
+               <div class="book-item shelf head">Shelf</div>
+               <div class="book-item body head">Review</div>
+         </div>
+         <table>
+         {% for review in reviews %}
+         <tr class="single-book">
+            <td><a href="{% url 'book:detail' slug=review.book.slug %}"><img class="book-item book-image" src={{review.book.image}} alt=""></a></td>
+            <td><div class="book-item book-title"><a href="{% url 'book:detail' slug=review.book.slug %}" class="book-link">{{review.book.title}}</a></div></td>
+            <td><div class="book-item book-authors">
+               {% for author in review.book.author.all %}
+               <a href="{% url 'author:author' slug=author.slug %}" class="book-link">{{author.name}}</a>
+               {% endfor %}
+            </div></td>
+            <td><div class="book-item average-rating">{{review.book.average_rating}}</div></td>
+            <td><div class="book-item rating">{{review.rating}}</div></td>
+            <td><div class="book-item shelf">{{review.shelf.name}}</div></td>
+            <td><div class="book-item body">{{review.body|safe}}</div></td>
+         </tr>
+         {% endfor %}
+         </table>
+      </div>
+   </div>
+</main>
+</body>
+{% endblock %}
