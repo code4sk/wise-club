@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<review>
+  <id type="integer">3034892792</id>
+  <user-id type="integer">97134500</user-id>
+  <book-id type="integer">30169100</book-id>
+  <rating type="integer">4</rating>
+  <read-status>to-read</read-status>
+  <sell-flag type="boolean">false</sell-flag>
+  <review>looks great , would love to read sooner!</review>
+  <recommendation nil="true"/>
+  <read-at type="datetime" nil="true"/>
+  <updated-at type="datetime">2019-11-03T14:04:39+00:00</updated-at>
+  <created-at type="datetime">2019-11-03T14:04:38+00:00</created-at>
+  <comments-count type="integer">0</comments-count>
+  <weight type="integer">54</weight>
+  <ratings-sum type="integer">0</ratings-sum>
+  <ratings-count type="integer">0</ratings-count>
+  <spoiler-flag type="boolean">false</spoiler-flag>
+  <recommender-user-id1 type="integer">0</recommender-user-id1>
+  <recommender-user-name1 nil="true"/>
+  <work-id type="integer">50608625</work-id>
+  <last-comment-at type="datetime" nil="true"/>
+  <started-at type="datetime" nil="true"/>
+  <hidden-flag type="boolean">false</hidden-flag>
+  <language-code type="integer" nil="true"/>
+  <last-revision-at type="datetime">2019-11-03T14:04:39+00:00</last-revision-at>
+  <non-friends-rating-count type="integer">0</non-friends-rating-count>
+  <encrypted-notes nil="true"/>
+  <book-uri>kca://book/amzn1.gr.book.v1.DDrItGijsO3vpw-IIISh0Q</book-uri>
+  <notes nil="true"/>
+</review>

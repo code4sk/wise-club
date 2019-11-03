@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a9fc663-ae91-4658-af90-76ede61a8373" name="Default Changelist" comment="" />
+    <list default="true" id="8a9fc663-ae91-4658-af90-76ede61a8373" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/templates/book/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/book/templates/book/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/home/static/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/css/home.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/home/static/css/home.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/home/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/home/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/.sass-cache/3847af69b7794d82002e71c4bf3a55646ff61366/_comment-box.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/sass/.sass-cache/3847af69b7794d82002e71c4bf3a55646ff61366/_comment-box.sassc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/.sass-cache/3847af69b7794d82002e71c4bf3a55646ff61366/_detail-card.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/sass/.sass-cache/3847af69b7794d82002e71c4bf3a55646ff61366/_detail-card.sassc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/components/_comment-box.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_comment-box.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/components/_detail-card.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_detail-card.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/shelf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/shelf.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/user.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,15 +30,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1SCth4PnfvrqJPA1wqjWHriov8Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../good" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -85,5 +111,16 @@
       <updated>1571079520261</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

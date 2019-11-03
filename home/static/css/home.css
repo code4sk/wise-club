@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .form-group {
   margin: 60px 0px;
   margin-bottom: 30px;
@@ -712,15 +713,13 @@ a.anchor-library:active {
     font-size: 60px;
     font-family: Tangerine;
     letter-spacing: 1px;
-    background-image: linear-gradient(60deg, #19016f, #d33249);
-    -webkit-background-clip: text;
-    color: transparent; }
+    color: #404040; }
   .summary .text {
     width: 100%;
     margin: 20px 0px;
     font-style: Lato;
     font-size: 28px;
-    color: darkblue; }
+    color: #383838; }
 
 main.author__detail {
   text-align: center; }
@@ -1030,57 +1029,161 @@ main.author__detail {
 
 .comment-box {
   text-align: left; }
-  .comment-box .comment-box-heading {
-    padding: 50px 0px;
-    padding-top: 90px;
-    font-size: 50px;
-    font-family: Chilanka;
+  .comment-box .rating {
+    display: flex;
+    position: absolute;
+    left: 20px;
+    flex-direction: row-reverse; }
+    .comment-box .rating input {
+      display: none; }
+    .comment-box .rating label {
+      display: inline-block;
+      position: relative;
+      height: 37px;
+      width: 50px; }
+      .comment-box .rating label::before {
+        text-align: center;
+        content: "";
+        position: absolute;
+        top: 0px;
+        color: #b3b3b3;
+        width: 100%;
+        height: 100%;
+        font-size: 35px;
+        font-family: fontAwesome; }
+      .comment-box .rating label::after {
+        text-align: center;
+        content: "";
+        position: absolute;
+        top: 0px;
+        color: yellow;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        transition: all 0.4s;
+        font-size: 35px;
+        font-family: fontAwesome; }
+    .comment-box .rating label:hover:after,
+    .comment-box .rating label:hover ~ label:after,
+    .comment-box .rating input:checked ~ label:after {
+      opacity: 1; }
+    .comment-box .rating .label0, .comment-box .rating .input0 {
+      display: none; }
+  .comment-box .rating-head {
+    position: relative;
+    left: 30px;
+    font-size: 22px;
+    font-family: Lato;
     background-image: linear-gradient(to right, #000428, #004e92);
     -webkit-background-clip: text;
-    color: transparent; }
-  .comment-box input {
-    padding: 15px;
+    color: transparent;
+    margin-bottom: 20px; }
+  .comment-box textarea {
+    padding: 30px;
+    margin-top: 80px;
     border-radius: 80px;
     outline: none;
-    border: 0px;
+    border: 1px solid grey;
     width: 55%;
+    height: 100px;
     font-size: 20px;
     color: black;
-    font-family: Pacifico;
+    font-family: Be Vietnam;
     font-weight: 100; }
-    .comment-box input::-webkit-input-placeholder {
+  .comment-box .shelf-review-box {
+    display: inline-block;
+    position: relative;
+    top: -40px;
+    margin: 0px 60px; }
+    .comment-box .shelf-review-box h4 {
+      text-align: center;
+      font-size: 22px;
+      font-family: Lato;
+      background-image: linear-gradient(to right, #000428, #004e92);
+      -webkit-background-clip: text;
+      color: transparent;
+      margin-bottom: 20px; }
+    .comment-box .shelf-review-box select {
+      border-radius: 5px;
+      padding: 15px;
+      font-family: Be Vietnam;
+      outline: none;
+      font-size: 20px;
+      -webkit-appearance: button;
+      background-color: #2998ff;
+      color: white; }
+      .comment-box .shelf-review-box select option {
+        font-weight: 200; }
+    .comment-box .shelf-review-box::-webkit-input-placeholder {
       font-size: 20px;
       font-weight: 100;
       color: grey;
-      font-family: Pacifico; }
+      font-family: Be Vietnam; }
+
+.comment-box-heading {
+  padding: 50px 5px;
+  padding-top: 90px;
+  font-size: 50px;
+  text-align: left;
+  font-family: Chilanka;
+  background-image: linear-gradient(to right, #000428, #004e92);
+  -webkit-background-clip: text;
+  color: transparent; }
+
+.my-review-head {
+  position: relative;
+  text-align: left;
+  font-family: Chilanka;
+  font-size: 45px;
+  padding-left: 5px;
+  margin-top: 70px;
+  background-image: linear-gradient(to right, #000428, #004e92);
+  -webkit-background-clip: text;
+  color: transparent; }
 
 .previous-comment {
-  margin: 40px 0px;
+  margin: 20px 0px;
   display: flex; }
   .previous-comment img {
-    width: 60px;
+    width: 80px;
     display: inline-block;
     margin-top: 3px;
-    height: 60px;
+    height: 80px;
     border-radius: 50%; }
   .previous-comment .previous-comment-text-box {
-    margin-left: 2px;
+    margin-left: 30px;
     background-image: linear-gradient(to right, #d9a7c7, #fffcdc);
     border-radius: 90px;
     display: inline-block;
-    padding: 8px;
-    font-family: Pacifico;
+    padding: 10px;
+    position: relative;
+    max-width: 80%;
+    font-family: Be Vietnam;
     font-weight: 100;
     font-size: 20px; }
     .previous-comment .previous-comment-text-box .previous-comment-username {
+      text-align: left;
+      margin-left: 50px;
       background-color: transparent;
       font-family: Chilanka;
       font-size: 20px;
       color: blue; }
     .previous-comment .previous-comment-text-box .previous-comment-text {
-      padding: 8px; }
+      text-align: left;
+      padding: 10px 30px; }
 
 .btn-comment {
-  display: inline-block; }
+  display: block;
+  padding: 20px 40px;
+  width: 150px;
+  margin: 30px 0px; }
+
+.my-review {
+  text-align: left;
+  padding: 20px 5px; }
+  .my-review .my-review-rating {
+    font-size: 30px; }
+  .my-review .my-review-text {
+    font-size: 30px; }
 
 /*# sourceMappingURL=home.css.map */
