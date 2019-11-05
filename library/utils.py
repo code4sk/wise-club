@@ -14,13 +14,11 @@ def create_book(b, isbn=0):
     print('come')
     slug = slugify(b.title)
     # if isbn == 0:
-    b_isbn = b.isbn
+    b_isbn = b.gid
     # else:
     #     b_isbn = isbn
     gc = client.GoodreadsClient(consumer_key, consumer_secret)
-    if not b_isbn:
-        b_isbn = b.gid
-    book = Book.objects.create(book_id=b_isbn, title=b.title, description=b.description, image=b.image_url,slug=slug)
+    book = Book.objects.create(book_id=b_isbn, title=b.title, average_rating=b.average_rating, description=b.description, image=b.image_url,slug=slug)
     authors = b.authors
     for author in authors:
         author_slug = slugify(author.name)
@@ -59,21 +57,21 @@ def store_books():
         gc = client.GoodreadsClient(consumer_key, consumer_secret)
         b = gc.book(isbn=isbn)
         if b.isbn not in book_ids:
-            book = create_book(b, isbn)
+            book = create_book(b)
         else:
             print('already')
-            book = Book.objects.filter(book_id=b.isbn)[0]
+            book = Book.objects.filter(book_id=b.gid)[0]
         try:
             similar_books = b.similar_books[0:5]
         except :
             similar_books = None
         if similar_books:
             for similar in similar_books:
-                sim_id = similar.isbn
+                sim_id = similar.gid
                 if not sim_id:
                     continue
                 if sim_id not in book_ids:
-                    sim_b = create_book(gc.book(isbn=sim_id))
+                    sim_b = create_book(gc.book(sim_id))
                 else:
                     sim_b = Book.objects.filter(book_id=sim_id)[0]
                 if sim_b:

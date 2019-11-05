@@ -194,7 +194,11 @@ My latest book, &lt;i&gt;The Underground Railroad&lt;/i&gt;, is an Oprah's Book 
         <genre2>Non-fiction</genre2>
         <genre3></genre3>
         <books_count type="integer">450</books_count>
+<<<<<<< HEAD
         <reviews_count type="integer">829505</reviews_count>
+=======
+        <reviews_count type="integer">829499</reviews_count>
+>>>>>>> profile
         <ratings_sum type="integer">1230561</ratings_sum>
         <works_count type="integer">24</works_count>
         <hometown>New York City, New York</hometown>

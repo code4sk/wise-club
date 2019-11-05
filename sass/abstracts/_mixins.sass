@@ -1,0 +1,63 @@
+@mixin five_star()
+    .my-review-rating
+        display: flex
+        padding: 0px 21px
+        padding-right: 50px
+        padding-top: 5px
+
+        // flex-direction: row-reverse
+        span
+            display: inline-block
+            position: relative
+            height: 10px
+            width: 20px
+            &::before, &::after
+                text-align: center
+                content: "\f005"
+                position: absolute
+                top: 0px
+                width: 60%
+                height: 80%
+                font-size: 20px
+                font-family: fontAwesome
+            &::before
+                color: lighten(grey, 20%)
+                // text-shadow: 0px 5px 7px rgba(0, 0, 0, .5)
+            &::after
+                color: yellow
+                // text-shadow: 0 5px 10px rgba(0, 0, 0, .5)
+                opacity: 1
+        .noOfStar ~ span::after
+            opacity: 0
+        
+@mixin shelf-box()
+    select
+        border-radius: 5px
+        padding: 15px
+        position: relative
+        font-family: Be Vietnam
+        outline: none
+        font-size: 20px
+        -webkit-appearance: button
+        background-color: $color-tertiary-light 
+        color: white
+        option
+            padding: 5px 0px
+            font-weight: 200
+    .drop-down
+        position: absolute
+        top: 0
+        height: 62px
+        left: 550px
+        box-shadow: 0px 0px 0px black
+        z-index: -3
+        font-size: 30px
+        
+
+    &::-webkit-input-placeholder
+        font-size: 20px
+        font-weight: 100
+        color: grey
+        // font-family: Pacifico
+        font-family: Be Vietnam
+    

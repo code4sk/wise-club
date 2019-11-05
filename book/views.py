@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse, Http404
 from book.models import *
 from django.views.generic import View
-from user.models import CustomUser, Comment
+from user.models import CustomUser, Comment, Review
 from django.contrib.auth.hashers import make_password
 from django.contrib.auth.hashers import check_password
 from django.contrib.auth import login, authenticate
@@ -10,6 +10,8 @@ import json
 from django.core.serializers.json import DjangoJSONEncoder
 from django.shortcuts import redirect, reverse
 from django.template.defaultfilters import linebreaks
+from .utils import book_review_widget, post_review, get_review_id, delete_review, add_to_shelf
+from user.models import Shelf
 
 
 class Detail(View):
@@ -17,11 +19,22 @@ class Detail(View):
         try:
             valid_user = "False"
             book = Book.objects.get(slug=slug)
+            # reviews = book_review_widget(book)
             all_users = []
+            reviews = ''
+            review = Review.objects.filter(book=book, user=request.user)
+            if review:
+                review = review[0]
             for user in CustomUser.objects.all():
                 all_users.append(str(user.username))
             timer = "no"
             user = None
+            shelves = Shelf.objects.all()
+            book_shelf = book.shelf_set.all()
+            if not book_shelf:
+                book_shelf = 0
+            else:
+                book_shelf = 1
             if request.user.is_authenticated:
                 user = CustomUser.objects.filter(username=request.user.username)[0]
             # comments = Comment.objects.filter(book=book)
@@ -29,7 +42,9 @@ class Detail(View):
             similar_books = book.similar_books.all()
             return render(request, 'book/detail.html', {'comments': comments, 'book': book, 'valid_user': valid_user,
                                                         'timer': timer, 'error': False, 'all_users': all_users,
-                                                        'user': user, 'similar_books': similar_books})
+                                                        'user': user, 'similar_books': similar_books,
+                                                        'reviews': reviews, 'shelves': shelves,
+                                                        'review': review, 'book_shelf': book_shelf})
         except Book.DoesNotExist:
             raise Http404
 
@@ -40,8 +55,12 @@ class Detail(View):
             error = True
             timer = "Not Exists"
             all_users = []
+            reviews = book_review_widget(book)
+            review = Review.objects.filter(book=book, user=request.user)
+            # reviews = ''
             comments = Comment.objects.filter(book=book)
             user = None
+            shelves = Shelf.objects.all()
             for user in CustomUser.objects.all():
                 all_users.append(str(user.username))
             if request.user.is_authenticated:
@@ -73,6 +92,70 @@ class Detail(View):
         return render(request, 'book/detail.html',
                       {'comments': comments, 'book': book, 'valid_user': valid_user,
                        'timer': timer, 'error': error, 'all_users': all_users,
-                       'user': user})
+                       'user': user, 'reviews': reviews, 'shelves': shelves, 'review': review})
 
 
+class ReviewCreate(View):
+    def post(self, request, slug):
+        review = request.POST.get('review')
+        shelf_name = request.POST.get('shelf')
+        shelf = Shelf.objects.get(name=shelf_name, user=request.user)
+        rating = request.POST.get('rating', 0)
+        book = Book.objects.get(slug=slug)
+        response = post_review(review, shelf_name, book.book_id, rating)
+        if response.status_code == 201:
+            review_id = get_review_id(response)
+            a = Review.objects.create(review_id=review_id, body=review, rating=rating,
+                                      user=request.user, book=book, shelf=shelf)
+            shelf.books.add(book)
+            print(a.review_id)
+            return redirect(reverse('book:detail', kwargs={'slug': book.slug}))
+        return HttpResponse('learn')
+
+
+class ReviewDelete(View):
+    def get(self, request, slug, review_id):
+        print('ok')
+        book = Book.objects.get(slug=slug)
+        shelf_name = book.shelf_set.all()[0].name
+        response = delete_review(book.book_id, shelf_name)
+        print(response.text)
+        review = Review.objects.get(review_id=review_id)
+        if response.status_code == 200:
+            review.delete()
+            book.shelf_set.clear()
+            return redirect(reverse('book:detail', kwargs={'slug': slug}))
+        return HttpResponse('learn ' + str(response.status_code))
+
+
+class AddToShelf(View):
+    def post(self, request):
+        print('hiii')
+        shelf_name = request.POST.get('shelf')
+        book_id = request.POST.get('book_id')
+        shelf = Shelf.objects.get(name=shelf_name, user=request.user)
+        response = add_to_shelf(shelf_name, book_id)
+        print(response)
+        book = Book.objects.get(book_id=book_id)
+        if response.status_code == 201:
+            if book.shelf_set.all():
+                book.shelf_set.clear()
+            shelf.books.add(book)
+            return HttpResponse(book.title + ' is added to your shelf')
+        return HttpResponse('learn')
+
+
+class RemoveFromShelf(View):
+    def get(self, request, book_id):
+        print('ok')
+        book = Book.objects.get(book_id=book_id)
+        shelf_name = book.shelf_set.all()[0].name
+        response = delete_review(book_id, shelf_name)
+        print(response.text)
+        if response.status_code == 200:
+            book.shelf_set.clear()
+            review = Review.objects.filter(book=book)
+            if review:
+                review[0].delete()
+            return redirect(reverse('book:detail', kwargs={'slug': book.slug}))
+        return HttpResponse('learn ' + str(response.status_code))

@@ -53,40 +53,39 @@
                 color: $color-grey-dark-3
                 font-family: Marck Script
 
-            .genre
-                height: 100px
+            .add-to-shelf
                 margin-top: 40px
-                text-align: center
-                bottom: 40px
-
-                .genre-box
-                    border-radius: 80px
-                    margin: 15px 14px
-                    background-image: linear-gradient(bottom, rgb(210, 244, 254) 25%, rgb(149, 194, 253) 100%)
-                    background-image: -moz-inear-gradient(bottom, rgb(210,244,254) 25%, rgb(149,194,253) 100%)
-                    background-image: -webkit-inear-gradient(bottom, rgb(210,244,254) 25%, rgb(149,194,253) 100%)
-                    background-image: -ms-inear-gradient(bottom, rgb(210,244,254) 25%, rgb(149,194,253) 100%)
-                    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.25, rgb(210, 244, 254)), color-stop(1, rgb(149, 194, 253)))
-                    // background-image: linear-gradient(right bottom, $color-blue-1 25%, $color-blue-2 100%)
-                    // background-image: -moz-inear-gradient(right bottom, $color-blue-1 25%, $color-blue-2 100%)
-                    // background-image: -webkit-inear-gradient(right bottom, $color-blue-1 25%, $color-blue-2 100%)
-                    // background-image: -ms-inear-gradient(right bottom, $color-blue-1 25%, $color-blue-2 100%)
-                    // background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0.25, $color-blue-1), color-stop(1, $color-blue-2))
-                    border: solid 1px rgba(0, 0, 0, 0.5)
-                    padding: 14px
+                position: relative
+                left: 25px
+                @include shelf-box()
+                &::before 
+                    content: '\f078'
+                    font-family: "FontAwesome"
+                    font-size: 26px
+                    z-index: 1
+                    pointer-events: none
+                    color: white
+                    position: absolute
+                    top: 25px
+                    right: 455px
+                .remove-book
+                    cursor: pointer
+                    top: 4px
+                    font-family: "FontAwesome"
+                    font-size: 49px
                     display: inline-block
+                    position: relative
+                    padding-top: 5px
+                    z-index: 1
+                    margin-left: 10px
+                    color: lighten(grey, 25%)
+                    font-style: normal
+                    transition: all .2s
+                    &:hover
+                        color: lighten(grey, 15%)
+                select
+                    background-color: $color-greenery
 
-                    // &:hover
-                    //     background-color: $color-tertiary-dark
-
-                    // &:hover .genre-name
-                    //         color: $color-coconut-milk
-
-                    .genre-name
-                        text-transform: capitalize
-                        font-family: Lato
-                        font-size: 2rem
-                        color: $color-grey-2
 
 .summary
     text-align: left
@@ -94,9 +93,10 @@
         font-size: 60px
         font-family: Tangerine
         letter-spacing: 1px
-        background-image: $linear-gradient-2
-        -webkit-background-clip: text
-        color: transparent
+        color: lighten(black, 25%)
+        // background-image: $linear-gradient-2
+        // -webkit-background-clip: text
+        // color: transparent
 
     .text
         width: 100%
@@ -104,5 +104,6 @@
         font-style: Lato
         font-size: 28px
         // height: 500px
-        color: darkblue
+        // color: darkblue
+        color: lighten(black, 22%)
 

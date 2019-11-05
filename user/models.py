@@ -3,6 +3,7 @@ from django.contrib.auth.models import AbstractUser
 from book.models import Book
 
 rating_choices = (
+    (0, 'no rating'),
     (1, 'did not like it'),
     (2, 'it was ok'),
     (3, 'liked it'),

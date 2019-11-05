@@ -14,12 +14,14 @@ isbns = ['0399590595', '1982110562', '0735219095', '0062963678', '0525536612', '
 
 class Library(View):
     def get(self, request):
+        no_photo = 'https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png'
         # store_books()
-        books = Book.objects.filter(book_id='lkj')
-        for isbn in isbns:
-            book = Book.objects.filter(book_id=isbn)
-            print(book, 'yes')
-            books |= book
+        # books = Book.objects.filter(book_id='lkj')
+        # for isbn in isbns:
+        #     book = Book.objects.filter(book_id=isbn)
+        #     print(book, 'yes')
+        #     books |= book
+        books = Book.objects.all().order_by('-average_rating')
         valid_user = "False"
         all_users = list(CustomUser.objects.all())
         if not request.user.is_authenticated:
