@@ -18,7 +18,7 @@
     <location>India</location>
     <website></website>
     <joined>05/2019</joined>
-    <last_active>10/2019</last_active>
+    <last_active>11/2019</last_active>
     <interests>Thrilling Novel, Anime</interests>
     <favorite_books>I Know A Secret</favorite_books>
     <favorite_authors>
@@ -27,12 +27,12 @@
     <reviews_rss_url><![CDATA[https://www.goodreads.com/review/list_rss/97134500?key=Qcn7M48-IJ0BJ9ADcnZV1DPGyzp0eA7RiWNQMuFtwMg-Tb8L&shelf=%23ALL%23]]></reviews_rss_url>
     <friends_count type="integer">7</friends_count>
     <groups_count>1</groups_count>
-    <reviews_count type="integer">11</reviews_count>
+    <reviews_count type="integer">5</reviews_count>
     <user_shelves type="array">
   <user_shelf>
     <id type="integer">315510992</id>
     <name>read</name>
-    <book_count type="integer">3</book_count>
+    <book_count type="integer">1</book_count>
     <exclusive_flag type="boolean">true</exclusive_flag>
     <description nil="true"/>
     <sort nil="true"/>
@@ -60,7 +60,7 @@
   <user_shelf>
     <id type="integer">315510989</id>
     <name>to-read</name>
-    <book_count type="integer">7</book_count>
+    <book_count type="integer">3</book_count>
     <exclusive_flag type="boolean">true</exclusive_flag>
     <description nil="true"/>
     <sort nil="true"/>
@@ -73,88 +73,9 @@
   </user_shelf>
 </user_shelves>
       <updates type="array">
-      <update type="review">
-      <action_text><![CDATA[gave 3 stars to <a href="https://www.goodreads.com/book/show/631932.The_Greedy_Python">The Greedy Python (Board Book)</a> by <a href="https://www.goodreads.com/author/show/101985.Richard_Buckley">Richard Buckley</a>]]></action_text>
-      <link>https://www.goodreads.com/review/show/3011370214</link>
-      <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1223661930l/631932._SX50_.jpg</image_url>
-        <actor>
-  <id type="integer">97134500</id>
-  <name>Shubham Kapoor</name>
-  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
-  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
-</actor>
-      <updated_at>Sat, 19 Oct 2019 12:50:33 -0700</updated_at>
-          <action type="rating">
-            <rating>3</rating>
-          </action>
-        <object>
-          <book>
-            <id>631932</id>
-            <title>The Greedy Python</title>
-            <link>https://www.goodreads.com/book/show/631932.The_Greedy_Python</link>
-            <authors>
-<author>
-<id>101985</id>
-<name>Richard Buckley</name>
-<role></role>
-<image_url nophoto='true'>
-<![CDATA[https://s.gr-assets.com/assets/nophoto/user/m_200x266-d279b33f8eec0f27b7272477f09806be.png]]>
-</image_url>
-<small_image_url nophoto='true'>
-<![CDATA[https://s.gr-assets.com/assets/nophoto/user/m_50x66-82093808bca726cb3249a493fbd3bd0f.png]]>
-</small_image_url>
-<link><![CDATA[https://www.goodreads.com/author/show/101985.Richard_Buckley]]></link>
-<average_rating>4.13</average_rating>
-<ratings_count>4409</ratings_count>
-<text_reviews_count>201</text_reviews_count>
-</author>
-</authors>
-          </book>
-        </object>
-    </update>
-      <update type="review">
-      <action_text><![CDATA[gave 5 stars to <a href="https://www.goodreads.com/book/show/33153725-i-know-a-secret">I Know A Secret (Rizzoli & Isles, #12)</a> by <a href="https://www.goodreads.com/author/show/18149.Tess_Gerritsen">Tess Gerritsen</a>]]></action_text>
-      <link>https://www.goodreads.com/review/show/3015842951</link>
-      <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1480468240l/33153725._SY75_.jpg</image_url>
-        <actor>
-  <id type="integer">97134500</id>
-  <name>Shubham Kapoor</name>
-  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
-  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
-</actor>
-      <updated_at>Sat, 19 Oct 2019 06:33:58 -0700</updated_at>
-          <action type="rating">
-            <rating>5</rating>
-          </action>
-        <object>
-          <book>
-            <id>33153725</id>
-            <title><![CDATA[I Know A Secret (Rizzoli & Isles, #12)]]></title>
-            <link>https://www.goodreads.com/book/show/33153725-i-know-a-secret</link>
-            <authors>
-<author>
-<id>18149</id>
-<name>Tess Gerritsen</name>
-<role></role>
-<image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1416348007p5/18149.jpg]]>
-</image_url>
-<small_image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1416348007p2/18149.jpg]]>
-</small_image_url>
-<link><![CDATA[https://www.goodreads.com/author/show/18149.Tess_Gerritsen]]></link>
-<average_rating>4.06</average_rating>
-<ratings_count>650589</ratings_count>
-<text_reviews_count>34435</text_reviews_count>
-</author>
-</authors>
-          </book>
-        </object>
-        <body><![CDATA[Each chapter in this novel is worth reading.Many times i could not stop my self from reading next chapter after finishing one.]]></body>
-    </update>
-      <update type="userquote">
-      <action_text>liked a quote</action_text>
-      <link>https://www.goodreads.com/quotes/19884</link>
+      <update type="readstatus">
+      <action_text><![CDATA[wants to read <a only_path="false" href="https://www.goodreads.com/review/show/3036473453">The Underground Railroad</a>]]></action_text>
+      <link>https://www.goodreads.com/read_statuses/3205895661</link>
       <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
         <actor>
   <id type="integer">97134500</id>
@@ -162,204 +83,141 @@
   <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
   <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
 </actor>
-      <updated_at>Fri, 18 Oct 2019 15:38:09 -0700</updated_at>
-        <body><![CDATA[Be yourself; everyone else is already taken.]]></body>
-    </update>
-      <update type="userquote">
-      <action_text>liked a quote</action_text>
-      <link>https://www.goodreads.com/quotes/10027011</link>
-      <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
-        <actor>
-  <id type="integer">97134500</id>
-  <name>Shubham Kapoor</name>
-  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
-  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
-</actor>
-      <updated_at>Fri, 18 Oct 2019 12:49:05 -0700</updated_at>
-        <body><![CDATA[In order to rule others, one should learn to rule self]]></body>
-    </update>
-      <update type="review">
-      <action_text><![CDATA[gave 5 stars to <a href="https://www.goodreads.com/book/show/33153725-i-know-a-secret">I Know A Secret (Rizzoli & Isles, #12)</a> by <a href="https://www.goodreads.com/author/show/18149.Tess_Gerritsen">Tess Gerritsen</a>]]></action_text>
-      <link>https://www.goodreads.com/review/show/3015842951</link>
-      <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1480468240l/33153725._SY75_.jpg</image_url>
-        <actor>
-  <id type="integer">97134500</id>
-  <name>Shubham Kapoor</name>
-  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
-  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
-</actor>
-      <updated_at>Thu, 17 Oct 2019 10:08:04 -0700</updated_at>
-          <action type="rating">
-            <rating>5</rating>
-          </action>
+      <updated_at>Mon, 04 Nov 2019 11:08:07 -0800</updated_at>
         <object>
-          <book>
-            <id>33153725</id>
-            <title><![CDATA[I Know A Secret (Rizzoli & Isles, #12)]]></title>
-            <link>https://www.goodreads.com/book/show/33153725-i-know-a-secret</link>
-            <authors>
-<author>
-<id>18149</id>
-<name>Tess Gerritsen</name>
-<role></role>
-<image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1416348007p5/18149.jpg]]>
-</image_url>
-<small_image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1416348007p2/18149.jpg]]>
-</small_image_url>
-<link><![CDATA[https://www.goodreads.com/author/show/18149.Tess_Gerritsen]]></link>
-<average_rating>4.06</average_rating>
-<ratings_count>650589</ratings_count>
-<text_reviews_count>34435</text_reviews_count>
-</author>
-</authors>
-          </book>
-        </object>
-        <body><![CDATA[Each chapter in this novel is worth reading.Many times i could not stop my self from reading next chapter after finishing one.]]></body>
-    </update>
-      <update type="userstatus">
-      <action_text><![CDATA[is 20% done with <a href="https://www.goodreads.com/book/show/1.Harry_Potter_and_the_Half_Blood_Prince">Harry Potter and the Half-Blood Prince</a>]]></action_text>
-      <link>https://www.goodreads.com/user_status/show/246532326</link>
-      <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
-        <actor>
-  <id type="integer">97134500</id>
-  <name>Shubham Kapoor</name>
-  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
-  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
-</actor>
-      <updated_at>Wed, 16 Oct 2019 06:05:38 -0700</updated_at>
-        <object>
-          <user_status>
-  <id type="integer">246532326</id>
+          <read_status>
+  <id type="integer">3205895661</id>
+  <review_id type="integer">3036473453</review_id>
   <user_id type="integer">97134500</user_id>
-  <book_id type="integer">1</book_id>
-  <page type="integer" nil="true"/>
-  <chapter type="integer" nil="true"/>
-  <comments_count type="integer">0</comments_count>
-  <body nil="true"/>
-  <created_at type="datetime">2019-10-16T13:05:38+00:00</created_at>
-  <updated_at type="datetime">2019-10-16T13:05:38+00:00</updated_at>
-  <last_comment_at type="datetime" nil="true"/>
-  <ratings_count type="integer">0</ratings_count>
-  <percent type="integer">20</percent>
-  <work_id type="integer">41335427</work_id>
-  <note_uri nil="true"/>
-  <note_updated_at type="datetime" nil="true"/>
-  <review_id nil="true"/>
-  <book>
-    <id type="integer">1</id>
-    <work_id type="integer">41335427</work_id>
-    <isbn>0439785960</isbn>
-    <isbn13>9780439785969</isbn13>
-    <title>Harry Potter and the Half-Blood Prince (Harry Potter, #6)</title>
-    <sort_by_title>harry potter and the half-blood prince</sort_by_title>
-    <author_id type="integer">1077326</author_id>
-    <author_role nil="true"/>
-    <asin nil="true"/>
-    <description nil="true"/>
-    <format>Paperback</format>
-    <publication_year type="integer">2006</publication_year>
-    <publication_month type="integer">9</publication_month>
-    <publication_day type="integer">16</publication_day>
-    <num_pages type="integer">652</num_pages>
-    <publisher>Scholastic Inc.</publisher>
-    <language_code>eng</language_code>
-    <edition_information nil="true"/>
-    <url nil="true"/>
-    <source_url nil="true"/>
-    <image_uploaded_at type="datetime">2013-02-16T18:26:31+00:00</image_uploaded_at>
-    <s3_image_at type="datetime">2015-05-16T14:47:43+00:00</s3_image_at>
-    <reviews_count type="integer">2643077</reviews_count>
-    <ratings_sum type="integer">9144503</ratings_sum>
-    <ratings_count type="integer">2006433</ratings_count>
-    <text_reviews_count type="integer">26706</text_reviews_count>
-    <book_authors_count type="integer">1</book_authors_count>
-    <updated_at type="datetime">2018-02-28T15:02:37+00:00</updated_at>
-    <created_at type="datetime">2006-08-20T02:10:12+00:00</created_at>
-    <author_id_updater_user_id type="integer">43983291</author_id_updater_user_id>
-    <author_role_updater_user_id type="integer">43983291</author_role_updater_user_id>
-    <description_updater_user_id type="integer">66648866</description_updater_user_id>
-    <edition_information_updater_user_id type="integer">145381</edition_information_updater_user_id>
-    <format_updater_user_id type="integer">178279</format_updater_user_id>
-    <image_updater_user_id type="integer">16446623</image_updater_user_id>
-    <isbn_updater_user_id type="integer">145381</isbn_updater_user_id>
-    <isbn13_updater_user_id type="integer">1969124</isbn13_updater_user_id>
-    <language_updater_user_id type="integer">7006637</language_updater_user_id>
-    <num_pages_updater_user_id type="integer">3264642</num_pages_updater_user_id>
-    <publication_date_updater_user_id type="integer">3264642</publication_date_updater_user_id>
-    <publisher_updater_user_id type="integer">6586731</publisher_updater_user_id>
-    <title_updater_user_id type="integer">4628840</title_updater_user_id>
-    <url_updater_user_id type="integer">66648866</url_updater_user_id>
-    <title_language_code nil="true"/>
-    <publisher_language_code nil="true"/>
-    <description_language_code nil="true"/>
-    <asin_updater_user_id type="integer" nil="true"/>
-    <book_uri>kca://book/amzn1.gr.book.v1.L9KPn9NQyHxsNneS-mDWAg</book_uri>
-    <author>
-      <id type="integer">1077326</id>
-      <name>J.K. Rowling</name>
-      <updated_at type="datetime">2019-10-22T16:22:39+00:00</updated_at>
-      <created_at type="datetime">2007-12-28T21:03:34+00:00</created_at>
-      <searched_for_at type="datetime">2008-01-03T06:12:50+00:00</searched_for_at>
-      <image_uploaded_at type="datetime">2017-11-11T21:18:43+00:00</image_uploaded_at>
-      <user_id type="integer" nil="true"/>
-      <gender>F</gender>
-      <country_code>GB</country_code>
-      <born_at type="date">1965-07-31</born_at>
-      <died_at type="datetime" nil="true"/>
-      <about>See also: [a:Robert Galbraith|383606]
-Although she writes under the pen name &lt;b&gt;J.K. Rowling&lt;/b&gt;, pronounced like &lt;i&gt;rolling&lt;/i&gt;, her name when her first &lt;i&gt;Harry Potter&lt;/i&gt; book was published was simply &lt;b&gt;Joanne Rowling&lt;/b&gt;. Anticipating that the target audience of young boys might not want to read a book written by a woman, her publishers demanded that she use two initials, rather than her full name. As she had no middle name, she chose &lt;b&gt;K&lt;/b&gt; as the second initial of her pen name, from her paternal grandmother Kathleen Ada Bulgen Rowling. She calls herself &lt;b&gt;Jo&lt;/b&gt; and has said, "No one ever called me 'Joanne' when I was young, unless they were angry." Following her marriage, she has sometimes used the name &lt;b&gt;Joanne Murray&lt;/b&gt; when conducting personal business. During the Leveson Inquiry she gave evidence under the name of &lt;b&gt;Joanne Kathleen Rowling&lt;/b&gt;. In a 2012 interview, Rowling noted that she no longer cared that people pronounced her name incorrectly.
+  <old_status nil="true"/>
+  <status>to-read</status>
+  <updated_at type="datetime">2019-11-04T19:08:07+00:00</updated_at>
+  <review>
+    <id type="integer">3036473453</id>
+    <user_id type="integer">97134500</user_id>
+    <book_id type="integer">30555488</book_id>
+    <rating type="integer">0</rating>
+    <read_status>to-read</read_status>
+    <sell_flag type="boolean">false</sell_flag>
+    <review nil="true"/>
+    <recommendation nil="true"/>
+    <read_at type="datetime" nil="true"/>
+    <updated_at type="datetime">2019-11-04T19:08:07+00:00</updated_at>
+    <created_at type="datetime">2019-11-04T19:08:06+00:00</created_at>
+    <comments_count type="integer">0</comments_count>
+    <weight type="integer">0</weight>
+    <ratings_sum type="integer">0</ratings_sum>
+    <ratings_count type="integer">0</ratings_count>
+    <spoiler_flag type="boolean">false</spoiler_flag>
+    <recommender_user_id1 type="integer">0</recommender_user_id1>
+    <recommender_user_name1 nil="true"/>
+    <work_id type="integer">48287641</work_id>
+    <last_comment_at type="datetime" nil="true"/>
+    <started_at type="datetime" nil="true"/>
+    <hidden_flag type="boolean">false</hidden_flag>
+    <language_code type="integer" nil="true"/>
+    <last_revision_at type="datetime">2019-11-04T19:08:07+00:00</last_revision_at>
+    <non_friends_rating_count type="integer">0</non_friends_rating_count>
+    <encrypted_notes nil="true"/>
+    <book_uri>kca://book/amzn1.gr.book.v1.XBLvBt5cPKYI8YM9eTowiQ</book_uri>
+    <notes nil="true"/>
+    <book>
+      <id type="integer">30555488</id>
+      <work_id type="integer">48287641</work_id>
+      <isbn>0385542364</isbn>
+      <isbn13>9780385542364</isbn13>
+      <title>The Underground Railroad</title>
+      <sort_by_title>underground railroad, the</sort_by_title>
+      <author_id type="integer">10029</author_id>
+      <author_role nil="true"/>
+      <asin nil="true"/>
+      <description nil="true"/>
+      <format>Hardcover</format>
+      <publication_year type="integer">2016</publication_year>
+      <publication_month type="integer">8</publication_month>
+      <publication_day type="integer">2</publication_day>
+      <num_pages type="integer">306</num_pages>
+      <publisher>Doubleday Books</publisher>
+      <language_code>eng</language_code>
+      <edition_information nil="true"/>
+      <url nil="true"/>
+      <source_url nil="true"/>
+      <image_uploaded_at type="datetime">2017-04-26T03:46:02+00:00</image_uploaded_at>
+      <s3_image_at type="datetime">2017-04-26T03:46:03+00:00</s3_image_at>
+      <reviews_count type="integer">16634</reviews_count>
+      <ratings_sum type="integer">748335</ratings_sum>
+      <ratings_count type="integer">187542</ratings_count>
+      <text_reviews_count type="integer">17401</text_reviews_count>
+      <book_authors_count type="integer">-1</book_authors_count>
+      <updated_at type="datetime">2019-04-28T14:26:03+00:00</updated_at>
+      <created_at type="datetime">2016-06-13T23:25:03+00:00</created_at>
+      <author_id_updater_user_id type="integer">965211</author_id_updater_user_id>
+      <author_role_updater_user_id type="integer">-9</author_role_updater_user_id>
+      <description_updater_user_id type="integer">2026178</description_updater_user_id>
+      <edition_information_updater_user_id type="integer" nil="true"/>
+      <format_updater_user_id type="integer">-51</format_updater_user_id>
+      <image_updater_user_id type="integer">2160532</image_updater_user_id>
+      <isbn_updater_user_id type="integer">-51</isbn_updater_user_id>
+      <isbn13_updater_user_id type="integer">-51</isbn13_updater_user_id>
+      <language_updater_user_id type="integer">4540522</language_updater_user_id>
+      <num_pages_updater_user_id type="integer">7479477</num_pages_updater_user_id>
+      <publication_date_updater_user_id type="integer">-51</publication_date_updater_user_id>
+      <publisher_updater_user_id type="integer">-51</publisher_updater_user_id>
+      <title_updater_user_id type="integer">19088953</title_updater_user_id>
+      <url_updater_user_id type="integer" nil="true"/>
+      <title_language_code nil="true"/>
+      <publisher_language_code nil="true"/>
+      <description_language_code nil="true"/>
+      <asin_updater_user_id type="integer" nil="true"/>
+      <book_uri>kca://book/amzn1.gr.book.v1.XBLvBt5cPKYI8YM9eTowiQ</book_uri>
+      <author>
+        <id type="integer">10029</id>
+        <name>Colson Whitehead</name>
+        <updated_at type="datetime">2019-11-04T23:11:34+00:00</updated_at>
+        <created_at type="datetime">2006-12-21T16:58:17+00:00</created_at>
+        <searched_for_at type="datetime">2006-12-21T16:58:24+00:00</searched_for_at>
+        <image_uploaded_at type="datetime">2019-07-01T16:02:13+00:00</image_uploaded_at>
+        <user_id type="integer">58579632</user_id>
+        <gender>M</gender>
+        <country_code>US</country_code>
+        <born_at type="date">1969-11-06</born_at>
+        <died_at type="datetime" nil="true"/>
+        <about>I'm the author of the novels&lt;i&gt; Zone One&lt;/i&gt;;&lt;i&gt; Sag Harbor&lt;/i&gt;;&lt;i&gt; The Intuitionist&lt;/i&gt;, a finalist for the PEN/Hemingway award; &lt;i&gt;John Henry Days&lt;/i&gt;, which won the Young Lions Fiction Award, the Anisfield-Wolf Book Award, and was a finalist for the Pulitzer Prize; and &lt;i&gt;Apex Hides the Hurt&lt;/i&gt;, winner of the PEN Oakland Award. I've also written a book of essays about my home town, &lt;i&gt;The Colossus of New York,&lt;/i&gt; and a non-fiction account of the 2011 World Series of Poker called &lt;i&gt;The Noble Hustle&lt;/i&gt;. A recipient of a Whiting Writers' Award, a Guggenheim Fellowship, and a MacArthur Fellowship, I live in New York City.
 
-Rowling was born to Peter James Rowling, a Rolls-Royce aircraft engineer, and Anne Rowling (née Volant), on 31 July 1965 in Yate, Gloucestershire, England, 10 miles (16 km) northeast of Bristol. Her mother Anne was half-French and half-Scottish. Her parents first met on a train departing from King's Cross Station bound for Arbroath in 1964. They married on 14 March 1965. Her mother's maternal grandfather, Dugald Campbell, was born in Lamlash on the Isle of Arran. Her mother's paternal grandfather, Louis Volant, was awarded the Croix de Guerre for exceptional bravery in defending the village of Courcelles-le-Comte during the First World War.
+My latest book, &lt;i&gt;The Underground Railroad&lt;/i&gt;, is an Oprah's Book Club pick.
+</about>
+        <uploader_user_id type="integer">603238</uploader_user_id>
+        <image_copyright>Credit to Chris Close</image_copyright>
+        <influences></influences>
+        <url>http://www.colsonwhitehead.com/</url>
+        <genre1>Literature &amp; Fiction</genre1>
+        <genre2>Non-fiction</genre2>
+        <genre3></genre3>
+        <books_count type="integer">450</books_count>
+        <reviews_count type="integer">829505</reviews_count>
+        <ratings_sum type="integer">1230561</ratings_sum>
+        <works_count type="integer">24</works_count>
+        <hometown>New York City, New York</hometown>
+        <rating_dist>5:898|4:1779|3:1505|2:577|1:174|total:4933</rating_dist>
+        <s3_image_at type="datetime" nil="true"/>
+        <ratings_count type="integer">309175</ratings_count>
+        <text_reviews_count type="integer">32504</text_reviews_count>
+        <author_program_at type="datetime">2016-08-15T16:50:10+00:00</author_program_at>
+        <postal_code nil="true"/>
+        <fanships_count type="integer">274</fanships_count>
+        <best_book_id type="integer">30555488</best_book_id>
+        <name_language_code nil="true"/>
+        <sort_by_name>whitehead, colson</sort_by_name>
+        <shelf_display_name>Whitehead, Colson</shelf_display_name>
+        <gender_custom nil="true"/>
+        <gender_pronoun nil="true"/>
+        <author_uri>kca://author/amzn1.gr.author.v1.IeiFmo8nRXFkrxACDBw8Ow</author_uri>
+      </author>
+    </book>
+  </review>
+</read_status>
 
-Rowling's sister Dianne was born at their home when Rowling was 23 months old. The family moved to the nearby village Winterbourne when Rowling was four. She attended St Michael's Primary School, a school founded by abolitionist William Wilberforce and education reformer Hannah More. Her headmaster at St Michael's, Alfred Dunn, has been suggested as the inspiration for the &lt;i&gt;Harry Potter&lt;/i&gt; headmaster Albus Dumbledore.
-
-As a child, Rowling often wrote fantasy stories, which she would usually then read to her sister. She recalls that: "I can still remember me telling her a story in which she fell down a rabbit hole and was fed strawberries by the rabbit family inside it. Certainly the first story I ever wrote down (when I was five or six) was about a rabbit called Rabbit. He got the measles and was visited by his friends, including a giant bee called Miss Bee."  At the age of nine, Rowling moved to Church Cottage in the Gloucestershire village of Tutshill, close to Chepstow, Wales. When she was a young teenager, her great aunt, who Rowling said "taught classics and approved of a thirst for knowledge, even of a questionable kind," gave her a very old copy of Jessica Mitford's autobiography, &lt;i&gt;Hons and Rebels&lt;/i&gt;. Mitford became Rowling's heroine, and Rowling subsequently read all of her books.
-
-Rowling has said of her teenage years, in an interview with The New Yorker, "I wasn’t particularly happy. I think it’s a dreadful time of life." She had a difficult homelife; her mother was ill and she had a difficult relationship with her father (she is no longer on speaking terms with him). She attended secondary school at Wyedean School and College, where her mother had worked as a technician in the science department. Rowling said of her adolescence, "Hermione [a bookish, know-it-all &lt;i&gt;Harry Potter&lt;/i&gt; character] is loosely based on me. She's a caricature of me when I was eleven, which I'm not particularly proud of." Steve Eddy, who taught Rowling English when she first arrived, remembers her as "not exceptional" but "one of a group of girls who were bright, and quite good at English." Sean Harris, her best friend in the Upper Sixth owned a turquoise Ford Anglia, which she says inspired the one in her books.</about>
-      <uploader_user_id type="integer">14059993</uploader_user_id>
-      <image_copyright>https://i.guim.co.uk/img/media/6bb4cf16fc0474bb7e199c7ce0b2575b0740d3c4/0_0_3744_4681/master/3744.jpg?w=1920&amp;q=85&amp;auto=format&amp;sharp=10&amp;s=a2340ddef3b2793cd8b03e4fb842cfa5</image_copyright>
-      <influences>[a:Jane Austen|1265], [a:Geoffrey Chaucer|1838], [a:Oscar Wilde|3565], [a:C.S. Lewis|1069006]</influences>
-      <url>http://www.jkrowling.com</url>
-      <genre1>Fiction</genre1>
-      <genre2>Young-adult</genre2>
-      <genre3>Fantasy</genre3>
-      <books_count type="integer">5623</books_count>
-      <reviews_count type="integer">28310612</reviews_count>
-      <ratings_sum type="integer">101444043</ratings_sum>
-      <works_count type="integer">274</works_count>
-      <hometown>Yate, South Gloucestershire, England</hometown>
-      <rating_dist>5:1790645|4:985580|3:445251|2:91064|1:33493|total:334603</rating_dist>
-      <s3_image_at type="datetime" nil="true"/>
-      <ratings_count type="integer">22789794</ratings_count>
-      <text_reviews_count type="integer">547726</text_reviews_count>
-      <author_program_at type="datetime" nil="true"/>
-      <postal_code nil="true"/>
-      <fanships_count type="integer">101527</fanships_count>
-      <best_book_id type="integer">3</best_book_id>
-      <name_language_code nil="true"/>
-      <sort_by_name>rowling, j.k.</sort_by_name>
-      <shelf_display_name>Rowling, J.K.</shelf_display_name>
-      <gender_custom nil="true"/>
-      <gender_pronoun nil="true"/>
-      <author_uri>kca://author/amzn1.gr.author.v1.SHA8asP5mFyLIP9NlujvLQ</author_uri>
-    </author>
-  </book>
-</user_status>
         </object>
-    </update>
-      <update type="authorfollowing">
-      <action_text>is now following Plato</action_text>
-      <link>https://www.goodreads.com/author/show/879.Plato</link>
-      <image_url>https://images.gr-assets.com/authors/1393978633p2/879.jpg</image_url>
-        <actor>
-  <id type="integer">97134500</id>
-  <name>Shubham Kapoor</name>
-  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
-  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
-</actor>
-      <updated_at>Mon, 14 Oct 2019 08:43:34 -0700</updated_at>
     </update>
 </updates>
     <user_statuses>
