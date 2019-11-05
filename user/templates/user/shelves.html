@@ -16,7 +16,7 @@
                <div class="book-item book-title head">Title</div>
                <div class="book-item book-authors head">Author</div>
                <div class="book-item average-rating head">Average Rating</div>
-               <div class="book-item rating head">Rating</div>
+               <div class="book-item my-review-rating head">Rating</div>
                <div class="book-item shelf head">Shelf</div>
                <div class="book-item body head">Review</div>
          </div>
@@ -31,7 +31,15 @@
                {% endfor %}
             </div></td>
             <td><div class="book-item average-rating">{{review.book.average_rating}}</div></td>
-            <td><div class="book-item rating">{{review.rating}}</div></td>
+            <td><div class="book-item my-review-rating">
+                  {% for i in '12345' %}
+                  {% if i == review.rating|slugify %}
+                  <span class="noOfStar"></span>
+                  {% else %}
+                  <span></span>
+                  {% endif %}
+                  {% endfor %}
+            </div></td>
             <td><div class="book-item shelf">{{review.shelf.name}}</div></td>
             <td><div class="book-item body">{{review.body|safe}}</div></td>
          </tr>

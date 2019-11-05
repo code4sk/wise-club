@@ -6,55 +6,55 @@
     <method><![CDATA[review_list]]></method>
   </Request>
   
-<reviews start="1" end="11" total="11">
+<reviews start="1" end="5" total="5">
     <review>
-  <id>3034759014</id>
+  <id>3036473453</id>
     <book>
-  <id type="integer">43701061</id>
-  <isbn>0385544189</isbn>
-  <isbn13>9780385544184</isbn13>
-  <text_reviews_count type="integer">302</text_reviews_count>
-  <uri>kca://book/amzn1.gr.book.v1.qV2bDhll2Laa06RRZpaRrg</uri>
-  <title>The Guardians</title>
-  <title_without_series>The Guardians</title_without_series>
-  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560801021l/43701061._SX98_.jpg</image_url>
-  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560801021l/43701061._SY75_.jpg</small_image_url>
+  <id type="integer">30555488</id>
+  <isbn>0385542364</isbn>
+  <isbn13>9780385542364</isbn13>
+  <text_reviews_count type="integer">17401</text_reviews_count>
+  <uri>kca://book/amzn1.gr.book.v1.XBLvBt5cPKYI8YM9eTowiQ</uri>
+  <title>The Underground Railroad</title>
+  <title_without_series>The Underground Railroad</title_without_series>
+  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493178362l/30555488._SX98_.jpg</image_url>
+  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493178362l/30555488._SX50_.jpg</small_image_url>
   <large_image_url/>
-  <link>https://www.goodreads.com/book/show/43701061-the-guardians</link>
-  <num_pages>375</num_pages>
+  <link>https://www.goodreads.com/book/show/30555488-the-underground-railroad</link>
+  <num_pages>306</num_pages>
   <format>Hardcover</format>
   <edition_information/>
   <publisher>Doubleday Books</publisher>
-  <publication_day>15</publication_day>
-  <publication_year>2019</publication_year>
-  <publication_month>10</publication_month>
-  <average_rating>4.32</average_rating>
-  <ratings_count>4725</ratings_count>
-  <description>In the small north Florida town of Seabrook, a young lawyer named Keith Russo was shot dead at his desk as he worked late one night. The killer left no clues behind. There were no witnesses, no real suspects, no one with a motive. The police soon settled on Quincy Miller, a young black man who was once a client of Russo’s. &lt;br /&gt;&lt;br /&gt;Quincy was framed, convicted, and sent to prison for life. For twenty-two years he languished in prison with no lawyer, no advocate on the outside. Then he wrote a letter to Guardian Ministries, a small innocence group founded by a lawyer/minister named Cullen Post. &lt;br /&gt;&lt;br /&gt;Guardian handles only a few innocence cases at a time, and Post is its only investigator. He travels the South fighting wrongful convictions and taking cases no one else will touch. With Quincy Miller, though, he gets far more than he bargained for. Powerful, ruthless people murdered Keith Russo, and they do not want Quincy exonerated.&lt;br /&gt;&lt;br /&gt;They killed one lawyer twenty-two years ago, and they will kill another one without a second thought.</description>
+  <publication_day>2</publication_day>
+  <publication_year>2016</publication_year>
+  <publication_month>8</publication_month>
+  <average_rating>4.02</average_rating>
+  <ratings_count>234834</ratings_count>
+  <description>Cora is a slave on a cotton plantation in Georgia. Life is hell for all the slaves, but especially bad for Cora; an outcast even among her fellow Africans, she is coming into womanhood—where even greater pain awaits. When Caesar, a recent arrival from Virginia, tells her about the Underground Railroad, they decide to take a terrifying risk and escape. Matters do not go as planned—Cora kills a young white boy who tries to capture her. Though they manage to find a station and head north, they are being hunted.&lt;br /&gt;&lt;br /&gt;In Whitehead’s ingenious conception, the Underground Railroad is no mere metaphor—engineers and conductors operate a secret network of tracks and tunnels beneath the Southern soil. Cora and Caesar’s first stop is South Carolina, in a city that initially seems like a haven. But the city’s placid surface masks an insidious scheme designed for its black denizens. And even worse: Ridgeway, the relentless slave catcher, is close on their heels. Forced to flee again, Cora embarks on a harrowing flight, state by state, seeking true freedom.&lt;br /&gt;&lt;br /&gt;Like the protagonist of Gulliver’s Travels, Cora encounters different worlds at each stage of her journey—hers is an odyssey through time as well as space. As Whitehead brilliantly re-creates the unique terrors for black people in the pre–Civil War era, his narrative seamlessly weaves the saga of America from the brutal importation of Africans to the unfulfilled promises of the present day. The Underground Railroad is at once a kinetic adventure tale of one woman’s ferocious will to escape the horrors of bondage and a shattering, powerful meditation on the history we all share.</description>
 <authors>
 <author>
-<id>721</id>
-<name>John Grisham</name>
+<id>10029</id>
+<name>Colson Whitehead</name>
 <role></role>
 <image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1571776084p5/721.jpg]]>
+<![CDATA[https://images.gr-assets.com/authors/1561996933p5/10029.jpg]]>
 </image_url>
 <small_image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1571776084p2/721.jpg]]>
+<![CDATA[https://images.gr-assets.com/authors/1561996933p2/10029.jpg]]>
 </small_image_url>
-<link><![CDATA[https://www.goodreads.com/author/show/721.John_Grisham]]></link>
-<average_rating>3.89</average_rating>
-<ratings_count>4355726</ratings_count>
-<text_reviews_count>147117</text_reviews_count>
+<link><![CDATA[https://www.goodreads.com/author/show/10029.Colson_Whitehead]]></link>
+<average_rating>3.98</average_rating>
+<ratings_count>309175</ratings_count>
+<text_reviews_count>32504</text_reviews_count>
 </author>
 </authors>
-  <published>2019</published>
-<work>  <id>68001983</id>
-  <uri>kca://work/amzn1.gr.work.v1.Px_pyizI3oZUvmwKsfdmpg</uri>
+  <published>2016</published>
+<work>  <id>48287641</id>
+  <uri>kca://work/amzn1.gr.work.v1.w3i1MZHRKRjFbrU4wJf2TA</uri>
 </work></book>
 
 
-  <rating>4</rating>
+  <rating>0</rating>
   <votes>0</votes>
   <spoiler_flag>false</spoiler_flag>
   <spoilers_state>none</spoilers_state>
@@ -62,26 +62,25 @@
 
 <shelves>
 
-    <shelf exclusive='true' id='315510990' name='currently-reading' review_shelf_id='2681854969' sortable='false'></shelf>
+    <shelf exclusive='true' id='315510989' name='to-read' review_shelf_id='2683606375' sortable='true'></shelf>
 
 </shelves>
 
   <recommended_for></recommended_for>
   <recommended_by></recommended_by>
-  <started_at>Sun Nov 03 03:08:51 -0800 2019</started_at>
+  <started_at></started_at>
   <read_at></read_at>
-  <date_added>Sun Nov 03 03:08:50 -0800 2019</date_added>
-  <date_updated>Sun Nov 03 03:08:51 -0800 2019</date_updated>
-  <read_count>1</read_count>
+  <date_added>Mon Nov 04 11:08:06 -0800 2019</date_added>
+  <date_updated>Mon Nov 04 11:08:07 -0800 2019</date_updated>
+  <read_count>0</read_count>
   <body>
-      I liked it very much
   </body>
 
   
 
   <comments_count>0</comments_count>
-    <url><![CDATA[https://www.goodreads.com/review/show/3034759014]]></url>
-  <link><![CDATA[https://www.goodreads.com/review/show/3034759014]]></link>
+    <url><![CDATA[https://www.goodreads.com/review/show/3036473453]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/3036473453]]></link>
     <owned>0</owned>
 </review>
 
@@ -91,7 +90,7 @@
   <id type="integer">30186948</id>
   <isbn nil="true"/>
   <isbn13 nil="true"/>
-  <text_reviews_count type="integer">1886</text_reviews_count>
+  <text_reviews_count type="integer">1889</text_reviews_count>
   <uri>kca://book/amzn1.gr.book.v1.1kndsk926BrSY-nuOCdVsA</uri>
   <title>Think and Grow Rich</title>
   <title_without_series>Think and Grow Rich</title_without_series>
@@ -107,7 +106,7 @@
   <publication_year>2016</publication_year>
   <publication_month>4</publication_month>
   <average_rating>4.18</average_rating>
-  <ratings_count>170168</ratings_count>
+  <ratings_count>170344</ratings_count>
   <description>This is the original 1937 version of Napoleon Hill's Classic Book: &lt;i&gt;Think and Grow Rich&lt;/i&gt;. To the greatest extent possible, the text and formatting have been kept exactly the same as in the original release with the exception of some minor formatting changes.</description>
 <authors>
 <author>
@@ -122,8 +121,8 @@
 </small_image_url>
 <link><![CDATA[https://www.goodreads.com/author/show/399.Napoleon_Hill]]></link>
 <average_rating>4.20</average_rating>
-<ratings_count>206779</ratings_count>
-<text_reviews_count>7279</text_reviews_count>
+<ratings_count>206989</ratings_count>
+<text_reviews_count>7282</text_reviews_count>
 </author>
 </authors>
   <published>2016</published>
@@ -132,7 +131,7 @@
 </work></book>
 
 
-  <rating>5</rating>
+  <rating>4</rating>
   <votes>0</votes>
   <spoiler_flag>false</spoiler_flag>
   <spoilers_state>none</spoilers_state>
@@ -149,7 +148,7 @@
   <started_at>Thu Oct 17 23:37:28 -0700 2019</started_at>
   <read_at></read_at>
   <date_added>Thu Oct 17 23:31:49 -0700 2019</date_added>
-  <date_updated>Thu Oct 17 23:38:02 -0700 2019</date_updated>
+  <date_updated>Sun Nov 03 03:10:06 -0800 2019</date_updated>
   <read_count>2</read_count>
   <body>
       <![CDATA[Great book! <br />reading this book can make you achieve anything in life.]]>
@@ -185,7 +184,7 @@
   <publication_year>2017</publication_year>
   <publication_month>8</publication_month>
   <average_rating>4.20</average_rating>
-  <ratings_count>13566</ratings_count>
+  <ratings_count>13584</ratings_count>
   <description>&lt;b&gt;In the twelfth gripping novel featuring Jane Rizzoli and Maura Isles, the crime-solving duo—featured in the smash-hit TNT series Rizzoli &amp;amp; Isles—are faced with the gruesomely staged murder of a horror film producer.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;The crime scene is unlike any that Detective Rizzoli and medical examiner Maura Isles have ever before encountered. The woman lies in apparently peaceful repose on her bed, and Maura finds no apparent cause of death, but there is no doubt the woman is indeed dead. The victim’s eyes have been removed and placed in the palm of her hand, a gesture that echoes the terrifying films she produces. Is a crazed movie fan reenacting scenes from those disturbing films?&lt;br /&gt;&lt;br /&gt;When another victim is found, again with no apparent cause of death, again with a grotesquely staged crime scene, Jane and Maura realize the killer has widened his circle of targets. He’s chosen one particular woman for his next victim, and she knows he’s coming for her next. She’s the only one who can help Jane and Maura catch the killer.&lt;br /&gt;&lt;br /&gt;But she knows a secret. And it’s a secret she’ll never tell.</description>
 <authors>
 <author>
@@ -200,8 +199,8 @@
 </small_image_url>
 <link><![CDATA[https://www.goodreads.com/author/show/18149.Tess_Gerritsen]]></link>
 <average_rating>4.06</average_rating>
-<ratings_count>652382</ratings_count>
-<text_reviews_count>34581</text_reviews_count>
+<ratings_count>652803</ratings_count>
+<text_reviews_count>34608</text_reviews_count>
 </author>
 </authors>
   <published>2017</published>
@@ -237,84 +236,6 @@
   <comments_count>0</comments_count>
     <url><![CDATA[https://www.goodreads.com/review/show/3015842951]]></url>
   <link><![CDATA[https://www.goodreads.com/review/show/3015842951]]></link>
-    <owned>0</owned>
-</review>
-
-    <review>
-  <id>3012097931</id>
-    <book>
-  <id type="integer">3</id>
-  <isbn nil="true"/>
-  <isbn13 nil="true"/>
-  <text_reviews_count type="integer">72134</text_reviews_count>
-  <uri>kca://book/amzn1.gr.book.v1.tJT_00n8UPpvWa-zWHEAXg</uri>
-  <title>Harry Potter and the Sorcerer's Stone (Harry Potter, #1)</title>
-  <title_without_series>Harry Potter and the Sorcerer's Stone</title_without_series>
-  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474154022l/3._SX98_.jpg</image_url>
-  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474154022l/3._SY75_.jpg</small_image_url>
-  <large_image_url/>
-  <link>https://www.goodreads.com/book/show/3.Harry_Potter_and_the_Sorcerer_s_Stone</link>
-  <num_pages>322</num_pages>
-  <format>Hardcover</format>
-  <edition_information/>
-  <publisher>Scholastic Inc</publisher>
-  <publication_day>26</publication_day>
-  <publication_year>1997</publication_year>
-  <publication_month>6</publication_month>
-  <average_rating>4.47</average_rating>
-  <ratings_count>6181805</ratings_count>
-  <description>Harry Potter's life is miserable. His parents are dead and he's stuck with his heartless relatives, who force him to live in a tiny closet under the stairs. But his fortune changes when he receives a letter that tells him the truth about himself: he's a wizard. A mysterious visitor rescues him from his relatives and takes him to his new home, Hogwarts School of Witchcraft and Wizardry.&lt;br /&gt;&lt;br /&gt;After a lifetime of bottling up his magical powers, Harry finally feels like a normal kid. But even within the Wizarding community, he is special. He is the boy who lived: the only person to have ever survived a killing curse inflicted by the evil Lord Voldemort, who launched a brutal takeover of the Wizarding world, only to vanish after failing to kill Harry.&lt;br /&gt;&lt;br /&gt;Though Harry's first year at Hogwarts is the best of his life, not everything is perfect. There is a dangerous secret object hidden within the castle walls, and Harry believes it's his responsibility to prevent it from falling into evil hands. But doing so will bring him into contact with forces more terrifying than he ever could have imagined.&lt;br /&gt;&lt;br /&gt;Full of sympathetic characters, wildly imaginative situations, and countless exciting details, the first installment in the series assembles an unforgettable magical world and sets the stage for many high-stakes adventures to come.</description>
-<authors>
-<author>
-<id>1077326</id>
-<name>J.K. Rowling</name>
-<role></role>
-<image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1510435123p5/1077326.jpg]]>
-</image_url>
-<small_image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1510435123p2/1077326.jpg]]>
-</small_image_url>
-<link><![CDATA[https://www.goodreads.com/author/show/1077326.J_K_Rowling]]></link>
-<average_rating>4.45</average_rating>
-<ratings_count>22853748</ratings_count>
-<text_reviews_count>549149</text_reviews_count>
-</author>
-</authors>
-  <published>1997</published>
-<work>  <id>4640799</id>
-  <uri>kca://work/amzn1.gr.work.v1.TbpxJa2CwiSSz_9W2FruoA</uri>
-</work></book>
-
-
-  <rating>4</rating>
-  <votes>0</votes>
-  <spoiler_flag>false</spoiler_flag>
-  <spoilers_state>none</spoilers_state>
-  
-
-<shelves>
-
-    <shelf exclusive='true' id='315510989' name='to-read' review_shelf_id='2658798424' sortable='true'></shelf>
-
-</shelves>
-
-  <recommended_for></recommended_for>
-  <recommended_by></recommended_by>
-  <started_at></started_at>
-  <read_at></read_at>
-  <date_added>Mon Oct 14 06:36:31 -0700 2019</date_added>
-  <date_updated>Mon Oct 14 07:15:01 -0700 2019</date_updated>
-  <read_count>0</read_count>
-  <body>
-      it is great book
-  </body>
-
-  
-
-  <comments_count>0</comments_count>
-    <url><![CDATA[https://www.goodreads.com/review/show/3012097931]]></url>
-  <link><![CDATA[https://www.goodreads.com/review/show/3012097931]]></link>
     <owned>0</owned>
 </review>
 
@@ -355,8 +276,8 @@
 </small_image_url>
 <link><![CDATA[https://www.goodreads.com/author/show/9494.H_P_Lovecraft]]></link>
 <average_rating>4.06</average_rating>
-<ratings_count>487356</ratings_count>
-<text_reviews_count>26151</text_reviews_count>
+<ratings_count>487724</ratings_count>
+<text_reviews_count>26183</text_reviews_count>
 </author>
 </authors>
   <published>2002</published>
@@ -392,313 +313,6 @@
   <comments_count>0</comments_count>
     <url><![CDATA[https://www.goodreads.com/review/show/3012096575]]></url>
   <link><![CDATA[https://www.goodreads.com/review/show/3012096575]]></link>
-    <owned>0</owned>
-</review>
-
-    <review>
-  <id>3012086343</id>
-    <book>
-  <id type="integer">11084145</id>
-  <isbn>1451648537</isbn>
-  <isbn13>9781451648539</isbn13>
-  <text_reviews_count type="integer">15771</text_reviews_count>
-  <uri>kca://book/amzn1.gr.book.v1.55oEh7mAhPW_FkeSWIhWPQ</uri>
-  <title>Steve Jobs</title>
-  <title_without_series>Steve Jobs</title_without_series>
-  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1511288482l/11084145._SX98_.jpg</image_url>
-  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1511288482l/11084145._SY75_.jpg</small_image_url>
-  <large_image_url/>
-  <link>https://www.goodreads.com/book/show/11084145-steve-jobs</link>
-  <num_pages>627</num_pages>
-  <format>Hardcover</format>
-  <edition_information/>
-  <publisher>Simon &amp; Schuster</publisher>
-  <publication_day>24</publication_day>
-  <publication_year>2011</publication_year>
-  <publication_month>10</publication_month>
-  <average_rating>4.13</average_rating>
-  <ratings_count>846858</ratings_count>
-  <description>From the author of the bestselling biographies of Benjamin Franklin and Albert Einstein, this is the exclusive, New York Times bestselling biography of Apple co-founder Steve Jobs.&lt;br /&gt;&lt;br /&gt;Based on more than forty interviews with Jobs conducted over two years—as well as interviews with more than a hundred family members, friends, adversaries, competitors, and colleagues—Walter Isaacson has written a riveting story of the roller-coaster life and searingly intense personality of a creative entrepreneur whose passion for perfection and ferocious drive revolutionized six industries: personal computers, animated movies, music, phones, tablet computing, and digital publishing.&lt;br /&gt;&lt;br /&gt;At a time when America is seeking ways to sustain its innovative edge, and when societies around the world are trying to build digital-age economies, Jobs stands as the ultimate icon of inventiveness and applied imagination. He knew that the best way to create value in the twenty-first century was to connect creativity with technology. He built a company where leaps of the imagination were combined with remarkable feats of engineering.&lt;br /&gt;&lt;br /&gt;Although Jobs cooperated with this book, he asked for no control over what was written nor even the right to read it before it was published. He put nothing off-limits. He encouraged the people he knew to speak honestly. And Jobs speaks candidly, sometimes brutally so, about the people he worked with and competed against. His friends, foes, and colleagues provide an unvarnished view of the passions, perfectionism, obsessions, artistry, devilry, and compulsion for control that shaped his approach to business and the innovative products that resulted.&lt;br /&gt;&lt;br /&gt;Driven by demons, Jobs could drive those around him to fury and despair. But his personality and products were interrelated, just as Apple’s hardware and software tended to be, as if part of an integrated system. His tale is instructive and cautionary, filled with lessons about innovation, character, leadership, and values.</description>
-<authors>
-<author>
-<id>7111</id>
-<name>Walter Isaacson</name>
-<role></role>
-<image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1192222433p5/7111.jpg]]>
-</image_url>
-<small_image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1192222433p2/7111.jpg]]>
-</small_image_url>
-<link><![CDATA[https://www.goodreads.com/author/show/7111.Walter_Isaacson]]></link>
-<average_rating>4.11</average_rating>
-<ratings_count>1131244</ratings_count>
-<text_reviews_count>27818</text_reviews_count>
-</author>
-</authors>
-  <published>2011</published>
-<work>  <id>16005831</id>
-  <uri>kca://work/amzn1.gr.work.v1.MvliEan8p7Xgfe4QrGmMLw</uri>
-</work></book>
-
-
-  <rating>0</rating>
-  <votes>0</votes>
-  <spoiler_flag>false</spoiler_flag>
-  <spoilers_state>none</spoilers_state>
-  
-
-<shelves>
-
-    <shelf exclusive='true' id='315510989' name='to-read' review_shelf_id='2658787024' sortable='true'></shelf>
-
-</shelves>
-
-  <recommended_for></recommended_for>
-  <recommended_by></recommended_by>
-  <started_at></started_at>
-  <read_at></read_at>
-  <date_added>Mon Oct 14 06:23:32 -0700 2019</date_added>
-  <date_updated>Mon Oct 14 06:23:33 -0700 2019</date_updated>
-  <read_count>0</read_count>
-  <body>
-  </body>
-
-  
-
-  <comments_count>0</comments_count>
-    <url><![CDATA[https://www.goodreads.com/review/show/3012086343]]></url>
-  <link><![CDATA[https://www.goodreads.com/review/show/3012086343]]></link>
-    <owned>0</owned>
-</review>
-
-    <review>
-  <id>3011419887</id>
-    <book>
-  <id type="integer">4214</id>
-  <isbn>0770430074</isbn>
-  <isbn13>9780770430078</isbn13>
-  <text_reviews_count type="integer">35274</text_reviews_count>
-  <uri>kca://book/amzn1.gr.book.v1.xDVbF6l_LTfMdTx3ajT_qQ</uri>
-  <title>Life of Pi</title>
-  <title_without_series>Life of Pi</title_without_series>
-  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320562005l/4214._SY160_.jpg</image_url>
-  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320562005l/4214._SY75_.jpg</small_image_url>
-  <large_image_url/>
-  <link>https://www.goodreads.com/book/show/4214.Life_of_Pi</link>
-  <num_pages>460</num_pages>
-  <format>Paperback</format>
-  <edition_information/>
-  <publisher>Seal Books</publisher>
-  <publication_day>29</publication_day>
-  <publication_year>2006</publication_year>
-  <publication_month>8</publication_month>
-  <average_rating>3.90</average_rating>
-  <ratings_count>1223127</ratings_count>
-  <description>Life of Pi is a fantasy adventure novel by Yann Martel published in 2001. The protagonist, Piscine Molitor "Pi" Patel, a Tamil boy from Pondicherry, explores issues of spirituality and practicality from an early age. He survives 227 days after a shipwreck while stranded on a boat in the Pacific Ocean with a Bengal tiger named Richard Parker.</description>
-<authors>
-<author>
-<id>811</id>
-<name>Yann Martel</name>
-<role></role>
-<image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1454012903p5/811.jpg]]>
-</image_url>
-<small_image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1454012903p2/811.jpg]]>
-</small_image_url>
-<link><![CDATA[https://www.goodreads.com/author/show/811.Yann_Martel]]></link>
-<average_rating>3.88</average_rating>
-<ratings_count>1263946</ratings_count>
-<text_reviews_count>51955</text_reviews_count>
-</author>
-</authors>
-  <published>2006</published>
-<work>  <id>1392700</id>
-  <uri>kca://work/amzn1.gr.work.v1.vYNXZX_u0VOh1yVtejF_Xg</uri>
-</work></book>
-
-
-  <rating>0</rating>
-  <votes>0</votes>
-  <spoiler_flag>false</spoiler_flag>
-  <spoilers_state>none</spoilers_state>
-  
-
-<shelves>
-
-    <shelf exclusive='true' id='315510989' name='to-read' review_shelf_id='2658121834' sortable='true'></shelf>
-
-</shelves>
-
-  <recommended_for></recommended_for>
-  <recommended_by></recommended_by>
-  <started_at></started_at>
-  <read_at></read_at>
-  <date_added>Sun Oct 13 15:20:23 -0700 2019</date_added>
-  <date_updated>Sun Oct 13 15:20:23 -0700 2019</date_updated>
-  <read_count>0</read_count>
-  <body>
-  </body>
-
-  
-
-  <comments_count>0</comments_count>
-    <url><![CDATA[https://www.goodreads.com/review/show/3011419887]]></url>
-  <link><![CDATA[https://www.goodreads.com/review/show/3011419887]]></link>
-    <owned>0</owned>
-</review>
-
-    <review>
-  <id>3011396848</id>
-    <book>
-  <id type="integer">43521341</id>
-  <isbn>0062866419</isbn>
-  <isbn13>9780062866417</isbn13>
-  <text_reviews_count type="integer">6</text_reviews_count>
-  <uri>kca://book/amzn1.gr.book.v1.SQTmYcZ4VgvEsY4hk00X3g</uri>
-  <title>The Best at It</title>
-  <title_without_series>The Best at It</title_without_series>
-  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560129137l/43521341._SX98_.jpg</image_url>
-  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560129137l/43521341._SY75_.jpg</small_image_url>
-  <large_image_url/>
-  <link>https://www.goodreads.com/book/show/43521341-the-best-at-it</link>
-  <num_pages>336</num_pages>
-  <format>Hardcover</format>
-  <edition_information/>
-  <publisher>Balzer + Bray</publisher>
-  <publication_day>8</publication_day>
-  <publication_year>2019</publication_year>
-  <publication_month>10</publication_month>
-  <average_rating>4.29</average_rating>
-  <ratings_count>90</ratings_count>
-  <description>From actor Maulik Pancholy comes an incredibly charming, heartfelt middle grade debut about Rahul Kapoor, a gay Indian American boy coming into his own in a small town in the Midwest.&lt;br /&gt;&lt;br /&gt;Rahul Kapoor is heading into seventh grade in a small town in Indiana. The start of middle school is making him feel increasingly anxious, so his favorite person in the whole world, his grandfather Bhai, gives him some well-meaning advice: Find one thing you’re really good at. And become the BEST at it.&lt;br /&gt;&lt;br /&gt;Those four little words sear themselves into Rahul’s brain. While he’s not quite sure what that special thing is, he is convinced that once he finds it, bullies like Brent Mason will stop torturing him at school. And he won’t be worried about staring too long at his classmate Justin Emery. With his best friend, Chelsea, by his side, Rahul is ready to crush this challenge. . . . But what if he discovers he isn’t the best at anything?&lt;br /&gt;&lt;br /&gt;Funny, charming, and incredibly touching, this is a story about friendship, family, and the courage it takes to live your truth.</description>
-<authors>
-<author>
-<id>17670122</id>
-<name>Maulik Pancholy</name>
-<role></role>
-<image_url nophoto='true'>
-<![CDATA[https://s.gr-assets.com/assets/nophoto/user/m_200x266-d279b33f8eec0f27b7272477f09806be.png]]>
-</image_url>
-<small_image_url nophoto='true'>
-<![CDATA[https://s.gr-assets.com/assets/nophoto/user/m_50x66-82093808bca726cb3249a493fbd3bd0f.png]]>
-</small_image_url>
-<link><![CDATA[https://www.goodreads.com/author/show/17670122.Maulik_Pancholy]]></link>
-<average_rating>4.04</average_rating>
-<ratings_count>382</ratings_count>
-<text_reviews_count>93</text_reviews_count>
-</author>
-</authors>
-  <published>2019</published>
-<work>  <id>63479511</id>
-  <uri>kca://work/amzn1.gr.work.v1.bKtXsVVjIqyswbGi_hNvJA</uri>
-</work></book>
-
-
-  <rating>0</rating>
-  <votes>0</votes>
-  <spoiler_flag>false</spoiler_flag>
-  <spoilers_state>none</spoilers_state>
-  
-
-<shelves>
-    <shelf name="read" exclusive="true" id="315510992" review_shelf_id= ""/>
-
-</shelves>
-
-  <recommended_for></recommended_for>
-  <recommended_by></recommended_by>
-  <started_at></started_at>
-  <read_at></read_at>
-  <date_added>Sun Oct 13 14:56:38 -0700 2019</date_added>
-  <date_updated>Sun Oct 13 14:56:38 -0700 2019</date_updated>
-  <read_count>1</read_count>
-  <body>
-  </body>
-
-  
-
-  <comments_count>0</comments_count>
-    <url><![CDATA[https://www.goodreads.com/review/show/3011396848]]></url>
-  <link><![CDATA[https://www.goodreads.com/review/show/3011396848]]></link>
-    <owned>0</owned>
-</review>
-
-    <review>
-  <id>3011386075</id>
-    <book>
-  <id type="integer">30659</id>
-  <isbn>0140449337</isbn>
-  <isbn13>9780140449334</isbn13>
-  <text_reviews_count type="integer">2941</text_reviews_count>
-  <uri>kca://book/amzn1.gr.book.v1.FHfDjT3IwlYo-7Pcw6ZT3w</uri>
-  <title>Meditations</title>
-  <title_without_series>Meditations</title_without_series>
-  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1421618636l/30659._SX98_.jpg</image_url>
-  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1421618636l/30659._SY75_.jpg</small_image_url>
-  <large_image_url/>
-  <link>https://www.goodreads.com/book/show/30659.Meditations</link>
-  <num_pages>303</num_pages>
-  <format>Paperback</format>
-  <edition_information>Penguin Classics</edition_information>
-  <publisher>Penguin Books</publisher>
-  <publication_day>27</publication_day>
-  <publication_year>2006</publication_year>
-  <publication_month>4</publication_month>
-  <average_rating>4.23</average_rating>
-  <ratings_count>92000</ratings_count>
-  <description>Written in Greek, without any intention of publication, by the only Roman emperor who was also a philosopher, the &lt;i&gt;Meditations&lt;/i&gt; of Marcus Aurelius (AD 121-180) offer a remarkable series of challenging spiritual reflections and exercises developed as the emperor struggled to understand himself and make sense of the universe. &lt;br /&gt;&lt;br /&gt;Ranging from doubt and despair to conviction and exaltation, they cover such diverse topics as the nature of moral virtue, human rationality, divine providence, and Marcus' own emotions. &lt;br /&gt;&lt;br /&gt;But while the &lt;i&gt;Meditations&lt;/i&gt; were composed to provide personal consolation and encouragement, in developing his beliefs Marcus Aurelius also created one of the greatest of all works of philosophy: a timeless collection of extended meditations and short aphorisms that has been consulted and admired by statesmen, thinkers and readers through the centuries.</description>
-<authors>
-<author>
-<id>17212</id>
-<name>Marcus Aurelius</name>
-<role></role>
-<image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1430676293p5/17212.jpg]]>
-</image_url>
-<small_image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1430676293p2/17212.jpg]]>
-</small_image_url>
-<link><![CDATA[https://www.goodreads.com/author/show/17212.Marcus_Aurelius]]></link>
-<average_rating>4.23</average_rating>
-<ratings_count>94252</ratings_count>
-<text_reviews_count>4912</text_reviews_count>
-</author>
-</authors>
-  <published>2006</published>
-<work>  <id>31010</id>
-  <uri>kca://work/amzn1.gr.work.v1.CRf8C6ZWHOK5pQ1pfAOPNQ</uri>
-</work></book>
-
-
-  <rating>0</rating>
-  <votes>0</votes>
-  <spoiler_flag>false</spoiler_flag>
-  <spoilers_state>none</spoilers_state>
-  
-
-<shelves>
-
-    <shelf exclusive='true' id='315510989' name='to-read' review_shelf_id='2658087441' sortable='true'></shelf>
-
-</shelves>
-
-  <recommended_for></recommended_for>
-  <recommended_by></recommended_by>
-  <started_at></started_at>
-  <read_at></read_at>
-  <date_added>Sun Oct 13 14:46:24 -0700 2019</date_added>
-  <date_updated>Sun Oct 13 14:46:24 -0700 2019</date_updated>
-  <read_count>0</read_count>
-  <body>
-  </body>
-
-  
-
-  <comments_count>0</comments_count>
-    <url><![CDATA[https://www.goodreads.com/review/show/3011386075]]></url>
-  <link><![CDATA[https://www.goodreads.com/review/show/3011386075]]></link>
     <owned>0</owned>
 </review>
 
@@ -739,7 +353,7 @@
 </small_image_url>
 <link><![CDATA[https://www.goodreads.com/author/show/101985.Richard_Buckley]]></link>
 <average_rating>4.13</average_rating>
-<ratings_count>4417</ratings_count>
+<ratings_count>4418</ratings_count>
 <text_reviews_count>203</text_reviews_count>
 </author>
 </authors>
@@ -776,83 +390,6 @@
   <comments_count>0</comments_count>
     <url><![CDATA[https://www.goodreads.com/review/show/3011370214]]></url>
   <link><![CDATA[https://www.goodreads.com/review/show/3011370214]]></link>
-    <owned>0</owned>
-</review>
-
-    <review>
-  <id>2932722289</id>
-    <book>
-  <id type="integer">41817433</id>
-  <isbn>1643130749</isbn>
-  <isbn13>9781643130743</isbn13>
-  <text_reviews_count type="integer">117</text_reviews_count>
-  <uri>kca://book/amzn1.gr.book.v1.oQqgKOLkue_ERudnRbo0_w</uri>
-  <title>Betrayal in Time (Kendra Donovan, #4)</title>
-  <title_without_series>Betrayal in Time</title_without_series>
-  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1538474960l/41817433._SX98_.jpg</image_url>
-  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1538474960l/41817433._SY75_.jpg</small_image_url>
-  <large_image_url/>
-  <link>https://www.goodreads.com/book/show/41817433-betrayal-in-time</link>
-  <num_pages>464</num_pages>
-  <format>Hardcover</format>
-  <edition_information/>
-  <publisher>Pegasus Books</publisher>
-  <publication_day>2</publication_day>
-  <publication_year>2019</publication_year>
-  <publication_month>7</publication_month>
-  <average_rating>4.06</average_rating>
-  <ratings_count>1162</ratings_count>
-  <description>February 1816: A race through the icy, twisting cobblestone streets of London ends inside an abandoned church—and a horrific discovery. Bow Street Runner Sam Kelly is called to investigate the grisly murder of Sir Giles Holbrooke, who was left naked and garroted, with his tongue cut out. Yet as perplexing as that crime is, it becomes even stranger when symbols that resemble crosses mysteriously begin to appear across the dead man’s flesh during autopsy. Is it a message from the killer?&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Sam turns to the one person in the kingdom who he believes can answer that question and solve the bizarre murder—the Duke of Aldridge’s odd but brilliant ward, Kendra Donovan.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;While Kendra has been trying to adapt to her new life in the early nineteenth century, she is eager to use her skills as a twenty-first century FBI agent again. And she will need all her investigative prowess, because Sir Giles was not an average citizen. He was one of England’s most clever spymasters, whose life had been filled with intrigue and subterfuge.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Kendra’s return to the gritty streets and glittering ballrooms of London takes her down increasingly dangerous paths. When more bodies are discovered, murdered in the same apparently ritualistic manner as Sir Giles, the American begins to realize that they are dealing with a killer with an agenda, whose mind has been twisted by rage and bitterness so that the price of a perceived betrayal is death.</description>
-<authors>
-<author>
-<id>14126578</id>
-<name>Julie McElwain</name>
-<role></role>
-<image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1472284234p5/14126578.jpg]]>
-</image_url>
-<small_image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1472284234p2/14126578.jpg]]>
-</small_image_url>
-<link><![CDATA[https://www.goodreads.com/author/show/14126578.Julie_McElwain]]></link>
-<average_rating>3.84</average_rating>
-<ratings_count>21737</ratings_count>
-<text_reviews_count>2792</text_reviews_count>
-</author>
-</authors>
-  <published>2019</published>
-<work>  <id>65256451</id>
-  <uri>kca://work/amzn1.gr.work.v1.22Y5T6p-gDTrYbEY8NzSZw</uri>
-</work></book>
-
-
-  <rating>0</rating>
-  <votes>0</votes>
-  <spoiler_flag>false</spoiler_flag>
-  <spoilers_state>none</spoilers_state>
-  
-
-<shelves>
-
-    <shelf exclusive='true' id='315510989' name='to-read' review_shelf_id='2578999042' sortable='true'></shelf>
-
-</shelves>
-
-  <recommended_for></recommended_for>
-  <recommended_by></recommended_by>
-  <started_at></started_at>
-  <read_at></read_at>
-  <date_added>Sun Aug 11 04:25:16 -0700 2019</date_added>
-  <date_updated>Sun Aug 11 04:25:44 -0700 2019</date_updated>
-  <read_count>1</read_count>
-  <body>
-  </body>
-
-  
-
-  <comments_count>0</comments_count>
-    <url><![CDATA[https://www.goodreads.com/review/show/2932722289]]></url>
-  <link><![CDATA[https://www.goodreads.com/review/show/2932722289]]></link>
     <owned>0</owned>
 </review>
 

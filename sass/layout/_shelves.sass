@@ -32,7 +32,7 @@
             padding: 20px
             display: flex
             .book-image
-                height: 150px
+                width: 100px
             .book-link
                 color: darken(grey, 30%)
             .book-link:hover
@@ -52,18 +52,20 @@
             .average-rating
                 width: 150px
                 text-align: center
-            .rating
-                width: 80px
-                text-align: center
+            .head
+                font-family: Lato
+                padding: 20px 0px
+                padding-left: 7px
+                font-weight: 600
+                font-size: 16px
+                display: inline-block
+            @include five_star()
+            .my-review-rating
+                width: 171px
+                padding-top: 24px
             .shelf
                 width: 120px
             .body
                 width: 450px
-            .head
-                font-family: Lato
-                padding: 20px
-                font-weight: 600
-                font-size: 16px
-                display: inline-block
                 
         

@@ -1,5 +1,7 @@
 {% extends 'home/base.html' %}
 {% block body %}
+
+
 <body class="book-detail">
 {% include 'library/library-header.html' %}
 <div class="model-back">
@@ -39,12 +41,22 @@
                         {% for author in book.author.all %}
                             <a href="{% url 'author:author' slug=author.slug %}" class="btn-rotate">{{author}}</a>&nbsp;
                         {% endfor %}</span></h3>
-                    <div class="genre">
-                        {% for genre in book.genre.all %}
-                            <a href="{% url 'library:genre' slug=genre.slug %}" class="btn-grow"><div class="genre-box">
-                                <span class="genre-name">{{genre}}</span>
-                            </div></a>
-                        {% endfor %}
+                    <div class="add-to-shelf">
+                        <select name="shelf" class="select-add-to-shelf" id="oldValueRef">
+                            <option value="" selected disabled hidden>Add To Shelf</option>
+                            {% for shelf in shelves %}
+                            {% if book_shelf %}
+                            <option value={{shelf.name}} selected>{{shelf.name}}</option>
+                            {% else %}
+                            <option value={{shelf.name}}>{{shelf.name}}</option>
+                            {% endif %}
+                            {% endfor %}
+                            <option>Add new shelf</option>
+                        </select>
+                        <a href="{% url 'book:remove_from_shelf' book_id=book.book_id %}">
+                            <i class="fas fa-times remove-book"></i>
+                        </a>
+                        <!-- <img class="drop-down" src="\static\drop-down.svg" alt=""> -->
                     </div>
                 </div>
                 <!-- <div style="clear: both"></div> -->
@@ -89,14 +101,23 @@
                 <button class="btn-comment" type="submit">POST</button>
             </form>
         </div>
-        {% else%}
+        {% else %}
         <h4 class="my-review-head">My Review</h4>
         <div class="previous-comment">
             <img src={{request.user.image}} alt="">
             <div class="previous-comment-text-box">
-                <div class="previous-comment-username">{{review.rating}}</div>
-                <div class="previous-comment-text">{{review.body|linebreaks}}</div>
+                <div class="my-review-rating">
+                    {% for i in '12345' %}
+                    {% if i == review.rating|slugify %}
+                    <span class="noOfStar"></span>
+                    {% else %}
+                    <span></span>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+                <div class="previous-comment-text">{{review.body|safe|linebreaks}}</div>
             </div>
+            <a class="delete-review" href="{% url 'book:review_delete' slug=book.slug review_id=review.review_id %}"><img src="\static\del.png" alt="delete"></a>
         </div>
         {% endif %}
             {% if similar_books %}
@@ -124,12 +145,57 @@
 </main>
 {% include 'user/login_base.html' %}
 <script>
+    var oldValue;
+    window.addEventListener('load', function(){
+        oldValue = $('.select-add-to-shelf').val();
+        // console.log('{{book_shelf|safe|length}}');
+        if('{{book_shelf}}' == 0){
+            console.log('{{book_shelf|safe}}');
+            $('.remove-book').css({"opacity":0})
+        }
+    })
     $('.review-input').on('focus', function(e){
         $('.review-input')[0].style.height = "200px"
     })
     $('.review-input').on('focusout', function(e){
         $('.review-input')[0].style.height = "100px"
     })
+    $('.select-add-to-shelf').on('change', funAddToShelf)
+    $('.delete-review').on('click', funDeleteReview);
+    $('.remove-book').on('click', funRemoveBook);
+    function funDeleteReview(e){
+        if(!confirm('This will delete the review and remove this book from your shelf do you wants to continue!'))
+        {
+            e.preventDefault();
+        }
+    }
+    function funRemoveBook(e){
+        if(!confirm('This will remove this book from your shelf do you wants to continue!'))
+        {
+            e.preventDefault();
+        }
+    }
+    function funAddToShelf(){
+        if(!confirm('Do you want to add this book to this shelf')){
+            console.log(oldValue)
+            $('.select-add-to-shelf').val(oldValue);
+            return;
+        }
+        $.ajax({
+            type: "POST",
+            url: "{% url 'book:add_to_shelf'%}",
+            data: {
+                "book_id": '{{book.book_id}}',
+                "shelf": $('.select-add-to-shelf').val(),
+                csrfmiddlewaretoken: '{{ csrf_token }}'
+            },
+            success:function(output){
+                oldValue =  $('.select-add-to-shelf').val();
+                alert(output);
+            }
+        });
+        $('.remove-book').css({"opacity":1})
+    }
 </script>
 <style>
         #goodreads-widget{

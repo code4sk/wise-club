@@ -9,7 +9,6 @@
             display: none
         label
             display: inline-block
-            // background-color: $color-secondary-dark
             position: relative
             height: 37px
             width: 50px
@@ -52,7 +51,7 @@
         background-image: $linear-gradient-frost
         -webkit-background-clip: text
         color: transparent
-        margin-bottom: 20px
+        margin: 20px 0px
 
 
     textarea
@@ -72,6 +71,16 @@
         position: relative
         top: -40px
         margin: 0px 60px
+        &::after
+            content: '\f078'
+            font-family: "FontAwesome"
+            font-size: 24px
+            z-index: 1
+            pointer-events: none
+            color: white
+            position: absolute
+            top: 65px
+            right: 27px
         h4
             text-align: center
             font-size: 22px
@@ -80,35 +89,10 @@
             -webkit-background-clip: text
             color: transparent
             margin-bottom: 20px
-        select
-            border-radius: 5px
-            padding: 15px
-            font-family: Be Vietnam
-            outline: none
-            font-size: 20px
-            -webkit-appearance: button
-            background-color: $color-tertiary-light 
-            color: white
-            option
-                font-weight: 200
-            // &::before
-            //     content: ""
-            //     position: absolute
-            //     top: 0
-            //     left: 0
-            //     font-size: 17px
-            //     height: 30px
-            //     width: 100px
-
-        &::-webkit-input-placeholder
-            font-size: 20px
-            font-weight: 100
-            color: grey
-            // font-family: Pacifico
-            font-family: Be Vietnam
+        @include shelf-box()
 
 .comment-box-heading
-        padding: 50px 5px
+        padding: 0px 5px
         padding-top: 90px
         font-size: 50px
         text-align: left
@@ -140,7 +124,8 @@
 
     .previous-comment-text-box
         margin-left: 30px
-        background-image: linear-gradient(to right, #d9a7c7, #fffcdc)
+        // background-image: linear-gradient(to right, #d9a7c7, #fffcdc)
+        background-image: linear-gradient(to right, #4e54c8, #8f94fb)
         border-radius: 90px
         display: inline-block
         padding: 10px
@@ -149,20 +134,20 @@
         font-family: Be Vietnam
         font-weight: 100
         font-size: 20px
-        .previous-comment-username
-            // position: relative
-            // left: 0
-            // display: inline-block
-            text-align: left
-            margin-left: 50px
-            background-color: transparent
-            font-family: Chilanka
-            font-size: 20px
-            color: blue
+        @include five_star()
 
         .previous-comment-text
+            color: white
             text-align: left
             padding: 10px 30px
+    .delete-review
+        img
+            width: 35px
+            position: relative
+            display: inline-block
+            top: 45%
+            transform: translateY(-50%)
+            height: 45px
 
 .btn-comment
     display: block
