@@ -42,11 +42,28 @@
             </div></td>
             <td><div class="book-item shelf">{{review.shelf.name}}</div></td>
             <td><div class="book-item body">{{review.body|safe}}</div></td>
+            <td>
+               <div class="book-item change-icon">
+                     <i class="fas fa-edit edit-review-shelf"></i>
+                     <a class="remBookShelf" href="{% url 'user:book_remove' user_id=request.user.user_id shelf_id=review.shelf.shelf_id book_id=review.book.book_id %}">
+                        <i class="fas fa-times-circle delete-review-shelf"></i>
+                     </a>
+               </div>
+            </td>
          </tr>
          {% endfor %}
          </table>
       </div>
    </div>
 </main>
+<script>
+   $('.remBookShelf').on('click', funRemoveBookShelf);
+   function funRemoveBookShelf(e){
+         if(!confirm('This will remove this book from your shelf do you wants to continue!'))
+         {
+            e.preventDefault();
+         }
+      }
+</script>
 </body>
 {% endblock %}

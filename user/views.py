@@ -11,6 +11,7 @@ from django.shortcuts import redirect
 from django.contrib.auth.hashers import make_password
 from .utils import get_user_data, get_shelf_data
 from .models import Status
+from learn.utils import view_utils as main_utils
 
 
 class Profile(View):
@@ -29,6 +30,11 @@ class ShelfView(View):
         reviews = Review.objects.filter(shelf=shelf)
         shelves = Shelf.objects.all()
         return render(request, 'user/shelves.html', {'shelves': shelves, 'reviews': reviews})
+
+
+class ShelfRemoveBook(View):
+    def get(self, request, book_id, shelf_id, user_id):
+        return main_utils.delete_review_view(book_id, 'shelf', shelf_id, user_id)
 
 
 class Logout(View):

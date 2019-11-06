@@ -21,7 +21,7 @@ class Library(View):
         #     book = Book.objects.filter(book_id=isbn)
         #     print(book, 'yes')
         #     books |= book
-        books = Book.objects.all().order_by('-average_rating')
+        books = Book.objects.all().order_by('-average_rating').exclude(image=no_photo)
         valid_user = "False"
         all_users = list(CustomUser.objects.all())
         if not request.user.is_authenticated:

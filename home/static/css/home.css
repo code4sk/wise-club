@@ -141,7 +141,8 @@ html {
   height: 100%; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: inherit; }
 
 @keyframes fadeIn {
   0% {
@@ -491,7 +492,7 @@ a.anchor-library:active {
     width: 450px;
     border-radius: 2px;
     color: white;
-    padding: 10px 50px;
+    padding: 10px 30px;
     padding-right: 20px;
     padding-top: 40px;
     background-color: #2998ff; }
@@ -572,7 +573,30 @@ a.anchor-library:active {
       .shelves-main-box .shelf-info .single-book .shelf {
         width: 120px; }
       .shelves-main-box .shelf-info .single-book .body {
-        width: 450px; }
+        width: 410px; }
+      .shelves-main-box .shelf-info .single-book .change-icon {
+        padding-left: 0px; }
+        .shelves-main-box .shelf-info .single-book .change-icon .edit-review-shelf, .shelves-main-box .shelf-info .single-book .change-icon .delete-review-shelf {
+          cursor: pointer;
+          top: 4px;
+          font-family: "FontAwesome";
+          font-size: 26px;
+          display: inline-block;
+          position: relative;
+          padding-top: 5px;
+          z-index: 1;
+          margin-left: 10px;
+          font-style: normal;
+          transition: all 0.2s; }
+        .shelves-main-box .shelf-info .single-book .change-icon .edit-review-shelf {
+          right: 15px; }
+          .shelves-main-box .shelf-info .single-book .change-icon .edit-review-shelf:hover {
+            color: #2998ff; }
+        .shelves-main-box .shelf-info .single-book .change-icon .delete-review-shelf {
+          right: -28px;
+          top: -28px; }
+          .shelves-main-box .shelf-info .single-book .change-icon .delete-review-shelf:hover {
+            color: red; }
 
 .btn-rotate, .btn-rotate:visited, .btn-rotate:link {
   border-radius: 10px;
@@ -749,6 +773,7 @@ a.anchor-library:active {
           z-index: 1;
           pointer-events: none;
           color: white;
+          visibility: hidden;
           position: absolute;
           top: 25px;
           right: 455px; }
@@ -768,7 +793,10 @@ a.anchor-library:active {
           .detail-card .information .text-box .add-to-shelf .remove-book:hover {
             color: #a6a6a6; }
         .detail-card .information .text-box .add-to-shelf select {
-          background-color: #92B558; }
+          background-color: #92B558;
+          text-align: center; }
+          .detail-card .information .text-box .add-to-shelf select option {
+            text-align: center; }
 
 .summary {
   text-align: left; }

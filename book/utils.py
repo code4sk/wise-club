@@ -56,7 +56,7 @@ def get_review_id(response):
 
 def delete_review(book_id, shelf_name):
     if shelf_name == 'read':
-        print(add_to_shelf('to-read', book_id))
+        print(add_to_shelf('to-read', book_id).text)
         shelf_name = 'to-read'
     data = {'name': shelf_name, 'book_id': book_id, 'a': "remove"}
     url = 'https://www.goodreads.com/shelf/add_to_shelf.xml'

@@ -45,7 +45,7 @@
                         <select name="shelf" class="select-add-to-shelf" id="oldValueRef">
                             <option value="" selected disabled hidden>Add To Shelf</option>
                             {% for shelf in shelves %}
-                            {% if book_shelf %}
+                            {% if shelf in book.shelf_set.all %}
                             <option value={{shelf.name}} selected>{{shelf.name}}</option>
                             {% else %}
                             <option value={{shelf.name}}>{{shelf.name}}</option>
@@ -117,7 +117,7 @@
                 </div>
                 <div class="previous-comment-text">{{review.body|safe|linebreaks}}</div>
             </div>
-            <a class="delete-review" href="{% url 'book:review_delete' slug=book.slug review_id=review.review_id %}"><img src="\static\del.png" alt="delete"></a>
+            <a class="delete-review" href="{% url 'book:review_delete' book_id=book.book_id %}"><img src="\static\del.png" alt="delete"></a>
         </div>
         {% endif %}
             {% if similar_books %}

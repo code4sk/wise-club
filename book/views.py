@@ -12,6 +12,7 @@ from django.shortcuts import redirect, reverse
 from django.template.defaultfilters import linebreaks
 from .utils import book_review_widget, post_review, get_review_id, delete_review, add_to_shelf
 from user.models import Shelf
+from learn.utils import view_utils as main_utils
 
 
 class Detail(View):
@@ -114,18 +115,8 @@ class ReviewCreate(View):
 
 
 class ReviewDelete(View):
-    def get(self, request, slug, review_id):
-        print('ok')
-        book = Book.objects.get(slug=slug)
-        shelf_name = book.shelf_set.all()[0].name
-        response = delete_review(book.book_id, shelf_name)
-        print(response.text)
-        review = Review.objects.get(review_id=review_id)
-        if response.status_code == 200:
-            review.delete()
-            book.shelf_set.clear()
-            return redirect(reverse('book:detail', kwargs={'slug': slug}))
-        return HttpResponse('learn ' + str(response.status_code))
+    def get(self, request, book_id):
+        return main_utils.delete_review_view(book_id, 'book')
 
 
 class AddToShelf(View):
@@ -147,15 +138,4 @@ class AddToShelf(View):
 
 class RemoveFromShelf(View):
     def get(self, request, book_id):
-        print('ok')
-        book = Book.objects.get(book_id=book_id)
-        shelf_name = book.shelf_set.all()[0].name
-        response = delete_review(book_id, shelf_name)
-        print(response.text)
-        if response.status_code == 200:
-            book.shelf_set.clear()
-            review = Review.objects.filter(book=book)
-            if review:
-                review[0].delete()
-            return redirect(reverse('book:detail', kwargs={'slug': book.slug}))
-        return HttpResponse('learn ' + str(response.status_code))
+        return main_utils.delete_review_view(book_id, 'book')

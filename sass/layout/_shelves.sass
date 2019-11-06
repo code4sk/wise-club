@@ -8,7 +8,7 @@
         // min-height: 100%
         border-radius: 2px
         color: white
-        padding: 10px 50px
+        padding: 10px 30px
         padding-right: 20px
         padding-top: 40px
         background-color: $color-tertiary-light
@@ -66,6 +66,28 @@
             .shelf
                 width: 120px
             .body
-                width: 450px
-                
+                width: 410px
+            .change-icon
+                padding-left: 0px
+                .edit-review-shelf, .delete-review-shelf
+                    cursor: pointer
+                    top: 4px
+                    font-family: "FontAwesome"
+                    font-size: 26px
+                    display: inline-block
+                    position: relative
+                    padding-top: 5px
+                    z-index: 1
+                    margin-left: 10px
+                    font-style: normal
+                    transition: all .2s
+                .edit-review-shelf
+                    right: 15px
+                    &:hover
+                        color: $color-tertiary-light
+                .delete-review-shelf
+                    right: -28px
+                    top: -28px
+                    &:hover
+                        color: red
         
