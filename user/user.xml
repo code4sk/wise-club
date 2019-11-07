@@ -27,12 +27,12 @@
     <reviews_rss_url><![CDATA[https://www.goodreads.com/review/list_rss/97134500?key=Qcn7M48-IJ0BJ9ADcnZV1DPGyzp0eA7RiWNQMuFtwMg-Tb8L&shelf=%23ALL%23]]></reviews_rss_url>
     <friends_count type="integer">7</friends_count>
     <groups_count>1</groups_count>
-    <reviews_count type="integer">3</reviews_count>
+    <reviews_count type="integer">6</reviews_count>
     <user_shelves type="array">
   <user_shelf>
     <id type="integer">315510992</id>
     <name>read</name>
-    <book_count type="integer">3</book_count>
+    <book_count type="integer">5</book_count>
     <exclusive_flag type="boolean">true</exclusive_flag>
     <description nil="true"/>
     <sort nil="true"/>
@@ -60,7 +60,7 @@
   <user_shelf>
     <id type="integer">315510989</id>
     <name>to-read</name>
-    <book_count type="integer">0</book_count>
+    <book_count type="integer">1</book_count>
     <exclusive_flag type="boolean">true</exclusive_flag>
     <description nil="true"/>
     <sort nil="true"/>
@@ -73,6 +73,649 @@
   </user_shelf>
 </user_shelves>
       <updates type="array">
+      <update type="readstatus">
+      <action_text><![CDATA[wants to read <a only_path="false" href="https://www.goodreads.com/review/show/3039228994">The Burning White (Lightbringer #5)</a>]]></action_text>
+      <link>https://www.goodreads.com/read_statuses/3209489732</link>
+      <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
+        <actor>
+  <id type="integer">97134500</id>
+  <name>Shubham Kapoor</name>
+  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
+  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
+</actor>
+      <updated_at>Wed, 06 Nov 2019 10:01:36 -0800</updated_at>
+        <object>
+          <read_status>
+  <id type="integer">3209489732</id>
+  <review_id type="integer">3039228994</review_id>
+  <user_id type="integer">97134500</user_id>
+  <old_status nil="true"/>
+  <status>to-read</status>
+  <updated_at type="datetime">2019-11-06T18:01:36+00:00</updated_at>
+  <review>
+    <id type="integer">3039228994</id>
+    <user_id type="integer">97134500</user_id>
+    <book_id type="integer">30169100</book_id>
+    <rating type="integer">0</rating>
+    <read_status>to-read</read_status>
+    <sell_flag type="boolean">false</sell_flag>
+    <review nil="true"/>
+    <recommendation nil="true"/>
+    <read_at type="datetime" nil="true"/>
+    <updated_at type="datetime">2019-11-06T18:01:36+00:00</updated_at>
+    <created_at type="datetime">2019-11-06T18:01:36+00:00</created_at>
+    <comments_count type="integer">0</comments_count>
+    <weight type="integer">0</weight>
+    <ratings_sum type="integer">0</ratings_sum>
+    <ratings_count type="integer">0</ratings_count>
+    <spoiler_flag type="boolean">false</spoiler_flag>
+    <recommender_user_id1 type="integer">0</recommender_user_id1>
+    <recommender_user_name1 nil="true"/>
+    <work_id type="integer">50608625</work_id>
+    <last_comment_at type="datetime" nil="true"/>
+    <started_at type="datetime" nil="true"/>
+    <hidden_flag type="boolean">false</hidden_flag>
+    <language_code type="integer" nil="true"/>
+    <last_revision_at type="datetime">2019-11-06T18:01:36+00:00</last_revision_at>
+    <non_friends_rating_count type="integer">0</non_friends_rating_count>
+    <encrypted_notes nil="true"/>
+    <book_uri>kca://book/amzn1.gr.book.v1.DDrItGijsO3vpw-IIISh0Q</book_uri>
+    <notes nil="true"/>
+    <book>
+      <id type="integer">30169100</id>
+      <work_id type="integer">50608625</work_id>
+      <isbn>0316251305</isbn>
+      <isbn13>9780316251303</isbn13>
+      <title>The Burning White (Lightbringer #5)</title>
+      <sort_by_title>burning white (lightbringer #5), the</sort_by_title>
+      <author_id type="integer">1370283</author_id>
+      <author_role nil="true"/>
+      <asin nil="true"/>
+      <description nil="true"/>
+      <format>Hardcover</format>
+      <publication_year type="integer">2019</publication_year>
+      <publication_month type="integer">10</publication_month>
+      <publication_day type="integer">22</publication_day>
+      <num_pages type="integer">992</num_pages>
+      <publisher>Orbit</publisher>
+      <language_code>eng</language_code>
+      <edition_information nil="true"/>
+      <url nil="true"/>
+      <source_url nil="true"/>
+      <image_uploaded_at type="datetime">2018-08-03T02:52:12+00:00</image_uploaded_at>
+      <s3_image_at type="datetime">2019-10-01T01:33:05+00:00</s3_image_at>
+      <reviews_count type="integer">21066</reviews_count>
+      <ratings_sum type="integer">5348</ratings_sum>
+      <ratings_count type="integer">1235</ratings_count>
+      <text_reviews_count type="integer">163</text_reviews_count>
+      <book_authors_count type="integer">0</book_authors_count>
+      <updated_at type="datetime">2019-10-02T00:36:59+00:00</updated_at>
+      <created_at type="datetime">2016-05-11T14:50:20+00:00</created_at>
+      <author_id_updater_user_id type="integer">8656655</author_id_updater_user_id>
+      <author_role_updater_user_id type="integer">-9</author_role_updater_user_id>
+      <description_updater_user_id type="integer">2479112</description_updater_user_id>
+      <edition_information_updater_user_id type="integer" nil="true"/>
+      <format_updater_user_id type="integer">5136858</format_updater_user_id>
+      <image_updater_user_id type="integer">8656655</image_updater_user_id>
+      <isbn_updater_user_id type="integer">5136858</isbn_updater_user_id>
+      <isbn13_updater_user_id type="integer">5136858</isbn13_updater_user_id>
+      <language_updater_user_id type="integer">32972128</language_updater_user_id>
+      <num_pages_updater_user_id type="integer">59458347</num_pages_updater_user_id>
+      <publication_date_updater_user_id type="integer">6349980</publication_date_updater_user_id>
+      <publisher_updater_user_id type="integer">5136858</publisher_updater_user_id>
+      <title_updater_user_id type="integer">32972128</title_updater_user_id>
+      <url_updater_user_id type="integer" nil="true"/>
+      <title_language_code nil="true"/>
+      <publisher_language_code nil="true"/>
+      <description_language_code nil="true"/>
+      <asin_updater_user_id type="integer" nil="true"/>
+      <book_uri>kca://book/amzn1.gr.book.v1.DDrItGijsO3vpw-IIISh0Q</book_uri>
+      <author>
+        <id type="integer">1370283</id>
+        <name>Brent Weeks</name>
+        <updated_at type="datetime">2019-11-06T03:56:26+00:00</updated_at>
+        <created_at type="datetime">2008-04-22T00:17:27+00:00</created_at>
+        <searched_for_at type="datetime">2008-04-22T01:19:16+00:00</searched_for_at>
+        <image_uploaded_at type="datetime">2009-01-15T09:41:53+00:00</image_uploaded_at>
+        <user_id type="integer">1741767</user_id>
+        <gender>M</gender>
+        <country_code>US</country_code>
+        <born_at type="date">1977-03-07</born_at>
+        <died_at type="datetime" nil="true"/>
+        <about>Brent Weeks was born and raised in Montana.  After getting his paper keys from Hillsdale College, Brent had brief stints walking the earth like Caine from Kung Fu, tending bar, and corrupting the youth. (Not at the same time.) He started writing on bar napkins, then on lesson plans, then full time. Eventually, someone paid him for it. Brent lives in Oregon with his wife, Kristi. He doesn’t own cats or wear a ponytail.</about>
+        <uploader_user_id type="integer">1741767</uploader_user_id>
+        <image_copyright>Uploaded by the author.</image_copyright>
+        <influences></influences>
+        <url>http://www.brentweeks.com/</url>
+        <genre1>Literature &amp; Fiction</genre1>
+        <genre2>Science Fiction &amp; Fantasy</genre2>
+        <genre3></genre3>
+        <books_count type="integer">436</books_count>
+        <reviews_count type="integer">1004845</reviews_count>
+        <ratings_sum type="integer">2432671</ratings_sum>
+        <works_count type="integer">43</works_count>
+        <hometown></hometown>
+        <rating_dist>5:5827|4:5015|3:1954|2:383|1:113|total:13292</rating_dist>
+        <s3_image_at type="datetime">2015-05-15T01:22:12+00:00</s3_image_at>
+        <ratings_count type="integer">568651</ratings_count>
+        <text_reviews_count type="integer">19926</text_reviews_count>
+        <author_program_at type="datetime">2009-01-15T09:41:54+00:00</author_program_at>
+        <postal_code nil="true"/>
+        <fanships_count type="integer">6725</fanships_count>
+        <best_book_id type="integer">3227063</best_book_id>
+        <name_language_code nil="true"/>
+        <sort_by_name>weeks, brent</sort_by_name>
+        <shelf_display_name>Weeks, Brent</shelf_display_name>
+        <gender_custom nil="true"/>
+        <gender_pronoun nil="true"/>
+        <author_uri>kca://author/amzn1.gr.author.v1.yoilXegA7Ifl_HiHsPeVFQ</author_uri>
+      </author>
+    </book>
+  </review>
+</read_status>
+
+        </object>
+    </update>
+      <update type="review">
+      <action_text><![CDATA[gave 5 stars to <a href="https://www.goodreads.com/book/show/30659.Meditations">Meditations (Paperback)</a> by <a href="https://www.goodreads.com/author/show/17212.Marcus_Aurelius">Marcus Aurelius</a>]]></action_text>
+      <link>https://www.goodreads.com/review/show/3037447398</link>
+      <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1421618636l/30659._SY75_.jpg</image_url>
+        <actor>
+  <id type="integer">97134500</id>
+  <name>Shubham Kapoor</name>
+  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
+  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
+</actor>
+      <updated_at>Wed, 06 Nov 2019 10:01:00 -0800</updated_at>
+          <action type="rating">
+            <rating>5</rating>
+          </action>
+        <object>
+          <book>
+            <id>30659</id>
+            <title>Meditations</title>
+            <link>https://www.goodreads.com/book/show/30659.Meditations</link>
+            <authors>
+<author>
+<id>17212</id>
+<name>Marcus Aurelius</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1430676293p5/17212.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1430676293p2/17212.jpg]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/17212.Marcus_Aurelius]]></link>
+<average_rating>4.23</average_rating>
+<ratings_count>94451</ratings_count>
+<text_reviews_count>4923</text_reviews_count>
+</author>
+</authors>
+          </book>
+        </object>
+        <body><![CDATA[ Definitely gonna read it!<br />will have fun surely!<br /> ]]></body>
+    </update>
+      <update type="review">
+      <action_text><![CDATA[gave 4 stars to <a href="https://www.goodreads.com/book/show/28811019-blood-of-empire">Blood of Empire (Gods of Blood and Powder, #3)</a> by <a href="https://www.goodreads.com/author/show/6524620.Brian_McClellan">Brian  McClellan</a>]]></action_text>
+      <link>https://www.goodreads.com/review/show/3037531564</link>
+      <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551726229l/28811019._SY75_.jpg</image_url>
+        <actor>
+  <id type="integer">97134500</id>
+  <name>Shubham Kapoor</name>
+  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
+  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
+</actor>
+      <updated_at>Wed, 06 Nov 2019 09:47:16 -0800</updated_at>
+          <action type="rating">
+            <rating>4</rating>
+          </action>
+        <object>
+          <book>
+            <id>28811019</id>
+            <title><![CDATA[Blood of Empire (Gods of Blood and Powder, #3)]]></title>
+            <link>https://www.goodreads.com/book/show/28811019-blood-of-empire</link>
+            <authors>
+<author>
+<id>6524620</id>
+<name>Brian  McClellan</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1548996608p5/6524620.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1548996608p2/6524620.jpg]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/6524620.Brian_McClellan]]></link>
+<average_rating>4.26</average_rating>
+<ratings_count>117447</ratings_count>
+<text_reviews_count>7269</text_reviews_count>
+</author>
+</authors>
+          </book>
+        </object>
+        <body><![CDATA[ looks great<br />will read sooner<br /> ]]></body>
+    </update>
+      <update type="review">
+      <action_text><![CDATA[gave 4 stars to <a href="https://www.goodreads.com/book/show/30186948-think-and-grow-rich">Think and Grow Rich (Paperback)</a> by <a href="https://www.goodreads.com/author/show/399.Napoleon_Hill">Napoleon Hill</a>]]></action_text>
+      <link>https://www.goodreads.com/review/show/3016524550</link>
+      <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1463241782l/30186948._SY75_.jpg</image_url>
+        <actor>
+  <id type="integer">97134500</id>
+  <name>Shubham Kapoor</name>
+  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
+  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
+</actor>
+      <updated_at>Wed, 06 Nov 2019 09:45:13 -0800</updated_at>
+          <action type="rating">
+            <rating>4</rating>
+          </action>
+        <object>
+          <book>
+            <id>30186948</id>
+            <title>Think and Grow Rich</title>
+            <link>https://www.goodreads.com/book/show/30186948-think-and-grow-rich</link>
+            <authors>
+<author>
+<id>399</id>
+<name>Napoleon Hill</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1265381018p5/399.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1265381018p2/399.jpg]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/399.Napoleon_Hill]]></link>
+<average_rating>4.20</average_rating>
+<ratings_count>207129</ratings_count>
+<text_reviews_count>7292</text_reviews_count>
+</author>
+</authors>
+          </book>
+        </object>
+        <body><![CDATA[ Great book! <br />reading this book can make you achieve anything in life.<br /> ]]></body>
+    </update>
+      <update type="readstatus">
+      <action_text><![CDATA[wants to read <a only_path="false" href="https://www.goodreads.com/review/show/3037528885">Harry Potter and the Sorcerer's Stone (Harry Potter, #1)</a>]]></action_text>
+      <link>https://www.goodreads.com/read_statuses/3209329342</link>
+      <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
+        <actor>
+  <id type="integer">97134500</id>
+  <name>Shubham Kapoor</name>
+  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
+  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
+</actor>
+      <updated_at>Wed, 06 Nov 2019 08:13:29 -0800</updated_at>
+        <object>
+          <read_status>
+  <id type="integer">3209329342</id>
+  <review_id type="integer">3037528885</review_id>
+  <user_id type="integer">97134500</user_id>
+  <old_status>read</old_status>
+  <status>to-read</status>
+  <updated_at type="datetime">2019-11-06T16:13:29+00:00</updated_at>
+  <review>
+    <id type="integer">3037528885</id>
+    <user_id type="integer">97134500</user_id>
+    <book_id type="integer">3</book_id>
+    <rating type="integer">4</rating>
+    <read_status>read</read_status>
+    <sell_flag type="boolean">false</sell_flag>
+    <review>i was fun to read</review>
+    <recommendation nil="true"/>
+    <read_at type="datetime" nil="true"/>
+    <updated_at type="datetime">2019-11-06T16:13:30+00:00</updated_at>
+    <created_at type="datetime">2019-11-05T15:23:18+00:00</created_at>
+    <comments_count type="integer">0</comments_count>
+    <weight type="integer">50</weight>
+    <ratings_sum type="integer">0</ratings_sum>
+    <ratings_count type="integer">0</ratings_count>
+    <spoiler_flag type="boolean">false</spoiler_flag>
+    <recommender_user_id1 type="integer">0</recommender_user_id1>
+    <recommender_user_name1 nil="true"/>
+    <work_id type="integer">4640799</work_id>
+    <last_comment_at type="datetime" nil="true"/>
+    <started_at type="datetime" nil="true"/>
+    <hidden_flag type="boolean">false</hidden_flag>
+    <language_code type="integer" nil="true"/>
+    <last_revision_at type="datetime">2019-11-06T16:13:30+00:00</last_revision_at>
+    <non_friends_rating_count type="integer">0</non_friends_rating_count>
+    <encrypted_notes nil="true"/>
+    <book_uri>kca://book/amzn1.gr.book.v1.tJT_00n8UPpvWa-zWHEAXg</book_uri>
+    <notes nil="true"/>
+    <book>
+      <id type="integer">3</id>
+      <work_id type="integer">4640799</work_id>
+      <isbn nil="true"/>
+      <isbn13 nil="true"/>
+      <title>Harry Potter and the Sorcerer's Stone (Harry Potter, #1)</title>
+      <sort_by_title>harry potter and the sorcerer's stone (harry potter, #1)</sort_by_title>
+      <author_id type="integer">1077326</author_id>
+      <author_role nil="true"/>
+      <asin nil="true"/>
+      <description nil="true"/>
+      <format>Hardcover</format>
+      <publication_year type="integer">1997</publication_year>
+      <publication_month type="integer">6</publication_month>
+      <publication_day type="integer">26</publication_day>
+      <num_pages type="integer">322</num_pages>
+      <publisher>Scholastic Inc</publisher>
+      <language_code>eng</language_code>
+      <edition_information nil="true"/>
+      <url nil="true"/>
+      <source_url nil="true"/>
+      <image_uploaded_at type="datetime">2016-09-17T23:13:42+00:00</image_uploaded_at>
+      <s3_image_at type="datetime">2016-09-17T23:13:44+00:00</s3_image_at>
+      <reviews_count type="integer">7034298</reviews_count>
+      <ratings_sum type="integer">26234713</ratings_sum>
+      <ratings_count type="integer">5878085</ratings_count>
+      <text_reviews_count type="integer">72189</text_reviews_count>
+      <book_authors_count type="integer">-7</book_authors_count>
+      <updated_at type="datetime">2019-10-20T21:14:16+00:00</updated_at>
+      <created_at type="datetime">2006-08-20T02:10:13+00:00</created_at>
+      <author_id_updater_user_id type="integer">1005037</author_id_updater_user_id>
+      <author_role_updater_user_id type="integer">1005037</author_role_updater_user_id>
+      <description_updater_user_id type="integer">66648866</description_updater_user_id>
+      <edition_information_updater_user_id type="integer">4863716</edition_information_updater_user_id>
+      <format_updater_user_id type="integer">11282704</format_updater_user_id>
+      <image_updater_user_id type="integer">4628840</image_updater_user_id>
+      <isbn_updater_user_id type="integer">40937162</isbn_updater_user_id>
+      <isbn13_updater_user_id type="integer">40937162</isbn13_updater_user_id>
+      <language_updater_user_id type="integer">24464811</language_updater_user_id>
+      <num_pages_updater_user_id type="integer">763271</num_pages_updater_user_id>
+      <publication_date_updater_user_id type="integer">54634585</publication_date_updater_user_id>
+      <publisher_updater_user_id type="integer">16347676</publisher_updater_user_id>
+      <title_updater_user_id type="integer">5263888</title_updater_user_id>
+      <url_updater_user_id type="integer" nil="true"/>
+      <title_language_code nil="true"/>
+      <publisher_language_code nil="true"/>
+      <description_language_code nil="true"/>
+      <asin_updater_user_id type="integer" nil="true"/>
+      <book_uri>kca://book/amzn1.gr.book.v1.tJT_00n8UPpvWa-zWHEAXg</book_uri>
+      <author>
+        <id type="integer">1077326</id>
+        <name>J.K. Rowling</name>
+        <updated_at type="datetime">2019-11-06T17:24:35+00:00</updated_at>
+        <created_at type="datetime">2007-12-28T21:03:34+00:00</created_at>
+        <searched_for_at type="datetime">2008-01-03T06:12:50+00:00</searched_for_at>
+        <image_uploaded_at type="datetime">2017-11-11T21:18:43+00:00</image_uploaded_at>
+        <user_id type="integer" nil="true"/>
+        <gender>F</gender>
+        <country_code>GB</country_code>
+        <born_at type="date">1965-07-31</born_at>
+        <died_at type="datetime" nil="true"/>
+        <about>See also: [a:Robert Galbraith|383606]
+Although she writes under the pen name &lt;b&gt;J.K. Rowling&lt;/b&gt;, pronounced like &lt;i&gt;rolling&lt;/i&gt;, her name when her first &lt;i&gt;Harry Potter&lt;/i&gt; book was published was simply &lt;b&gt;Joanne Rowling&lt;/b&gt;. Anticipating that the target audience of young boys might not want to read a book written by a woman, her publishers demanded that she use two initials, rather than her full name. As she had no middle name, she chose &lt;b&gt;K&lt;/b&gt; as the second initial of her pen name, from her paternal grandmother Kathleen Ada Bulgen Rowling. She calls herself &lt;b&gt;Jo&lt;/b&gt; and has said, "No one ever called me 'Joanne' when I was young, unless they were angry." Following her marriage, she has sometimes used the name &lt;b&gt;Joanne Murray&lt;/b&gt; when conducting personal business. During the Leveson Inquiry she gave evidence under the name of &lt;b&gt;Joanne Kathleen Rowling&lt;/b&gt;. In a 2012 interview, Rowling noted that she no longer cared that people pronounced her name incorrectly.
+
+Rowling was born to Peter James Rowling, a Rolls-Royce aircraft engineer, and Anne Rowling (née Volant), on 31 July 1965 in Yate, Gloucestershire, England, 10 miles (16 km) northeast of Bristol. Her mother Anne was half-French and half-Scottish. Her parents first met on a train departing from King's Cross Station bound for Arbroath in 1964. They married on 14 March 1965. Her mother's maternal grandfather, Dugald Campbell, was born in Lamlash on the Isle of Arran. Her mother's paternal grandfather, Louis Volant, was awarded the Croix de Guerre for exceptional bravery in defending the village of Courcelles-le-Comte during the First World War.
+
+Rowling's sister Dianne was born at their home when Rowling was 23 months old. The family moved to the nearby village Winterbourne when Rowling was four. She attended St Michael's Primary School, a school founded by abolitionist William Wilberforce and education reformer Hannah More. Her headmaster at St Michael's, Alfred Dunn, has been suggested as the inspiration for the &lt;i&gt;Harry Potter&lt;/i&gt; headmaster Albus Dumbledore.
+
+As a child, Rowling often wrote fantasy stories, which she would usually then read to her sister. She recalls that: "I can still remember me telling her a story in which she fell down a rabbit hole and was fed strawberries by the rabbit family inside it. Certainly the first story I ever wrote down (when I was five or six) was about a rabbit called Rabbit. He got the measles and was visited by his friends, including a giant bee called Miss Bee."  At the age of nine, Rowling moved to Church Cottage in the Gloucestershire village of Tutshill, close to Chepstow, Wales. When she was a young teenager, her great aunt, who Rowling said "taught classics and approved of a thirst for knowledge, even of a questionable kind," gave her a very old copy of Jessica Mitford's autobiography, &lt;i&gt;Hons and Rebels&lt;/i&gt;. Mitford became Rowling's heroine, and Rowling subsequently read all of her books.
+
+Rowling has said of her teenage years, in an interview with The New Yorker, "I wasn’t particularly happy. I think it’s a dreadful time of life." She had a difficult homelife; her mother was ill and she had a difficult relationship with her father (she is no longer on speaking terms with him). She attended secondary school at Wyedean School and College, where her mother had worked as a technician in the science department. Rowling said of her adolescence, "Hermione [a bookish, know-it-all &lt;i&gt;Harry Potter&lt;/i&gt; character] is loosely based on me. She's a caricature of me when I was eleven, which I'm not particularly proud of." Steve Eddy, who taught Rowling English when she first arrived, remembers her as "not exceptional" but "one of a group of girls who were bright, and quite good at English." Sean Harris, her best friend in the Upper Sixth owned a turquoise Ford Anglia, which she says inspired the one in her books.</about>
+        <uploader_user_id type="integer">14059993</uploader_user_id>
+        <image_copyright>https://i.guim.co.uk/img/media/6bb4cf16fc0474bb7e199c7ce0b2575b0740d3c4/0_0_3744_4681/master/3744.jpg?w=1920&amp;q=85&amp;auto=format&amp;sharp=10&amp;s=a2340ddef3b2793cd8b03e4fb842cfa5</image_copyright>
+        <influences>[a:Jane Austen|1265], [a:Geoffrey Chaucer|1838], [a:Oscar Wilde|3565], [a:C.S. Lewis|1069006]</influences>
+        <url>http://www.jkrowling.com</url>
+        <genre1>Fiction</genre1>
+        <genre2>Young-adult</genre2>
+        <genre3>Fantasy</genre3>
+        <books_count type="integer">5638</books_count>
+        <reviews_count type="integer">28448093</reviews_count>
+        <ratings_sum type="integer">101841556</ratings_sum>
+        <works_count type="integer">250</works_count>
+        <hometown>Yate, South Gloucestershire, England</hometown>
+        <rating_dist>5:1790645|4:985580|3:445251|2:91064|1:33493|total:334603</rating_dist>
+        <s3_image_at type="datetime" nil="true"/>
+        <ratings_count type="integer">22877970</ratings_count>
+        <text_reviews_count type="integer">549580</text_reviews_count>
+        <author_program_at type="datetime" nil="true"/>
+        <postal_code nil="true"/>
+        <fanships_count type="integer">101527</fanships_count>
+        <best_book_id type="integer">3</best_book_id>
+        <name_language_code nil="true"/>
+        <sort_by_name>rowling, j.k.</sort_by_name>
+        <shelf_display_name>Rowling, J.K.</shelf_display_name>
+        <gender_custom nil="true"/>
+        <gender_pronoun nil="true"/>
+        <author_uri>kca://author/amzn1.gr.author.v1.SHA8asP5mFyLIP9NlujvLQ</author_uri>
+      </author>
+    </book>
+  </review>
+</read_status>
+
+        </object>
+    </update>
+      <update type="review">
+      <action_text><![CDATA[gave 4 stars to <a href="https://www.goodreads.com/book/show/28811019-blood-of-empire">Blood of Empire (Gods of Blood and Powder, #3)</a> by <a href="https://www.goodreads.com/author/show/6524620.Brian_McClellan">Brian  McClellan</a>]]></action_text>
+      <link>https://www.goodreads.com/review/show/3037531564</link>
+      <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551726229l/28811019._SY75_.jpg</image_url>
+        <actor>
+  <id type="integer">97134500</id>
+  <name>Shubham Kapoor</name>
+  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
+  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
+</actor>
+      <updated_at>Tue, 05 Nov 2019 07:25:44 -0800</updated_at>
+          <action type="rating">
+            <rating>4</rating>
+          </action>
+        <object>
+          <book>
+            <id>28811019</id>
+            <title><![CDATA[Blood of Empire (Gods of Blood and Powder, #3)]]></title>
+            <link>https://www.goodreads.com/book/show/28811019-blood-of-empire</link>
+            <authors>
+<author>
+<id>6524620</id>
+<name>Brian  McClellan</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1548996608p5/6524620.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1548996608p2/6524620.jpg]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/6524620.Brian_McClellan]]></link>
+<average_rating>4.26</average_rating>
+<ratings_count>117447</ratings_count>
+<text_reviews_count>7269</text_reviews_count>
+</author>
+</authors>
+          </book>
+        </object>
+        <body><![CDATA[ looks great<br />will read sooner<br /> ]]></body>
+    </update>
+      <update type="review">
+      <action_text><![CDATA[gave 4 stars to <a href="https://www.goodreads.com/book/show/3.Harry_Potter_and_the_Sorcerer_s_Stone">Harry Potter and the Sorcerer's Stone (Harry Potter, #1)</a> by <a href="https://www.goodreads.com/author/show/1077326.J_K_Rowling">J.K. Rowling</a>]]></action_text>
+      <link>https://www.goodreads.com/review/show/3037528885</link>
+      <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474154022l/3._SY75_.jpg</image_url>
+        <actor>
+  <id type="integer">97134500</id>
+  <name>Shubham Kapoor</name>
+  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
+  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
+</actor>
+      <updated_at>Tue, 05 Nov 2019 07:23:50 -0800</updated_at>
+          <action type="rating">
+            <rating>4</rating>
+          </action>
+        <object>
+          <book>
+            <id>3</id>
+            <title><![CDATA[Harry Potter and the Sorcerer's Stone (Harry Potter, #1)]]></title>
+            <link>https://www.goodreads.com/book/show/3.Harry_Potter_and_the_Sorcerer_s_Stone</link>
+            <authors>
+<author>
+<id>1077326</id>
+<name>J.K. Rowling</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1510435123p5/1077326.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1510435123p2/1077326.jpg]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/1077326.J_K_Rowling]]></link>
+<average_rating>4.45</average_rating>
+<ratings_count>22877970</ratings_count>
+<text_reviews_count>549580</text_reviews_count>
+</author>
+</authors>
+          </book>
+        </object>
+        <body>i was fun to read</body>
+    </update>
+      <update type="readstatus">
+      <action_text><![CDATA[wants to read <a only_path="false" href="https://www.goodreads.com/review/show/3037447398">Meditations</a>]]></action_text>
+      <link>https://www.goodreads.com/read_statuses/3207271493</link>
+      <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
+        <actor>
+  <id type="integer">97134500</id>
+  <name>Shubham Kapoor</name>
+  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
+  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
+</actor>
+      <updated_at>Tue, 05 Nov 2019 07:15:26 -0800</updated_at>
+        <object>
+          <read_status>
+  <id type="integer">3207271493</id>
+  <review_id type="integer">3037447398</review_id>
+  <user_id type="integer">97134500</user_id>
+  <old_status>read</old_status>
+  <status>to-read</status>
+  <updated_at type="datetime">2019-11-05T15:15:26+00:00</updated_at>
+  <review>
+    <id type="integer">3037447398</id>
+    <user_id type="integer">97134500</user_id>
+    <book_id type="integer">30659</book_id>
+    <rating type="integer">5</rating>
+    <read_status>read</read_status>
+    <sell_flag type="boolean">false</sell_flag>
+    <review>                       Definitely gonna read it!
+will have fun surely!
+                    </review>
+    <recommendation nil="true"/>
+    <read_at type="datetime" nil="true"/>
+    <updated_at type="datetime">2019-11-06T18:00:28+00:00</updated_at>
+    <created_at type="datetime">2019-11-05T14:19:39+00:00</created_at>
+    <comments_count type="integer">0</comments_count>
+    <weight type="integer">58</weight>
+    <ratings_sum type="integer">0</ratings_sum>
+    <ratings_count type="integer">0</ratings_count>
+    <spoiler_flag type="boolean">false</spoiler_flag>
+    <recommender_user_id1 type="integer">0</recommender_user_id1>
+    <recommender_user_name1 nil="true"/>
+    <work_id type="integer">31010</work_id>
+    <last_comment_at type="datetime" nil="true"/>
+    <started_at type="datetime" nil="true"/>
+    <hidden_flag type="boolean">false</hidden_flag>
+    <language_code type="integer" nil="true"/>
+    <last_revision_at type="datetime">2019-11-06T18:00:29+00:00</last_revision_at>
+    <non_friends_rating_count type="integer">0</non_friends_rating_count>
+    <encrypted_notes nil="true"/>
+    <book_uri>kca://book/amzn1.gr.book.v1.FHfDjT3IwlYo-7Pcw6ZT3w</book_uri>
+    <notes nil="true"/>
+    <book>
+      <id type="integer">30659</id>
+      <work_id type="integer">31010</work_id>
+      <isbn>0140449337</isbn>
+      <isbn13>9780140449334</isbn13>
+      <title>Meditations</title>
+      <sort_by_title>meditations</sort_by_title>
+      <author_id type="integer">17212</author_id>
+      <author_role nil="true"/>
+      <asin nil="true"/>
+      <description nil="true"/>
+      <format>Paperback</format>
+      <publication_year type="integer">2006</publication_year>
+      <publication_month type="integer">4</publication_month>
+      <publication_day type="integer">27</publication_day>
+      <num_pages type="integer">303</num_pages>
+      <publisher>Penguin Books</publisher>
+      <language_code>eng</language_code>
+      <edition_information>Penguin Classics</edition_information>
+      <url nil="true"/>
+      <source_url nil="true"/>
+      <image_uploaded_at type="datetime">2015-01-18T22:03:56+00:00</image_uploaded_at>
+      <s3_image_at type="datetime">2015-05-16T14:51:16+00:00</s3_image_at>
+      <reviews_count type="integer">217384</reviews_count>
+      <ratings_sum type="integer">296714</ratings_sum>
+      <ratings_count type="integer">70251</ratings_count>
+      <text_reviews_count type="integer">2949</text_reviews_count>
+      <book_authors_count type="integer">2</book_authors_count>
+      <updated_at type="datetime">2019-02-14T21:05:53+00:00</updated_at>
+      <created_at type="datetime">2007-01-06T10:40:18+00:00</created_at>
+      <author_id_updater_user_id type="integer">-1018</author_id_updater_user_id>
+      <author_role_updater_user_id type="integer">2631425</author_role_updater_user_id>
+      <description_updater_user_id type="integer">66648866</description_updater_user_id>
+      <edition_information_updater_user_id type="integer">6029578</edition_information_updater_user_id>
+      <format_updater_user_id type="integer">-1018</format_updater_user_id>
+      <image_updater_user_id type="integer">31728729</image_updater_user_id>
+      <isbn_updater_user_id type="integer">-1018</isbn_updater_user_id>
+      <isbn13_updater_user_id type="integer">-1018</isbn13_updater_user_id>
+      <language_updater_user_id type="integer">31728729</language_updater_user_id>
+      <num_pages_updater_user_id type="integer">29406296</num_pages_updater_user_id>
+      <publication_date_updater_user_id type="integer">31728729</publication_date_updater_user_id>
+      <publisher_updater_user_id type="integer">6029578</publisher_updater_user_id>
+      <title_updater_user_id type="integer">2631425</title_updater_user_id>
+      <url_updater_user_id type="integer" nil="true"/>
+      <title_language_code nil="true"/>
+      <publisher_language_code nil="true"/>
+      <description_language_code nil="true"/>
+      <asin_updater_user_id type="integer" nil="true"/>
+      <book_uri>kca://book/amzn1.gr.book.v1.FHfDjT3IwlYo-7Pcw6ZT3w</book_uri>
+      <author>
+        <id type="integer">17212</id>
+        <name>Marcus Aurelius</name>
+        <updated_at type="datetime">2019-11-05T12:41:53+00:00</updated_at>
+        <created_at type="datetime">2007-01-06T10:40:18+00:00</created_at>
+        <searched_for_at type="datetime">2007-03-25T22:11:20+00:00</searched_for_at>
+        <image_uploaded_at type="datetime">2015-05-03T18:04:53+00:00</image_uploaded_at>
+        <user_id type="integer" nil="true"/>
+        <gender>M</gender>
+        <country_code>IT</country_code>
+        <born_at type="date">0121-04-30</born_at>
+        <died_at type="date">0180-03-26</died_at>
+        <about>Marcus Aurelius Antoninus Augustus (often referred to as "the wise") was Emperor of the Roman Empire from 161 to his death in 180. He was the last of the "Five Good Emperors", and is also considered one of the more important Stoic philosophers. His two decades as emperor were marked by near continual warfare. He was faced with a series of invasions from German tribes, and by conflicts with the Parthian Empire in the east. His reign also had to deal with an internal revolt in the east, led by Avidius Cassius.
+
+Marcus Aurelius' work &lt;I&gt;Meditations&lt;/I&gt;, written in Greek while on campaign between 170 and 180, is still revered as a literary monument to a government of service and duty and has been praised for its "exquisite accent and its infinite tenderness."</about>
+        <uploader_user_id type="integer">7428712</uploader_user_id>
+        <image_copyright>......
+</image_copyright>
+        <influences>[a: Epictetus|13852], Aristo of Chios</influences>
+        <url>http://plato.stanford.edu/entries/marcus-aurelius/</url>
+        <genre1>Philosophy</genre1>
+        <genre2></genre2>
+        <genre3></genre3>
+        <books_count type="integer">1931</books_count>
+        <reviews_count type="integer">300569</reviews_count>
+        <ratings_sum type="integer">399309</ratings_sum>
+        <works_count type="integer">222</works_count>
+        <hometown>Rome</hometown>
+        <rating_dist>5:1079|4:917|3:489|2:122|1:17|total:2624</rating_dist>
+        <s3_image_at type="datetime">2015-05-14T23:00:55+00:00</s3_image_at>
+        <ratings_count type="integer">94451</ratings_count>
+        <text_reviews_count type="integer">4923</text_reviews_count>
+        <author_program_at type="datetime" nil="true"/>
+        <postal_code nil="true"/>
+        <fanships_count type="integer">625</fanships_count>
+        <best_book_id type="integer">30659</best_book_id>
+        <name_language_code nil="true"/>
+        <sort_by_name>marcus aurelius</sort_by_name>
+        <shelf_display_name>Marcus Aurelius</shelf_display_name>
+        <gender_custom nil="true"/>
+        <gender_pronoun nil="true"/>
+        <author_uri>kca://author/amzn1.gr.author.v1.ddig2GhL_sG8coJCT_YAWg</author_uri>
+      </author>
+    </book>
+  </review>
+</read_status>
+
+        </object>
+    </update>
       <update type="readstatus">
       <action_text><![CDATA[wants to read <a only_path="false" href="https://www.goodreads.com/review/show/3016524550">Think and Grow Rich</a>]]></action_text>
       <link>https://www.goodreads.com/read_statuses/3207250397</link>
@@ -99,14 +742,15 @@
     <rating type="integer">4</rating>
     <read_status>read</read_status>
     <sell_flag type="boolean">false</sell_flag>
-    <review>Great book! 
-reading this book can make you achieve anything in life.</review>
+    <review>                       Great book! 
+reading this book can make you achieve anything in life.
+                    </review>
     <recommendation nil="true"/>
     <read_at type="datetime">2019-11-05T15:06:20+00:00</read_at>
-    <updated_at type="datetime">2019-11-05T15:06:20+00:00</updated_at>
+    <updated_at type="datetime">2019-11-06T17:45:57+00:00</updated_at>
     <created_at type="datetime">2019-10-18T06:31:49+00:00</created_at>
     <comments_count type="integer">0</comments_count>
-    <weight type="integer">39</weight>
+    <weight type="integer">42</weight>
     <ratings_sum type="integer">0</ratings_sum>
     <ratings_count type="integer">0</ratings_count>
     <spoiler_flag type="boolean">false</spoiler_flag>
@@ -117,7 +761,7 @@ reading this book can make you achieve anything in life.</review>
     <started_at type="datetime">2019-10-18T06:37:28+00:00</started_at>
     <hidden_flag type="boolean">false</hidden_flag>
     <language_code type="integer" nil="true"/>
-    <last_revision_at type="datetime">2019-11-05T15:06:20+00:00</last_revision_at>
+    <last_revision_at type="datetime">2019-11-06T17:45:57+00:00</last_revision_at>
     <non_friends_rating_count type="integer">0</non_friends_rating_count>
     <encrypted_notes></encrypted_notes>
     <book_uri>kca://book/amzn1.gr.book.v1.1kndsk926BrSY-nuOCdVsA</book_uri>
@@ -145,10 +789,10 @@ reading this book can make you achieve anything in life.</review>
       <source_url nil="true"/>
       <image_uploaded_at type="datetime">2016-05-14T16:03:02+00:00</image_uploaded_at>
       <s3_image_at type="datetime">2016-05-14T16:03:03+00:00</s3_image_at>
-      <reviews_count type="integer">163968</reviews_count>
-      <ratings_sum type="integer">261467</ratings_sum>
-      <ratings_count type="integer">61843</ratings_count>
-      <text_reviews_count type="integer">1889</text_reviews_count>
+      <reviews_count type="integer">164182</reviews_count>
+      <ratings_sum type="integer">261811</ratings_sum>
+      <ratings_count type="integer">61924</ratings_count>
+      <text_reviews_count type="integer">1893</text_reviews_count>
       <book_authors_count type="integer">1</book_authors_count>
       <updated_at type="datetime">2018-08-30T15:18:54+00:00</updated_at>
       <created_at type="datetime">2016-05-14T15:51:14+00:00</created_at>
@@ -174,7 +818,7 @@ reading this book can make you achieve anything in life.</review>
       <author>
         <id type="integer">399</id>
         <name>Napoleon Hill</name>
-        <updated_at type="datetime">2019-11-05T12:19:24+00:00</updated_at>
+        <updated_at type="datetime">2019-11-06T14:31:02+00:00</updated_at>
         <created_at type="datetime">2006-08-31T22:56:22+00:00</created_at>
         <searched_for_at type="datetime">2007-02-27T00:48:03+00:00</searched_for_at>
         <image_uploaded_at type="datetime">2010-02-05T14:43:38+00:00</image_uploaded_at>
@@ -192,14 +836,14 @@ reading this book can make you achieve anything in life.</review>
         <genre2></genre2>
         <genre3></genre3>
         <books_count type="integer">2450</books_count>
-        <reviews_count type="integer">525156</reviews_count>
-        <ratings_sum type="integer">869890</ratings_sum>
+        <reviews_count type="integer">525538</reviews_count>
+        <ratings_sum type="integer">870424</ratings_sum>
         <works_count type="integer">535</works_count>
         <hometown>Appalachian Town, Southwest Virginia</hometown>
         <rating_dist>5:1689|4:1215|3:779|2:214|1:76|total:3973</rating_dist>
         <s3_image_at type="datetime">2015-05-14T22:53:27+00:00</s3_image_at>
-        <ratings_count type="integer">207003</ratings_count>
-        <text_reviews_count type="integer">7282</text_reviews_count>
+        <ratings_count type="integer">207129</ratings_count>
+        <text_reviews_count type="integer">7292</text_reviews_count>
         <author_program_at type="datetime" nil="true"/>
         <postal_code nil="true"/>
         <fanships_count type="integer">670</fanships_count>
@@ -243,13 +887,15 @@ reading this book can make you achieve anything in life.</review>
     <rating type="integer">5</rating>
     <read_status>read</read_status>
     <sell_flag type="boolean">false</sell_flag>
-    <review>Definitely gonna read it!</review>
+    <review>                       Definitely gonna read it!
+will have fun surely!
+                    </review>
     <recommendation nil="true"/>
     <read_at type="datetime" nil="true"/>
-    <updated_at type="datetime">2019-11-05T14:37:26+00:00</updated_at>
+    <updated_at type="datetime">2019-11-06T18:00:28+00:00</updated_at>
     <created_at type="datetime">2019-11-05T14:19:39+00:00</created_at>
     <comments_count type="integer">0</comments_count>
-    <weight type="integer">52</weight>
+    <weight type="integer">58</weight>
     <ratings_sum type="integer">0</ratings_sum>
     <ratings_count type="integer">0</ratings_count>
     <spoiler_flag type="boolean">false</spoiler_flag>
@@ -260,7 +906,7 @@ reading this book can make you achieve anything in life.</review>
     <started_at type="datetime" nil="true"/>
     <hidden_flag type="boolean">false</hidden_flag>
     <language_code type="integer" nil="true"/>
-    <last_revision_at type="datetime">2019-11-05T14:37:26+00:00</last_revision_at>
+    <last_revision_at type="datetime">2019-11-06T18:00:29+00:00</last_revision_at>
     <non_friends_rating_count type="integer">0</non_friends_rating_count>
     <encrypted_notes nil="true"/>
     <book_uri>kca://book/amzn1.gr.book.v1.FHfDjT3IwlYo-7Pcw6ZT3w</book_uri>
@@ -288,10 +934,10 @@ reading this book can make you achieve anything in life.</review>
       <source_url nil="true"/>
       <image_uploaded_at type="datetime">2015-01-18T22:03:56+00:00</image_uploaded_at>
       <s3_image_at type="datetime">2015-05-16T14:51:16+00:00</s3_image_at>
-      <reviews_count type="integer">217248</reviews_count>
-      <ratings_sum type="integer">296507</ratings_sum>
-      <ratings_count type="integer">70200</ratings_count>
-      <text_reviews_count type="integer">2945</text_reviews_count>
+      <reviews_count type="integer">217384</reviews_count>
+      <ratings_sum type="integer">296714</ratings_sum>
+      <ratings_count type="integer">70251</ratings_count>
+      <text_reviews_count type="integer">2949</text_reviews_count>
       <book_authors_count type="integer">2</book_authors_count>
       <updated_at type="datetime">2019-02-14T21:05:53+00:00</updated_at>
       <created_at type="datetime">2007-01-06T10:40:18+00:00</created_at>
@@ -338,14 +984,14 @@ Marcus Aurelius' work &lt;I&gt;Meditations&lt;/I&gt;, written in Greek while on 
         <genre2></genre2>
         <genre3></genre3>
         <books_count type="integer">1931</books_count>
-        <reviews_count type="integer">300381</reviews_count>
-        <ratings_sum type="integer">398940</ratings_sum>
+        <reviews_count type="integer">300569</reviews_count>
+        <ratings_sum type="integer">399309</ratings_sum>
         <works_count type="integer">222</works_count>
         <hometown>Rome</hometown>
         <rating_dist>5:1079|4:917|3:489|2:122|1:17|total:2624</rating_dist>
         <s3_image_at type="datetime">2015-05-14T23:00:55+00:00</s3_image_at>
-        <ratings_count type="integer">94359</ratings_count>
-        <text_reviews_count type="integer">4918</text_reviews_count>
+        <ratings_count type="integer">94451</ratings_count>
+        <text_reviews_count type="integer">4923</text_reviews_count>
         <author_program_at type="datetime" nil="true"/>
         <postal_code nil="true"/>
         <fanships_count type="integer">625</fanships_count>
@@ -356,343 +1002,6 @@ Marcus Aurelius' work &lt;I&gt;Meditations&lt;/I&gt;, written in Greek while on 
         <gender_custom nil="true"/>
         <gender_pronoun nil="true"/>
         <author_uri>kca://author/amzn1.gr.author.v1.ddig2GhL_sG8coJCT_YAWg</author_uri>
-      </author>
-    </book>
-  </review>
-</read_status>
-
-        </object>
-    </update>
-      <update type="review">
-      <action_text><![CDATA[gave 5 stars to <a href="https://www.goodreads.com/book/show/30659.Meditations">Meditations (Paperback)</a> by <a href="https://www.goodreads.com/author/show/17212.Marcus_Aurelius">Marcus Aurelius</a>]]></action_text>
-      <link>https://www.goodreads.com/review/show/3037447398</link>
-      <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1421618636l/30659._SY75_.jpg</image_url>
-        <actor>
-  <id type="integer">97134500</id>
-  <name>Shubham Kapoor</name>
-  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
-  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
-</actor>
-      <updated_at>Tue, 05 Nov 2019 06:20:11 -0800</updated_at>
-          <action type="rating">
-            <rating>5</rating>
-          </action>
-        <object>
-          <book>
-            <id>30659</id>
-            <title>Meditations</title>
-            <link>https://www.goodreads.com/book/show/30659.Meditations</link>
-            <authors>
-<author>
-<id>17212</id>
-<name>Marcus Aurelius</name>
-<role></role>
-<image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1430676293p5/17212.jpg]]>
-</image_url>
-<small_image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1430676293p2/17212.jpg]]>
-</small_image_url>
-<link><![CDATA[https://www.goodreads.com/author/show/17212.Marcus_Aurelius]]></link>
-<average_rating>4.23</average_rating>
-<ratings_count>94359</ratings_count>
-<text_reviews_count>4918</text_reviews_count>
-</author>
-</authors>
-          </book>
-        </object>
-        <body>Definitely gonna read it!</body>
-    </update>
-      <update type="readstatus">
-      <action_text><![CDATA[wants to read <a only_path="false" href="https://www.goodreads.com/review/show/3037447398">Meditations</a>]]></action_text>
-      <link>https://www.goodreads.com/read_statuses/3207182600</link>
-      <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
-        <actor>
-  <id type="integer">97134500</id>
-  <name>Shubham Kapoor</name>
-  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
-  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
-</actor>
-      <updated_at>Tue, 05 Nov 2019 06:19:40 -0800</updated_at>
-        <object>
-          <read_status>
-  <id type="integer">3207182600</id>
-  <review_id type="integer">3037447398</review_id>
-  <user_id type="integer">97134500</user_id>
-  <old_status nil="true"/>
-  <status>to-read</status>
-  <updated_at type="datetime">2019-11-05T14:19:40+00:00</updated_at>
-  <review>
-    <id type="integer">3037447398</id>
-    <user_id type="integer">97134500</user_id>
-    <book_id type="integer">30659</book_id>
-    <rating type="integer">5</rating>
-    <read_status>read</read_status>
-    <sell_flag type="boolean">false</sell_flag>
-    <review>Definitely gonna read it!</review>
-    <recommendation nil="true"/>
-    <read_at type="datetime" nil="true"/>
-    <updated_at type="datetime">2019-11-05T14:37:26+00:00</updated_at>
-    <created_at type="datetime">2019-11-05T14:19:39+00:00</created_at>
-    <comments_count type="integer">0</comments_count>
-    <weight type="integer">52</weight>
-    <ratings_sum type="integer">0</ratings_sum>
-    <ratings_count type="integer">0</ratings_count>
-    <spoiler_flag type="boolean">false</spoiler_flag>
-    <recommender_user_id1 type="integer">0</recommender_user_id1>
-    <recommender_user_name1 nil="true"/>
-    <work_id type="integer">31010</work_id>
-    <last_comment_at type="datetime" nil="true"/>
-    <started_at type="datetime" nil="true"/>
-    <hidden_flag type="boolean">false</hidden_flag>
-    <language_code type="integer" nil="true"/>
-    <last_revision_at type="datetime">2019-11-05T14:37:26+00:00</last_revision_at>
-    <non_friends_rating_count type="integer">0</non_friends_rating_count>
-    <encrypted_notes nil="true"/>
-    <book_uri>kca://book/amzn1.gr.book.v1.FHfDjT3IwlYo-7Pcw6ZT3w</book_uri>
-    <notes nil="true"/>
-    <book>
-      <id type="integer">30659</id>
-      <work_id type="integer">31010</work_id>
-      <isbn>0140449337</isbn>
-      <isbn13>9780140449334</isbn13>
-      <title>Meditations</title>
-      <sort_by_title>meditations</sort_by_title>
-      <author_id type="integer">17212</author_id>
-      <author_role nil="true"/>
-      <asin nil="true"/>
-      <description nil="true"/>
-      <format>Paperback</format>
-      <publication_year type="integer">2006</publication_year>
-      <publication_month type="integer">4</publication_month>
-      <publication_day type="integer">27</publication_day>
-      <num_pages type="integer">303</num_pages>
-      <publisher>Penguin Books</publisher>
-      <language_code>eng</language_code>
-      <edition_information>Penguin Classics</edition_information>
-      <url nil="true"/>
-      <source_url nil="true"/>
-      <image_uploaded_at type="datetime">2015-01-18T22:03:56+00:00</image_uploaded_at>
-      <s3_image_at type="datetime">2015-05-16T14:51:16+00:00</s3_image_at>
-      <reviews_count type="integer">217248</reviews_count>
-      <ratings_sum type="integer">296507</ratings_sum>
-      <ratings_count type="integer">70200</ratings_count>
-      <text_reviews_count type="integer">2945</text_reviews_count>
-      <book_authors_count type="integer">2</book_authors_count>
-      <updated_at type="datetime">2019-02-14T21:05:53+00:00</updated_at>
-      <created_at type="datetime">2007-01-06T10:40:18+00:00</created_at>
-      <author_id_updater_user_id type="integer">-1018</author_id_updater_user_id>
-      <author_role_updater_user_id type="integer">2631425</author_role_updater_user_id>
-      <description_updater_user_id type="integer">66648866</description_updater_user_id>
-      <edition_information_updater_user_id type="integer">6029578</edition_information_updater_user_id>
-      <format_updater_user_id type="integer">-1018</format_updater_user_id>
-      <image_updater_user_id type="integer">31728729</image_updater_user_id>
-      <isbn_updater_user_id type="integer">-1018</isbn_updater_user_id>
-      <isbn13_updater_user_id type="integer">-1018</isbn13_updater_user_id>
-      <language_updater_user_id type="integer">31728729</language_updater_user_id>
-      <num_pages_updater_user_id type="integer">29406296</num_pages_updater_user_id>
-      <publication_date_updater_user_id type="integer">31728729</publication_date_updater_user_id>
-      <publisher_updater_user_id type="integer">6029578</publisher_updater_user_id>
-      <title_updater_user_id type="integer">2631425</title_updater_user_id>
-      <url_updater_user_id type="integer" nil="true"/>
-      <title_language_code nil="true"/>
-      <publisher_language_code nil="true"/>
-      <description_language_code nil="true"/>
-      <asin_updater_user_id type="integer" nil="true"/>
-      <book_uri>kca://book/amzn1.gr.book.v1.FHfDjT3IwlYo-7Pcw6ZT3w</book_uri>
-      <author>
-        <id type="integer">17212</id>
-        <name>Marcus Aurelius</name>
-        <updated_at type="datetime">2019-11-05T12:41:53+00:00</updated_at>
-        <created_at type="datetime">2007-01-06T10:40:18+00:00</created_at>
-        <searched_for_at type="datetime">2007-03-25T22:11:20+00:00</searched_for_at>
-        <image_uploaded_at type="datetime">2015-05-03T18:04:53+00:00</image_uploaded_at>
-        <user_id type="integer" nil="true"/>
-        <gender>M</gender>
-        <country_code>IT</country_code>
-        <born_at type="date">0121-04-30</born_at>
-        <died_at type="date">0180-03-26</died_at>
-        <about>Marcus Aurelius Antoninus Augustus (often referred to as "the wise") was Emperor of the Roman Empire from 161 to his death in 180. He was the last of the "Five Good Emperors", and is also considered one of the more important Stoic philosophers. His two decades as emperor were marked by near continual warfare. He was faced with a series of invasions from German tribes, and by conflicts with the Parthian Empire in the east. His reign also had to deal with an internal revolt in the east, led by Avidius Cassius.
-
-Marcus Aurelius' work &lt;I&gt;Meditations&lt;/I&gt;, written in Greek while on campaign between 170 and 180, is still revered as a literary monument to a government of service and duty and has been praised for its "exquisite accent and its infinite tenderness."</about>
-        <uploader_user_id type="integer">7428712</uploader_user_id>
-        <image_copyright>......
-</image_copyright>
-        <influences>[a: Epictetus|13852], Aristo of Chios</influences>
-        <url>http://plato.stanford.edu/entries/marcus-aurelius/</url>
-        <genre1>Philosophy</genre1>
-        <genre2></genre2>
-        <genre3></genre3>
-        <books_count type="integer">1931</books_count>
-        <reviews_count type="integer">300381</reviews_count>
-        <ratings_sum type="integer">398940</ratings_sum>
-        <works_count type="integer">222</works_count>
-        <hometown>Rome</hometown>
-        <rating_dist>5:1079|4:917|3:489|2:122|1:17|total:2624</rating_dist>
-        <s3_image_at type="datetime">2015-05-14T23:00:55+00:00</s3_image_at>
-        <ratings_count type="integer">94359</ratings_count>
-        <text_reviews_count type="integer">4918</text_reviews_count>
-        <author_program_at type="datetime" nil="true"/>
-        <postal_code nil="true"/>
-        <fanships_count type="integer">625</fanships_count>
-        <best_book_id type="integer">30659</best_book_id>
-        <name_language_code nil="true"/>
-        <sort_by_name>marcus aurelius</sort_by_name>
-        <shelf_display_name>Marcus Aurelius</shelf_display_name>
-        <gender_custom nil="true"/>
-        <gender_pronoun nil="true"/>
-        <author_uri>kca://author/amzn1.gr.author.v1.ddig2GhL_sG8coJCT_YAWg</author_uri>
-      </author>
-    </book>
-  </review>
-</read_status>
-
-        </object>
-    </update>
-      <update type="readstatus">
-      <action_text><![CDATA[wants to read <a only_path="false" href="https://www.goodreads.com/review/show/3015842951">I Know A Secret (Rizzoli & Isles, #12)</a>]]></action_text>
-      <link>https://www.goodreads.com/read_statuses/3207175135</link>
-      <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
-        <actor>
-  <id type="integer">97134500</id>
-  <name>Shubham Kapoor</name>
-  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
-  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
-</actor>
-      <updated_at>Tue, 05 Nov 2019 06:13:45 -0800</updated_at>
-        <object>
-          <read_status>
-  <id type="integer">3207175135</id>
-  <review_id type="integer">3015842951</review_id>
-  <user_id type="integer">97134500</user_id>
-  <old_status>read</old_status>
-  <status>to-read</status>
-  <updated_at type="datetime">2019-11-05T14:13:45+00:00</updated_at>
-  <review>
-    <id type="integer">3015842951</id>
-    <user_id type="integer">97134500</user_id>
-    <book_id type="integer">33153725</book_id>
-    <rating type="integer">5</rating>
-    <read_status>read</read_status>
-    <sell_flag type="boolean">false</sell_flag>
-    <review>Each chapter in this novel is worth reading.Many times i could not stop my self from reading next chapter after finishing one.</review>
-    <recommendation nil="true"/>
-    <read_at type="datetime" nil="true"/>
-    <updated_at type="datetime">2019-11-05T14:13:46+00:00</updated_at>
-    <created_at type="datetime">2019-10-17T17:07:32+00:00</created_at>
-    <comments_count type="integer">0</comments_count>
-    <weight type="integer">44</weight>
-    <ratings_sum type="integer">0</ratings_sum>
-    <ratings_count type="integer">0</ratings_count>
-    <spoiler_flag type="boolean">false</spoiler_flag>
-    <recommender_user_id1 type="integer">0</recommender_user_id1>
-    <recommender_user_name1></recommender_user_name1>
-    <work_id type="integer">51319924</work_id>
-    <last_comment_at type="datetime" nil="true"/>
-    <started_at type="datetime" nil="true"/>
-    <hidden_flag type="boolean">false</hidden_flag>
-    <language_code type="integer" nil="true"/>
-    <last_revision_at type="datetime">2019-11-05T14:13:46+00:00</last_revision_at>
-    <non_friends_rating_count type="integer">0</non_friends_rating_count>
-    <encrypted_notes></encrypted_notes>
-    <book_uri>kca://book/amzn1.gr.book.v1.u32VCoRMPZpRWemOPtluXA</book_uri>
-    <notes></notes>
-    <book>
-      <id type="integer">33153725</id>
-      <work_id type="integer">51319924</work_id>
-      <isbn>0345543882</isbn>
-      <isbn13>9780345543882</isbn13>
-      <title>I Know A Secret (Rizzoli &amp; Isles, #12)</title>
-      <sort_by_title>i know a secret (rizzoli &amp; isles, #12)</sort_by_title>
-      <author_id type="integer">18149</author_id>
-      <author_role nil="true"/>
-      <asin nil="true"/>
-      <description nil="true"/>
-      <format>Hardcover</format>
-      <publication_year type="integer">2017</publication_year>
-      <publication_month type="integer">8</publication_month>
-      <publication_day type="integer">22</publication_day>
-      <num_pages type="integer">319</num_pages>
-      <publisher>Ballantine Books </publisher>
-      <language_code>eng</language_code>
-      <edition_information nil="true"/>
-      <url nil="true"/>
-      <source_url nil="true"/>
-      <image_uploaded_at type="datetime">2016-11-30T01:10:40+00:00</image_uploaded_at>
-      <s3_image_at type="datetime">2017-07-31T14:51:06+00:00</s3_image_at>
-      <reviews_count type="integer">16352</reviews_count>
-      <ratings_sum type="integer">29425</ratings_sum>
-      <ratings_count type="integer">7173</ratings_count>
-      <text_reviews_count type="integer">892</text_reviews_count>
-      <book_authors_count type="integer">0</book_authors_count>
-      <updated_at type="datetime">2019-02-14T19:34:24+00:00</updated_at>
-      <created_at type="datetime">2016-11-30T01:10:40+00:00</created_at>
-      <author_id_updater_user_id type="integer">7717977</author_id_updater_user_id>
-      <author_role_updater_user_id type="integer">-9</author_role_updater_user_id>
-      <description_updater_user_id type="integer">5136858</description_updater_user_id>
-      <edition_information_updater_user_id type="integer" nil="true"/>
-      <format_updater_user_id type="integer">7717977</format_updater_user_id>
-      <image_updater_user_id type="integer">7717977</image_updater_user_id>
-      <isbn_updater_user_id type="integer">7717977</isbn_updater_user_id>
-      <isbn13_updater_user_id type="integer">7717977</isbn13_updater_user_id>
-      <language_updater_user_id type="integer">4469772</language_updater_user_id>
-      <num_pages_updater_user_id type="integer">4391094</num_pages_updater_user_id>
-      <publication_date_updater_user_id type="integer">7717977</publication_date_updater_user_id>
-      <publisher_updater_user_id type="integer">7717977</publisher_updater_user_id>
-      <title_updater_user_id type="integer">15477771</title_updater_user_id>
-      <url_updater_user_id type="integer">5136858</url_updater_user_id>
-      <title_language_code nil="true"/>
-      <publisher_language_code nil="true"/>
-      <description_language_code nil="true"/>
-      <asin_updater_user_id type="integer" nil="true"/>
-      <book_uri>kca://book/amzn1.gr.book.v1.u32VCoRMPZpRWemOPtluXA</book_uri>
-      <author>
-        <id type="integer">18149</id>
-        <name>Tess Gerritsen</name>
-        <updated_at type="datetime">2019-11-04T15:39:55+00:00</updated_at>
-        <created_at type="datetime">2007-01-09T21:49:35+00:00</created_at>
-        <searched_for_at type="datetime">2007-03-05T00:11:53+00:00</searched_for_at>
-        <image_uploaded_at type="datetime">2014-11-18T22:00:07+00:00</image_uploaded_at>
-        <user_id type="integer">1951781</user_id>
-        <gender>F</gender>
-        <country_code>US</country_code>
-        <born_at type="date">1953-06-12</born_at>
-        <died_at type="datetime" nil="true"/>
-        <about>Internationally bestselling author Tess Gerritsen took an unusual route to a writing career. A graduate of Stanford University, Tess went on to medical school at the University of California, San Francisco, where she was awarded her M.D.
-
-While on maternity leave from her work as a physician, she began to write fiction. In 1987, her first novel was published. Call After Midnight, a romantic thriller, was followed by eight more romantic suspense novels. She also wrote a screenplay, "Adrift", which aired as a 1993 CBS Movie of the Week starring Kate Jackson.
-
-Tess's first medical thriller, Harvest, was released in hardcover in 1996, and it marked her debut on the New York Times bestseller list. Her suspense novels since then have been: Life Support (1997), Bloodstream (1998), Gravity (1999), The Surgeon (2001), The Apprentice (2002), The Sinner (2003), Body Double (2004), Vanish (2005), The Mephisto Club (2006), and The Bone Garden (2007). Her books have been translated into 31 languages, and more than 15 million copies have been sold around the world.
-
-As well as being a New York Times bestselling author, she has also been a #1 bestseller in both Germany and the UK. She has won both the Nero Wolfe Award (for Vanish) and the Rita Award (for The Surgeon.) Critics around the world have praised her novels as "Pulse-pounding fun" (Philadelphia Inquirer), "Scary and brilliant" (Toronto Globe and Mail), and "Polished, riveting prose" (Chicago Tribune). Publisher Weekly has dubbed her the "medical suspense queen".
-
-Now retired from medicine, she writes full time. She lives in Maine.</about>
-        <uploader_user_id type="integer">1951781</uploader_user_id>
-        <image_copyright>https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xfp1/t31.0-8/10608282_837249586293987_5047060735671435564_o.jpg</image_copyright>
-        <influences></influences>
-        <url>http://www.tessgerritsen.com/</url>
-        <genre1></genre1>
-        <genre2></genre2>
-        <genre3></genre3>
-        <books_count type="integer">2614</books_count>
-        <reviews_count type="integer">1161706</reviews_count>
-        <ratings_sum type="integer">2652639</ratings_sum>
-        <works_count type="integer">102</works_count>
-        <hometown></hometown>
-        <rating_dist>5:11946|4:18848|3:11886|2:1983|1:372|total:45035</rating_dist>
-        <s3_image_at type="datetime">2015-05-14T23:00:56+00:00</s3_image_at>
-        <ratings_count type="integer">652818</ratings_count>
-        <text_reviews_count type="integer">34608</text_reviews_count>
-        <author_program_at type="datetime">2009-01-25T21:44:28+00:00</author_program_at>
-        <postal_code nil="true"/>
-        <fanships_count type="integer">5684</fanships_count>
-        <best_book_id type="integer">32263</best_book_id>
-        <name_language_code nil="true"/>
-        <sort_by_name>gerritsen, tess</sort_by_name>
-        <shelf_display_name>Gerritsen, Tess</shelf_display_name>
-        <gender_custom nil="true"/>
-        <gender_pronoun nil="true"/>
-        <author_uri>kca://author/amzn1.gr.author.v1.8SRXcz-bDwlwBLOOzHxAlQ</author_uri>
       </author>
     </book>
   </review>

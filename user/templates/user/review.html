@@ -1,0 +1,80 @@
+{% extends 'home/base.html' %}
+{% block body %}
+<body style="padding:0px">
+   {% include 'library/library-header.html' %}
+    <main class="u-padding-top-medium u-padding-bottom-medium home" style="padding: 140px 20px">
+        <div class="comment-box" style="position: relative">
+                <form action="{% url 'user:edit_review' review_id=review.review_id%}" method="POST" class="comment-form">
+                    {% csrf_token %}
+                    <h3 class="comment-box-heading">Edit Review</h3>
+                    <h4 class="rating-head">My Rating</h4>
+                    <div class="rating">
+                        <input type="radio" name="rating" id="star5" value="5"><label for="star5" class="star-label">
+                        </label>
+                        <input type="radio" name="rating" id="star4" value="4"><label for="star4" class="star-label">
+                        </label>
+                        <input type="radio" name="rating" id="star3" value="3"><label for="star3" class="star-label">
+                        </label>
+                        <input type="radio" name="rating" id="star2" value="2"><label for="star2" class="star-label">
+                        </label>
+                        <input type="radio" name="rating" id="star1" value="1"><label for="star1" class="star-label">
+                        </label>
+                        <input type="radio" class="input0" name="rating" id="star0" value="0" checked><label for="star0" class="star-label label0">
+                        </label>
+                    </div>
+                    <textarea name="review" placeholder="Enter your review" class="review-input">
+                       {{text}}
+                    </textarea>
+                    <div class="shelf-review-box">
+                            <h4>Shelf Name</h4>
+                        <select name="shelf" required class="editSelectShelf">
+                            <option value="" selected disabled hidden>Choose shelf</option>
+                            {% for shelf in shelves %}
+                            {% if review.shelf == shelf %}
+                            <option value={{shelf.name}} selected>{{shelf.name}}</option>
+                            {% else %}
+                            <option value={{shelf.name}}>{{shelf.name}}</option>
+                            {% endif %}
+                            {% endfor %}
+                            <option>Add new shelf</option>
+                        </select>
+                    </div>
+                    <button class="btn-comment" type="submit">POST</button>
+                </form>
+            </div>
+    </main>
+<script>
+    var rating = '{{review.rating}}';
+    var inputId = "star" + rating;
+    console.log(inputId);
+    var inp = document.getElementById(inputId);
+    window.addEventListener('load', function(e){
+        inp.checked = true;
+        console.log(inp.checked);
+    })
+    $('.review-input').on('focus', function(e){
+        $('.review-input')[0].style.height = "200px"
+    })
+    $('.review-input').on('focusout', function(e){
+        $('.review-input')[0].style.height = "100px"
+    })
+    $('.comment-form').on('submit', funAddToShelf);
+    function funAddToShelf(e){
+        // e.preventDefault()
+        $.ajax({
+            type: "POST",
+            url: "{% url 'book:add_to_shelf'%}",
+            data: {
+                "book_id": '{{review.book.book_id}}',
+                "shelf": $('.editSelectShelf').val(),
+                csrfmiddlewaretoken: '{{ csrf_token }}'
+            },
+            success:function(output){
+                console.log('okks')
+                alert(output);
+            }
+        });
+    }
+</script>
+</body>
+{% endblock %}

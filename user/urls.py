@@ -9,6 +9,7 @@ urlpatterns = [
     path('profile/<int:user_id>/', views.Profile.as_view(), name='profile'),
     path('profile/<int:user_id>/shelves/<int:shelf_id>', views.ShelfView.as_view(), name='shelves'),
     path('<str:user_id>/shelf/<str:shelf_id>/book/<str:book_id>/remove',
-         views.ShelfRemoveBook.as_view(), name='book_remove')
+         views.ShelfRemoveBook.as_view(), name='book_remove'),
+    path('review<str:review_id>/edit', views.EditReview.as_view(), name='edit_review')
     # path('comment/', views.CommentPost.as_view(), name='comment')
 ]

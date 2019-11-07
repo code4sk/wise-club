@@ -310,3 +310,9 @@ def get_user_data():
 def get_shelf_data():
     shelves = load_shelf_data()
     return get_shelves(shelves)
+
+
+def edit_review(review_id, text, rating, shelf):
+    data = {'id': review_id, 'review[review]': text, 'review[rating]': rating, 'shelf': shelf}
+    url = 'https://www.goodreads.com/review/{}.xml'.format(review_id)
+    return session.post(url, data)

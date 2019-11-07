@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GoodreadsResponse>
+  <Request>
+    <authentication>true</authentication>
+      <key><![CDATA[ePqGSFb6Pt7Xll8EnFzQJA]]></key>
+    <method><![CDATA[search_index]]></method>
+  </Request>
+  <search>
+  <query><![CDATA[fifty shades of grey]]></query>
+    <results-start>1</results-start>
+    <results-end>19</results-end>
+    <total-results>351</total-results>
+    <source>Goodreads</source>
+    <query-time-seconds>0.20</query-time-seconds>
+    <results>
+        <work>
+  <id type="integer">15732562</id>
+  <books_count type="integer">200</books_count>
+  <ratings_count type="integer">1715796</ratings_count>
+  <text_reviews_count type="integer">77378</text_reviews_count>
+  <original_publication_year type="integer">2011</original_publication_year>
+  <original_publication_month type="integer">6</original_publication_month>
+  <original_publication_day type="integer">20</original_publication_day>
+  <average_rating>3.67</average_rating>
+  <best_book type="Book">
+    <id type="integer">10818853</id>
+    <title>Fifty Shades of Grey (Fifty Shades, #1)</title>
+    <author>
+      <id type="integer">4725841</id>
+      <name>E.L. James</name>
+    </author>
+    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385207843l/10818853._SX98_.jpg</image_url>
+    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385207843l/10818853._SX50_.jpg</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">21838254</id>
+  <books_count type="integer">3</books_count>
+  <ratings_count type="integer">424</ratings_count>
+  <text_reviews_count type="integer">27</text_reviews_count>
+  <original_publication_year type="integer">2012</original_publication_year>
+  <original_publication_month type="integer">11</original_publication_month>
+  <original_publication_day type="integer">1</original_publication_day>
+  <average_rating>3.75</average_rating>
+  <best_book type="Book">
+    <id type="integer">16053753</id>
+    <title>50 Shades of Grey Matter</title>
+    <author>
+      <id type="integer">209883</id>
+      <name>Karl Kruszelnicki</name>
+    </author>
+    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365681322l/16053753._SX98_.jpg</image_url>
+    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365681322l/16053753._SY75_.jpg</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">55258006</id>
+  <books_count type="integer">2</books_count>
+  <ratings_count type="integer">230</ratings_count>
+  <text_reviews_count type="integer">1</text_reviews_count>
+  <original_publication_year type="integer" nil="true"/>
+  <original_publication_month type="integer" nil="true"/>
+  <original_publication_day type="integer" nil="true"/>
+  <average_rating>4.10</average_rating>
+  <best_book type="Book">
+    <id type="integer">25689995</id>
+    <title>Fifty Shades of Grey &amp; Grey</title>
+    <author>
+      <id type="integer">4725841</id>
+      <name>E.L. James</name>
+    </author>
+    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1486656789l/25689995._SX98_.jpg</image_url>
+    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1486656789l/25689995._SY75_.jpg</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">54920130</id>
+  <books_count type="integer">1</books_count>
+  <ratings_count type="integer">0</ratings_count>
+  <text_reviews_count type="integer">0</text_reviews_count>
+  <original_publication_year type="integer" nil="true"/>
+  <original_publication_month type="integer" nil="true"/>
+  <original_publication_day type="integer" nil="true"/>
+  <average_rating type="float">0.0</average_rating>
+  <best_book type="Book">
+    <id type="integer">33949709</id>
+    <title>Fifty Shades of Grey Memes:Hilarious,Funny,LOL,Amusing Fifty Shades of Grey Memes</title>
+    <author>
+      <id type="integer">1642552</id>
+      <name>Karl Berry</name>
+    </author>
+    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">43230487</id>
+  <books_count type="integer">19</books_count>
+  <ratings_count type="integer">63</ratings_count>
+  <text_reviews_count type="integer">3</text_reviews_count>
+  <original_publication_year type="integer">2014</original_publication_year>
+  <original_publication_month type="integer">11</original_publication_month>
+  <original_publication_day type="integer">24</original_publication_day>
+  <average_rating>3.94</average_rating>
+  <best_book type="Book">
+    <id type="integer">23624937</id>
+    <title>MY 50 SHADES OF GREY</title>
+    <author>
+      <id type="integer">7413534</id>
+      <name>Mike Valasek</name>
+    </author>
+    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">22382558</id>
+  <books_count type="integer">2</books_count>
+  <ratings_count type="integer">212</ratings_count>
+  <text_reviews_count type="integer">25</text_reviews_count>
+  <original_publication_year type="integer">2012</original_publication_year>
+  <original_publication_month type="integer">11</original_publication_month>
+  <original_publication_day type="integer">1</original_publication_day>
+  <average_rating>4.00</average_rating>
+  <best_book type="Book">
+    <id type="integer">16280847</id>
+    <title>The Fifty Shades of Grey Phenomena</title>
+    <author>
+      <id type="integer">897415</id>
+      <name>Chloe Thurlow</name>
+    </author>
+    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354885877l/16280847._SX98_.jpg</image_url>
+    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354885877l/16280847._SX50_.jpg</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">47866463</id>
+  <books_count type="integer">1</books_count>
+  <ratings_count type="integer">8</ratings_count>
+  <text_reviews_count type="integer">1</text_reviews_count>
+  <original_publication_year type="integer" nil="true"/>
+  <original_publication_month type="integer" nil="true"/>
+  <original_publication_day type="integer" nil="true"/>
+  <average_rating>4.50</average_rating>
+  <best_book type="Book">
+    <id type="integer">27874336</id>
+    <title>Fifty Shades of Greys</title>
+    <author>
+      <id type="integer">6575812</id>
+      <name>Aurelio Voltaire</name>
+    </author>
+    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1448157796l/27874336._SX98_.jpg</image_url>
+    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1448157796l/27874336._SX50_.jpg</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">44708046</id>
+  <books_count type="integer">3</books_count>
+  <ratings_count type="integer">17</ratings_count>
+  <text_reviews_count type="integer">4</text_reviews_count>
+  <original_publication_year type="integer">2015</original_publication_year>
+  <original_publication_month type="integer">2</original_publication_month>
+  <original_publication_day type="integer">18</original_publication_day>
+  <average_rating>4.12</average_rating>
+  <best_book type="Book">
+    <id type="integer">25210469</id>
+    <title>Fifty Shades of Grey Fedora</title>
+    <author>
+      <id type="integer">5092</id>
+      <name>Robert J. Randisi</name>
+    </author>
+    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427225981l/25210469._SX98_.jpg</image_url>
+    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427225981l/25210469._SX50_.jpg</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">24492622</id>
+  <books_count type="integer">5</books_count>
+  <ratings_count type="integer">41</ratings_count>
+  <text_reviews_count type="integer">7</text_reviews_count>
+  <original_publication_year type="integer">2012</original_publication_year>
+  <original_publication_month type="integer">12</original_publication_month>
+  <original_publication_day type="integer">21</original_publication_day>
+  <average_rating>3.46</average_rating>
+  <best_book type="Book">
+    <id type="integer">17561547</id>
+    <title>Fifty Shades of Grey Tentacles</title>
+    <author>
+      <id type="integer">6950837</id>
+      <name>Anita Dobs</name>
+    </author>
+    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1362625925l/17561547._SX98_.jpg</image_url>
+    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1362625925l/17561547._SX50_.jpg</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">22384716</id>
+  <books_count type="integer">1</books_count>
+  <ratings_count type="integer">24</ratings_count>
+  <text_reviews_count type="integer">0</text_reviews_count>
+  <original_publication_year type="integer">2012</original_publication_year>
+  <original_publication_month type="integer">7</original_publication_month>
+  <original_publication_day type="integer">26</original_publication_day>
+  <average_rating>4.00</average_rating>
+  <best_book type="Book">
+    <id type="integer">16282188</id>
+    <title>Over Fifty: Shades of Grey</title>
+    <author>
+      <id type="integer">5373434</id>
+      <name>Jo VonBargen</name>
+    </author>
+    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354912095l/16282188._SX98_.jpg</image_url>
+    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354912095l/16282188._SY75_.jpg</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">26125623</id>
+  <books_count type="integer">3</books_count>
+  <ratings_count type="integer">1320</ratings_count>
+  <text_reviews_count type="integer">63</text_reviews_count>
+  <original_publication_year type="integer">2012</original_publication_year>
+  <original_publication_month type="integer">6</original_publication_month>
+  <original_publication_day type="integer">19</original_publication_day>
+  <average_rating>4.02</average_rating>
+  <best_book type="Book">
+    <id type="integer">18466793</id>
+    <title>Meet Fifty Shades Continued - Fifty Shades of Grey</title>
+    <author>
+      <id type="integer">7255073</id>
+      <name>G.E.  Griffin</name>
+    </author>
+    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1378668377l/18466793._SX98_.jpg</image_url>
+    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1378668377l/18466793._SY75_.jpg</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">21534394</id>
+  <books_count type="integer">4</books_count>
+  <ratings_count type="integer">377</ratings_count>
+  <text_reviews_count type="integer">66</text_reviews_count>
+  <original_publication_year type="integer">2012</original_publication_year>
+  <original_publication_month type="integer">11</original_publication_month>
+  <original_publication_day type="integer">1</original_publication_day>
+  <average_rating>3.68</average_rating>
+  <best_book type="Book">
+    <id type="integer">15809700</id>
+    <title>Fifty Writers on Fifty Shades of Grey</title>
+    <author>
+      <id type="integer">99190</id>
+      <name>Lori Perkins</name>
+    </author>
+    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347135451l/15809700._SX98_.jpg</image_url>
+    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347135451l/15809700._SX50_.jpg</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">21553746</id>
+  <books_count type="integer">2</books_count>
+  <ratings_count type="integer">12</ratings_count>
+  <text_reviews_count type="integer">1</text_reviews_count>
+  <original_publication_year type="integer">2012</original_publication_year>
+  <original_publication_month type="integer">11</original_publication_month>
+  <original_publication_day type="integer">6</original_publication_day>
+  <average_rating>3.67</average_rating>
+  <best_book type="Book">
+    <id type="integer">15823285</id>
+    <title>Fifty Shades of Grey Cats</title>
+    <author>
+      <id type="integer">6467619</id>
+      <name>E.L. Gato</name>
+    </author>
+    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">44423359</id>
+  <books_count type="integer">2</books_count>
+  <ratings_count type="integer">8</ratings_count>
+  <text_reviews_count type="integer">2</text_reviews_count>
+  <original_publication_year type="integer">2015</original_publication_year>
+  <original_publication_month type="integer">1</original_publication_month>
+  <original_publication_day type="integer">21</original_publication_day>
+  <average_rating>4.62</average_rating>
+  <best_book type="Book">
+    <id type="integer">24789597</id>
+    <title>50 Shades of Grey Paper</title>
+    <author>
+      <id type="integer">6718454</id>
+      <name>Chris Green</name>
+    </author>
+    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">24467637</id>
+  <books_count type="integer">1</books_count>
+  <ratings_count type="integer">135</ratings_count>
+  <text_reviews_count type="integer">0</text_reviews_count>
+  <original_publication_year type="integer">2013</original_publication_year>
+  <original_publication_month type="integer">2</original_publication_month>
+  <original_publication_day type="integer">24</original_publication_day>
+  <average_rating>4.11</average_rating>
+  <best_book type="Book">
+    <id type="integer">17554561</id>
+    <title>The Real Fifty Shades of Grey</title>
+    <author>
+      <id type="integer">6978484</id>
+      <name>M.R. Jackman</name>
+    </author>
+    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">44347495</id>
+  <books_count type="integer">1</books_count>
+  <ratings_count type="integer">6</ratings_count>
+  <text_reviews_count type="integer">0</text_reviews_count>
+  <original_publication_year type="integer">2015</original_publication_year>
+  <original_publication_month type="integer">1</original_publication_month>
+  <original_publication_day type="integer">27</original_publication_day>
+  <average_rating>4.83</average_rating>
+  <best_book type="Book">
+    <id type="integer">24721645</id>
+    <title>Fifty Shades of Grey: Infedility: Fifty Shades of Grey movie and trilogy novel</title>
+    <author>
+      <id type="integer">7980663</id>
+      <name>Ethan Grey</name>
+    </author>
+    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">21396318</id>
+  <books_count type="integer">1</books_count>
+  <ratings_count type="integer">39</ratings_count>
+  <text_reviews_count type="integer">4</text_reviews_count>
+  <original_publication_year type="integer">2012</original_publication_year>
+  <original_publication_month type="integer">5</original_publication_month>
+  <original_publication_day type="integer">1</original_publication_day>
+  <average_rating>3.67</average_rating>
+  <best_book type="Book">
+    <id type="integer">15722328</id>
+    <title>Fifty Shades of Grey and Zombies</title>
+    <author>
+      <id type="integer">5777613</id>
+      <name>Grey West</name>
+    </author>
+    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1340658695l/15722328._SX98_.jpg</image_url>
+    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1340658695l/15722328._SY75_.jpg</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">27091535</id>
+  <books_count type="integer">3</books_count>
+  <ratings_count type="integer">166</ratings_count>
+  <text_reviews_count type="integer">16</text_reviews_count>
+  <original_publication_year type="integer">2013</original_publication_year>
+  <original_publication_month type="integer">2</original_publication_month>
+  <original_publication_day type="integer">10</original_publication_day>
+  <average_rating>3.64</average_rating>
+  <best_book type="Book">
+    <id type="integer">19065715</id>
+    <title>Fifty Shades of Fifty Shades of Grey</title>
+    <author>
+      <id type="integer">6566089</id>
+      <name>Riley J. Ford</name>
+    </author>
+    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">67764060</id>
+  <books_count type="integer">1</books_count>
+  <ratings_count type="integer">1970</ratings_count>
+  <text_reviews_count type="integer">58</text_reviews_count>
+  <original_publication_year type="integer" nil="true"/>
+  <original_publication_month type="integer" nil="true"/>
+  <original_publication_day type="integer" nil="true"/>
+  <average_rating>4.17</average_rating>
+  <best_book type="Book">
+    <id type="integer">17620956</id>
+    <title>Fifty Shades of Grey, Inner Goddess: A Journal</title>
+    <author>
+      <id type="integer">4725841</id>
+      <name>E.L. James</name>
+    </author>
+    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1363837247l/17620956._SX98_.jpg</image_url>
+    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1363837247l/17620956._SX50_.jpg</small_image_url>
+  </best_book>
+</work>
+
+    </results>
+</search>
+
+</GoodreadsResponse>

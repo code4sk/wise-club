@@ -5,7 +5,7 @@ from user.models import *
 from django.views.generic import View
 from django.contrib.auth import authenticate, login
 from django.shortcuts import redirect, reverse
-from .utils import load_books_isbn, store_books
+from .utils import load_books_isbn, store_books, search_book
 
 isbns = ['0399590595', '1982110562', '0735219095', '0062963678', '0525536612', '0385543786', '1501190628',
          '1250265703', '0062200674', '1538731339', '0399181393', '0451494342', '1629996297', '0525535276',
@@ -47,6 +47,13 @@ class Library(View):
             valid_user = "True"
         return render(request, 'library/library.html', {'books': books, 'valid_user': valid_user,
                                                         'timer': timer, 'error': error, 'all_users': all_users})
+
+
+class SearchBook(View):
+    def get(self, request):
+        text = request.GET.get('search')
+        books = search_book(text)
+        return render(request, 'library/search_book.html', {'books': books})
 
 
 class GenreDetail(View):

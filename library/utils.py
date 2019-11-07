@@ -2,7 +2,10 @@ from goodreads import client
 import requests
 from book.models import Book
 from author.models import Author
+from goodreads.session import OAuth1Service
 from django.template.defaultfilters import slugify
+from xml.etree import ElementTree as et
+import threading
 
 author_ids = list(Author.objects.values_list('author_id', flat=True))
 book_ids = list(Book.objects.values_list('book_id', flat=True))
@@ -10,9 +13,23 @@ consumer_key = 'ePqGSFb6Pt7Xll8EnFzQJA'
 consumer_secret = 'Y7V0YdQpwW5908NGWna8GeAQWUEP6s4IK6fAQqb0JM'
 
 
+goodreads = OAuth1Service(
+            consumer_key=consumer_key,
+            consumer_secret=consumer_secret,
+            name='goodreads',
+            request_token_url='https://www.goodreads.com/oauth/request_token',
+            authorize_url='https://www.goodreads.com/oauth/authorize',
+            access_token_url='https://www.goodreads.com/oauth/access_token',
+            base_url='https://www.goodreads.com'
+        )
+
+session = goodreads.get_session(('RCyAWcTakiGfmAcdg2jHUw',
+                                 'Tcpw1wIlc1QbbOCkRgMflEc66WDks7pj1NQ4AB4X4'))
+
+
 def create_book(b, isbn=0):
     print('come')
-    slug = slugify(b.title)
+    slug = slugify(b.title + '-' + b.gid)
     # if isbn == 0:
     b_isbn = b.gid
     # else:
@@ -78,3 +95,69 @@ def store_books():
                     book.similar_books.add(sim_b)
                     sim_b.similar_books.add(book)
         print(book)
+
+
+def load_search_xml(text):
+    data = {'q': text, 'key': consumer_key, 'search[field]': 'title'}
+    url = 'https://www.goodreads.com/search/index.xml'
+    response = session.get(url, params=data)
+    with open('library/search.xml', 'wb') as f:
+        f.write(response.content)
+
+
+def load_search_data(text):
+    load_search_xml(text)
+    books = []
+    tree = et.parse('library/search.xml')
+    root = tree.getroot()
+    for users in root.iter('results'):
+        for tag in users:
+            tag_name = tag.tag
+            if tag_name == 'work':
+                for update in tag:
+                    # print(update.tag)
+                    if update.tag == 'best_book':
+                        book = {}
+                        for book_tag in update:
+                            if book_tag.tag == 'id':
+                                book['id'] = book_tag.text
+                            if book_tag.tag == 'title':
+                                book['title'] = book_tag.text
+                            if book_tag.tag == 'image_url':
+                                book['image_url'] = book_tag.text
+                            if book_tag.tag == 'author':
+                                for props in book_tag:
+                                    if props.tag == 'id':
+                                        book['author_id'] = props.text
+                                    if props.tag == 'name':
+                                        book['author_name'] = props.text
+                        books.append(book)
+        # print(books)
+        print('------------XXXX------------')
+        return books
+
+
+class MyThread(threading.Thread):
+    def __init__(self, name, books):
+        threading.Thread.__init__(self)
+        self.name = name
+        self.books = books
+
+    def run(self):
+        gc = client.GoodreadsClient(consumer_key, consumer_secret)
+        for book in self.books:
+            if book['id'] not in book_ids:
+                b = gc.book(book['id'])
+                create_book(b)
+                print(b.title, b.authors[0].name)
+        print('END OF "{}"'.format(self.name))
+
+
+def search_book(text):
+    # gc = client.GoodreadsClient(consumer_key, consumer_secret)
+    # print(gc.search_books(text))
+    books = load_search_data(text)
+    t1 = MyThread('one', books)
+    t1.start()
+    return books
+

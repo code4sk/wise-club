@@ -1,0 +1,51 @@
+{% extends 'home/base.html' %}
+{% block body %}
+<body style="padding:0px">
+   {% include 'library/library-header.html' %}
+<div class="model-back">
+   <div class="model">
+        <!-- <h4 class="popup-head">Be The Member Of Amazing Wise Club</h4> -->
+        <h4 class="popup-head">Login To Wise Club</h4>
+        <a href="#" class="no close-svg"><img src="/static/close.svg" alt="" class="close"></a>
+        <form action="{% url 'library:library' %}" class="form" method="POST">
+            {% csrf_token %}
+            <div class="form-group">
+                <input name="name" type="text" placeholder="Username" id="name" required class="form-input lib-login-username" autocomplete="off">
+                <label for="name" class="label">Username</label>
+            </div>
+            <div class="form-group last-form-popup">
+                <input name="password" type="password" placeholder="Password" id="password" required class="form-input" autocomplete="off">
+                <label for="password" class="label">Password</label>
+            </div>
+            {% if error %}
+            <div class="error-popup"><img src="/static/error_icon.png" alt="!"><span>Incorrect username or password</span></div>
+            {%endif%}
+            <div class="btn-box">
+                <button class="btn-fire" id="btn5">Login &rarr;</button>
+            </div>
+        </form>
+    </div>
+</div>
+<main class="u-padding-top-medium u-padding-bottom-medium home" style="padding-top: 180px">
+    <div class="grid-center">
+    <div class="grid">
+        {% for book in books %}
+        <div class="grid__item">
+            <a href="{% url  'book:detail' slug='sda'%}">
+            <div class="card">
+                <img class="card__image" src={{book.image_url}} alt="IMAGE">
+                <div class="details">
+                    <div class="card__name"><span class="span__name">{{book.title}}</span></div>
+                    <div class="card__author"><span class="span__author">-{{book.author_name}}</span></div>
+                </div>
+            </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+</main>
+
+{% include 'user/login_base.html' %}
+</body>
+{% endblock %}
