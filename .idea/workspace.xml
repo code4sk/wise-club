@@ -3,28 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="8a9fc663-ae91-4658-af90-76ede61a8373" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/author/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/author/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/templates/book/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/book/templates/book/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/home/static/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/home.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/home/static/css/home.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learn/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/utils/view_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/utils/view_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/search.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library/templates/library/library-header.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/templates/library/library-header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/templates/library/library.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/templates/library/library.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/templates/library/search_book.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/templates/library/search_book.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/.sass-cache/3847af69b7794d82002e71c4bf3a55646ff61366/_comment-box.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/sass/.sass-cache/3847af69b7794d82002e71c4bf3a55646ff61366/_comment-box.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/.sass-cache/a7bcfd16d57bc78d2f2bb65b88377e533d7fe7af/_base.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/sass/.sass-cache/a7bcfd16d57bc78d2f2bb65b88377e533d7fe7af/_base.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/.sass-cache/f01ba9b6b903e50fedf115bdde12138a0165d583/_library-header.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/sass/.sass-cache/f01ba9b6b903e50fedf115bdde12138a0165d583/_library-header.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/base/_base.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/base/_base.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/components/_comment-box.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_comment-box.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/layout/_library-header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/layout/_library-header.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/pages/detail.sass" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user/shelf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/shelf.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/templates/user/shelves.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/user/shelves.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/user.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +43,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../good" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">

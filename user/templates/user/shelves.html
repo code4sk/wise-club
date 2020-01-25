@@ -23,8 +23,8 @@
          <table>
          {% for review in reviews %}
          <tr class="single-book">
-            <td><a href="{% url 'book:detail' slug=review.book.slug %}"><img class="book-item book-image" src={{review.book.image}} alt=""></a></td>
-            <td><div class="book-item book-title"><a href="{% url 'book:detail' slug=review.book.slug %}" class="book-link">{{review.book.title}}</a></div></td>
+            <td><a href="{% url 'book:detail' book_id=review.book.book_id %}"><img class="book-item book-image" src={{review.book.image}} alt=""></a></td>
+            <td><div class="book-item book-title"><a href="{% url 'book:detail' book_id=review.book.book_id %}" class="book-link">{{review.book.title}}</a></div></td>
             <td><div class="book-item book-authors">
                {% for author in review.book.author.all %}
                <a href="{% url 'author:author' slug=author.slug %}" class="book-link">{{author.name}}</a>
@@ -32,6 +32,7 @@
             </div></td>
             <td><div class="book-item average-rating">{{review.book.average_rating}}</div></td>
             <td><div class="book-item my-review-rating">
+                {% if review.rating != 0 %}
                   {% for i in '12345' %}
                   {% if i == review.rating|slugify %}
                   <span class="noOfStar"></span>
@@ -39,6 +40,14 @@
                   <span></span>
                   {% endif %}
                   {% endfor %}
+                {% else %}
+                <span class="noOfStar" style="visibility:hidden"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                {% endif %}
             </div></td>
             <td><div class="book-item shelf">{{review.shelf.name}}</div></td>
             <td><div class="book-item body">{{review.body|safe}}</div></td>

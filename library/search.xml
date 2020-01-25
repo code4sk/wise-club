@@ -6,112 +6,49 @@
     <method><![CDATA[search_index]]></method>
   </Request>
   <search>
-  <query><![CDATA[fifty shades of grey]]></query>
+  <query><![CDATA[angels and demons]]></query>
     <results-start>1</results-start>
-    <results-end>19</results-end>
-    <total-results>351</total-results>
+    <results-end>20</results-end>
+    <total-results>513</total-results>
     <source>Goodreads</source>
-    <query-time-seconds>0.20</query-time-seconds>
+    <query-time-seconds>1.71</query-time-seconds>
     <results>
         <work>
-  <id type="integer">15732562</id>
-  <books_count type="integer">200</books_count>
-  <ratings_count type="integer">1715796</ratings_count>
-  <text_reviews_count type="integer">77378</text_reviews_count>
-  <original_publication_year type="integer">2011</original_publication_year>
-  <original_publication_month type="integer">6</original_publication_month>
-  <original_publication_day type="integer">20</original_publication_day>
-  <average_rating>3.67</average_rating>
-  <best_book type="Book">
-    <id type="integer">10818853</id>
-    <title>Fifty Shades of Grey (Fifty Shades, #1)</title>
-    <author>
-      <id type="integer">4725841</id>
-      <name>E.L. James</name>
-    </author>
-    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385207843l/10818853._SX98_.jpg</image_url>
-    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385207843l/10818853._SX50_.jpg</small_image_url>
-  </best_book>
-</work>
-
-        <work>
-  <id type="integer">21838254</id>
-  <books_count type="integer">3</books_count>
-  <ratings_count type="integer">424</ratings_count>
-  <text_reviews_count type="integer">27</text_reviews_count>
-  <original_publication_year type="integer">2012</original_publication_year>
-  <original_publication_month type="integer">11</original_publication_month>
-  <original_publication_day type="integer">1</original_publication_day>
-  <average_rating>3.75</average_rating>
-  <best_book type="Book">
-    <id type="integer">16053753</id>
-    <title>50 Shades of Grey Matter</title>
-    <author>
-      <id type="integer">209883</id>
-      <name>Karl Kruszelnicki</name>
-    </author>
-    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365681322l/16053753._SX98_.jpg</image_url>
-    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365681322l/16053753._SY75_.jpg</small_image_url>
-  </best_book>
-</work>
-
-        <work>
-  <id type="integer">55258006</id>
-  <books_count type="integer">2</books_count>
-  <ratings_count type="integer">230</ratings_count>
-  <text_reviews_count type="integer">1</text_reviews_count>
-  <original_publication_year type="integer" nil="true"/>
-  <original_publication_month type="integer" nil="true"/>
-  <original_publication_day type="integer" nil="true"/>
-  <average_rating>4.10</average_rating>
-  <best_book type="Book">
-    <id type="integer">25689995</id>
-    <title>Fifty Shades of Grey &amp; Grey</title>
-    <author>
-      <id type="integer">4725841</id>
-      <name>E.L. James</name>
-    </author>
-    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1486656789l/25689995._SX98_.jpg</image_url>
-    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1486656789l/25689995._SY75_.jpg</small_image_url>
-  </best_book>
-</work>
-
-        <work>
-  <id type="integer">54920130</id>
+  <id type="integer">27349564</id>
   <books_count type="integer">1</books_count>
-  <ratings_count type="integer">0</ratings_count>
+  <ratings_count type="integer">39</ratings_count>
+  <text_reviews_count type="integer">1</text_reviews_count>
+  <original_publication_year type="integer">2012</original_publication_year>
+  <original_publication_month type="integer">9</original_publication_month>
+  <original_publication_day type="integer">28</original_publication_day>
+  <average_rating>4.08</average_rating>
+  <best_book type="Book">
+    <id type="integer">19300425</id>
+    <title>Angels and Demons</title>
+    <author>
+      <id type="integer">151521</id>
+      <name>Benny Hinn</name>
+    </author>
+    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">41408020</id>
+  <books_count type="integer">1</books_count>
+  <ratings_count type="integer">3</ratings_count>
   <text_reviews_count type="integer">0</text_reviews_count>
-  <original_publication_year type="integer" nil="true"/>
-  <original_publication_month type="integer" nil="true"/>
-  <original_publication_day type="integer" nil="true"/>
-  <average_rating type="float">0.0</average_rating>
-  <best_book type="Book">
-    <id type="integer">33949709</id>
-    <title>Fifty Shades of Grey Memes:Hilarious,Funny,LOL,Amusing Fifty Shades of Grey Memes</title>
-    <author>
-      <id type="integer">1642552</id>
-      <name>Karl Berry</name>
-    </author>
-    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
-    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
-  </best_book>
-</work>
-
-        <work>
-  <id type="integer">43230487</id>
-  <books_count type="integer">19</books_count>
-  <ratings_count type="integer">63</ratings_count>
-  <text_reviews_count type="integer">3</text_reviews_count>
   <original_publication_year type="integer">2014</original_publication_year>
-  <original_publication_month type="integer">11</original_publication_month>
-  <original_publication_day type="integer">24</original_publication_day>
-  <average_rating>3.94</average_rating>
+  <original_publication_month type="integer">4</original_publication_month>
+  <original_publication_day type="integer">18</original_publication_day>
+  <average_rating>3.33</average_rating>
   <best_book type="Book">
-    <id type="integer">23624937</id>
-    <title>MY 50 SHADES OF GREY</title>
+    <id type="integer">22073224</id>
+    <title>Angels and Demons (Angels and Demons Series)</title>
     <author>
-      <id type="integer">7413534</id>
-      <name>Mike Valasek</name>
+      <id type="integer">7871083</id>
+      <name>Arnie Lightning</name>
     </author>
     <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
     <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
@@ -119,209 +56,83 @@
 </work>
 
         <work>
-  <id type="integer">22382558</id>
-  <books_count type="integer">2</books_count>
-  <ratings_count type="integer">212</ratings_count>
-  <text_reviews_count type="integer">25</text_reviews_count>
-  <original_publication_year type="integer">2012</original_publication_year>
+  <id type="integer">3505077</id>
+  <books_count type="integer">9</books_count>
+  <ratings_count type="integer">4079</ratings_count>
+  <text_reviews_count type="integer">120</text_reviews_count>
+  <original_publication_year type="integer">2008</original_publication_year>
   <original_publication_month type="integer">11</original_publication_month>
-  <original_publication_day type="integer">1</original_publication_day>
-  <average_rating>4.00</average_rating>
+  <original_publication_day type="integer">5</original_publication_day>
+  <average_rating>4.07</average_rating>
   <best_book type="Book">
-    <id type="integer">16280847</id>
-    <title>The Fifty Shades of Grey Phenomena</title>
+    <id type="integer">3463792</id>
+    <title>X-Force, Volume 1: Angels And Demons</title>
     <author>
-      <id type="integer">897415</id>
-      <name>Chloe Thurlow</name>
+      <id type="integer">38492</id>
+      <name>Craig Kyle</name>
     </author>
-    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354885877l/16280847._SX98_.jpg</image_url>
-    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354885877l/16280847._SX50_.jpg</small_image_url>
+    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1438460466l/3463792._SX98_.jpg</image_url>
+    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1438460466l/3463792._SY75_.jpg</small_image_url>
   </best_book>
 </work>
 
         <work>
-  <id type="integer">47866463</id>
-  <books_count type="integer">1</books_count>
-  <ratings_count type="integer">8</ratings_count>
-  <text_reviews_count type="integer">1</text_reviews_count>
-  <original_publication_year type="integer" nil="true"/>
-  <original_publication_month type="integer" nil="true"/>
-  <original_publication_day type="integer" nil="true"/>
-  <average_rating>4.50</average_rating>
-  <best_book type="Book">
-    <id type="integer">27874336</id>
-    <title>Fifty Shades of Greys</title>
-    <author>
-      <id type="integer">6575812</id>
-      <name>Aurelio Voltaire</name>
-    </author>
-    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1448157796l/27874336._SX98_.jpg</image_url>
-    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1448157796l/27874336._SX50_.jpg</small_image_url>
-  </best_book>
-</work>
-
-        <work>
-  <id type="integer">44708046</id>
+  <id type="integer">26126891</id>
   <books_count type="integer">3</books_count>
   <ratings_count type="integer">17</ratings_count>
-  <text_reviews_count type="integer">4</text_reviews_count>
-  <original_publication_year type="integer">2015</original_publication_year>
-  <original_publication_month type="integer">2</original_publication_month>
-  <original_publication_day type="integer">18</original_publication_day>
-  <average_rating>4.12</average_rating>
+  <text_reviews_count type="integer">3</text_reviews_count>
+  <original_publication_year type="integer">2002</original_publication_year>
+  <original_publication_month type="integer">9</original_publication_month>
+  <original_publication_day type="integer">10</original_publication_day>
+  <average_rating>3.82</average_rating>
   <best_book type="Book">
-    <id type="integer">25210469</id>
-    <title>Fifty Shades of Grey Fedora</title>
+    <id type="integer">18467434</id>
+    <title>Angels and Demons</title>
     <author>
-      <id type="integer">5092</id>
-      <name>Robert J. Randisi</name>
+      <id type="integer">1250965</id>
+      <name>R.C. Sproul</name>
     </author>
-    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427225981l/25210469._SX98_.jpg</image_url>
-    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1427225981l/25210469._SX50_.jpg</small_image_url>
+    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1378802413l/18467434._SX98_.jpg</image_url>
+    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1378802413l/18467434._SX50_.jpg</small_image_url>
   </best_book>
 </work>
 
         <work>
-  <id type="integer">24492622</id>
+  <id type="integer">45166536</id>
+  <books_count type="integer">1</books_count>
+  <ratings_count type="integer">34</ratings_count>
+  <text_reviews_count type="integer">3</text_reviews_count>
+  <original_publication_year type="integer">2015</original_publication_year>
+  <original_publication_month type="integer">4</original_publication_month>
+  <original_publication_day type="integer">16</original_publication_day>
+  <average_rating>2.88</average_rating>
+  <best_book type="Book">
+    <id type="integer">25410973</id>
+    <title>Mystery: Angels and Demons</title>
+    <author>
+      <id type="integer">13828912</id>
+      <name>S.C. King</name>
+    </author>
+    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">5177</id>
   <books_count type="integer">5</books_count>
-  <ratings_count type="integer">41</ratings_count>
+  <ratings_count type="integer">88</ratings_count>
   <text_reviews_count type="integer">7</text_reviews_count>
-  <original_publication_year type="integer">2012</original_publication_year>
-  <original_publication_month type="integer">12</original_publication_month>
-  <original_publication_day type="integer">21</original_publication_day>
-  <average_rating>3.46</average_rating>
-  <best_book type="Book">
-    <id type="integer">17561547</id>
-    <title>Fifty Shades of Grey Tentacles</title>
-    <author>
-      <id type="integer">6950837</id>
-      <name>Anita Dobs</name>
-    </author>
-    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1362625925l/17561547._SX98_.jpg</image_url>
-    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1362625925l/17561547._SX50_.jpg</small_image_url>
-  </best_book>
-</work>
-
-        <work>
-  <id type="integer">22384716</id>
-  <books_count type="integer">1</books_count>
-  <ratings_count type="integer">24</ratings_count>
-  <text_reviews_count type="integer">0</text_reviews_count>
-  <original_publication_year type="integer">2012</original_publication_year>
-  <original_publication_month type="integer">7</original_publication_month>
-  <original_publication_day type="integer">26</original_publication_day>
-  <average_rating>4.00</average_rating>
-  <best_book type="Book">
-    <id type="integer">16282188</id>
-    <title>Over Fifty: Shades of Grey</title>
-    <author>
-      <id type="integer">5373434</id>
-      <name>Jo VonBargen</name>
-    </author>
-    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354912095l/16282188._SX98_.jpg</image_url>
-    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1354912095l/16282188._SY75_.jpg</small_image_url>
-  </best_book>
-</work>
-
-        <work>
-  <id type="integer">26125623</id>
-  <books_count type="integer">3</books_count>
-  <ratings_count type="integer">1320</ratings_count>
-  <text_reviews_count type="integer">63</text_reviews_count>
-  <original_publication_year type="integer">2012</original_publication_year>
-  <original_publication_month type="integer">6</original_publication_month>
-  <original_publication_day type="integer">19</original_publication_day>
-  <average_rating>4.02</average_rating>
-  <best_book type="Book">
-    <id type="integer">18466793</id>
-    <title>Meet Fifty Shades Continued - Fifty Shades of Grey</title>
-    <author>
-      <id type="integer">7255073</id>
-      <name>G.E.  Griffin</name>
-    </author>
-    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1378668377l/18466793._SX98_.jpg</image_url>
-    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1378668377l/18466793._SY75_.jpg</small_image_url>
-  </best_book>
-</work>
-
-        <work>
-  <id type="integer">21534394</id>
-  <books_count type="integer">4</books_count>
-  <ratings_count type="integer">377</ratings_count>
-  <text_reviews_count type="integer">66</text_reviews_count>
-  <original_publication_year type="integer">2012</original_publication_year>
-  <original_publication_month type="integer">11</original_publication_month>
-  <original_publication_day type="integer">1</original_publication_day>
-  <average_rating>3.68</average_rating>
-  <best_book type="Book">
-    <id type="integer">15809700</id>
-    <title>Fifty Writers on Fifty Shades of Grey</title>
-    <author>
-      <id type="integer">99190</id>
-      <name>Lori Perkins</name>
-    </author>
-    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347135451l/15809700._SX98_.jpg</image_url>
-    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347135451l/15809700._SX50_.jpg</small_image_url>
-  </best_book>
-</work>
-
-        <work>
-  <id type="integer">21553746</id>
-  <books_count type="integer">2</books_count>
-  <ratings_count type="integer">12</ratings_count>
-  <text_reviews_count type="integer">1</text_reviews_count>
-  <original_publication_year type="integer">2012</original_publication_year>
-  <original_publication_month type="integer">11</original_publication_month>
-  <original_publication_day type="integer">6</original_publication_day>
-  <average_rating>3.67</average_rating>
-  <best_book type="Book">
-    <id type="integer">15823285</id>
-    <title>Fifty Shades of Grey Cats</title>
-    <author>
-      <id type="integer">6467619</id>
-      <name>E.L. Gato</name>
-    </author>
-    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
-    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
-  </best_book>
-</work>
-
-        <work>
-  <id type="integer">44423359</id>
-  <books_count type="integer">2</books_count>
-  <ratings_count type="integer">8</ratings_count>
-  <text_reviews_count type="integer">2</text_reviews_count>
-  <original_publication_year type="integer">2015</original_publication_year>
+  <original_publication_year type="integer">2003</original_publication_year>
   <original_publication_month type="integer">1</original_publication_month>
-  <original_publication_day type="integer">21</original_publication_day>
-  <average_rating>4.62</average_rating>
-  <best_book type="Book">
-    <id type="integer">24789597</id>
-    <title>50 Shades of Grey Paper</title>
-    <author>
-      <id type="integer">6718454</id>
-      <name>Chris Green</name>
-    </author>
-    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
-    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
-  </best_book>
-</work>
-
-        <work>
-  <id type="integer">24467637</id>
-  <books_count type="integer">1</books_count>
-  <ratings_count type="integer">135</ratings_count>
-  <text_reviews_count type="integer">0</text_reviews_count>
-  <original_publication_year type="integer">2013</original_publication_year>
-  <original_publication_month type="integer">2</original_publication_month>
-  <original_publication_day type="integer">24</original_publication_day>
+  <original_publication_day type="integer">1</original_publication_day>
   <average_rating>4.11</average_rating>
   <best_book type="Book">
-    <id type="integer">17554561</id>
-    <title>The Real Fifty Shades of Grey</title>
+    <id type="integer">963</id>
+    <title>Angels and Demons in Art</title>
     <author>
-      <id type="integer">6978484</id>
-      <name>M.R. Jackman</name>
+      <id type="integer">633</id>
+      <name>Rosa Giorgi</name>
     </author>
     <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
     <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
@@ -329,62 +140,230 @@
 </work>
 
         <work>
-  <id type="integer">44347495</id>
+  <id type="integer">48292572</id>
+  <books_count type="integer">12</books_count>
+  <ratings_count type="integer">250</ratings_count>
+  <text_reviews_count type="integer">23</text_reviews_count>
+  <original_publication_year type="integer">2011</original_publication_year>
+  <original_publication_month type="integer">2</original_publication_month>
+  <original_publication_day type="integer">8</original_publication_day>
+  <average_rating>3.88</average_rating>
+  <best_book type="Book">
+    <id type="integer">7733244</id>
+    <title>Angel Slayer (Of Angels and Demons #1)</title>
+    <author>
+      <id type="integer">117339</id>
+      <name>Michele Hauf</name>
+    </author>
+    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">13072754</id>
+  <books_count type="integer">2</books_count>
+  <ratings_count type="integer">301</ratings_count>
+  <text_reviews_count type="integer">29</text_reviews_count>
+  <original_publication_year type="integer">2010</original_publication_year>
+  <original_publication_month type="integer">5</original_publication_month>
+  <original_publication_day type="integer">15</original_publication_day>
+  <average_rating>3.43</average_rating>
+  <best_book type="Book">
+    <id type="integer">8225495</id>
+    <title>My Avenging Angel (Angels and Demons #1)</title>
+    <author>
+      <id type="integer">3372717</id>
+      <name>Madelyn Ford</name>
+    </author>
+    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365985415l/8225495._SX98_.jpg</image_url>
+    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365985415l/8225495._SX50_.jpg</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">46141994</id>
+  <books_count type="integer">1</books_count>
+  <ratings_count type="integer">74</ratings_count>
+  <text_reviews_count type="integer">1</text_reviews_count>
+  <original_publication_year type="integer">2015</original_publication_year>
+  <original_publication_month type="integer">8</original_publication_month>
+  <original_publication_day type="integer">26</original_publication_day>
+  <average_rating>3.92</average_rating>
+  <best_book type="Book">
+    <id type="integer">26176838</id>
+    <title>Broken Angels (Angels and Demons, #1)</title>
+    <author>
+      <id type="integer">8447098</id>
+      <name>Brenda L. Harper</name>
+    </author>
+    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">13972608</id>
+  <books_count type="integer">12</books_count>
+  <ratings_count type="integer">167</ratings_count>
+  <text_reviews_count type="integer">16</text_reviews_count>
+  <original_publication_year type="integer">2011</original_publication_year>
+  <original_publication_month type="integer">3</original_publication_month>
+  <original_publication_day type="integer">22</original_publication_day>
+  <average_rating>3.87</average_rating>
+  <best_book type="Book">
+    <id type="integer">9094273</id>
+    <title>Fallen (Of Angels and Demons #2)</title>
+    <author>
+      <id type="integer">117339</id>
+      <name>Michele Hauf</name>
+    </author>
+    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1302961718l/9094273._SX98_.jpg</image_url>
+    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1302961718l/9094273._SY75_.jpg</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">45393979</id>
+  <books_count type="integer">1</books_count>
+  <ratings_count type="integer">67</ratings_count>
+  <text_reviews_count type="integer">2</text_reviews_count>
+  <original_publication_year type="integer">2015</original_publication_year>
+  <original_publication_month type="integer">5</original_publication_month>
+  <original_publication_day type="integer">21</original_publication_day>
+  <average_rating>3.58</average_rating>
+  <best_book type="Book">
+    <id type="integer">25589616</id>
+    <title>ANGELS and DEMONS: Book One</title>
+    <author>
+      <id type="integer">14017912</id>
+      <name>Melody John</name>
+    </author>
+    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">24585562</id>
+  <books_count type="integer">5</books_count>
+  <ratings_count type="integer">22668</ratings_count>
+  <text_reviews_count type="integer">537</text_reviews_count>
+  <original_publication_year type="integer">2003</original_publication_year>
+  <original_publication_month type="integer">6</original_publication_month>
+  <original_publication_day type="integer">1</original_publication_day>
+  <average_rating>4.22</average_rating>
+  <best_book type="Book">
+    <id type="integer">643301</id>
+    <title>Angels and Demons / The Da Vinci Code (Robert Langdon, #1-2)</title>
+    <author>
+      <id type="integer">630</id>
+      <name>Dan Brown</name>
+    </author>
+    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">40517922</id>
+  <books_count type="integer">1</books_count>
+  <ratings_count type="integer">8</ratings_count>
+  <text_reviews_count type="integer">0</text_reviews_count>
+  <original_publication_year type="integer">2012</original_publication_year>
+  <original_publication_month type="integer">5</original_publication_month>
+  <original_publication_day type="integer">24</original_publication_day>
+  <average_rating>4.00</average_rating>
+  <best_book type="Book">
+    <id type="integer">21175750</id>
+    <title>Angels and Demons</title>
+    <author>
+      <id type="integer">300784</id>
+      <name>Michael Patella</name>
+    </author>
+    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">22021370</id>
+  <books_count type="integer">4</books_count>
+  <ratings_count type="integer">48</ratings_count>
+  <text_reviews_count type="integer">28</text_reviews_count>
+  <original_publication_year type="integer">2012</original_publication_year>
+  <original_publication_month type="integer">11</original_publication_month>
+  <original_publication_day type="integer">20</original_publication_day>
+  <average_rating>4.54</average_rating>
+  <best_book type="Book">
+    <id type="integer">24843007</id>
+    <title>Devada (Angels and Demons #1)</title>
+    <author>
+      <id type="integer">5211915</id>
+      <name>Tich Brewster</name>
+    </author>
+    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1423156317l/24843007._SX98_.jpg</image_url>
+    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1423156317l/24843007._SY75_.jpg</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">53565799</id>
+  <books_count type="integer">2</books_count>
+  <ratings_count type="integer">13</ratings_count>
+  <text_reviews_count type="integer">8</text_reviews_count>
+  <original_publication_year type="integer" nil="true"/>
+  <original_publication_month type="integer" nil="true"/>
+  <original_publication_day type="integer" nil="true"/>
+  <average_rating>4.38</average_rating>
+  <best_book type="Book">
+    <id type="integer">32943226</id>
+    <title>Quiver (Angels and Demons #2)</title>
+    <author>
+      <id type="integer">544558</id>
+      <name>Beth  Green</name>
+    </author>
+    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">19098209</id>
   <books_count type="integer">1</books_count>
   <ratings_count type="integer">6</ratings_count>
   <text_reviews_count type="integer">0</text_reviews_count>
-  <original_publication_year type="integer">2015</original_publication_year>
-  <original_publication_month type="integer">1</original_publication_month>
-  <original_publication_day type="integer">27</original_publication_day>
-  <average_rating>4.83</average_rating>
-  <best_book type="Book">
-    <id type="integer">24721645</id>
-    <title>Fifty Shades of Grey: Infedility: Fifty Shades of Grey movie and trilogy novel</title>
-    <author>
-      <id type="integer">7980663</id>
-      <name>Ethan Grey</name>
-    </author>
-    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
-    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
-  </best_book>
-</work>
-
-        <work>
-  <id type="integer">21396318</id>
-  <books_count type="integer">1</books_count>
-  <ratings_count type="integer">39</ratings_count>
-  <text_reviews_count type="integer">4</text_reviews_count>
   <original_publication_year type="integer">2012</original_publication_year>
-  <original_publication_month type="integer">5</original_publication_month>
-  <original_publication_day type="integer">1</original_publication_day>
-  <average_rating>3.67</average_rating>
+  <original_publication_month type="integer">6</original_publication_month>
+  <original_publication_day type="integer">26</original_publication_day>
+  <average_rating>4.50</average_rating>
   <best_book type="Book">
-    <id type="integer">15722328</id>
-    <title>Fifty Shades of Grey and Zombies</title>
+    <id type="integer">13536494</id>
+    <title>Angel and Demon</title>
     <author>
-      <id type="integer">5777613</id>
-      <name>Grey West</name>
+      <id type="integer">22690</id>
+      <name>Stephen Roche</name>
     </author>
-    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1340658695l/15722328._SX98_.jpg</image_url>
-    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1340658695l/15722328._SY75_.jpg</small_image_url>
+    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1345767811l/13536494._SX98_.jpg</image_url>
+    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1345767811l/13536494._SY75_.jpg</small_image_url>
   </best_book>
 </work>
 
         <work>
-  <id type="integer">27091535</id>
-  <books_count type="integer">3</books_count>
-  <ratings_count type="integer">166</ratings_count>
-  <text_reviews_count type="integer">16</text_reviews_count>
-  <original_publication_year type="integer">2013</original_publication_year>
-  <original_publication_month type="integer">2</original_publication_month>
-  <original_publication_day type="integer">10</original_publication_day>
-  <average_rating>3.64</average_rating>
+  <id type="integer">62842855</id>
+  <books_count type="integer">2</books_count>
+  <ratings_count type="integer">578</ratings_count>
+  <text_reviews_count type="integer">114</text_reviews_count>
+  <original_publication_year type="integer">2018</original_publication_year>
+  <original_publication_month type="integer">6</original_publication_month>
+  <original_publication_day type="integer">9</original_publication_day>
+  <average_rating>4.30</average_rating>
   <best_book type="Book">
-    <id type="integer">19065715</id>
-    <title>Fifty Shades of Fifty Shades of Grey</title>
+    <id type="integer">40506516</id>
+    <title>Angels and Demons (Saint's Justice MC #1)</title>
     <author>
-      <id type="integer">6566089</id>
-      <name>Riley J. Ford</name>
+      <id type="integer">7341481</id>
+      <name>A.C. Bextor</name>
     </author>
     <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
     <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
@@ -392,23 +371,65 @@
 </work>
 
         <work>
-  <id type="integer">67764060</id>
+  <id type="integer">50636010</id>
   <books_count type="integer">1</books_count>
-  <ratings_count type="integer">1970</ratings_count>
-  <text_reviews_count type="integer">58</text_reviews_count>
+  <ratings_count type="integer">5</ratings_count>
+  <text_reviews_count type="integer">0</text_reviews_count>
   <original_publication_year type="integer" nil="true"/>
   <original_publication_month type="integer" nil="true"/>
   <original_publication_day type="integer" nil="true"/>
-  <average_rating>4.17</average_rating>
+  <average_rating>4.40</average_rating>
   <best_book type="Book">
-    <id type="integer">17620956</id>
-    <title>Fifty Shades of Grey, Inner Goddess: A Journal</title>
+    <id type="integer">30189270</id>
+    <title>Angels and Demons</title>
     <author>
-      <id type="integer">4725841</id>
-      <name>E.L. James</name>
+      <id type="integer">15256121</id>
+      <name>HARRY BOOSALIS</name>
     </author>
-    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1363837247l/17620956._SX98_.jpg</image_url>
-    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1363837247l/17620956._SX50_.jpg</small_image_url>
+    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1463272792l/30189270._SX98_.jpg</image_url>
+    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1463272792l/30189270._SY75_.jpg</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">41861007</id>
+  <books_count type="integer">1</books_count>
+  <ratings_count type="integer">0</ratings_count>
+  <text_reviews_count type="integer">0</text_reviews_count>
+  <original_publication_year type="integer">2014</original_publication_year>
+  <original_publication_month type="integer">4</original_publication_month>
+  <original_publication_day type="integer">27</original_publication_day>
+  <average_rating type="float">0.0</average_rating>
+  <best_book type="Book">
+    <id type="integer">22437022</id>
+    <title>Angels and Demons II  (Angels and Demons Series)</title>
+    <author>
+      <id type="integer">7871083</id>
+      <name>Arnie Lightning</name>
+    </author>
+    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">39839259</id>
+  <books_count type="integer">1</books_count>
+  <ratings_count type="integer">4</ratings_count>
+  <text_reviews_count type="integer">1</text_reviews_count>
+  <original_publication_year type="integer">2010</original_publication_year>
+  <original_publication_month type="integer">3</original_publication_month>
+  <original_publication_day type="integer">23</original_publication_day>
+  <average_rating>3.75</average_rating>
+  <best_book type="Book">
+    <id type="integer">20571898</id>
+    <title>Angels and Demons</title>
+    <author>
+      <id type="integer">7604161</id>
+      <name>M.R. DeHaan</name>
+    </author>
+    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
   </best_book>
 </work>
 

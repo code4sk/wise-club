@@ -31,7 +31,7 @@
     <div class="grid">
         {% for book in books %}
         <div class="grid__item">
-            <a href="{% url  'book:detail' slug=book.slug%}">
+            <a href="{% url  'book:detail' book_id=book.book_id%}">
             <div class="card">
                 <img class="card__image" src={{book.image}} alt="IMAGE">
                 <div class="details">

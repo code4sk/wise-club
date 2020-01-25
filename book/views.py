@@ -16,10 +16,10 @@ from learn.utils import view_utils as main_utils
 
 
 class Detail(View):
-    def get(self, request, slug):
+    def get(self, request, book_id):
         try:
             valid_user = "False"
-            book = Book.objects.get(slug=slug)
+            book = Book.objects.get(book_id=book_id)
             # reviews = book_review_widget(book)
             all_users = []
             reviews = ''
@@ -49,9 +49,9 @@ class Detail(View):
         except Book.DoesNotExist:
             raise Http404
 
-    def post(self, request, slug):
+    def post(self, request, book_id):
         try:
-            book = Book.objects.get(slug=slug)
+            book = Book.objects.get(book_id=book_id)
             valid_user = "False"
             error = True
             timer = "Not Exists"
@@ -71,7 +71,7 @@ class Detail(View):
                 text = request.POST.get('text')
                 user = CustomUser.objects.filter(username=request.user.username)[0]
                 Comment.objects.create(text=text, user=user, book=book)
-                return redirect(reverse('detail', kwargs={'slug': book.slug}))
+                return redirect(reverse('detail', kwargs={'book_id': book.book_id}))
             else:
                 name = request.POST.get('name', None)
                 if not name:
@@ -97,12 +97,12 @@ class Detail(View):
 
 
 class ReviewCreate(View):
-    def post(self, request, slug):
+    def post(self, request, book_id):
         review = request.POST.get('review')
         shelf_name = request.POST.get('shelf')
         shelf = Shelf.objects.get(name=shelf_name, user=request.user)
         rating = request.POST.get('rating', 0)
-        book = Book.objects.get(slug=slug)
+        book = Book.objects.get(slug=book_id)
         response = post_review(review, shelf_name, book.book_id, rating)
         if response.status_code == 201:
             review_id = get_review_id(response)
@@ -110,7 +110,7 @@ class ReviewCreate(View):
                                       user=request.user, book=book, shelf=shelf)
             shelf.books.add(book)
             print(a.review_id)
-            return redirect(reverse('book:detail', kwargs={'slug': book.slug}))
+            return redirect(reverse('book:detail', kwargs={'book_id': book.book_id}))
         return HttpResponse('learn')
 
 

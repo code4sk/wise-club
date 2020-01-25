@@ -18,7 +18,7 @@
             <li class="lib-item lib-items lib-1"><a href="{% url 'user:sign-up' %}">Sign-up</a></li>
             <li class="lib-item lib-items lib-2"><a href="#" class="no loginPopup">Login</a></li>
             {% else %}
-            <li class="lib-item lib-4"><a href="{% url 'user:profile' user_id=request.user.user_id %}" class="lib-profile"><img class="lib-profile-image" src={{request.user.image}} alt=""><span>{{request.user.username}}</span></a></li>
+            <li class="lib-item lib-4"><a href="{% url 'user:profile' user_id=request.user.user_id %}" class="lib-profile"><img class="lib-profile-image" src={{request.user.image}} alt=""></a></li>
             <li class="lib-item lib-items lib-3"><a href="{% url 'user:logout' %}?next={{request.path}}" class="library-login">Logout</a></li>
             {% endif %}
             <!-- <li class="lib-item lib-4"><a></a></li> -->

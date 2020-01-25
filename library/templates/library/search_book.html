@@ -31,7 +31,7 @@
     <div class="grid">
         {% for book in books %}
         <div class="grid__item">
-            <a href="{% url  'book:detail' slug='sda'%}">
+            <a href="{% url  'book:detail' book_id=book.id%}">
             <div class="card">
                 <img class="card__image" src={{book.image_url}} alt="IMAGE">
                 <div class="details">
@@ -47,5 +47,13 @@
 </main>
 
 {% include 'user/login_base.html' %}
+<script>
+    // window.addEventListener('load', threadCheck)
+    // async function threadCheck(){
+    //     while('{{t1.isAlive}}' != "False"){
+    //     console.log(true);
+    // }
+    // }
+</script>
 </body>
 {% endblock %}

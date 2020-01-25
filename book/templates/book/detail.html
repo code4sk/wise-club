@@ -10,7 +10,7 @@
         <!-- <h4 class="popup-head">Be The Member Of Amazing Wise Club</h4> -->
         <h4 class="popup-head">Login To Wise Club</h4>
         <a href="#" class="no close-svg"><img src="/static/close.svg" alt="" class="close"></a>
-        <form action="{% url 'book:detail' slug=book.slug%}" class="form" method="POST">
+        <form action="{% url 'book:detail' book_id=book.book_id%}" class="form" method="POST">
             {% csrf_token %}
             <div class="form-group">
                 <input name="name" type="text" placeholder="Username" id="name" required class="form-input lib-login-username" autocomplete="off">
@@ -69,7 +69,7 @@
             </div>
         {% if not review %}
         <div class="comment-box" style="position: relative">
-            <form action="{% url 'book:review' slug=book.slug %}" method="POST" class="comment-form">
+            <form action="{% url 'book:review' book_id=book.book_id %}" method="POST" class="comment-form">
                 {% csrf_token %}
                 <h3 class="comment-box-heading">Write a review</h3>
                 <h4 class="rating-head">My Rating</h4>
@@ -125,7 +125,7 @@
             {% endif %}
         <div class="flex_similar">
         {% for book in similar_books %}
-            <a href="{% url  'book:detail' slug=book.slug%}">
+            <a href="{% url  'book:detail' book_id=book.book_id%}">
             <div class="card">
                 <img class="card__image" src={{book.image}} alt="IMAGE">
                 <div class="details">

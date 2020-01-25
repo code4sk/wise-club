@@ -16,7 +16,7 @@ def delete_review_view(book_id, redirect_to, shelf_id=7, user_id=97134500):
             review[0].delete()
         book.shelf_set.clear()
         if redirect_to == 'book':
-            return redirect(reverse('book:detail', kwargs={'slug': book.slug}))
+            return redirect(reverse('book:detail', kwargs={'book_id': book.book_id}))
         else:
             return redirect(reverse('user:shelves', kwargs={'user_id': user_id, 'shelf_id': shelf_id}))
     return HttpResponse('learn ' + str(response.status_code))

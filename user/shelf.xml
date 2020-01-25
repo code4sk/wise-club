@@ -6,14 +6,167 @@
     <method><![CDATA[review_list]]></method>
   </Request>
   
-<reviews start="1" end="6" total="6">
+<reviews start="1" end="8" total="8">
+    <review>
+  <id>3073710938</id>
+    <book>
+  <id type="integer">96358</id>
+  <isbn>0930289455</isbn>
+  <isbn13>9780930289454</isbn13>
+  <text_reviews_count type="integer">3574</text_reviews_count>
+  <uri>kca://book/amzn1.gr.book.v1.OypSD1qjRNE-aaDOdH-0Fg</uri>
+  <title>Batman: The Killing Joke</title>
+  <title_without_series>Batman: The Killing Joke</title_without_series>
+  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1346331835l/96358._SX98_.jpg</image_url>
+  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1346331835l/96358._SX50_.jpg</small_image_url>
+  <large_image_url/>
+  <link>https://www.goodreads.com/book/show/96358.Batman</link>
+  <num_pages>50</num_pages>
+  <format>Paperback</format>
+  <edition_information/>
+  <publisher>DC Comics</publisher>
+  <publication_day>1</publication_day>
+  <publication_year>1995</publication_year>
+  <publication_month>12</publication_month>
+  <average_rating>4.37</average_rating>
+  <ratings_count>154292</ratings_count>
+  <description>For the first time the Joker's origin is revealed in this tale of insanity and human perseverance. Looking to prove that any man can be pushed past his breaking point and go mad, the Joker attempts to drive Commissioner Gordon insane. &lt;br /&gt;&lt;br /&gt;After shooting and permanently paralyzing his daughter Barbara (a.k.a. Batgirl), the Joker kidnaps the commissioner and attacks his mind in hopes of breaking the man. &lt;br /&gt;&lt;br /&gt;But refusing to give up, Gordon maintains his sanity with the help of Batman in an effort to beset the madman.</description>
+<authors>
+<author>
+<id>3961</id>
+<name>Alan Moore</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1304944713p5/3961.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1304944713p2/3961.jpg]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/3961.Alan_Moore]]></link>
+<average_rating>4.23</average_rating>
+<ratings_count>1300463</ratings_count>
+<text_reviews_count>39871</text_reviews_count>
+</author>
+</authors>
+  <published>1995</published>
+<work>  <id>551787</id>
+  <uri>kca://work/amzn1.gr.work.v1.QcnbegUpnrKHEpe7mQQY2w</uri>
+</work></book>
+
+
+  <rating>0</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  
+
+<shelves>
+
+    <shelf exclusive='true' id='315510989' name='to-read' review_shelf_id='2721183277' sortable='true'></shelf>
+
+</shelves>
+
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at></started_at>
+  <read_at></read_at>
+  <date_added>Thu Dec 05 08:28:03 -0800 2019</date_added>
+  <date_updated>Thu Dec 05 08:28:03 -0800 2019</date_updated>
+  <read_count>0</read_count>
+  <body>
+  </body>
+
+  
+
+  <comments_count>0</comments_count>
+    <url><![CDATA[https://www.goodreads.com/review/show/3073710938]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/3073710938]]></link>
+    <owned>0</owned>
+</review>
+
+    <review>
+  <id>3040327687</id>
+    <book>
+  <id type="integer">10818853</id>
+  <isbn>1612130291</isbn>
+  <isbn13>9781612130293</isbn13>
+  <text_reviews_count type="integer">68495</text_reviews_count>
+  <uri>kca://book/amzn1.gr.book.v1.io4j4oTWOrRgwov3N0d0KQ</uri>
+  <title>Fifty Shades of Grey (Fifty Shades, #1)</title>
+  <title_without_series>Fifty Shades of Grey</title_without_series>
+  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385207843l/10818853._SX98_.jpg</image_url>
+  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385207843l/10818853._SX50_.jpg</small_image_url>
+  <large_image_url/>
+  <link>https://www.goodreads.com/book/show/10818853-fifty-shades-of-grey</link>
+  <num_pages>356</num_pages>
+  <format>Paperback</format>
+  <edition_information/>
+  <publisher>Vintage</publisher>
+  <publication_day>25</publication_day>
+  <publication_year>2011</publication_year>
+  <publication_month>5</publication_month>
+  <average_rating>3.67</average_rating>
+  <ratings_count>1726788</ratings_count>
+  <description>When literature student Anastasia Steele goes to interview young entrepreneur Christian Grey, she encounters a man who is beautiful, brilliant, and intimidating. The unworldly, innocent Ana is startled to realize she wants this man and, despite his enigmatic reserve, finds she is desperate to get close to him. Unable to resist Ana’s quiet beauty, wit, and independent spirit, Grey admits he wants her, too—but on his own terms.&lt;br /&gt; &lt;br /&gt;Shocked yet thrilled by Grey’s singular erotic tastes, Ana hesitates. For all the trappings of success—his multinational businesses, his vast wealth, his loving family—Grey is a man tormented by demons and consumed by the need to control. When the couple embarks on a daring, passionately physical affair, Ana discovers Christian Grey’s secrets and explores her own dark desires.&lt;br /&gt;&lt;br /&gt;Erotic, amusing, and deeply moving, the Fifty Shades Trilogy is a tale that will obsess you, possess you, and stay with you forever.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;This book is intended for mature audiences.&lt;/b&gt;</description>
+<authors>
+<author>
+<id>4725841</id>
+<name>E.L. James</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1549477398p5/4725841.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1549477398p2/4725841.jpg]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/4725841.E_L_James]]></link>
+<average_rating>3.77</average_rating>
+<ratings_count>3393315</ratings_count>
+<text_reviews_count>155846</text_reviews_count>
+</author>
+</authors>
+  <published>2011</published>
+<work>  <id>15732562</id>
+  <uri>kca://work/amzn1.gr.work.v1.O_qFmqZYBqGQFb4ExyyyCw</uri>
+</work></book>
+
+
+  <rating>0</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  
+
+<shelves>
+    <shelf name="read" exclusive="true" id="315510992" review_shelf_id= ""/>
+
+</shelves>
+
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at></started_at>
+  <read_at></read_at>
+  <date_added>Thu Nov 07 07:33:59 -0800 2019</date_added>
+  <date_updated>Thu Nov 07 07:33:59 -0800 2019</date_updated>
+  <read_count>1</read_count>
+  <body>
+  </body>
+
+  
+
+  <comments_count>0</comments_count>
+    <url><![CDATA[https://www.goodreads.com/review/show/3040327687]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/3040327687]]></link>
+    <owned>0</owned>
+</review>
+
     <review>
   <id>3039228994</id>
     <book>
   <id type="integer">30169100</id>
   <isbn>0316251305</isbn>
   <isbn13>9780316251303</isbn13>
-  <text_reviews_count type="integer">164</text_reviews_count>
+  <text_reviews_count type="integer">441</text_reviews_count>
   <uri>kca://book/amzn1.gr.book.v1.DDrItGijsO3vpw-IIISh0Q</uri>
   <title>The Burning White (Lightbringer #5)</title>
   <title_without_series>The Burning White</title_without_series>
@@ -28,8 +181,8 @@
   <publication_day>22</publication_day>
   <publication_year>2019</publication_year>
   <publication_month>10</publication_month>
-  <average_rating>4.41</average_rating>
-  <ratings_count>1826</ratings_count>
+  <average_rating>4.40</average_rating>
+  <ratings_count>5108</ratings_count>
   <description>&lt;b&gt;The nail-biting conclusion to the Lightbringer series! &lt;/b&gt;&lt;br /&gt;&lt;br /&gt;Stripped of both magical and political power, the people he once ruled told he's dead, and now imprisoned in his own magical dungeon, former Emperor Gavin Guile has no prospect of escape. But the world faces a calamity greater than the Seven Satrapies has ever seen... and only he can save it.&lt;br /&gt;&lt;br /&gt;As the armies of the White King defeat the Chromeria and old gods are born anew, the fate of worlds will come down to one question: Who is the Lightbringer?</description>
 <authors>
 <author>
@@ -44,8 +197,8 @@
 </small_image_url>
 <link><![CDATA[https://www.goodreads.com/author/show/1370283.Brent_Weeks]]></link>
 <average_rating>4.28</average_rating>
-<ratings_count>568673</ratings_count>
-<text_reviews_count>19928</text_reviews_count>
+<ratings_count>576532</ratings_count>
+<text_reviews_count>20488</text_reviews_count>
 </author>
 </authors>
   <published>2019</published>
@@ -91,7 +244,7 @@
   <id type="integer">28811019</id>
   <isbn nil="true"/>
   <isbn13 nil="true"/>
-  <text_reviews_count type="integer">3</text_reviews_count>
+  <text_reviews_count type="integer">10</text_reviews_count>
   <uri>kca://book/amzn1.gr.book.v1.3_66Ge5cLoSRJBETcA0rTg</uri>
   <title>Blood of Empire (Gods of Blood and Powder, #3)</title>
   <title_without_series>Blood of Empire</title_without_series>
@@ -106,8 +259,8 @@
   <publication_day>3</publication_day>
   <publication_year>2019</publication_year>
   <publication_month>12</publication_month>
-  <average_rating>4.48</average_rating>
-  <ratings_count>117</ratings_count>
+  <average_rating>4.47</average_rating>
+  <ratings_count>178</ratings_count>
   <description>&lt;b&gt;As the final battle approaches a sellsword, a spy, and a general must find unlikely and dangerous allies in order to turn the tides of war in this epic fantasy tale of magic and gunpowder by acclaimed author Brian McClellan.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;The Dynize have unlocked the Landfall Godstone, and Michel Bravis is tasked with returning to Greenfire Depths to do whatever he can to prevent them from using its power; from sewing dissension among the enemy ranks to rallying the Palo population.&lt;br /&gt;&lt;br /&gt;Ben Styke's invasion of Dynize is curtailed when a storm scatters his fleet. Coming ashore with just twenty lancers, he is forced to rely on brains rather than brawn - gaining new allies in a strange land on the cusp of its own internal violence.&lt;br /&gt;&lt;br /&gt;Bereft of her sorcery and physically and emotionally broken, Lady Vlora Flint now marches on Landfall at the head of an Adran army seeking vengeance against those who have conspired against her. While allied politicians seek to undo her from within, she faces insurmountable odds and Dynize's greatest general.</description>
 <authors>
 <author>
@@ -122,8 +275,8 @@
 </small_image_url>
 <link><![CDATA[https://www.goodreads.com/author/show/6524620.Brian_McClellan]]></link>
 <average_rating>4.26</average_rating>
-<ratings_count>117452</ratings_count>
-<text_reviews_count>7269</text_reviews_count>
+<ratings_count>118883</ratings_count>
+<text_reviews_count>7370</text_reviews_count>
 </author>
 </authors>
   <published>2019</published>
@@ -168,7 +321,7 @@
   <id type="integer">3</id>
   <isbn nil="true"/>
   <isbn13 nil="true"/>
-  <text_reviews_count type="integer">72193</text_reviews_count>
+  <text_reviews_count type="integer">72590</text_reviews_count>
   <uri>kca://book/amzn1.gr.book.v1.tJT_00n8UPpvWa-zWHEAXg</uri>
   <title>Harry Potter and the Sorcerer's Stone (Harry Potter, #1)</title>
   <title_without_series>Harry Potter and the Sorcerer's Stone</title_without_series>
@@ -184,7 +337,7 @@
   <publication_year>1997</publication_year>
   <publication_month>6</publication_month>
   <average_rating>4.47</average_rating>
-  <ratings_count>6187778</ratings_count>
+  <ratings_count>6232102</ratings_count>
   <description>Harry Potter's life is miserable. His parents are dead and he's stuck with his heartless relatives, who force him to live in a tiny closet under the stairs. But his fortune changes when he receives a letter that tells him the truth about himself: he's a wizard. A mysterious visitor rescues him from his relatives and takes him to his new home, Hogwarts School of Witchcraft and Wizardry.&lt;br /&gt;&lt;br /&gt;After a lifetime of bottling up his magical powers, Harry finally feels like a normal kid. But even within the Wizarding community, he is special. He is the boy who lived: the only person to have ever survived a killing curse inflicted by the evil Lord Voldemort, who launched a brutal takeover of the Wizarding world, only to vanish after failing to kill Harry.&lt;br /&gt;&lt;br /&gt;Though Harry's first year at Hogwarts is the best of his life, not everything is perfect. There is a dangerous secret object hidden within the castle walls, and Harry believes it's his responsibility to prevent it from falling into evil hands. But doing so will bring him into contact with forces more terrifying than he ever could have imagined.&lt;br /&gt;&lt;br /&gt;Full of sympathetic characters, wildly imaginative situations, and countless exciting details, the first installment in the series assembles an unforgettable magical world and sets the stage for many high-stakes adventures to come.</description>
 <authors>
 <author>
@@ -199,8 +352,8 @@
 </small_image_url>
 <link><![CDATA[https://www.goodreads.com/author/show/1077326.J_K_Rowling]]></link>
 <average_rating>4.45</average_rating>
-<ratings_count>22878302</ratings_count>
-<text_reviews_count>549590</text_reviews_count>
+<ratings_count>23052953</ratings_count>
+<text_reviews_count>552529</text_reviews_count>
 </author>
 </authors>
   <published>1997</published>
@@ -245,7 +398,7 @@
   <id type="integer">30659</id>
   <isbn>0140449337</isbn>
   <isbn13>9780140449334</isbn13>
-  <text_reviews_count type="integer">2949</text_reviews_count>
+  <text_reviews_count type="integer">3004</text_reviews_count>
   <uri>kca://book/amzn1.gr.book.v1.FHfDjT3IwlYo-7Pcw6ZT3w</uri>
   <title>Meditations</title>
   <title_without_series>Meditations</title_without_series>
@@ -261,7 +414,7 @@
   <publication_year>2006</publication_year>
   <publication_month>4</publication_month>
   <average_rating>4.23</average_rating>
-  <ratings_count>92185</ratings_count>
+  <ratings_count>93758</ratings_count>
   <description>Written in Greek, without any intention of publication, by the only Roman emperor who was also a philosopher, the &lt;i&gt;Meditations&lt;/i&gt; of Marcus Aurelius (AD 121-180) offer a remarkable series of challenging spiritual reflections and exercises developed as the emperor struggled to understand himself and make sense of the universe. &lt;br /&gt;&lt;br /&gt;Ranging from doubt and despair to conviction and exaltation, they cover such diverse topics as the nature of moral virtue, human rationality, divine providence, and Marcus' own emotions. &lt;br /&gt;&lt;br /&gt;But while the &lt;i&gt;Meditations&lt;/i&gt; were composed to provide personal consolation and encouragement, in developing his beliefs Marcus Aurelius also created one of the greatest of all works of philosophy: a timeless collection of extended meditations and short aphorisms that has been consulted and admired by statesmen, thinkers and readers through the centuries.</description>
 <authors>
 <author>
@@ -276,8 +429,8 @@
 </small_image_url>
 <link><![CDATA[https://www.goodreads.com/author/show/17212.Marcus_Aurelius]]></link>
 <average_rating>4.23</average_rating>
-<ratings_count>94452</ratings_count>
-<text_reviews_count>4924</text_reviews_count>
+<ratings_count>96319</ratings_count>
+<text_reviews_count>5023</text_reviews_count>
 </author>
 </authors>
   <published>2006</published>
@@ -323,7 +476,7 @@
   <id type="integer">30186948</id>
   <isbn nil="true"/>
   <isbn13 nil="true"/>
-  <text_reviews_count type="integer">1893</text_reviews_count>
+  <text_reviews_count type="integer">1931</text_reviews_count>
   <uri>kca://book/amzn1.gr.book.v1.1kndsk926BrSY-nuOCdVsA</uri>
   <title>Think and Grow Rich</title>
   <title_without_series>Think and Grow Rich</title_without_series>
@@ -339,7 +492,7 @@
   <publication_year>2016</publication_year>
   <publication_month>4</publication_month>
   <average_rating>4.18</average_rating>
-  <ratings_count>170461</ratings_count>
+  <ratings_count>172873</ratings_count>
   <description>This is the original 1937 version of Napoleon Hill's Classic Book: &lt;i&gt;Think and Grow Rich&lt;/i&gt;. To the greatest extent possible, the text and formatting have been kept exactly the same as in the original release with the exception of some minor formatting changes.</description>
 <authors>
 <author>
@@ -354,8 +507,8 @@
 </small_image_url>
 <link><![CDATA[https://www.goodreads.com/author/show/399.Napoleon_Hill]]></link>
 <average_rating>4.20</average_rating>
-<ratings_count>207134</ratings_count>
-<text_reviews_count>7293</text_reviews_count>
+<ratings_count>210004</ratings_count>
+<text_reviews_count>7390</text_reviews_count>
 </author>
 </authors>
   <published>2016</published>
@@ -400,7 +553,7 @@
   <id type="integer">33153725</id>
   <isbn>0345543882</isbn>
   <isbn13>9780345543882</isbn13>
-  <text_reviews_count type="integer">892</text_reviews_count>
+  <text_reviews_count type="integer">901</text_reviews_count>
   <uri>kca://book/amzn1.gr.book.v1.u32VCoRMPZpRWemOPtluXA</uri>
   <title>I Know A Secret (Rizzoli &amp; Isles, #12)</title>
   <title_without_series>I Know A Secret</title_without_series>
@@ -416,7 +569,7 @@
   <publication_year>2017</publication_year>
   <publication_month>8</publication_month>
   <average_rating>4.20</average_rating>
-  <ratings_count>13591</ratings_count>
+  <ratings_count>13738</ratings_count>
   <description>&lt;b&gt;In the twelfth gripping novel featuring Jane Rizzoli and Maura Isles, the crime-solving duo—featured in the smash-hit TNT series Rizzoli &amp;amp; Isles—are faced with the gruesomely staged murder of a horror film producer.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;The crime scene is unlike any that Detective Rizzoli and medical examiner Maura Isles have ever before encountered. The woman lies in apparently peaceful repose on her bed, and Maura finds no apparent cause of death, but there is no doubt the woman is indeed dead. The victim’s eyes have been removed and placed in the palm of her hand, a gesture that echoes the terrifying films she produces. Is a crazed movie fan reenacting scenes from those disturbing films?&lt;br /&gt;&lt;br /&gt;When another victim is found, again with no apparent cause of death, again with a grotesquely staged crime scene, Jane and Maura realize the killer has widened his circle of targets. He’s chosen one particular woman for his next victim, and she knows he’s coming for her next. She’s the only one who can help Jane and Maura catch the killer.&lt;br /&gt;&lt;br /&gt;But she knows a secret. And it’s a secret she’ll never tell.</description>
 <authors>
 <author>
@@ -431,8 +584,8 @@
 </small_image_url>
 <link><![CDATA[https://www.goodreads.com/author/show/18149.Tess_Gerritsen]]></link>
 <average_rating>4.06</average_rating>
-<ratings_count>653030</ratings_count>
-<text_reviews_count>34617</text_reviews_count>
+<ratings_count>657568</ratings_count>
+<text_reviews_count>34924</text_reviews_count>
 </author>
 </authors>
   <published>2017</published>

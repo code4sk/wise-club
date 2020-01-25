@@ -52,8 +52,8 @@ class Library(View):
 class SearchBook(View):
     def get(self, request):
         text = request.GET.get('search')
-        books = search_book(text)
-        return render(request, 'library/search_book.html', {'books': books})
+        [books, t1] = search_book(text)
+        return render(request, 'library/search_book.html', {'books': books, 't1': t1})
 
 
 class GenreDetail(View):
