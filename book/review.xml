@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <review>
-  <id type="integer">3037531564</id>
+  <id type="integer">3376413836</id>
   <user-id type="integer">97134500</user-id>
-  <book-id type="integer">28811019</book-id>
-  <rating type="integer">1</rating>
-  <read-status>to-read</read-status>
+  <book-id type="integer">22675844</book-id>
+  <rating type="integer">5</rating>
+  <read-status>currently-reading</read-status>
   <sell-flag type="boolean">false</sell-flag>
-  <review>looks great</review>
+  <review>Current reading this book, what a great personality audie palmer is.
+Great thriller!!&amp;#x1f603;&amp;#x1f603;</review>
   <recommendation nil="true"/>
   <read-at type="datetime" nil="true"/>
-  <updated-at type="datetime">2019-11-05T15:25:12+00:00</updated-at>
-  <created-at type="datetime">2019-11-05T15:25:12+00:00</created-at>
+  <updated-at type="datetime">2020-06-05T22:25:30+00:00</updated-at>
+  <created-at type="datetime">2020-06-05T22:25:29+00:00</created-at>
   <comments-count type="integer">0</comments-count>
-  <weight type="integer">51</weight>
+  <weight type="integer">60</weight>
   <ratings-sum type="integer">0</ratings-sum>
   <ratings-count type="integer">0</ratings-count>
   <spoiler-flag type="boolean">false</spoiler-flag>
   <recommender-user-id1 type="integer">0</recommender-user-id1>
   <recommender-user-name1 nil="true"/>
-  <work-id type="integer">49026467</work-id>
+  <work-id type="integer">39836160</work-id>
   <last-comment-at type="datetime" nil="true"/>
-  <started-at type="datetime" nil="true"/>
+  <started-at type="datetime">2020-06-05T22:25:29+00:00</started-at>
   <hidden-flag type="boolean">false</hidden-flag>
   <language-code type="integer" nil="true"/>
-  <last-revision-at type="datetime">2019-11-05T15:25:12+00:00</last-revision-at>
+  <last-revision-at type="datetime">2020-06-05T22:25:30+00:00</last-revision-at>
   <non-friends-rating-count type="integer">0</non-friends-rating-count>
   <encrypted-notes nil="true"/>
-  <book-uri>kca://book/amzn1.gr.book.v1.3_66Ge5cLoSRJBETcA0rTg</book-uri>
+  <book-uri>kca://book/amzn1.gr.book.v1.opFRV8N69Om0Zm3GAnTFAQ</book-uri>
   <notes nil="true"/>
 </review>

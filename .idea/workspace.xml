@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a9fc663-ae91-4658-af90-76ede61a8373" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/templates/book/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/book/templates/book/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/review.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book/review.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn/utils/view_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/utils/view_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library/search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/search.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/templates/library/library-header.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/templates/library/library-header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/templates/library/library.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/templates/library/library.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/templates/library/search_book.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/templates/library/search_book.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/library/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/shelf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/shelf.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/user/shelves.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/user/shelves.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/user.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

@@ -6,28 +6,187 @@
     <method><![CDATA[search_index]]></method>
   </Request>
   <search>
-  <query><![CDATA[angels and demons]]></query>
+  <query><![CDATA[life or death]]></query>
     <results-start>1</results-start>
     <results-end>20</results-end>
-    <total-results>513</total-results>
+    <total-results>692</total-results>
     <source>Goodreads</source>
-    <query-time-seconds>1.71</query-time-seconds>
+    <query-time-seconds>0.05</query-time-seconds>
     <results>
         <work>
-  <id type="integer">27349564</id>
-  <books_count type="integer">1</books_count>
-  <ratings_count type="integer">39</ratings_count>
-  <text_reviews_count type="integer">1</text_reviews_count>
-  <original_publication_year type="integer">2012</original_publication_year>
-  <original_publication_month type="integer">9</original_publication_month>
-  <original_publication_day type="integer">28</original_publication_day>
-  <average_rating>4.08</average_rating>
+  <id type="integer">39836160</id>
+  <books_count type="integer">48</books_count>
+  <ratings_count type="integer">8304</ratings_count>
+  <text_reviews_count type="integer">1232</text_reviews_count>
+  <original_publication_year type="integer">2014</original_publication_year>
+  <original_publication_month type="integer" nil="true"/>
+  <original_publication_day type="integer" nil="true"/>
+  <average_rating>4.07</average_rating>
   <best_book type="Book">
-    <id type="integer">19300425</id>
-    <title>Angels and Demons</title>
+    <id type="integer">22675844</id>
+    <title>Life or Death</title>
     <author>
-      <id type="integer">151521</id>
-      <name>Benny Hinn</name>
+      <id type="integer">266945</id>
+      <name>Michael Robotham</name>
+    </author>
+<my_review>
+  <id>3376394543</id>
+    <book>
+  <id type="integer">22675844</id>
+  <isbn>0316252050</isbn>
+  <isbn13>9780316252058</isbn13>
+  <text_reviews_count type="integer">471</text_reviews_count>
+  <uri>kca://book/amzn1.gr.book.v1.opFRV8N69Om0Zm3GAnTFAQ</uri>
+  <title>Life or Death</title>
+  <title_without_series>Life or Death</title_without_series>
+  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405119690l/22675844._SX98_.jpg</image_url>
+  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405119690l/22675844._SY75_.jpg</small_image_url>
+  <large_image_url/>
+  <link>https://www.goodreads.com/book/show/22675844-life-or-death</link>
+  <num_pages>418</num_pages>
+  <format>Hardcover</format>
+  <edition_information/>
+  <publisher>Mulholland Books</publisher>
+  <publication_day>10</publication_day>
+  <publication_year>2015</publication_year>
+  <publication_month>3</publication_month>
+  <average_rating>4.07</average_rating>
+  <ratings_count>8304</ratings_count>
+  <description>&lt;b&gt;Why would a man who has served a long prison sentence escape the day before he's due to be released?&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;Audie was sentenced to 10 years for a robbery in which four people died, including two members of his gang. Five million dollars has never been recovered from the robbery, and everybody believes Audie knows where the money is.&lt;br /&gt;&lt;br /&gt;For 10 years Audie has been beaten, stabbed, and threatened by inmates and guards, all desperate to know the secret. The day before he is due to be released, Audie suddenly vanishes. &lt;br /&gt;&lt;br /&gt;The hunt for Audie, and the money, is on. But Audie's not running to save his own life--instead, he's trying to save someone else. In what promises to be his most popular thriller yet, Robotham has created the ultimate underdog hero, an honorable criminal shrouded in mystery and ready to lead readers on a remarkable chase.</description>
+<authors>
+<author>
+<id>266945</id>
+<name>Michael Robotham</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1361418135p5/266945.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1361418135p2/266945.jpg]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/266945.Michael_Robotham]]></link>
+<average_rating>4.04</average_rating>
+<ratings_count>115186</ratings_count>
+<text_reviews_count>12357</text_reviews_count>
+</author>
+</authors>
+  <published>2015</published>
+<work>  <id>39836160</id>
+  <uri>kca://work/amzn1.gr.work.v1.jiH8THorbwxDDxuTYWxQ6A</uri>
+</work></book>
+
+
+  <rating>0</rating>
+  <votes>0</votes>
+  <spoiler_flag>false</spoiler_flag>
+  <spoilers_state>none</spoilers_state>
+  
+
+<shelves>
+    <shelf name="read" exclusive="true" id="315510992" review_shelf_id= ""/>
+
+</shelves>
+
+  <recommended_for></recommended_for>
+  <recommended_by></recommended_by>
+  <started_at>Fri Jun 05 15:11:18 -0700 2020</started_at>
+  <read_at>Fri Jun 05 15:23:24 -0700 2020</read_at>
+  <date_added>Fri Jun 05 15:11:18 -0700 2020</date_added>
+  <date_updated>Fri Jun 05 15:23:24 -0700 2020</date_updated>
+  <read_count>1</read_count>
+  <body>
+  </body>
+
+  
+
+  <comments_count>0</comments_count>
+    <url><![CDATA[https://www.goodreads.com/review/show/3376394543]]></url>
+  <link><![CDATA[https://www.goodreads.com/review/show/3376394543]]></link>
+    <owned>0</owned>
+</my_review>
+    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405119690l/22675844._SX98_.jpg</image_url>
+    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405119690l/22675844._SY75_.jpg</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">26735009</id>
+  <books_count type="integer">4</books_count>
+  <ratings_count type="integer">463</ratings_count>
+  <text_reviews_count type="integer">70</text_reviews_count>
+  <original_publication_year type="integer">2013</original_publication_year>
+  <original_publication_month type="integer">12</original_publication_month>
+  <original_publication_day type="integer">15</original_publication_day>
+  <average_rating>3.63</average_rating>
+  <best_book type="Book">
+    <id type="integer">18802174</id>
+    <title>Wake for Me (Life or Death, #1)</title>
+    <author>
+      <id type="integer">7389142</id>
+      <name>Isobel Irons</name>
+    </author>
+    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1395597476l/18802174._SX98_.jpg</image_url>
+    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1395597476l/18802174._SY75_.jpg</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">38647</id>
+  <books_count type="integer">3</books_count>
+  <ratings_count type="integer">193</ratings_count>
+  <text_reviews_count type="integer">10</text_reviews_count>
+  <original_publication_year type="integer">2008</original_publication_year>
+  <original_publication_month type="integer">1</original_publication_month>
+  <original_publication_day type="integer">1</original_publication_day>
+  <average_rating>4.24</average_rating>
+  <best_book type="Book">
+    <id type="integer">38919</id>
+    <title>Life or Death (Little Secrets, #4)</title>
+    <author>
+      <id type="integer">21934</id>
+      <name>Emily Blake</name>
+    </author>
+    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328843078l/38919._SX98_.jpg</image_url>
+    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328843078l/38919._SY75_.jpg</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">5578219</id>
+  <books_count type="integer">9</books_count>
+  <ratings_count type="integer">3813</ratings_count>
+  <text_reviews_count type="integer">560</text_reviews_count>
+  <original_publication_year type="integer">2009</original_publication_year>
+  <original_publication_month type="integer" nil="true"/>
+  <original_publication_day type="integer" nil="true"/>
+  <average_rating>4.23</average_rating>
+  <best_book type="Book">
+    <id type="integer">5501146</id>
+    <title>Nine Lives: Death and Life in New Orleans</title>
+    <author>
+      <id type="integer">33934</id>
+      <name>Dan Baum</name>
+    </author>
+    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320389767l/5501146._SX98_.jpg</image_url>
+    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320389767l/5501146._SY75_.jpg</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">21884119</id>
+  <books_count type="integer">7</books_count>
+  <ratings_count type="integer">374</ratings_count>
+  <text_reviews_count type="integer">74</text_reviews_count>
+  <original_publication_year type="integer">2012</original_publication_year>
+  <original_publication_month type="integer">10</original_publication_month>
+  <original_publication_day type="integer">11</original_publication_day>
+  <average_rating>3.80</average_rating>
+  <best_book type="Book">
+    <id type="integer">22914465</id>
+    <title>The Pit Stop: This Stop Could be Life or Death</title>
+    <author>
+      <id type="integer">5407915</id>
+      <name>Carmen DeSousa</name>
     </author>
     <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
     <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
@@ -35,20 +194,125 @@
 </work>
 
         <work>
-  <id type="integer">41408020</id>
+  <id type="integer">18366694</id>
+  <books_count type="integer">6</books_count>
+  <ratings_count type="integer">146</ratings_count>
+  <text_reviews_count type="integer">22</text_reviews_count>
+  <original_publication_year type="integer">2012</original_publication_year>
+  <original_publication_month type="integer">2</original_publication_month>
+  <original_publication_day type="integer">24</original_publication_day>
+  <average_rating>3.45</average_rating>
+  <best_book type="Book">
+    <id type="integer">13185925</id>
+    <title>A Matter of Life and Death Or Something</title>
+    <author>
+      <id type="integer">5375645</id>
+      <name>Ben Stephenson</name>
+    </author>
+    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1326306678l/13185925._SX98_.jpg</image_url>
+    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1326306678l/13185925._SY75_.jpg</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">50079953</id>
   <books_count type="integer">1</books_count>
   <ratings_count type="integer">3</ratings_count>
   <text_reviews_count type="integer">0</text_reviews_count>
+  <original_publication_year type="integer" nil="true"/>
+  <original_publication_month type="integer" nil="true"/>
+  <original_publication_day type="integer" nil="true"/>
+  <average_rating>4.00</average_rating>
+  <best_book type="Book">
+    <id type="integer">29737478</id>
+    <title>This Heat, It's Hell Closing in on Me (...or Life and Death and the Life In-Between)</title>
+    <author>
+      <id type="integer">6497762</id>
+      <name>James S.M. Parker</name>
+    </author>
+    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1466518745l/29737478._SX98_.jpg</image_url>
+    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1466518745l/29737478._SX50_.jpg</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">66332049</id>
+  <books_count type="integer">3</books_count>
+  <ratings_count type="integer">84</ratings_count>
+  <text_reviews_count type="integer">38</text_reviews_count>
+  <original_publication_year type="integer" nil="true"/>
+  <original_publication_month type="integer" nil="true"/>
+  <original_publication_day type="integer" nil="true"/>
+  <average_rating>4.44</average_rating>
+  <best_book type="Book">
+    <id type="integer">42616429</id>
+    <title>Life or Death (Detective Zac Boateng #3)</title>
+    <author>
+      <id type="integer">17558172</id>
+      <name>Chris Merritt</name>
+    </author>
+    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">41947714</id>
+  <books_count type="integer">9</books_count>
+  <ratings_count type="integer">368</ratings_count>
+  <text_reviews_count type="integer">75</text_reviews_count>
+  <original_publication_year type="integer">2015</original_publication_year>
+  <original_publication_month type="integer">2</original_publication_month>
+  <original_publication_day type="integer">1</original_publication_day>
+  <average_rating>3.83</average_rating>
+  <best_book type="Book">
+    <id type="integer">22500958</id>
+    <title>The Age of Acquiescence: The Life and Death of American Resistance to Organized Wealth and Power</title>
+    <author>
+      <id type="integer">347686</id>
+      <name>Steve Fraser</name>
+    </author>
+    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403537068l/22500958._SX98_.jpg</image_url>
+    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403537068l/22500958._SY75_.jpg</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">41190327</id>
+  <books_count type="integer">1</books_count>
+  <ratings_count type="integer">51</ratings_count>
+  <text_reviews_count type="integer">19</text_reviews_count>
   <original_publication_year type="integer">2014</original_publication_year>
   <original_publication_month type="integer">4</original_publication_month>
-  <original_publication_day type="integer">18</original_publication_day>
-  <average_rating>3.33</average_rating>
+  <original_publication_day type="integer">11</original_publication_day>
+  <average_rating>4.00</average_rating>
   <best_book type="Book">
-    <id type="integer">22073224</id>
-    <title>Angels and Demons (Angels and Demons Series)</title>
+    <id type="integer">21897815</id>
+    <title>Just Say Anything (Life or Death, #2)</title>
     <author>
-      <id type="integer">7871083</id>
-      <name>Arnie Lightning</name>
+      <id type="integer">7389142</id>
+      <name>Isobel Irons</name>
+    </author>
+    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1397269497l/21897815._SX98_.jpg</image_url>
+    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1397269497l/21897815._SY75_.jpg</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">6399628</id>
+  <books_count type="integer">21</books_count>
+  <ratings_count type="integer">725</ratings_count>
+  <text_reviews_count type="integer">85</text_reviews_count>
+  <original_publication_year type="integer">2009</original_publication_year>
+  <original_publication_month type="integer">2</original_publication_month>
+  <original_publication_day type="integer">1</original_publication_day>
+  <average_rating>3.68</average_rating>
+  <best_book type="Book">
+    <id type="integer">6218950</id>
+    <title>Direct Red: A Surgeon's View of Her Life-or-Death Profession</title>
+    <author>
+      <id type="integer">2830889</id>
+      <name>Gabriel Weston</name>
     </author>
     <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
     <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
@@ -56,83 +320,20 @@
 </work>
 
         <work>
-  <id type="integer">3505077</id>
-  <books_count type="integer">9</books_count>
-  <ratings_count type="integer">4079</ratings_count>
-  <text_reviews_count type="integer">120</text_reviews_count>
-  <original_publication_year type="integer">2008</original_publication_year>
-  <original_publication_month type="integer">11</original_publication_month>
-  <original_publication_day type="integer">5</original_publication_day>
-  <average_rating>4.07</average_rating>
-  <best_book type="Book">
-    <id type="integer">3463792</id>
-    <title>X-Force, Volume 1: Angels And Demons</title>
-    <author>
-      <id type="integer">38492</id>
-      <name>Craig Kyle</name>
-    </author>
-    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1438460466l/3463792._SX98_.jpg</image_url>
-    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1438460466l/3463792._SY75_.jpg</small_image_url>
-  </best_book>
-</work>
-
-        <work>
-  <id type="integer">26126891</id>
-  <books_count type="integer">3</books_count>
-  <ratings_count type="integer">17</ratings_count>
-  <text_reviews_count type="integer">3</text_reviews_count>
-  <original_publication_year type="integer">2002</original_publication_year>
-  <original_publication_month type="integer">9</original_publication_month>
-  <original_publication_day type="integer">10</original_publication_day>
-  <average_rating>3.82</average_rating>
-  <best_book type="Book">
-    <id type="integer">18467434</id>
-    <title>Angels and Demons</title>
-    <author>
-      <id type="integer">1250965</id>
-      <name>R.C. Sproul</name>
-    </author>
-    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1378802413l/18467434._SX98_.jpg</image_url>
-    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1378802413l/18467434._SX50_.jpg</small_image_url>
-  </best_book>
-</work>
-
-        <work>
-  <id type="integer">45166536</id>
-  <books_count type="integer">1</books_count>
-  <ratings_count type="integer">34</ratings_count>
-  <text_reviews_count type="integer">3</text_reviews_count>
-  <original_publication_year type="integer">2015</original_publication_year>
-  <original_publication_month type="integer">4</original_publication_month>
-  <original_publication_day type="integer">16</original_publication_day>
-  <average_rating>2.88</average_rating>
-  <best_book type="Book">
-    <id type="integer">25410973</id>
-    <title>Mystery: Angels and Demons</title>
-    <author>
-      <id type="integer">13828912</id>
-      <name>S.C. King</name>
-    </author>
-    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
-    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
-  </best_book>
-</work>
-
-        <work>
-  <id type="integer">5177</id>
-  <books_count type="integer">5</books_count>
-  <ratings_count type="integer">88</ratings_count>
-  <text_reviews_count type="integer">7</text_reviews_count>
-  <original_publication_year type="integer">2003</original_publication_year>
+  <id type="integer">722479</id>
+  <books_count type="integer">48</books_count>
+  <ratings_count type="integer">12</ratings_count>
+  <text_reviews_count type="integer">5</text_reviews_count>
+  <original_publication_year type="integer">1916</original_publication_year>
   <original_publication_month type="integer">1</original_publication_month>
   <original_publication_day type="integer">1</original_publication_day>
-  <average_rating>4.11</average_rating>
+  <average_rating>4.42</average_rating>
   <best_book type="Book">
-    <id type="integer">963</id>
-    <title>Angels and Demons in Art</title>
+    <id type="integer">736297</id>
+    <title>Raymond or Life and Death: With Examples of the Evidence for Survival of Memory and Affection After Death</title>
     <author>
-      <id type="integer">633</id>
-      <name>Rosa Giorgi</name>
+      <id type="integer">390464</id>
+      <name>Oliver Lodge</name>
     </author>
     <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
     <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
@@ -140,125 +341,41 @@
 </work>
 
         <work>
-  <id type="integer">48292572</id>
-  <books_count type="integer">12</books_count>
-  <ratings_count type="integer">250</ratings_count>
-  <text_reviews_count type="integer">23</text_reviews_count>
-  <original_publication_year type="integer">2011</original_publication_year>
-  <original_publication_month type="integer">2</original_publication_month>
-  <original_publication_day type="integer">8</original_publication_day>
-  <average_rating>3.88</average_rating>
-  <best_book type="Book">
-    <id type="integer">7733244</id>
-    <title>Angel Slayer (Of Angels and Demons #1)</title>
-    <author>
-      <id type="integer">117339</id>
-      <name>Michele Hauf</name>
-    </author>
-    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
-    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
-  </best_book>
-</work>
-
-        <work>
-  <id type="integer">13072754</id>
-  <books_count type="integer">2</books_count>
-  <ratings_count type="integer">301</ratings_count>
-  <text_reviews_count type="integer">29</text_reviews_count>
-  <original_publication_year type="integer">2010</original_publication_year>
-  <original_publication_month type="integer">5</original_publication_month>
-  <original_publication_day type="integer">15</original_publication_day>
-  <average_rating>3.43</average_rating>
-  <best_book type="Book">
-    <id type="integer">8225495</id>
-    <title>My Avenging Angel (Angels and Demons #1)</title>
-    <author>
-      <id type="integer">3372717</id>
-      <name>Madelyn Ford</name>
-    </author>
-    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365985415l/8225495._SX98_.jpg</image_url>
-    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365985415l/8225495._SX50_.jpg</small_image_url>
-  </best_book>
-</work>
-
-        <work>
-  <id type="integer">46141994</id>
-  <books_count type="integer">1</books_count>
-  <ratings_count type="integer">74</ratings_count>
-  <text_reviews_count type="integer">1</text_reviews_count>
-  <original_publication_year type="integer">2015</original_publication_year>
-  <original_publication_month type="integer">8</original_publication_month>
-  <original_publication_day type="integer">26</original_publication_day>
-  <average_rating>3.92</average_rating>
-  <best_book type="Book">
-    <id type="integer">26176838</id>
-    <title>Broken Angels (Angels and Demons, #1)</title>
-    <author>
-      <id type="integer">8447098</id>
-      <name>Brenda L. Harper</name>
-    </author>
-    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
-    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
-  </best_book>
-</work>
-
-        <work>
-  <id type="integer">13972608</id>
-  <books_count type="integer">12</books_count>
-  <ratings_count type="integer">167</ratings_count>
-  <text_reviews_count type="integer">16</text_reviews_count>
-  <original_publication_year type="integer">2011</original_publication_year>
-  <original_publication_month type="integer">3</original_publication_month>
-  <original_publication_day type="integer">22</original_publication_day>
-  <average_rating>3.87</average_rating>
-  <best_book type="Book">
-    <id type="integer">9094273</id>
-    <title>Fallen (Of Angels and Demons #2)</title>
-    <author>
-      <id type="integer">117339</id>
-      <name>Michele Hauf</name>
-    </author>
-    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1302961718l/9094273._SX98_.jpg</image_url>
-    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1302961718l/9094273._SY75_.jpg</small_image_url>
-  </best_book>
-</work>
-
-        <work>
-  <id type="integer">45393979</id>
-  <books_count type="integer">1</books_count>
-  <ratings_count type="integer">67</ratings_count>
-  <text_reviews_count type="integer">2</text_reviews_count>
-  <original_publication_year type="integer">2015</original_publication_year>
-  <original_publication_month type="integer">5</original_publication_month>
-  <original_publication_day type="integer">21</original_publication_day>
+  <id type="integer">17963134</id>
+  <books_count type="integer">6</books_count>
+  <ratings_count type="integer">444</ratings_count>
+  <text_reviews_count type="integer">112</text_reviews_count>
+  <original_publication_year type="integer">2012</original_publication_year>
+  <original_publication_month type="integer">1</original_publication_month>
+  <original_publication_day type="integer">1</original_publication_day>
   <average_rating>3.58</average_rating>
   <best_book type="Book">
-    <id type="integer">25589616</id>
-    <title>ANGELS and DEMONS: Book One</title>
+    <id type="integer">12813858</id>
+    <title>The Undead: Organ Harvesting, the Ice-Water Test, Beating Heart Cadavers--How Medicine Is Blurring the Line Between Life and Death</title>
     <author>
-      <id type="integer">14017912</id>
-      <name>Melody John</name>
+      <id type="integer">36618</id>
+      <name>Dick Teresi</name>
     </author>
-    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
-    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347262769l/12813858._SX98_.jpg</image_url>
+    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347262769l/12813858._SY75_.jpg</small_image_url>
   </best_book>
 </work>
 
         <work>
-  <id type="integer">24585562</id>
-  <books_count type="integer">5</books_count>
-  <ratings_count type="integer">22668</ratings_count>
-  <text_reviews_count type="integer">537</text_reviews_count>
-  <original_publication_year type="integer">2003</original_publication_year>
-  <original_publication_month type="integer">6</original_publication_month>
-  <original_publication_day type="integer">1</original_publication_day>
+  <id type="integer">42914986</id>
+  <books_count type="integer">2</books_count>
+  <ratings_count type="integer">23</ratings_count>
+  <text_reviews_count type="integer">4</text_reviews_count>
+  <original_publication_year type="integer">2014</original_publication_year>
+  <original_publication_month type="integer">10</original_publication_month>
+  <original_publication_day type="integer">5</original_publication_day>
   <average_rating>4.22</average_rating>
   <best_book type="Book">
-    <id type="integer">643301</id>
-    <title>Angels and Demons / The Da Vinci Code (Robert Langdon, #1-2)</title>
+    <id type="integer">23358900</id>
+    <title>The Game of Life or Death (Detective Jacob Hayden #3)</title>
     <author>
-      <id type="integer">630</id>
-      <name>Dan Brown</name>
+      <id type="integer">6427151</id>
+      <name>Charles Prandy</name>
     </author>
     <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
     <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
@@ -266,20 +383,20 @@
 </work>
 
         <work>
-  <id type="integer">40517922</id>
+  <id type="integer">27608855</id>
   <books_count type="integer">1</books_count>
-  <ratings_count type="integer">8</ratings_count>
-  <text_reviews_count type="integer">0</text_reviews_count>
-  <original_publication_year type="integer">2012</original_publication_year>
-  <original_publication_month type="integer">5</original_publication_month>
+  <ratings_count type="integer">39</ratings_count>
+  <text_reviews_count type="integer">2</text_reviews_count>
+  <original_publication_year type="integer">2013</original_publication_year>
+  <original_publication_month type="integer">2</original_publication_month>
   <original_publication_day type="integer">24</original_publication_day>
   <average_rating>4.00</average_rating>
   <best_book type="Book">
-    <id type="integer">21175750</id>
-    <title>Angels and Demons</title>
+    <id type="integer">19496926</id>
+    <title>Life, Death, or Somewhere In-between. True Paramedic Stories.</title>
     <author>
-      <id type="integer">300784</id>
-      <name>Michael Patella</name>
+      <id type="integer">6988540</id>
+      <name>Patrick Ramsey</name>
     </author>
     <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
     <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
@@ -287,125 +404,62 @@
 </work>
 
         <work>
-  <id type="integer">22021370</id>
+  <id type="integer">58016</id>
+  <books_count type="integer">89</books_count>
+  <ratings_count type="integer">7243</ratings_count>
+  <text_reviews_count type="integer">359</text_reviews_count>
+  <original_publication_year type="integer">1975</original_publication_year>
+  <original_publication_month type="integer" nil="true"/>
+  <original_publication_day type="integer" nil="true"/>
+  <average_rating>4.16</average_rating>
+  <best_book type="Book">
+    <id type="integer">22027629</id>
+    <title>Life After Life: The Bestselling Original Investigation That Revealed "Near-Death Experiences"</title>
+    <author>
+      <id type="integer">6456288</id>
+      <name>Raymond A. Moody Jr.</name>
+    </author>
+    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">501283</id>
+  <books_count type="integer">3</books_count>
+  <ratings_count type="integer">185</ratings_count>
+  <text_reviews_count type="integer">11</text_reviews_count>
+  <original_publication_year type="integer">1977</original_publication_year>
+  <original_publication_month type="integer" nil="true"/>
+  <original_publication_day type="integer" nil="true"/>
+  <average_rating>3.98</average_rating>
+  <best_book type="Book">
+    <id type="integer">8474184</id>
+    <title>Causing Death and Saving Lives: The Moral Problems of Abortion, Infanticide, Suicide, Euthanasia, Capital Punishment, War and Other Life-or-death Choices</title>
+    <author>
+      <id type="integer">108627</id>
+      <name>Jonathan Glover</name>
+    </author>
+    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">42170391</id>
   <books_count type="integer">4</books_count>
-  <ratings_count type="integer">48</ratings_count>
-  <text_reviews_count type="integer">28</text_reviews_count>
-  <original_publication_year type="integer">2012</original_publication_year>
-  <original_publication_month type="integer">11</original_publication_month>
-  <original_publication_day type="integer">20</original_publication_day>
-  <average_rating>4.54</average_rating>
-  <best_book type="Book">
-    <id type="integer">24843007</id>
-    <title>Devada (Angels and Demons #1)</title>
-    <author>
-      <id type="integer">5211915</id>
-      <name>Tich Brewster</name>
-    </author>
-    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1423156317l/24843007._SX98_.jpg</image_url>
-    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1423156317l/24843007._SY75_.jpg</small_image_url>
-  </best_book>
-</work>
-
-        <work>
-  <id type="integer">53565799</id>
-  <books_count type="integer">2</books_count>
-  <ratings_count type="integer">13</ratings_count>
-  <text_reviews_count type="integer">8</text_reviews_count>
-  <original_publication_year type="integer" nil="true"/>
-  <original_publication_month type="integer" nil="true"/>
-  <original_publication_day type="integer" nil="true"/>
-  <average_rating>4.38</average_rating>
-  <best_book type="Book">
-    <id type="integer">32943226</id>
-    <title>Quiver (Angels and Demons #2)</title>
-    <author>
-      <id type="integer">544558</id>
-      <name>Beth  Green</name>
-    </author>
-    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
-    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
-  </best_book>
-</work>
-
-        <work>
-  <id type="integer">19098209</id>
-  <books_count type="integer">1</books_count>
-  <ratings_count type="integer">6</ratings_count>
-  <text_reviews_count type="integer">0</text_reviews_count>
-  <original_publication_year type="integer">2012</original_publication_year>
-  <original_publication_month type="integer">6</original_publication_month>
-  <original_publication_day type="integer">26</original_publication_day>
-  <average_rating>4.50</average_rating>
-  <best_book type="Book">
-    <id type="integer">13536494</id>
-    <title>Angel and Demon</title>
-    <author>
-      <id type="integer">22690</id>
-      <name>Stephen Roche</name>
-    </author>
-    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1345767811l/13536494._SX98_.jpg</image_url>
-    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1345767811l/13536494._SY75_.jpg</small_image_url>
-  </best_book>
-</work>
-
-        <work>
-  <id type="integer">62842855</id>
-  <books_count type="integer">2</books_count>
-  <ratings_count type="integer">578</ratings_count>
-  <text_reviews_count type="integer">114</text_reviews_count>
-  <original_publication_year type="integer">2018</original_publication_year>
-  <original_publication_month type="integer">6</original_publication_month>
-  <original_publication_day type="integer">9</original_publication_day>
-  <average_rating>4.30</average_rating>
-  <best_book type="Book">
-    <id type="integer">40506516</id>
-    <title>Angels and Demons (Saint's Justice MC #1)</title>
-    <author>
-      <id type="integer">7341481</id>
-      <name>A.C. Bextor</name>
-    </author>
-    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
-    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
-  </best_book>
-</work>
-
-        <work>
-  <id type="integer">50636010</id>
-  <books_count type="integer">1</books_count>
-  <ratings_count type="integer">5</ratings_count>
-  <text_reviews_count type="integer">0</text_reviews_count>
-  <original_publication_year type="integer" nil="true"/>
-  <original_publication_month type="integer" nil="true"/>
-  <original_publication_day type="integer" nil="true"/>
-  <average_rating>4.40</average_rating>
-  <best_book type="Book">
-    <id type="integer">30189270</id>
-    <title>Angels and Demons</title>
-    <author>
-      <id type="integer">15256121</id>
-      <name>HARRY BOOSALIS</name>
-    </author>
-    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1463272792l/30189270._SX98_.jpg</image_url>
-    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1463272792l/30189270._SY75_.jpg</small_image_url>
-  </best_book>
-</work>
-
-        <work>
-  <id type="integer">41861007</id>
-  <books_count type="integer">1</books_count>
-  <ratings_count type="integer">0</ratings_count>
+  <ratings_count type="integer">37</ratings_count>
   <text_reviews_count type="integer">0</text_reviews_count>
   <original_publication_year type="integer">2014</original_publication_year>
-  <original_publication_month type="integer">4</original_publication_month>
+  <original_publication_month type="integer">6</original_publication_month>
   <original_publication_day type="integer">27</original_publication_day>
-  <average_rating type="float">0.0</average_rating>
+  <average_rating>3.38</average_rating>
   <best_book type="Book">
-    <id type="integer">22437022</id>
-    <title>Angels and Demons II  (Angels and Demons Series)</title>
+    <id type="integer">22668384</id>
+    <title>Mental Training: The Art of Life and Death Decision-Making!: How to focus your mind and conquer fear so that you can make life or death decisions with ... (Nicholas Black's How-to Series Book 6)</title>
     <author>
-      <id type="integer">7871083</id>
-      <name>Arnie Lightning</name>
+      <id type="integer">2875365</id>
+      <name>Nicholas Black</name>
     </author>
     <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
     <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
@@ -413,20 +467,41 @@
 </work>
 
         <work>
-  <id type="integer">39839259</id>
+  <id type="integer">5784128</id>
   <books_count type="integer">1</books_count>
-  <ratings_count type="integer">4</ratings_count>
+  <ratings_count type="integer">12</ratings_count>
   <text_reviews_count type="integer">1</text_reviews_count>
-  <original_publication_year type="integer">2010</original_publication_year>
-  <original_publication_month type="integer">3</original_publication_month>
-  <original_publication_day type="integer">23</original_publication_day>
-  <average_rating>3.75</average_rating>
+  <original_publication_year type="integer">1982</original_publication_year>
+  <original_publication_month type="integer">1</original_publication_month>
+  <original_publication_day type="integer">1</original_publication_day>
+  <average_rating>4.00</average_rating>
   <best_book type="Book">
-    <id type="integer">20571898</id>
-    <title>Angels and Demons</title>
+    <id type="integer">5612742</id>
+    <title>Choose Life or Death: The Reams Biological Theory of Ionization</title>
     <author>
-      <id type="integer">7604161</id>
-      <name>M.R. DeHaan</name>
+      <id type="integer">841570</id>
+      <name>Carey A. Reams</name>
+    </author>
+    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+  </best_book>
+</work>
+
+        <work>
+  <id type="integer">6790891</id>
+  <books_count type="integer">5</books_count>
+  <ratings_count type="integer">254</ratings_count>
+  <text_reviews_count type="integer">26</text_reviews_count>
+  <original_publication_year type="integer">2009</original_publication_year>
+  <original_publication_month type="integer">6</original_publication_month>
+  <original_publication_day type="integer">6</original_publication_day>
+  <average_rating>3.55</average_rating>
+  <best_book type="Book">
+    <id type="integer">6597119</id>
+    <title>Death or Life</title>
+    <author>
+      <id type="integer">2737023</id>
+      <name>T.A. Chase</name>
     </author>
     <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
     <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>

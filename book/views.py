@@ -20,9 +20,9 @@ class Detail(View):
         try:
             valid_user = "False"
             book = Book.objects.get(book_id=book_id)
-            # reviews = book_review_widget(book)
+            reviews = book_review_widget(book)
             all_users = []
-            reviews = ''
+            # reviews = ''
             review = Review.objects.filter(book=book, user=request.user)
             if review:
                 review = review[0]
@@ -102,7 +102,8 @@ class ReviewCreate(View):
         shelf_name = request.POST.get('shelf')
         shelf = Shelf.objects.get(name=shelf_name, user=request.user)
         rating = request.POST.get('rating', 0)
-        book = Book.objects.get(slug=book_id)
+        print(book_id)
+        book = Book.objects.get(book_id=book_id)
         response = post_review(review, shelf_name, book.book_id, rating)
         if response.status_code == 201:
             review_id = get_review_id(response)
