@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a9fc663-ae91-4658-af90-76ede61a8373" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/learn/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="8a9fc663-ae91-4658-af90-76ede61a8373" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
