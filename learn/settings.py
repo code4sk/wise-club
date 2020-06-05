@@ -25,7 +25,7 @@ SECRET_KEY = 'hzm8x@ff&(huw6mnkjr--d#le6hzt55io)-ga3&1-(e79)qn9x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [*]
+ALLOWED_HOSTS = ['*']
 
 AUTH_USER_MODEL = 'user.CustomUser'
 
@@ -81,10 +81,26 @@ WSGI_APPLICATION = 'learn.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
+# DATABASES = {
+# #     'default': {
+# #         'ENGINE': 'django.db.backends.sqlite3',
+# #         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+# #     }
+# # }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+
+        'NAME': 'd99ju2hvte91cg',
+
+        'USER': 'muolaioascengy',
+
+        'PASSWORD': '23eb1c90160294b8ec4747b72bfa2f44c33116ee3461c01529e1773151986855',
+
+        'HOST': 'ec2-52-71-55-81.compute-1.amazonaws.com',
+
+        'PORT': '5432',
     }
 }
 
