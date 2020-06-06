@@ -1,5 +1,5 @@
 from django.db import models
-from author.models import Author
+# from author.models import Author
 
 
 types = (
@@ -24,7 +24,7 @@ class Book(models.Model):
     slug = models.SlugField(unique=True, max_length=40)
     title = models.CharField(max_length=25, null=True)
     average_rating = models.FloatField(default=0)
-    author = models.ManyToManyField(Author)
+    # author = models.ManyToManyField(Author)
     genre = models.ManyToManyField(Genre, blank=True)
     description = models.TextField(default='', null=True)
     similar_books = models.ManyToManyField('Book', blank=True)

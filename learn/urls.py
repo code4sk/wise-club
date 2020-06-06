@@ -18,17 +18,17 @@ from django.urls import path
 from learn import settings
 from django.conf.urls import url, include
 from django.conf.urls.static import static
-from home import urls as home_url
-from library import urls as library_url
-from book import urls as book_url
-from author import urls as author_url
-from user import urls as user_url
-
+# from home import urls as home_url
+# from library import urls as library_url
+# from book import urls as book_url
+# # from author import urls as author_url
+# from user import urls as user_url
+#
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include(home_url)),
-    path('library/', include(library_url)),
-    path('book/', include(book_url)),
-    path('author/', include(author_url)),
-    path('user/', include(user_url)),
+#     path('', include(home_url)),
+#     path('library/', include(library_url)),
+#     path('book/', include(book_url)),
+#     # path('author/', include(author_url)),
+#     path('user/', include(user_url)),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

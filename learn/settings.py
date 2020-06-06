@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'home',
     'user',
     'book',
-    'author',
+    # 'author',
     'library',
 ]
 
