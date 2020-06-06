@@ -25,7 +25,7 @@ class Status(models.Model):
 
 
 class Shelf(models.Model):
-    shelf_id = models.CharField(unique=True, max_length=20)
+    shelf_id = models.CharField(unique=True, max_length=200)
     user = models.ForeignKey('CustomUser', on_delete=models.CASCADE)
     name = models.CharField(max_length=30)
     books = models.ManyToManyField(Book, blank=True)
@@ -47,11 +47,11 @@ class Review(models.Model):
 
 
 class CustomUser(AbstractUser):
-    user_id = models.CharField(unique=True, max_length=20)
-    name = models.CharField(max_length=50, default='')
-    interests = models.CharField(max_length=70, null=True)
-    fav_books = models.CharField(max_length=70, null=True)
-    best_quote = models.CharField(max_length=120, null=True)
+    user_id = models.CharField(unique=True, max_length=200)
+    name = models.CharField(max_length=500, default='')
+    interests = models.CharField(max_length=700, null=True)
+    fav_books = models.CharField(max_length=700, null=True)
+    best_quote = models.CharField(max_length=720, null=True)
     friends_count = models.IntegerField(default=0)
     reviews_count = models.IntegerField(default=0)
     image = models.URLField(blank=True)

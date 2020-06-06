@@ -20,9 +20,9 @@ class Genre(models.Model):
 
 class Book(models.Model):
     type = models.CharField(choices=types, max_length=1, default='I')
-    book_id = models.CharField(unique=True, max_length=20, default='0')
-    slug = models.SlugField(unique=True, max_length=40)
-    title = models.CharField(max_length=25, null=True)
+    book_id = models.CharField(unique=True, max_length=200, default='0')
+    slug = models.SlugField(unique=True, max_length=400)
+    title = models.CharField(max_length=250, null=True)
     average_rating = models.FloatField(default=0)
     author = models.ManyToManyField(Author)
     genre = models.ManyToManyField(Genre, blank=True)

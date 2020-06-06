@@ -247,7 +247,7 @@ Michael writes in what his daughters' refer to as his 'cabana of cruelty' on Syd
         <genre2>Crime</genre2>
         <genre3>Thriller</genre3>
         <books_count type="integer">735</books_count>
-        <reviews_count type="integer">257333</reviews_count>
+        <reviews_count type="integer">257334</reviews_count>
         <ratings_sum type="integer">465394</ratings_sum>
         <works_count type="integer">29</works_count>
         <hometown></hometown>
@@ -339,9 +339,9 @@ Michael writes in what his daughters' refer to as his 'cabana of cruelty' on Syd
       <image_uploaded_at type="datetime">2019-02-04T00:46:48+00:00</image_uploaded_at>
       <s3_image_at type="datetime">2019-07-17T23:02:58+00:00</s3_image_at>
       <reviews_count type="integer">250944</reviews_count>
-      <ratings_sum type="integer">306845</ratings_sum>
-      <ratings_count type="integer">73646</ratings_count>
-      <text_reviews_count type="integer">8888</text_reviews_count>
+      <ratings_sum type="integer">306862</ratings_sum>
+      <ratings_count type="integer">73650</ratings_count>
+      <text_reviews_count type="integer">8889</text_reviews_count>
       <book_authors_count type="integer">0</book_authors_count>
       <updated_at type="datetime">2020-06-05T08:47:49+00:00</updated_at>
       <created_at type="datetime">2019-01-31T16:51:16+00:00</created_at>
@@ -392,7 +392,7 @@ In the fall of 1971, Stephen began teaching English at Hampden Academy, the publ
         <genre2>Mystery</genre2>
         <genre3>Literature &amp; Fiction</genre3>
         <books_count type="integer">16815</books_count>
-        <reviews_count type="integer">24062294</reviews_count>
+        <reviews_count type="integer">24062352</reviews_count>
         <ratings_sum type="integer">56480539</ratings_sum>
         <works_count type="integer">1656</works_count>
         <hometown>Portland, Maine</hometown>
@@ -627,7 +627,7 @@ As a comics writer, Moore is notable for being one of the first writers to apply
       <source_url nil="true"/>
       <image_uploaded_at type="datetime">2013-11-23T11:57:23+00:00</image_uploaded_at>
       <s3_image_at type="datetime">2015-06-16T00:46:02+00:00</s3_image_at>
-      <reviews_count type="integer">2403706</reviews_count>
+      <reviews_count type="integer">2403710</reviews_count>
       <ratings_sum type="integer">6415984</ratings_sum>
       <ratings_count type="integer">1745105</ratings_count>
       <text_reviews_count type="integer">68959</text_reviews_count>
@@ -680,7 +680,7 @@ http://www.youtube.com/user/eljamesauthor?feature=mhee</about>
         <genre2></genre2>
         <genre3></genre3>
         <books_count type="integer">1060</books_count>
-        <reviews_count type="integer">5249183</reviews_count>
+        <reviews_count type="integer">5249195</reviews_count>
         <ratings_sum type="integer">13558968</ratings_sum>
         <works_count type="integer">23</works_count>
         <hometown>London</hometown>
@@ -892,7 +892,7 @@ http://www.youtube.com/user/eljamesauthor?feature=mhee</about>
 </small_image_url>
 <link><![CDATA[https://www.goodreads.com/author/show/6524620.Brian_McClellan]]></link>
 <average_rating>4.27</average_rating>
-<ratings_count>133931</ratings_count>
+<ratings_count>133932</ratings_count>
 <text_reviews_count>8427</text_reviews_count>
 </author>
 </authors>
