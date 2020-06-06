@@ -16,7 +16,7 @@ class Status(models.Model):
     status_id = models.CharField(max_length=20)
     type = models.CharField(max_length=200)
     action_text = models.CharField(max_length=500)
-    updated_at = models.CharField(max_length=20)
+    updated_at = models.CharField(max_length=100)
     body = models.TextField(null=True)
     image = models.URLField()
 

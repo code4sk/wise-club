@@ -102,7 +102,7 @@
 </small_image_url>
 <link><![CDATA[https://www.goodreads.com/author/show/266945.Michael_Robotham]]></link>
 <average_rating>4.04</average_rating>
-<ratings_count>115203</ratings_count>
+<ratings_count>115204</ratings_count>
 <text_reviews_count>12358</text_reviews_count>
 </author>
 </authors>
@@ -248,12 +248,12 @@ Michael writes in what his daughters' refer to as his 'cabana of cruelty' on Syd
         <genre3>Thriller</genre3>
         <books_count type="integer">735</books_count>
         <reviews_count type="integer">257333</reviews_count>
-        <ratings_sum type="integer">465390</ratings_sum>
+        <ratings_sum type="integer">465394</ratings_sum>
         <works_count type="integer">29</works_count>
         <hometown></hometown>
         <rating_dist>5:373|4:859|3:565|2:102|1:24|total:1923</rating_dist>
         <s3_image_at type="datetime">2015-05-14T23:31:58+00:00</s3_image_at>
-        <ratings_count type="integer">115203</ratings_count>
+        <ratings_count type="integer">115204</ratings_count>
         <text_reviews_count type="integer">12358</text_reviews_count>
         <author_program_at type="datetime">2012-08-13T19:26:31+00:00</author_program_at>
         <best_book_id type="integer">33584818</best_book_id>
@@ -338,7 +338,7 @@ Michael writes in what his daughters' refer to as his 'cabana of cruelty' on Syd
       <source_url nil="true"/>
       <image_uploaded_at type="datetime">2019-02-04T00:46:48+00:00</image_uploaded_at>
       <s3_image_at type="datetime">2019-07-17T23:02:58+00:00</s3_image_at>
-      <reviews_count type="integer">250943</reviews_count>
+      <reviews_count type="integer">250944</reviews_count>
       <ratings_sum type="integer">306845</ratings_sum>
       <ratings_count type="integer">73646</ratings_count>
       <text_reviews_count type="integer">8888</text_reviews_count>
@@ -392,7 +392,7 @@ In the fall of 1971, Stephen began teaching English at Hampden Academy, the publ
         <genre2>Mystery</genre2>
         <genre3>Literature &amp; Fiction</genre3>
         <books_count type="integer">16815</books_count>
-        <reviews_count type="integer">24062281</reviews_count>
+        <reviews_count type="integer">24062294</reviews_count>
         <ratings_sum type="integer">56480539</ratings_sum>
         <works_count type="integer">1656</works_count>
         <hometown>Portland, Maine</hometown>
@@ -536,7 +536,7 @@ As a comics writer, Moore is notable for being one of the first writers to apply
         <genre2>Literature &amp; Fiction</genre2>
         <genre3>Poetry</genre3>
         <books_count type="integer">3014</books_count>
-        <reviews_count type="integer">2293673</reviews_count>
+        <reviews_count type="integer">2293677</reviews_count>
         <ratings_sum type="integer">5848119</ratings_sum>
         <works_count type="integer">916</works_count>
         <hometown>Northampton, England</hometown>
@@ -627,7 +627,7 @@ As a comics writer, Moore is notable for being one of the first writers to apply
       <source_url nil="true"/>
       <image_uploaded_at type="datetime">2013-11-23T11:57:23+00:00</image_uploaded_at>
       <s3_image_at type="datetime">2015-06-16T00:46:02+00:00</s3_image_at>
-      <reviews_count type="integer">2403705</reviews_count>
+      <reviews_count type="integer">2403706</reviews_count>
       <ratings_sum type="integer">6415984</ratings_sum>
       <ratings_count type="integer">1745105</ratings_count>
       <text_reviews_count type="integer">68959</text_reviews_count>
@@ -680,14 +680,14 @@ http://www.youtube.com/user/eljamesauthor?feature=mhee</about>
         <genre2></genre2>
         <genre3></genre3>
         <books_count type="integer">1060</books_count>
-        <reviews_count type="integer">5249179</reviews_count>
-        <ratings_sum type="integer">13558871</ratings_sum>
+        <reviews_count type="integer">5249183</reviews_count>
+        <ratings_sum type="integer">13558968</ratings_sum>
         <works_count type="integer">23</works_count>
         <hometown>London</hometown>
         <rating_dist>5:255|4:55|3:11|2:4|1:7|total:332</rating_dist>
         <s3_image_at type="datetime" nil="true"/>
-        <ratings_count type="integer">3609173</ratings_count>
-        <text_reviews_count type="integer">157756</text_reviews_count>
+        <ratings_count type="integer">3609199</ratings_count>
+        <text_reviews_count type="integer">157757</text_reviews_count>
         <author_program_at type="datetime">2011-05-04T20:20:12+00:00</author_program_at>
         <best_book_id type="integer">10818853</best_book_id>
         <sort_by_name>james, e.l.</sort_by_name>
