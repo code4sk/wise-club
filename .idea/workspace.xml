@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a9fc663-ae91-4658-af90-76ede61a8373" name="Default Changelist" comment="" />
+    <list default="true" id="8a9fc663-ae91-4658-af90-76ede61a8373" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/author/migrations/0002_auto_20191015_2234.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author/migrations/0003_author_slug.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author/migrations/0004_auto_20191016_0105.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author/migrations/0005_author_average_rating.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/author/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/migrations/0002_auto_20191015_2230.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/migrations/0003_book_similar_books.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/migrations/0004_book_type.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/migrations/0005_book_average_rating.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/migrations/0006_auto_20191019_2227.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0002_status.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0003_remove_customuser_image.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0004_customuser_image.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0005_auto_20191017_2335.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0006_auto_20191017_2346.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0007_auto_20191017_2347.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0008_auto_20191017_2351.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0009_auto_20191018_0216.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0010_status_type.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0011_auto_20191018_1541.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0012_customuser_best_quote.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0013_shelf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0014_auto_20191019_0227.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0015_review.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0016_auto_20191020_0101.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0017_review_user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0018_shelf_user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0019_auto_20191103_0448.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

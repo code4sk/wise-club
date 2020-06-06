@@ -2,6 +2,7 @@ from django.db import models
 
 
 class Author(models.Model):
+    # pass
     author_id = models.CharField(unique=True, max_length=20, default='0')
     slug = models.SlugField(unique=True, max_length=40)
     name = models.CharField(max_length=20)
