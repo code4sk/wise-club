@@ -1,0 +1,165 @@
+.Coral button {
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    border: 5px solid white;
+    background: transparent;
+    transition: all 1s ease;
+  }
+.Coral button span {
+    position: absolute;
+    content: '';
+    top: 1.75em;
+    left: 50%;
+    width: 20em;
+    height: 20em;
+    margin-left: -10em;
+    border-radius: 42.5%;
+    transform-origin: 50% 50%;
+    transition: all 1s ease, top 1.5s ease;
+    /* transition: box-shadow .3s; */
+  }
+.Coral button .Coralwave1 {
+    background: red;
+    z-index: -3;
+    animation: smallwave 3s infinite linear;
+  }
+.Coral button .Coralwave2 {
+    background: #ffb900;
+    z-index: -1;
+    animation: smallwave 4s infinite linear;
+  }
+.Coral button .Coralwave3 {
+    background: blue;
+    z-index: -2;
+    animation: smallwave 5s infinite linear;
+  }
+.Coral button:hover {
+    transition: all 1s ease;
+  }
+.Coral button:hover span {
+    top: 0.5em;
+    transition: all 1s ease, top 1.5s ease;
+  }
+  .float-button {
+    cursor: pointer;
+    overflow: visible;
+    outline: none;
+    color: #fff;
+    /* filter: contrast(8); */
+    position: relative;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 0.5rem 3rem .5rem 3rem;
+    text-transform: uppercase;
+    z-index: 8;
+    font-family: Chilanka;
+    font-size: 28px;
+  }
+  /* .float-button:active{
+      box-shadow: 5px 5px 15px white;
+  } */
+  .float-button a {
+    text-decoration: none;
+  }
+  @-moz-keyframes wave {
+    0% {
+      transform: rotate(0deg) scale(1);
+    }
+    50% {
+      transform: rotate(180deg) scale(0.975);
+    }
+    100% {
+      transform: rotate(360deg) scale(1);
+    }
+  }
+  @-webkit-keyframes wave {
+    0% {
+      transform: rotate(0deg) scale(1);
+    }
+    50% {
+      transform: rotate(180deg) scale(0.975);
+    }
+    100% {
+      transform: rotate(360deg) scale(1);
+    }
+  }
+  @-o-keyframes wave {
+    0% {
+      transform: rotate(0deg) scale(1);
+    }
+    50% {
+      transform: rotate(180deg) scale(0.975);
+    }
+    100% {
+      transform: rotate(360deg) scale(1);
+    }
+  }
+  @keyframes wave {
+    0% {
+      transform: rotate(0deg) scale(1);
+    }
+    50% {
+      transform: rotate(180deg) scale(0.975);
+    }
+    100% {
+      transform: rotate(360deg) scale(1);
+    }
+  }
+  @-moz-keyframes smallwave {
+    0% {
+      transform: rotate(0deg) scale(1);
+      opacity: 0.8;
+    }
+    50% {
+      transform: rotate(180deg) scale(0.95);
+      opacity: 0.25;
+    }
+    100% {
+      transform: rotate(360deg) scale(1);
+      opacity: 0.8;
+    }
+  }
+  @-webkit-keyframes smallwave {
+    0% {
+      transform: rotate(0deg) scale(1);
+      opacity: 0.8;
+    }
+    50% {
+      transform: rotate(180deg) scale(0.95);
+      opacity: 0.25;
+    }
+    100% {
+      transform: rotate(360deg) scale(1);
+      opacity: 0.8;
+    }
+  }
+  @-o-keyframes smallwave {
+    0% {
+      transform: rotate(0deg) scale(1);
+      opacity: 0.8;
+    }
+    50% {
+      transform: rotate(180deg) scale(0.95);
+      opacity: 0.25;
+    }
+    100% {
+      transform: rotate(360deg) scale(1);
+      opacity: 0.8;
+    }
+  }
+  @keyframes smallwave {
+    0% {
+      transform: rotate(0deg) scale(1);
+      opacity: 0.8;
+    }
+    50% {
+      transform: rotate(180deg) scale(0.95);
+      opacity: 0.25;
+    }
+    100% {
+      transform: rotate(360deg) scale(1);
+      opacity: 0.8;
+    }
+  }
