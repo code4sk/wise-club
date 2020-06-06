@@ -207,22 +207,30 @@ def load_shelf_data():
 def get_status(user_statuses):
     statuses = []
     for stat in user_statuses:
-        status_type = stat.get('type')
+        status_type = stat.get('type')[:20]
+        print(status_type)
         status_id = stat.get('link').split('/')[-1]
-        image_url = stat.get('image_url')
-        action_text = stat.get('action_text')
+        print(status_id)
+        image_url = stat.get('image_url')[:100]
+        print(image_url)
+        action_text = stat.get('action_text')[:90]
+        print(action_text)
         updated_at = (stat.get('updated_at').split('-'))[0]
+        print(updated_at)
         body = stat.get('body')
+        print(body)
         if action_text != 'liked a quote':
             query = Status.objects.filter(action_text=action_text)
         else:
             query = Status.objects.filter(body=body)
+        print('say')
         if not query:
             s = Status.objects.create(status_id=status_id, type=status_type, image=image_url, action_text=action_text,
                                       updated_at=updated_at, body=body)
         else:
             s = query[0]
         statuses.append(s)
+    print('status')
     return statuses
 
 
@@ -239,6 +247,7 @@ def get_friends(friends_list):
         else:
             s = CustomUser.objects.filter(user_id=friend.get('id'))[0]
         friends.append(s)
+    print('friends')
     return friends
 
 
@@ -298,12 +307,17 @@ def get_user_shelves(user_shelves):
         else:
             s = Shelf.objects.filter(shelf_id=shelf.get('id'))[0]
         shelves.append(s)
+    print('shelves')
     return shelves
 
 
 def get_user_data():
+    # load_xml()
     [name, image_url, interests, favourite_books, about, user_shelves, user_statuses] = load_user_data()
+    print(user_shelves)
+    print(user_statuses)
     friends = load_friend_data()
+    print('ók')
     return [get_status(user_statuses), get_user_shelves(user_shelves), get_friends(friends)]
 
 

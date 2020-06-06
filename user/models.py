@@ -14,8 +14,8 @@ rating_choices = (
 
 class Status(models.Model):
     status_id = models.CharField(max_length=20)
-    type = models.CharField(max_length=20)
-    action_text = models.CharField(max_length=100)
+    type = models.CharField(max_length=200)
+    action_text = models.CharField(max_length=500)
     updated_at = models.CharField(max_length=20)
     body = models.TextField(null=True)
     image = models.URLField()
@@ -54,10 +54,10 @@ class CustomUser(AbstractUser):
     best_quote = models.CharField(max_length=120, null=True)
     friends_count = models.IntegerField(default=0)
     reviews_count = models.IntegerField(default=0)
-    image = models.URLField()
+    image = models.URLField(blank=True)
 
     def __str__(self):
-        return self.name
+        return self.username
 
 
 class Comment(models.Model):
