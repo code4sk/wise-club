@@ -30,7 +30,7 @@ class Detail(View):
                 all_users.append(str(user.username))
             timer = "no"
             user = None
-            shelves = Shelf.objects.filter(user=request.user)
+            shelves = Shelf.objects.filter(user=request.user).exclude(name='delete')
             book_shelf = book.shelf_set.all()
             if not book_shelf:
                 book_shelf = 0

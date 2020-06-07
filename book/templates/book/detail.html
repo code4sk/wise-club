@@ -51,7 +51,7 @@
                             <option value={{shelf.name}}>{{shelf.name}}</option>
                             {% endif %}
                             {% endfor %}
-                            <option>Add new shelf</option>
+                            
                         </select>
                         <a href="{% url 'book:remove_from_shelf' book_id=book.book_id %}">
                             <i class="fas fa-times remove-book"></i>
