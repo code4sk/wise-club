@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GoodreadsResponse>
+  <Request>
+    <authentication>true</authentication>
+      <key><![CDATA[ePqGSFb6Pt7Xll8EnFzQJA]]></key>
+    <method><![CDATA[api_auth_user]]></method>
+  </Request>
+  <user id="97134500">
+  <name>Shubham Kapoor</name>
+  <link><![CDATA[https://www.goodreads.com/user/show/97134500-shubham-kapoor?utm_medium=api]]></link>
+</user>
+
+</GoodreadsResponse>

@@ -21,35 +21,68 @@ goodreads = OAuth1Service(
             base_url='https://www.goodreads.com'
         )
 
-session = goodreads.get_session(('RCyAWcTakiGfmAcdg2jHUw',
-                                 'Tcpw1wIlc1QbbOCkRgMflEc66WDks7pj1NQ4AB4X4'))
+
+def load_user_id_xml(session, user):
+    res = session.get('https://www.goodreads.com/api/auth_user')
+    user_xml = "{}_user_id".format(user.username)
+    with open('user/{}.xml'.format(user_xml), 'wb') as f:
+        f.write(res.content)
+    return 'user/{}.xml'.format(user_xml)
 
 
-def load_xml():
-    url = 'https://www.goodreads.com/user/show/97134500.xml?key=ePqGSFb6Pt7Xll8EnFzQJA'
+def load_user_id_data(session, user):
+    xml_name = load_user_id_xml(session, user)
+    tree = et.parse(xml_name)
+    root = tree.getroot()
+    user_id = ''
+    for el in root.iter('user'):
+        user_id = el.attrib.get('id')
+        user.user_id = user_id
+        user.save()
+        print(user_id)
+        break
+    [name, image_url, interests, favorite_books , about, user_shelves, user_statuses] = load_user_data(user_id)
+    user.name = name
+    user.image = image_url
+    user.interests = interests
+    user.favourite_books = favorite_books
+    user.save()
+    [st, sl, fr] = get_user_data(user)
+    user.save()
+    print(st)
+    print(sl)
+    print(fr)
+
+
+def load_xml(user_id):
+    url = 'https://www.goodreads.com/user/show/' + user_id + '.xml?key=ePqGSFb6Pt7Xll8EnFzQJA'
     response = requests.get(url)
     with open('user/user.xml', 'wb') as f:
         f.write(response.content)
 
 
-def load_friend_xml():
-    data = {'id': 97134500}
+def load_friend_xml(user):
+    data = {'id': user.user_id}
     url = 'https://www.goodreads.com/friend/user.xml'
+    session = goodreads.get_session((user.access_token,
+                                     user.access_token_secret))
     response = session.get(url, params=data)
     with open('user/friend.xml', 'wb') as f:
         f.write(response.content)
 
 
-def load_shelf_xml():
-    data = {'id': 97134500, 'key': consumer_key}
+def load_shelf_xml(user):
+    data = {'id': user.user_id, 'key': consumer_key}
     url = 'https://www.goodreads.com/review/list?v=2'
+    session = goodreads.get_session((user.access_token,
+                                     user.access_token_secret))
     response = session.get(url, params=data)
     with open('user/shelf.xml', 'wb') as f:
         f.write(response.content)
 
 
-def load_friend_data():
-    # load_friend_xml()
+def load_friend_data(user):
+    load_friend_xml(user)
     friends = []
     tree = et.parse('user/friend.xml')
     root = tree.getroot()
@@ -75,8 +108,8 @@ def load_friend_data():
         return friends
 
 
-def load_user_data():
-    load_xml()
+def load_user_data(user_id='97134500'):
+    load_xml(user_id)
     name = ''
     image_url = ''
     about = ''
@@ -144,11 +177,11 @@ def load_user_data():
                     user_statuses.append(status)
         # print(user_statuses)
         # print('------------XXXX------------')
-        return [name, image_url, interests,favorite_books  , about, user_shelves, user_statuses]
+        return [name, image_url, interests,favorite_books , about, user_shelves, user_statuses]
 
 
-def load_shelf_data():
-    load_shelf_xml()
+def load_shelf_data(user):
+    load_shelf_xml(user)
     shelves = []
     shelves_id = {}
     tree = et.parse('user/shelf.xml')
@@ -207,13 +240,13 @@ def load_shelf_data():
 def get_status(user_statuses):
     statuses = []
     for stat in user_statuses:
-        status_type = stat.get('type')[:20]
+        status_type = stat.get('type')
         print(status_type)
         status_id = stat.get('link').split('/')[-1]
         print(status_id)
-        image_url = stat.get('image_url')[:100]
+        image_url = stat.get('image_url')
         print(image_url)
-        action_text = stat.get('action_text')[:90]
+        action_text = stat.get('action_text')
         print(action_text)
         updated_at = (stat.get('updated_at').split('-'))[0]
         print(updated_at)
@@ -297,36 +330,39 @@ def get_shelves(shelves):
     return all_shelves_model
 
 
-def get_user_shelves(user_shelves):
+def get_user_shelves(user_shelves, user_id):
     shelves = []
     for shelf in user_shelves:
         # print(shelf)
         if shelf.get('id') not in Shelf.objects.values_list('shelf_id', flat=True):
-            user = CustomUser.objects.get(user_id=97134500)
+            user = CustomUser.objects.get(user_id=user_id)
             s = Shelf.objects.create(shelf_id=shelf.get('id'), name=shelf.get('name'), user=user)
         else:
             s = Shelf.objects.filter(shelf_id=shelf.get('id'))[0]
-        shelves.append(s)
+        if shelf.get('name') != 'delete':
+            shelves.append(s)
     print('shelves')
     return shelves
 
 
-def get_user_data():
+def get_user_data(user):
     # load_xml()
-    [name, image_url, interests, favourite_books, about, user_shelves, user_statuses] = load_user_data()
+    [name, image_url, interests, favourite_books, about, user_shelves, user_statuses] = load_user_data(user.user_id)
     print(user_shelves)
     print(user_statuses)
-    friends = load_friend_data()
+    friends = load_friend_data(user)
     print('ók')
-    return [get_status(user_statuses), get_user_shelves(user_shelves), get_friends(friends)]
+    return [get_status(user_statuses), get_user_shelves(user_shelves, user.user_id), get_friends(friends)]
 
 
-def get_shelf_data():
-    shelves = load_shelf_data()
+def get_shelf_data(user):
+    shelves = load_shelf_data(user)
     return get_shelves(shelves)
 
 
-def edit_review(review_id, text, rating, shelf):
+def edit_review(review_id, text, rating, shelf, user):
     data = {'id': review_id, 'review[review]': text, 'review[rating]': rating, 'shelf': shelf}
     url = 'https://www.goodreads.com/review/{}.xml'.format(review_id)
+    session = goodreads.get_session((user.access_token,
+                                     user.access_token_secret))
     return session.post(url, data)

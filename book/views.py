@@ -30,7 +30,7 @@ class Detail(View):
                 all_users.append(str(user.username))
             timer = "no"
             user = None
-            shelves = Shelf.objects.all()
+            shelves = Shelf.objects.filter(user=request.user)
             book_shelf = book.shelf_set.all()
             if not book_shelf:
                 book_shelf = 0
@@ -104,7 +104,7 @@ class ReviewCreate(View):
         rating = request.POST.get('rating', 0)
         print(book_id)
         book = Book.objects.get(book_id=book_id)
-        response = post_review(review, shelf_name, book.book_id, rating)
+        response = post_review(review, shelf_name, book.book_id, rating, request.user)
         if response.status_code == 201:
             review_id = get_review_id(response)
             a = Review.objects.create(review_id=review_id, body=review, rating=rating,
@@ -126,7 +126,7 @@ class AddToShelf(View):
         shelf_name = request.POST.get('shelf')
         book_id = request.POST.get('book_id')
         shelf = Shelf.objects.get(name=shelf_name, user=request.user)
-        response = add_to_shelf(shelf_name, book_id)
+        response = add_to_shelf(shelf_name, book_id, request.user)
         print(response)
         book = Book.objects.get(book_id=book_id)
         if response.status_code == 201:
@@ -139,4 +139,4 @@ class AddToShelf(View):
 
 class RemoveFromShelf(View):
     def get(self, request, book_id):
-        return main_utils.delete_review_view(book_id, 'book')
+        return main_utils.delete_review_view(book_id, 'book', request.user.user_id, request.user)

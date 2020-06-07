@@ -13,7 +13,7 @@ rating_choices = (
 
 
 class Status(models.Model):
-    status_id = models.CharField(max_length=20)
+    status_id = models.CharField(max_length=200)
     type = models.CharField(max_length=200)
     action_text = models.CharField(max_length=500)
     updated_at = models.CharField(max_length=100)
@@ -35,7 +35,7 @@ class Shelf(models.Model):
 
 
 class Review(models.Model):
-    review_id = models.CharField(unique=True, max_length=20)
+    review_id = models.CharField(unique=True, max_length=200)
     body = models.TextField()
     rating = models.PositiveIntegerField(choices=rating_choices, default=3)
     user = models.ForeignKey('CustomUser', on_delete=models.CASCADE)
@@ -55,6 +55,11 @@ class CustomUser(AbstractUser):
     friends_count = models.IntegerField(default=0)
     reviews_count = models.IntegerField(default=0)
     image = models.URLField(blank=True)
+
+    request_token = models.CharField(max_length=720, default='')
+    request_token_secret = models.CharField(max_length=720, default='')
+    access_token = models.CharField(max_length=720, null=True)
+    access_token_secret = models.CharField(max_length=720, null=True)
 
     def __str__(self):
         return self.username

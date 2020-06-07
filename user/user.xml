@@ -27,12 +27,12 @@
     <reviews_rss_url><![CDATA[https://www.goodreads.com/review/list_rss/97134500?key=Qcn7M48-IJ0BJ9ADcnZV1DPGyzp0eA7RiWNQMuFtwMg-Tb8L&shelf=%23ALL%23]]></reviews_rss_url>
     <friends_count type="integer">7</friends_count>
     <groups_count>1</groups_count>
-    <reviews_count type="integer">11</reviews_count>
+    <reviews_count type="integer">14</reviews_count>
     <user_shelves type="array">
   <user_shelf>
     <id type="integer">315510992</id>
     <name>read</name>
-    <book_count type="integer">5</book_count>
+    <book_count type="integer">7</book_count>
     <exclusive_flag type="boolean">true</exclusive_flag>
     <sort nil="true"/>
     <order nil="true"/>
@@ -58,8 +58,21 @@
   <user_shelf>
     <id type="integer">315510989</id>
     <name>to-read</name>
-    <book_count type="integer">5</book_count>
+    <book_count type="integer">6</book_count>
     <exclusive_flag type="boolean">true</exclusive_flag>
+    <sort nil="true"/>
+    <order nil="true"/>
+    <per_page type="integer" nil="true"/>
+    <display_fields></display_fields>
+    <featured type="boolean">false</featured>
+    <recommend_for type="boolean">true</recommend_for>
+    <sticky type="boolean" nil="true"/>
+  </user_shelf>
+  <user_shelf>
+    <id type="integer">377569657</id>
+    <name>delete</name>
+    <book_count type="integer">4</book_count>
+    <exclusive_flag type="boolean">false</exclusive_flag>
     <sort nil="true"/>
     <order nil="true"/>
     <per_page type="integer" nil="true"/>
@@ -70,6 +83,305 @@
   </user_shelf>
 </user_shelves>
       <updates type="array">
+      <update type="readstatus">
+      <action_text><![CDATA[wants to read <a only_path="false" href="https://www.goodreads.com/review/show/3377600277">Life of Pi</a>]]></action_text>
+      <link>https://www.goodreads.com/read_statuses/3655453976</link>
+      <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
+        <actor>
+  <id type="integer">97134500</id>
+  <name>Shubham Kapoor</name>
+  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
+  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
+</actor>
+      <updated_at>Sat, 06 Jun 2020 18:46:36 -0700</updated_at>
+        <object>
+          <read_status>
+  <id type="integer">3655453976</id>
+  <review_id type="integer">3377600277</review_id>
+  <user_id type="integer">97134500</user_id>
+  <old_status>currently-reading</old_status>
+  <status>to-read</status>
+  <updated_at type="datetime">2020-06-07T01:46:36+00:00</updated_at>
+  <review>
+    <id type="integer">3377600277</id>
+    <user_id type="integer">97134500</user_id>
+    <book_id type="integer">4214</book_id>
+    <rating type="integer">0</rating>
+    <read_status>to-read</read_status>
+    <sell_flag type="boolean">false</sell_flag>
+    <review nil="true"/>
+    <recommendation nil="true"/>
+    <read_at type="datetime" nil="true"/>
+    <updated_at type="datetime">2020-06-07T01:46:35+00:00</updated_at>
+    <created_at type="datetime">2020-06-06T16:53:31+00:00</created_at>
+    <comments_count type="integer">0</comments_count>
+    <weight type="integer">0</weight>
+    <ratings_sum type="integer">0</ratings_sum>
+    <ratings_count type="integer">0</ratings_count>
+    <spoiler_flag type="boolean">false</spoiler_flag>
+    <recommender_user_id1 type="integer">0</recommender_user_id1>
+    <recommender_user_name1 nil="true"/>
+    <work_id type="integer">1392700</work_id>
+    <last_comment_at type="datetime" nil="true"/>
+    <started_at type="datetime">2020-06-07T01:46:31+00:00</started_at>
+    <hidden_flag type="boolean">false</hidden_flag>
+    <language_code type="integer" nil="true"/>
+    <last_revision_at type="datetime">2020-06-07T01:46:35+00:00</last_revision_at>
+    <non_friends_rating_count type="integer">0</non_friends_rating_count>
+    <encrypted_notes nil="true"/>
+    <book_uri>kca://book/amzn1.gr.book.v1.xDVbF6l_LTfMdTx3ajT_qQ</book_uri>
+    <notes nil="true"/>
+    <book>
+      <id type="integer">4214</id>
+      <work_id type="integer">1392700</work_id>
+      <isbn>0770430074</isbn>
+      <isbn13>9780770430078</isbn13>
+      <title>Life of Pi</title>
+      <sort_by_title>life of pi</sort_by_title>
+      <author_id type="integer">811</author_id>
+      <author_role nil="true"/>
+      <asin nil="true"/>
+      <description nil="true"/>
+      <format>Paperback</format>
+      <publication_year type="integer">2006</publication_year>
+      <publication_month type="integer">8</publication_month>
+      <publication_day type="integer">29</publication_day>
+      <num_pages type="integer">460</num_pages>
+      <publisher>Seal Books</publisher>
+      <language_code>eng</language_code>
+      <edition_information nil="true"/>
+      <url nil="true"/>
+      <source_url nil="true"/>
+      <image_uploaded_at type="datetime">2011-11-06T06:46:45+00:00</image_uploaded_at>
+      <s3_image_at type="datetime">2015-05-16T14:49:42+00:00</s3_image_at>
+      <reviews_count type="integer">1860656</reviews_count>
+      <ratings_sum type="integer">4722099</ratings_sum>
+      <ratings_count type="integer">1208282</ratings_count>
+      <text_reviews_count type="integer">35931</text_reviews_count>
+      <book_authors_count type="integer">0</book_authors_count>
+      <updated_at type="datetime">2020-06-06T08:01:03+00:00</updated_at>
+      <created_at type="datetime">2006-12-06T11:01:30+00:00</created_at>
+      <author_id_updater_user_id type="integer">-50</author_id_updater_user_id>
+      <author_role_updater_user_id type="integer">1217925</author_role_updater_user_id>
+      <description_updater_user_id type="integer">66648866</description_updater_user_id>
+      <edition_information_updater_user_id type="integer" nil="true"/>
+      <format_updater_user_id type="integer">-50</format_updater_user_id>
+      <image_updater_user_id type="integer">-50</image_updater_user_id>
+      <isbn_updater_user_id type="integer">171430</isbn_updater_user_id>
+      <isbn13_updater_user_id type="integer">171430</isbn13_updater_user_id>
+      <language_updater_user_id type="integer">-110</language_updater_user_id>
+      <num_pages_updater_user_id type="integer">5407952</num_pages_updater_user_id>
+      <publication_date_updater_user_id type="integer">-50</publication_date_updater_user_id>
+      <publisher_updater_user_id type="integer">-50</publisher_updater_user_id>
+      <title_updater_user_id type="integer">845495</title_updater_user_id>
+      <url_updater_user_id type="integer" nil="true"/>
+      <title_language_code nil="true"/>
+      <publisher_language_code nil="true"/>
+      <description_language_code nil="true"/>
+      <asin_updater_user_id type="integer" nil="true"/>
+      <book_uri>kca://book/amzn1.gr.book.v1.xDVbF6l_LTfMdTx3ajT_qQ</book_uri>
+      <author>
+        <id type="integer">811</id>
+        <name>Yann Martel</name>
+        <updated_at type="datetime">2020-06-06T22:02:12+00:00</updated_at>
+        <created_at type="datetime">2006-09-09T20:27:34+00:00</created_at>
+        <image_uploaded_at type="datetime">2016-01-28T20:28:23+00:00</image_uploaded_at>
+        <user_id type="integer" nil="true"/>
+        <gender>M</gender>
+        <country_code>ES</country_code>
+        <born_at type="date">1963-06-25</born_at>
+        <died_at type="datetime" nil="true"/>
+        <about>Yann Martel is the author of &lt;i&gt;Life of Pi&lt;/i&gt;, the #1 international bestseller and winner of the 2002 Man Booker (among many other prizes). He is also the award-winning author of &lt;i&gt;The Facts Behind the Helsinki Roccamatios&lt;/i&gt; (winner of the Journey Prize), &lt;i&gt;Self&lt;/i&gt;, &lt;i&gt;Beatrice &amp; Virgil&lt;/i&gt;, and &lt;i&gt;101 Letters to a Prime Minister&lt;/i&gt;. Born in Spain in 1963, Martel studied philosophy at Trent University, worked at odd jobs—tree planter, dishwasher, security guard—and traveled widely before turning to writing. He lives in Saskatoon, Canada, with the writer Alice Kuipers and their four children.
+&lt;br&gt;
+&lt;a href="http://www.facebook.com/pages/Yann-Martel/337952694514?ref=ts/"&gt; Become a fan&lt;/a&gt; of Yann on Facebook.</about>
+        <uploader_user_id type="integer">603238</uploader_user_id>
+        <image_copyright>Photo Credit: Emma Love. Image provided by publisher.</image_copyright>
+        <influences></influences>
+        <url></url>
+        <genre1>Fiction</genre1>
+        <genre2></genre2>
+        <genre3></genre3>
+        <books_count type="integer">583</books_count>
+        <reviews_count type="integer">2105094</reviews_count>
+        <ratings_sum type="integer">5217900</ratings_sum>
+        <works_count type="integer">25</works_count>
+        <hometown>Salamanca</hometown>
+        <rating_dist>5:44346|4:57645|3:36340|2:13114|1:6510|total:157955</rating_dist>
+        <s3_image_at type="datetime" nil="true"/>
+        <ratings_count type="integer">1340964</ratings_count>
+        <text_reviews_count type="integer">53057</text_reviews_count>
+        <author_program_at type="datetime" nil="true"/>
+        <best_book_id type="integer">4214</best_book_id>
+        <sort_by_name>martel, yann</sort_by_name>
+        <shelf_display_name>Martel, Yann</shelf_display_name>
+        <author_uri>kca://author/amzn1.gr.author.v1.eQXBviNkBhdDjsI3zhUtRg</author_uri>
+      </author>
+    </book>
+  </review>
+</read_status>
+
+        </object>
+    </update>
+      <update type="review">
+      <action_text><![CDATA[gave 5 stars to <a href="https://www.goodreads.com/book/show/960.Angels_Demons">Angels & Demons (Robert Langdon, #1)</a> by <a href="https://www.goodreads.com/author/show/630.Dan_Brown">Dan Brown</a>]]></action_text>
+      <link>https://www.goodreads.com/review/show/3377572267</link>
+      <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558711679l/960._SY75_.jpg</image_url>
+        <actor>
+  <id type="integer">97134500</id>
+  <name>Shubham Kapoor</name>
+  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
+  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
+</actor>
+      <updated_at>Sat, 06 Jun 2020 18:40:06 -0700</updated_at>
+          <action type="rating">
+            <rating>5</rating>
+          </action>
+        <object>
+          <book>
+            <id>960</id>
+            <title><![CDATA[Angels & Demons (Robert Langdon, #1)]]></title>
+            <link>https://www.goodreads.com/book/show/960.Angels_Demons</link>
+            <authors>
+<author>
+<id>630</id>
+<name>Dan Brown</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1399396714p5/630.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1399396714p2/630.jpg]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/630.Dan_Brown]]></link>
+<average_rating>3.83</average_rating>
+<ratings_count>6820010</ratings_count>
+<text_reviews_count>180758</text_reviews_count>
+</author>
+</authors>
+          </book>
+        </object>
+        <body><![CDATA[ This novel has everything you can imagine!!!<br /> ]]></body>
+    </update>
+      <update type="review">
+      <action_text><![CDATA[gave 5 stars to <a href="https://www.goodreads.com/book/show/10818853-fifty-shades-of-grey">Fifty Shades of Grey (Fifty Shades, #1)</a> by <a href="https://www.goodreads.com/author/show/4725841.E_L_James">E.L. James</a>]]></action_text>
+      <link>https://www.goodreads.com/review/show/3040327687</link>
+      <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385207843l/10818853._SX50_.jpg</image_url>
+        <actor>
+  <id type="integer">97134500</id>
+  <name>Shubham Kapoor</name>
+  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
+  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
+</actor>
+      <updated_at>Sat, 06 Jun 2020 18:15:35 -0700</updated_at>
+          <action type="rating">
+            <rating>5</rating>
+          </action>
+        <object>
+          <book>
+            <id>10818853</id>
+            <title><![CDATA[Fifty Shades of Grey (Fifty Shades, #1)]]></title>
+            <link>https://www.goodreads.com/book/show/10818853-fifty-shades-of-grey</link>
+            <authors>
+<author>
+<id>4725841</id>
+<name>E.L. James</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1549477398p5/4725841.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1549477398p2/4725841.jpg]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/4725841.E_L_James]]></link>
+<average_rating>3.76</average_rating>
+<ratings_count>3610220</ratings_count>
+<text_reviews_count>157732</text_reviews_count>
+</author>
+</authors>
+          </book>
+        </object>
+        <body> &lt;br /&gt; </body>
+    </update>
+      <update type="review">
+      <action_text><![CDATA[gave 3 stars to <a href="https://www.goodreads.com/book/show/18802174-wake-for-me">Wake for Me (Life or Death, #1)</a> by <a href="https://www.goodreads.com/author/show/7389142.Isobel_Irons">Isobel Irons</a>]]></action_text>
+      <link>https://www.goodreads.com/review/show/3378228376</link>
+      <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1395597476l/18802174._SY75_.jpg</image_url>
+        <actor>
+  <id type="integer">97134500</id>
+  <name>Shubham Kapoor</name>
+  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
+  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
+</actor>
+      <updated_at>Sat, 06 Jun 2020 17:22:01 -0700</updated_at>
+          <action type="rating">
+            <rating>3</rating>
+          </action>
+        <object>
+          <book>
+            <id>18802174</id>
+            <title><![CDATA[Wake for Me (Life or Death, #1)]]></title>
+            <link>https://www.goodreads.com/book/show/18802174-wake-for-me</link>
+            <authors>
+<author>
+<id>7389142</id>
+<name>Isobel Irons</name>
+<role></role>
+<image_url nophoto='true'>
+<![CDATA[https://s.gr-assets.com/assets/nophoto/user/f_200x266-3061b784cc8e7f021c6430c9aba94587.png]]>
+</image_url>
+<small_image_url nophoto='true'>
+<![CDATA[https://s.gr-assets.com/assets/nophoto/user/f_50x66-6a03a5c12233c941481992b82eea8d23.png]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/7389142.Isobel_Irons]]></link>
+<average_rating>3.80</average_rating>
+<ratings_count>902</ratings_count>
+<text_reviews_count>165</text_reviews_count>
+</author>
+</authors>
+          </book>
+        </object>
+        <body>Excited to read</body>
+    </update>
+      <update type="review">
+      <action_text><![CDATA[gave 5 stars to <a href="https://www.goodreads.com/book/show/960.Angels_Demons">Angels & Demons (Robert Langdon, #1)</a> by <a href="https://www.goodreads.com/author/show/630.Dan_Brown">Dan Brown</a>]]></action_text>
+      <link>https://www.goodreads.com/review/show/3377572267</link>
+      <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558711679l/960._SY75_.jpg</image_url>
+        <actor>
+  <id type="integer">97134500</id>
+  <name>Shubham Kapoor</name>
+  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
+  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
+</actor>
+      <updated_at>Sat, 06 Jun 2020 09:34:22 -0700</updated_at>
+          <action type="rating">
+            <rating>5</rating>
+          </action>
+        <object>
+          <book>
+            <id>960</id>
+            <title><![CDATA[Angels & Demons (Robert Langdon, #1)]]></title>
+            <link>https://www.goodreads.com/book/show/960.Angels_Demons</link>
+            <authors>
+<author>
+<id>630</id>
+<name>Dan Brown</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1399396714p5/630.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1399396714p2/630.jpg]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/630.Dan_Brown]]></link>
+<average_rating>3.83</average_rating>
+<ratings_count>6820010</ratings_count>
+<text_reviews_count>180758</text_reviews_count>
+</author>
+</authors>
+          </book>
+        </object>
+        <body><![CDATA[ This novel has everything you can imagine!!!<br /> ]]></body>
+    </update>
       <update type="review">
       <action_text><![CDATA[gave 5 stars to <a href="https://www.goodreads.com/book/show/22675844-life-or-death">Life or Death (Hardcover)</a> by <a href="https://www.goodreads.com/author/show/266945.Michael_Robotham">Michael Robotham</a>]]></action_text>
       <link>https://www.goodreads.com/review/show/3376413836</link>
@@ -102,8 +414,8 @@
 </small_image_url>
 <link><![CDATA[https://www.goodreads.com/author/show/266945.Michael_Robotham]]></link>
 <average_rating>4.04</average_rating>
-<ratings_count>115204</ratings_count>
-<text_reviews_count>12358</text_reviews_count>
+<ratings_count>115279</ratings_count>
+<text_reviews_count>12360</text_reviews_count>
 </author>
 </authors>
           </book>
@@ -188,11 +500,11 @@ Michael Robotham has created the ultimate underdog hero, an honorable criminal s
       <image_uploaded_at type="datetime">2016-01-03T23:24:42+00:00</image_uploaded_at>
       <s3_image_at type="datetime">2016-01-03T23:24:42+00:00</s3_image_at>
       <reviews_count type="integer">6320</reviews_count>
-      <ratings_sum type="integer">11640</ratings_sum>
-      <ratings_count type="integer">2871</ratings_count>
-      <text_reviews_count type="integer">367</text_reviews_count>
+      <ratings_sum type="integer">11643</ratings_sum>
+      <ratings_count type="integer">2872</ratings_count>
+      <text_reviews_count type="integer">368</text_reviews_count>
       <book_authors_count type="integer">0</book_authors_count>
-      <updated_at type="datetime">2020-06-05T08:29:29+00:00</updated_at>
+      <updated_at type="datetime">2020-06-06T08:28:39+00:00</updated_at>
       <created_at type="datetime">2015-06-06T01:27:58+00:00</created_at>
       <author_id_updater_user_id type="integer">-46</author_id_updater_user_id>
       <author_role_updater_user_id type="integer" nil="true"/>
@@ -216,7 +528,7 @@ Michael Robotham has created the ultimate underdog hero, an honorable criminal s
       <author>
         <id type="integer">266945</id>
         <name>Michael Robotham</name>
-        <updated_at type="datetime">2020-06-05T10:18:13+00:00</updated_at>
+        <updated_at type="datetime">2020-06-06T14:51:28+00:00</updated_at>
         <created_at type="datetime">2007-03-28T15:13:25+00:00</created_at>
         <image_uploaded_at type="datetime">2013-02-21T03:42:15+00:00</image_uploaded_at>
         <user_id type="integer">8158838</user_id>
@@ -247,14 +559,14 @@ Michael writes in what his daughters' refer to as his 'cabana of cruelty' on Syd
         <genre2>Crime</genre2>
         <genre3>Thriller</genre3>
         <books_count type="integer">735</books_count>
-        <reviews_count type="integer">257334</reviews_count>
-        <ratings_sum type="integer">465394</ratings_sum>
+        <reviews_count type="integer">257508</reviews_count>
+        <ratings_sum type="integer">465680</ratings_sum>
         <works_count type="integer">29</works_count>
         <hometown></hometown>
         <rating_dist>5:373|4:859|3:565|2:102|1:24|total:1923</rating_dist>
         <s3_image_at type="datetime">2015-05-14T23:31:58+00:00</s3_image_at>
-        <ratings_count type="integer">115204</ratings_count>
-        <text_reviews_count type="integer">12358</text_reviews_count>
+        <ratings_count type="integer">115279</ratings_count>
+        <text_reviews_count type="integer">12360</text_reviews_count>
         <author_program_at type="datetime">2012-08-13T19:26:31+00:00</author_program_at>
         <best_book_id type="integer">33584818</best_book_id>
         <sort_by_name>robotham, michael</sort_by_name>
@@ -338,12 +650,12 @@ Michael writes in what his daughters' refer to as his 'cabana of cruelty' on Syd
       <source_url nil="true"/>
       <image_uploaded_at type="datetime">2019-02-04T00:46:48+00:00</image_uploaded_at>
       <s3_image_at type="datetime">2019-07-17T23:02:58+00:00</s3_image_at>
-      <reviews_count type="integer">250944</reviews_count>
-      <ratings_sum type="integer">306862</ratings_sum>
-      <ratings_count type="integer">73650</ratings_count>
-      <text_reviews_count type="integer">8889</text_reviews_count>
+      <reviews_count type="integer">251206</reviews_count>
+      <ratings_sum type="integer">307393</ratings_sum>
+      <ratings_count type="integer">73774</ratings_count>
+      <text_reviews_count type="integer">8899</text_reviews_count>
       <book_authors_count type="integer">0</book_authors_count>
-      <updated_at type="datetime">2020-06-05T08:47:49+00:00</updated_at>
+      <updated_at type="datetime">2020-06-06T08:46:15+00:00</updated_at>
       <created_at type="datetime">2019-01-31T16:51:16+00:00</created_at>
       <author_id_updater_user_id type="integer">5817327</author_id_updater_user_id>
       <author_role_updater_user_id type="integer">-9</author_role_updater_user_id>
@@ -367,7 +679,7 @@ Michael writes in what his daughters' refer to as his 'cabana of cruelty' on Syd
       <author>
         <id type="integer">3389</id>
         <name>Stephen King</name>
-        <updated_at type="datetime">2020-06-06T01:48:10+00:00</updated_at>
+        <updated_at type="datetime">2020-06-07T01:22:22+00:00</updated_at>
         <created_at type="datetime">2006-12-07T18:45:09+00:00</created_at>
         <image_uploaded_at type="datetime">2013-03-09T07:29:02+00:00</image_uploaded_at>
         <user_id type="integer">26367680</user_id>
@@ -391,15 +703,15 @@ In the fall of 1971, Stephen began teaching English at Hampden Academy, the publ
         <genre1>Horror</genre1>
         <genre2>Mystery</genre2>
         <genre3>Literature &amp; Fiction</genre3>
-        <books_count type="integer">16815</books_count>
-        <reviews_count type="integer">24062352</reviews_count>
-        <ratings_sum type="integer">56480539</ratings_sum>
-        <works_count type="integer">1656</works_count>
+        <books_count type="integer">16823</books_count>
+        <reviews_count type="integer">24070847</reviews_count>
+        <ratings_sum type="integer">56497966</ratings_sum>
+        <works_count type="integer">1657</works_count>
         <hometown>Portland, Maine</hometown>
         <rating_dist>5:420739|4:482953|3:404618|2:122252|1:38507|total:146906</rating_dist>
         <s3_image_at type="datetime">2015-05-14T22:55:21+00:00</s3_image_at>
-        <ratings_count type="integer">13979671</ratings_count>
-        <text_reviews_count type="integer">550761</text_reviews_count>
+        <ratings_count type="integer">13983931</ratings_count>
+        <text_reviews_count type="integer">550957</text_reviews_count>
         <author_program_at type="datetime">2013-12-06T20:04:16+00:00</author_program_at>
         <best_book_id type="integer">11588</best_book_id>
         <sort_by_name>king, stephen</sort_by_name>
@@ -487,12 +799,12 @@ But refusing to give up, Gordon maintains his sanity with the help of Batman in 
       <source_url nil="true"/>
       <image_uploaded_at type="datetime">2012-08-30T13:03:55+00:00</image_uploaded_at>
       <s3_image_at type="datetime">2015-05-16T15:04:15+00:00</s3_image_at>
-      <reviews_count type="integer">202789</reviews_count>
-      <ratings_sum type="integer">651491</ratings_sum>
-      <ratings_count type="integer">148941</ratings_count>
-      <text_reviews_count type="integer">3757</text_reviews_count>
+      <reviews_count type="integer">202836</reviews_count>
+      <ratings_sum type="integer">651624</ratings_sum>
+      <ratings_count type="integer">148971</ratings_count>
+      <text_reviews_count type="integer">3758</text_reviews_count>
       <book_authors_count type="integer">2</book_authors_count>
-      <updated_at type="datetime">2020-06-05T08:02:14+00:00</updated_at>
+      <updated_at type="datetime">2020-06-06T08:02:29+00:00</updated_at>
       <created_at type="datetime">2007-02-12T20:13:44+00:00</created_at>
       <author_id_updater_user_id type="integer">-50</author_id_updater_user_id>
       <author_role_updater_user_id type="integer">5010871</author_role_updater_user_id>
@@ -516,7 +828,7 @@ But refusing to give up, Gordon maintains his sanity with the help of Batman in 
       <author>
         <id type="integer">3961</id>
         <name>Alan Moore</name>
-        <updated_at type="datetime">2020-06-05T20:32:49+00:00</updated_at>
+        <updated_at type="datetime">2020-06-07T01:44:26+00:00</updated_at>
         <created_at type="datetime">2006-12-08T03:22:08+00:00</created_at>
         <image_uploaded_at type="datetime">2011-05-09T12:38:33+00:00</image_uploaded_at>
         <user_id type="integer">47513715</user_id>
@@ -536,14 +848,14 @@ As a comics writer, Moore is notable for being one of the first writers to apply
         <genre2>Literature &amp; Fiction</genre2>
         <genre3>Poetry</genre3>
         <books_count type="integer">3014</books_count>
-        <reviews_count type="integer">2293677</reviews_count>
-        <ratings_sum type="integer">5848119</ratings_sum>
+        <reviews_count type="integer">2294523</reviews_count>
+        <ratings_sum type="integer">5849741</ratings_sum>
         <works_count type="integer">916</works_count>
         <hometown>Northampton, England</hometown>
         <rating_dist>5:53607|4:44730|3:22521|2:5364|1:1408|total:127630</rating_dist>
         <s3_image_at type="datetime">2015-05-14T22:56:05+00:00</s3_image_at>
-        <ratings_count type="integer">1381638</ratings_count>
-        <text_reviews_count type="integer">42881</text_reviews_count>
+        <ratings_count type="integer">1382016</ratings_count>
+        <text_reviews_count type="integer">42877</text_reviews_count>
         <author_program_at type="datetime">2015-10-01T22:07:30+00:00</author_program_at>
         <best_book_id type="integer">472331</best_book_id>
         <sort_by_name>moore, alan</sort_by_name>
@@ -579,13 +891,14 @@ As a comics writer, Moore is notable for being one of the first writers to apply
     <id type="integer">3040327687</id>
     <user_id type="integer">97134500</user_id>
     <book_id type="integer">10818853</book_id>
-    <rating type="integer">0</rating>
+    <rating type="integer">5</rating>
     <read_status>read</read_status>
     <sell_flag type="boolean">false</sell_flag>
-    <review nil="true"/>
+    <review>                       
+                    </review>
     <recommendation nil="true"/>
     <read_at type="datetime" nil="true"/>
-    <updated_at type="datetime">2019-11-07T15:33:59+00:00</updated_at>
+    <updated_at type="datetime">2020-06-07T01:15:04+00:00</updated_at>
     <created_at type="datetime">2019-11-07T15:33:59+00:00</created_at>
     <comments_count type="integer">0</comments_count>
     <weight type="integer">0</weight>
@@ -599,7 +912,7 @@ As a comics writer, Moore is notable for being one of the first writers to apply
     <started_at type="datetime" nil="true"/>
     <hidden_flag type="boolean">false</hidden_flag>
     <language_code type="integer" nil="true"/>
-    <last_revision_at type="datetime">2019-11-07T15:33:59+00:00</last_revision_at>
+    <last_revision_at type="datetime">2020-06-07T01:15:04+00:00</last_revision_at>
     <non_friends_rating_count type="integer">0</non_friends_rating_count>
     <encrypted_notes nil="true"/>
     <book_uri>kca://book/amzn1.gr.book.v1.io4j4oTWOrRgwov3N0d0KQ</book_uri>
@@ -627,12 +940,12 @@ As a comics writer, Moore is notable for being one of the first writers to apply
       <source_url nil="true"/>
       <image_uploaded_at type="datetime">2013-11-23T11:57:23+00:00</image_uploaded_at>
       <s3_image_at type="datetime">2015-06-16T00:46:02+00:00</s3_image_at>
-      <reviews_count type="integer">2403710</reviews_count>
-      <ratings_sum type="integer">6415984</ratings_sum>
-      <ratings_count type="integer">1745105</ratings_count>
-      <text_reviews_count type="integer">68959</text_reviews_count>
+      <reviews_count type="integer">2404535</reviews_count>
+      <ratings_sum type="integer">6417957</ratings_sum>
+      <ratings_count type="integer">1745672</ratings_count>
+      <text_reviews_count type="integer">68965</text_reviews_count>
       <book_authors_count type="integer">0</book_authors_count>
-      <updated_at type="datetime">2020-06-05T08:15:53+00:00</updated_at>
+      <updated_at type="datetime">2020-06-06T08:15:19+00:00</updated_at>
       <created_at type="datetime">2011-03-19T06:10:45+00:00</created_at>
       <author_id_updater_user_id type="integer">1674384</author_id_updater_user_id>
       <author_role_updater_user_id type="integer">777924</author_role_updater_user_id>
@@ -656,7 +969,7 @@ As a comics writer, Moore is notable for being one of the first writers to apply
       <author>
         <id type="integer">4725841</id>
         <name>E.L. James</name>
-        <updated_at type="datetime">2020-06-05T10:24:55+00:00</updated_at>
+        <updated_at type="datetime">2020-06-06T10:23:35+00:00</updated_at>
         <created_at type="datetime">2011-03-19T05:47:48+00:00</created_at>
         <image_uploaded_at type="datetime">2019-02-06T18:23:18+00:00</image_uploaded_at>
         <user_id type="integer">5163758</user_id>
@@ -680,14 +993,14 @@ http://www.youtube.com/user/eljamesauthor?feature=mhee</about>
         <genre2></genre2>
         <genre3></genre3>
         <books_count type="integer">1060</books_count>
-        <reviews_count type="integer">5249195</reviews_count>
-        <ratings_sum type="integer">13558968</ratings_sum>
+        <reviews_count type="integer">5250830</reviews_count>
+        <ratings_sum type="integer">13562583</ratings_sum>
         <works_count type="integer">23</works_count>
         <hometown>London</hometown>
         <rating_dist>5:255|4:55|3:11|2:4|1:7|total:332</rating_dist>
         <s3_image_at type="datetime" nil="true"/>
-        <ratings_count type="integer">3609199</ratings_count>
-        <text_reviews_count type="integer">157757</text_reviews_count>
+        <ratings_count type="integer">3610220</ratings_count>
+        <text_reviews_count type="integer">157732</text_reviews_count>
         <author_program_at type="datetime">2011-05-04T20:20:12+00:00</author_program_at>
         <best_book_id type="integer">10818853</best_book_id>
         <sort_by_name>james, e.l.</sort_by_name>
@@ -699,206 +1012,6 @@ http://www.youtube.com/user/eljamesauthor?feature=mhee</about>
 </read_status>
 
         </object>
-    </update>
-      <update type="review">
-      <action_text><![CDATA[gave 4 stars to <a href="https://www.goodreads.com/book/show/30169100-the-burning-white">The Burning White (Lightbringer, #5)</a> by <a href="https://www.goodreads.com/author/show/1370283.Brent_Weeks">Brent Weeks</a>]]></action_text>
-      <link>https://www.goodreads.com/review/show/3039228994</link>
-      <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1533264732l/30169100._SY75_.jpg</image_url>
-        <actor>
-  <id type="integer">97134500</id>
-  <name>Shubham Kapoor</name>
-  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
-  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
-</actor>
-      <updated_at>Wed, 06 Nov 2019 10:36:47 -0800</updated_at>
-          <action type="rating">
-            <rating>4</rating>
-          </action>
-        <object>
-          <book>
-            <id>30169100</id>
-            <title><![CDATA[The Burning White (Lightbringer, #5)]]></title>
-            <link>https://www.goodreads.com/book/show/30169100-the-burning-white</link>
-            <authors>
-<author>
-<id>1370283</id>
-<name>Brent Weeks</name>
-<role></role>
-<image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1583875279p5/1370283.jpg]]>
-</image_url>
-<small_image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1583875279p2/1370283.jpg]]>
-</small_image_url>
-<link><![CDATA[https://www.goodreads.com/author/show/1370283.Brent_Weeks]]></link>
-<average_rating>4.28</average_rating>
-<ratings_count>618157</ratings_count>
-<text_reviews_count>22720</text_reviews_count>
-</author>
-</authors>
-          </book>
-        </object>
-        <body> it is very good&lt;br /&gt; </body>
-    </update>
-      <update type="review">
-      <action_text><![CDATA[gave 5 stars to <a href="https://www.goodreads.com/book/show/30659.Meditations">Meditations (Paperback)</a> by <a href="https://www.goodreads.com/author/show/17212.Marcus_Aurelius">Marcus Aurelius</a>]]></action_text>
-      <link>https://www.goodreads.com/review/show/3037447398</link>
-      <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1421618636l/30659._SY75_.jpg</image_url>
-        <actor>
-  <id type="integer">97134500</id>
-  <name>Shubham Kapoor</name>
-  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
-  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
-</actor>
-      <updated_at>Wed, 06 Nov 2019 10:35:39 -0800</updated_at>
-          <action type="rating">
-            <rating>5</rating>
-          </action>
-        <object>
-          <book>
-            <id>30659</id>
-            <title>Meditations</title>
-            <link>https://www.goodreads.com/book/show/30659.Meditations</link>
-            <authors>
-<author>
-<id>17212</id>
-<name>Marcus Aurelius</name>
-<role></role>
-<image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1430676293p5/17212.jpg]]>
-</image_url>
-<small_image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1430676293p2/17212.jpg]]>
-</small_image_url>
-<link><![CDATA[https://www.goodreads.com/author/show/17212.Marcus_Aurelius]]></link>
-<average_rating>4.23</average_rating>
-<ratings_count>112305</ratings_count>
-<text_reviews_count>5879</text_reviews_count>
-</author>
-</authors>
-          </book>
-        </object>
-        <body><![CDATA[ Definitely gonna read it!<br />will have fun surely!<br /> ]]></body>
-    </update>
-      <update type="review">
-      <action_text><![CDATA[gave 4 stars to <a href="https://www.goodreads.com/book/show/30169100-the-burning-white">The Burning White (Lightbringer, #5)</a> by <a href="https://www.goodreads.com/author/show/1370283.Brent_Weeks">Brent Weeks</a>]]></action_text>
-      <link>https://www.goodreads.com/review/show/3039228994</link>
-      <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1533264732l/30169100._SY75_.jpg</image_url>
-        <actor>
-  <id type="integer">97134500</id>
-  <name>Shubham Kapoor</name>
-  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
-  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
-</actor>
-      <updated_at>Wed, 06 Nov 2019 10:02:50 -0800</updated_at>
-          <action type="rating">
-            <rating>4</rating>
-          </action>
-        <object>
-          <book>
-            <id>30169100</id>
-            <title><![CDATA[The Burning White (Lightbringer, #5)]]></title>
-            <link>https://www.goodreads.com/book/show/30169100-the-burning-white</link>
-            <authors>
-<author>
-<id>1370283</id>
-<name>Brent Weeks</name>
-<role></role>
-<image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1583875279p5/1370283.jpg]]>
-</image_url>
-<small_image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1583875279p2/1370283.jpg]]>
-</small_image_url>
-<link><![CDATA[https://www.goodreads.com/author/show/1370283.Brent_Weeks]]></link>
-<average_rating>4.28</average_rating>
-<ratings_count>618157</ratings_count>
-<text_reviews_count>22720</text_reviews_count>
-</author>
-</authors>
-          </book>
-        </object>
-        <body> it is very good&lt;br /&gt; </body>
-    </update>
-      <update type="review">
-      <action_text><![CDATA[gave 5 stars to <a href="https://www.goodreads.com/book/show/30659.Meditations">Meditations (Paperback)</a> by <a href="https://www.goodreads.com/author/show/17212.Marcus_Aurelius">Marcus Aurelius</a>]]></action_text>
-      <link>https://www.goodreads.com/review/show/3037447398</link>
-      <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1421618636l/30659._SY75_.jpg</image_url>
-        <actor>
-  <id type="integer">97134500</id>
-  <name>Shubham Kapoor</name>
-  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
-  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
-</actor>
-      <updated_at>Wed, 06 Nov 2019 10:01:00 -0800</updated_at>
-          <action type="rating">
-            <rating>5</rating>
-          </action>
-        <object>
-          <book>
-            <id>30659</id>
-            <title>Meditations</title>
-            <link>https://www.goodreads.com/book/show/30659.Meditations</link>
-            <authors>
-<author>
-<id>17212</id>
-<name>Marcus Aurelius</name>
-<role></role>
-<image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1430676293p5/17212.jpg]]>
-</image_url>
-<small_image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1430676293p2/17212.jpg]]>
-</small_image_url>
-<link><![CDATA[https://www.goodreads.com/author/show/17212.Marcus_Aurelius]]></link>
-<average_rating>4.23</average_rating>
-<ratings_count>112305</ratings_count>
-<text_reviews_count>5879</text_reviews_count>
-</author>
-</authors>
-          </book>
-        </object>
-        <body><![CDATA[ Definitely gonna read it!<br />will have fun surely!<br /> ]]></body>
-    </update>
-      <update type="review">
-      <action_text><![CDATA[gave 4 stars to <a href="https://www.goodreads.com/book/show/28811019-blood-of-empire">Blood of Empire (Gods of Blood and Powder, #3)</a> by <a href="https://www.goodreads.com/author/show/6524620.Brian_McClellan">Brian  McClellan</a>]]></action_text>
-      <link>https://www.goodreads.com/review/show/3037531564</link>
-      <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551726229l/28811019._SY75_.jpg</image_url>
-        <actor>
-  <id type="integer">97134500</id>
-  <name>Shubham Kapoor</name>
-  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
-  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
-</actor>
-      <updated_at>Wed, 06 Nov 2019 09:47:16 -0800</updated_at>
-          <action type="rating">
-            <rating>4</rating>
-          </action>
-        <object>
-          <book>
-            <id>28811019</id>
-            <title><![CDATA[Blood of Empire (Gods of Blood and Powder, #3)]]></title>
-            <link>https://www.goodreads.com/book/show/28811019-blood-of-empire</link>
-            <authors>
-<author>
-<id>6524620</id>
-<name>Brian  McClellan</name>
-<role></role>
-<image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1548996608p5/6524620.jpg]]>
-</image_url>
-<small_image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1548996608p2/6524620.jpg]]>
-</small_image_url>
-<link><![CDATA[https://www.goodreads.com/author/show/6524620.Brian_McClellan]]></link>
-<average_rating>4.27</average_rating>
-<ratings_count>133932</ratings_count>
-<text_reviews_count>8427</text_reviews_count>
-</author>
-</authors>
-          </book>
-        </object>
-        <body><![CDATA[ looks great<br />will read sooner<br /> ]]></body>
     </update>
 </updates>
     <user_statuses>

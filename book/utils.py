@@ -16,8 +16,6 @@ goodreads = OAuth1Service(
         base_url='https://www.goodreads.com'
     )
 
-session = goodreads.get_session(('RCyAWcTakiGfmAcdg2jHUw', 'Tcpw1wIlc1QbbOCkRgMflEc66WDks7pj1NQ4AB4X4'))
-
 
 def book_review_widget(book):
     gc = client.GoodreadsClient(consumer_key, consumer_secret)
@@ -26,9 +24,11 @@ def book_review_widget(book):
     return response
 
 
-def post_review(review, shelf, book_id, rating):
+def post_review(review, shelf, book_id, rating, user):
     data = {'book_id': book_id, 'review[review]': review, 'review[rating]': rating, 'shelf': shelf}
     print(review, shelf, book_id)
+    session = goodreads.get_session((user.access_token,
+                                     user.access_token_secret))
     response = session.post('https://www.goodreads.com/review.xml', data)
     print(response, response.text)
     return response
@@ -54,16 +54,22 @@ def get_review_id(response):
         return review_id
 
 
-def delete_review(book_id, shelf_name):
+def delete_review(book_id, shelf_name, user):
     if shelf_name == 'read':
-        print(add_to_shelf('to-read', book_id).text)
-        shelf_name = 'to-read'
-    data = {'name': shelf_name, 'book_id': book_id, 'a': "remove"}
+        print('added to delete')
+        return add_to_shelf('delete', book_id, user)
+
+    data = {'name': shelf_name, 'book_id': book_id, 'a': 'remove'}
+    session = goodreads.get_session((user.access_token,
+                                     user.access_token_secret))
+
     url = 'https://www.goodreads.com/shelf/add_to_shelf.xml'
     return session.post(url, data)
 
 
-def add_to_shelf(shelf_name, book_id):
+def add_to_shelf(shelf_name, book_id, user):
     data = {'name': shelf_name, 'book_id': book_id}
     url = 'https://www.goodreads.com/shelf/add_to_shelf.xml'
+    session = goodreads.get_session((user.access_token,
+                                     user.access_token_secret))
     return session.post(url, data)

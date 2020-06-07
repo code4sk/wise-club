@@ -23,10 +23,12 @@ from library import urls as library_url
 from book import urls as book_url
 from author import urls as author_url
 from user import urls as user_url
+from user.views import CallbackView
 #
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(home_url)),
+    path('callback/', CallbackView.as_view(), name='callback'),
     path('library/', include(library_url)),
     path('book/', include(book_url)),
     path('author/', include(author_url)),
