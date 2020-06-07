@@ -6,163 +6,7 @@
     <method><![CDATA[review_list]]></method>
   </Request>
   
-<reviews start="1" end="14" total="14">
-    <review>
-  <id>3378228376</id>
-    <book>
-  <id type="integer">18802174</id>
-  <isbn nil="true"/>
-  <isbn13 nil="true"/>
-  <text_reviews_count type="integer">69</text_reviews_count>
-  <uri>kca://book/amzn1.gr.book.v1.mkP9QqopXHgfC6mKiiL2_g</uri>
-  <title>Wake for Me (Life or Death, #1)</title>
-  <title_without_series>Wake for Me</title_without_series>
-  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1395597476l/18802174._SX98_.jpg</image_url>
-  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1395597476l/18802174._SY75_.jpg</small_image_url>
-  <large_image_url/>
-  <link>https://www.goodreads.com/book/show/18802174-wake-for-me</link>
-  <num_pages>288</num_pages>
-  <format>Kindle Edition</format>
-  <edition_information/>
-  <publisher>Amazon Digital Services</publisher>
-  <publication_day>15</publication_day>
-  <publication_year>2013</publication_year>
-  <publication_month>12</publication_month>
-  <average_rating>3.63</average_rating>
-  <ratings_count>464</ratings_count>
-  <description>When winery princess Viola Bellerose has a fight with her "up and coming" Irish rock star boyfriend, she blows off steam in true diva fashion--by making out with a hot stranger in a bar and promptly crashing her Mercedes into the East River. Whoops.&lt;br /&gt;&lt;br /&gt;Now Viola spends her days trapped inside the prison of her own body. When she isn't eavesdropping on the private conversations of her hospital caretakers, Viola is lost in a world of vivid and terrifying dreams, in which a tall and brooding doctor appears in a sizzling romantic role.&lt;br /&gt;&lt;br /&gt;First year intern Sam Philips is barely surviving his complicated life, juggling family drama, the pressure of looming exams, and competition with his fellow interns. His daily solace is the time he spends with his favourite patient, the young girl he's nicknamed Sleeping Beauty. Convinced that Viola will eventually pull through and wake up, Sam spends hours at her bedside, telling her everything from the minute details of his day to some of his deepest secrets.&lt;br /&gt;&lt;br /&gt;But what Sam doesn't know is that his Sleeping Beauty is aware. That he's the only thing still tethering Viola to reality. That she's falling for him.&lt;br /&gt;&lt;br /&gt;And what Viola can't tell Sam, is that someone is trying to make sure she never wakes up.</description>
-<authors>
-<author>
-<id>7389142</id>
-<name>Isobel Irons</name>
-<role></role>
-<image_url nophoto='true'>
-<![CDATA[https://s.gr-assets.com/assets/nophoto/user/f_200x266-3061b784cc8e7f021c6430c9aba94587.png]]>
-</image_url>
-<small_image_url nophoto='true'>
-<![CDATA[https://s.gr-assets.com/assets/nophoto/user/f_50x66-6a03a5c12233c941481992b82eea8d23.png]]>
-</small_image_url>
-<link><![CDATA[https://www.goodreads.com/author/show/7389142.Isobel_Irons]]></link>
-<average_rating>3.80</average_rating>
-<ratings_count>902</ratings_count>
-<text_reviews_count>165</text_reviews_count>
-</author>
-</authors>
-  <published>2013</published>
-<work>  <id>26735009</id>
-  <uri>kca://work/amzn1.gr.work.v1.Xxf-yYqjrG5xdxjMGL5PMw</uri>
-</work></book>
-
-
-  <rating>3</rating>
-  <votes>0</votes>
-  <spoiler_flag>false</spoiler_flag>
-  <spoilers_state>none</spoilers_state>
-  
-
-<shelves>
-    <shelf name="read" exclusive="true" id="315510992" review_shelf_id= ""/>
-
-    <shelf exclusive='false' id='377569657' name='delete' review_shelf_id='3017667392' sortable='false'></shelf>
-
-</shelves>
-
-  <recommended_for></recommended_for>
-  <recommended_by></recommended_by>
-  <started_at></started_at>
-  <read_at></read_at>
-  <date_added>Sat Jun 06 17:21:29 -0700 2020</date_added>
-  <date_updated>Sat Jun 06 18:00:10 -0700 2020</date_updated>
-  <read_count>1</read_count>
-  <body>
-      Excited to read
-  </body>
-
-  
-
-  <comments_count>0</comments_count>
-    <url><![CDATA[https://www.goodreads.com/review/show/3378228376]]></url>
-  <link><![CDATA[https://www.goodreads.com/review/show/3378228376]]></link>
-    <owned>0</owned>
-</review>
-
-    <review>
-  <id>3377600277</id>
-    <book>
-  <id type="integer">4214</id>
-  <isbn>0770430074</isbn>
-  <isbn13>9780770430078</isbn13>
-  <text_reviews_count type="integer">35931</text_reviews_count>
-  <uri>kca://book/amzn1.gr.book.v1.xDVbF6l_LTfMdTx3ajT_qQ</uri>
-  <title>Life of Pi</title>
-  <title_without_series>Life of Pi</title_without_series>
-  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320562005l/4214._SY160_.jpg</image_url>
-  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320562005l/4214._SY75_.jpg</small_image_url>
-  <large_image_url/>
-  <link>https://www.goodreads.com/book/show/4214.Life_of_Pi</link>
-  <num_pages>460</num_pages>
-  <format>Paperback</format>
-  <edition_information/>
-  <publisher>Seal Books</publisher>
-  <publication_day>29</publication_day>
-  <publication_year>2006</publication_year>
-  <publication_month>8</publication_month>
-  <average_rating>3.91</average_rating>
-  <ratings_count>1298471</ratings_count>
-  <description>Life of Pi is a fantasy adventure novel by Yann Martel published in 2001. The protagonist, Piscine Molitor "Pi" Patel, a Tamil boy from Pondicherry, explores issues of spirituality and practicality from an early age. He survives 227 days after a shipwreck while stranded on a boat in the Pacific Ocean with a Bengal tiger named Richard Parker.</description>
-<authors>
-<author>
-<id>811</id>
-<name>Yann Martel</name>
-<role></role>
-<image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1454012903p5/811.jpg]]>
-</image_url>
-<small_image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1454012903p2/811.jpg]]>
-</small_image_url>
-<link><![CDATA[https://www.goodreads.com/author/show/811.Yann_Martel]]></link>
-<average_rating>3.89</average_rating>
-<ratings_count>1340964</ratings_count>
-<text_reviews_count>53057</text_reviews_count>
-</author>
-</authors>
-  <published>2006</published>
-<work>  <id>1392700</id>
-  <uri>kca://work/amzn1.gr.work.v1.vYNXZX_u0VOh1yVtejF_Xg</uri>
-</work></book>
-
-
-  <rating>0</rating>
-  <votes>0</votes>
-  <spoiler_flag>false</spoiler_flag>
-  <spoilers_state>none</spoilers_state>
-  
-
-<shelves>
-
-    <shelf exclusive='true' id='315510989' name='to-read' review_shelf_id='3016981376' sortable='true'></shelf>
-
-</shelves>
-
-  <recommended_for></recommended_for>
-  <recommended_by></recommended_by>
-  <started_at></started_at>
-  <read_at></read_at>
-  <date_added>Sat Jun 06 09:53:31 -0700 2020</date_added>
-  <date_updated>Sat Jun 06 09:53:32 -0700 2020</date_updated>
-  <read_count>0</read_count>
-  <body>
-  </body>
-
-  
-
-  <comments_count>0</comments_count>
-    <url><![CDATA[https://www.goodreads.com/review/show/3377600277]]></url>
-  <link><![CDATA[https://www.goodreads.com/review/show/3377600277]]></link>
-    <owned>0</owned>
-</review>
-
+<reviews start="1" end="8" total="8">
     <review>
   <id>3377572267</id>
     <book>
@@ -185,7 +29,7 @@
   <publication_year>2006</publication_year>
   <publication_month>4</publication_month>
   <average_rating>3.90</average_rating>
-  <ratings_count>2594300</ratings_count>
+  <ratings_count>2594309</ratings_count>
   <description>World-renowned Harvard symbologist Robert Langdon is summoned to a Swiss research facility to analyze a cryptic symbol seared into the chest of a murdered physicist. What he discovers is unimaginable: a deadly vendetta against the Catholic Church by a centuries-old underground organization -- the Illuminati. In a desperate race to save the Vatican from a powerful time bomb, Langdon joins forces in Rome with the beautiful and mysterious scientist Vittoria Vetra. Together they embark on a frantic hunt through sealed crypts, dangerous catacombs, and deserted cathedrals, and into the depths of the most secretive vault on earth...the long-forgotten Illuminati lair.&lt;br /&gt;(back cover)</description>
 <authors>
 <author>
@@ -200,8 +44,8 @@
 </small_image_url>
 <link><![CDATA[https://www.goodreads.com/author/show/630.Dan_Brown]]></link>
 <average_rating>3.83</average_rating>
-<ratings_count>6819990</ratings_count>
-<text_reviews_count>180757</text_reviews_count>
+<ratings_count>6820010</ratings_count>
+<text_reviews_count>180758</text_reviews_count>
 </author>
 </authors>
   <published>2006</published>
@@ -319,160 +163,6 @@
 </review>
 
     <review>
-  <id>3344568995</id>
-    <book>
-  <id type="integer">25674405</id>
-  <isbn>0316252034</isbn>
-  <isbn13>9780316252034</isbn13>
-  <text_reviews_count type="integer">368</text_reviews_count>
-  <uri>kca://book/amzn1.gr.book.v1.753_LaM2WCu62wG1xTQ51Q</uri>
-  <title>Life or Death</title>
-  <title_without_series>Life or Death</title_without_series>
-  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1451863482l/25674405._SX98_.jpg</image_url>
-  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1451863482l/25674405._SX50_.jpg</small_image_url>
-  <large_image_url/>
-  <link>https://www.goodreads.com/book/show/25674405-life-or-death</link>
-  <num_pages>448</num_pages>
-  <format>Paperback</format>
-  <edition_information/>
-  <publisher>Mulholland Books</publisher>
-  <publication_day>26</publication_day>
-  <publication_year>2016</publication_year>
-  <publication_month>1</publication_month>
-  <average_rating>4.07</average_rating>
-  <ratings_count>8308</ratings_count>
-  <description>&lt;b&gt;Why would a man serving a long prison sentence escape the day before he's due to be released?&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;Audie Palmer has spent ten years in a Texas prison after pleading guilty to a robbery in which four people died and seven million dollars went missing. During that time he has suffered repeated beatings, stabbings and threats by inmates and guards, all desperate to answer the same question: where's the money?&lt;br /&gt;&lt;br /&gt;On the day before Audie is due to be released, he suddenly vanishes. Now everybody is searching for him - the police, FBI, gangsters and other powerful figures - but Audie isn't running to save his own life. Instead, he's trying to save someone else's.&lt;br /&gt;&lt;br /&gt;Michael Robotham has created the ultimate underdog hero, an honorable criminal shrouded in mystery and ready to lead readers on a remarkable chase.</description>
-<authors>
-<author>
-<id>266945</id>
-<name>Michael Robotham</name>
-<role></role>
-<image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1361418135p5/266945.jpg]]>
-</image_url>
-<small_image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1361418135p2/266945.jpg]]>
-</small_image_url>
-<link><![CDATA[https://www.goodreads.com/author/show/266945.Michael_Robotham]]></link>
-<average_rating>4.04</average_rating>
-<ratings_count>115279</ratings_count>
-<text_reviews_count>12360</text_reviews_count>
-</author>
-</authors>
-  <published>2016</published>
-<work>  <id>39836160</id>
-  <uri>kca://work/amzn1.gr.work.v1.jiH8THorbwxDDxuTYWxQ6A</uri>
-</work></book>
-
-
-  <rating>0</rating>
-  <votes>0</votes>
-  <spoiler_flag>false</spoiler_flag>
-  <spoilers_state>none</spoilers_state>
-  
-
-<shelves>
-
-    <shelf exclusive='true' id='315510989' name='to-read' review_shelf_id='2984331137' sortable='true'></shelf>
-
-</shelves>
-
-  <recommended_for></recommended_for>
-  <recommended_by></recommended_by>
-  <started_at></started_at>
-  <read_at></read_at>
-  <date_added>Mon May 18 23:53:57 -0700 2020</date_added>
-  <date_updated>Mon May 18 23:53:58 -0700 2020</date_updated>
-  <read_count>0</read_count>
-  <body>
-  </body>
-
-  
-
-  <comments_count>0</comments_count>
-    <url><![CDATA[https://www.goodreads.com/review/show/3344568995]]></url>
-  <link><![CDATA[https://www.goodreads.com/review/show/3344568995]]></link>
-    <owned>0</owned>
-</review>
-
-    <review>
-  <id>3229368005</id>
-    <book>
-  <id type="integer">43798285</id>
-  <isbn>1982110562</isbn>
-  <isbn13>9781982110567</isbn13>
-  <text_reviews_count type="integer">8899</text_reviews_count>
-  <uri>kca://book/amzn1.gr.book.v1.C3xsPtuFNgBAu1rjB5ZPeA</uri>
-  <title>The Institute</title>
-  <title_without_series>The Institute</title_without_series>
-  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549241208l/43798285._SX98_.jpg</image_url>
-  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549241208l/43798285._SY75_.jpg</small_image_url>
-  <large_image_url/>
-  <link>https://www.goodreads.com/book/show/43798285-the-institute</link>
-  <num_pages>561</num_pages>
-  <format>Hardcover</format>
-  <edition_information/>
-  <publisher>Scribner</publisher>
-  <publication_day>10</publication_day>
-  <publication_year>2019</publication_year>
-  <publication_month>9</publication_month>
-  <average_rating>4.21</average_rating>
-  <ratings_count>100992</ratings_count>
-  <description>In the middle of the night, in a house on a quiet street in suburban Minneapolis, intruders silently murder Luke Ellis’s parents and load him into a black SUV. The operation takes less than two minutes. Luke will wake up at The Institute, in a room that looks just like his own, except there’s no window. And outside his door are other doors, behind which are other kids with special talents—telekinesis and telepathy—who got to this place the same way Luke did: Kalisha, Nick, George, Iris, and ten-year-old Avery Dixon. They are all in Front Half. Others, Luke learns, graduated to Back Half, “like the roach motel,” Kalisha says. “You check in, but you don’t check out.”&lt;br /&gt;&lt;br /&gt;In this most sinister of institutions, the director, Mrs. Sigsby, and her staff are ruthlessly dedicated to extracting from these children the force of their extranormal gifts. There are no scruples here. If you go along, you get tokens for the vending machines. If you don’t, punishment is brutal. As each new victim disappears to Back Half, Luke becomes more and more desperate to get out and get help. But no one has ever escaped from the Institute.</description>
-<authors>
-<author>
-<id>3389</id>
-<name>Stephen King</name>
-<role></role>
-<image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1362814142p5/3389.jpg]]>
-</image_url>
-<small_image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1362814142p2/3389.jpg]]>
-</small_image_url>
-<link><![CDATA[https://www.goodreads.com/author/show/3389.Stephen_King]]></link>
-<average_rating>4.04</average_rating>
-<ratings_count>13983803</ratings_count>
-<text_reviews_count>550953</text_reviews_count>
-</author>
-</authors>
-  <published>2019</published>
-<work>  <id>68147322</id>
-  <uri>kca://work/amzn1.gr.work.v1.yUdKrcgT0-qDWni2z1k5Gw</uri>
-</work></book>
-
-
-  <rating>0</rating>
-  <votes>0</votes>
-  <spoiler_flag>false</spoiler_flag>
-  <spoilers_state>none</spoilers_state>
-  
-
-<shelves>
-
-    <shelf exclusive='true' id='315510989' name='to-read' review_shelf_id='2872057035' sortable='true'></shelf>
-
-</shelves>
-
-  <recommended_for></recommended_for>
-  <recommended_by></recommended_by>
-  <started_at></started_at>
-  <read_at></read_at>
-  <date_added>Fri Mar 13 09:29:14 -0700 2020</date_added>
-  <date_updated>Fri Mar 13 09:29:15 -0700 2020</date_updated>
-  <read_count>0</read_count>
-  <body>
-  </body>
-
-  
-
-  <comments_count>0</comments_count>
-    <url><![CDATA[https://www.goodreads.com/review/show/3229368005]]></url>
-  <link><![CDATA[https://www.goodreads.com/review/show/3229368005]]></link>
-    <owned>0</owned>
-</review>
-
-    <review>
   <id>3073710938</id>
     <book>
   <id type="integer">96358</id>
@@ -494,7 +184,7 @@
   <publication_year>1995</publication_year>
   <publication_month>12</publication_month>
   <average_rating>4.37</average_rating>
-  <ratings_count>163235</ratings_count>
+  <ratings_count>163236</ratings_count>
   <description>For the first time the Joker's origin is revealed in this tale of insanity and human perseverance. Looking to prove that any man can be pushed past his breaking point and go mad, the Joker attempts to drive Commissioner Gordon insane. &lt;br /&gt;&lt;br /&gt;After shooting and permanently paralyzing his daughter Barbara (a.k.a. Batgirl), the Joker kidnaps the commissioner and attacks his mind in hopes of breaking the man. &lt;br /&gt;&lt;br /&gt;But refusing to give up, Gordon maintains his sanity with the help of Batman in an effort to beset the madman.</description>
 <authors>
 <author>
@@ -571,7 +261,7 @@
   <publication_year>2011</publication_year>
   <publication_month>5</publication_month>
   <average_rating>3.66</average_rating>
-  <ratings_count>1867691</ratings_count>
+  <ratings_count>1867702</ratings_count>
   <description>When literature student Anastasia Steele goes to interview young entrepreneur Christian Grey, she encounters a man who is beautiful, brilliant, and intimidating. The unworldly, innocent Ana is startled to realize she wants this man and, despite his enigmatic reserve, finds she is desperate to get close to him. Unable to resist Ana’s quiet beauty, wit, and independent spirit, Grey admits he wants her, too—but on his own terms.&lt;br /&gt; &lt;br /&gt;Shocked yet thrilled by Grey’s singular erotic tastes, Ana hesitates. For all the trappings of success—his multinational businesses, his vast wealth, his loving family—Grey is a man tormented by demons and consumed by the need to control. When the couple embarks on a daring, passionately physical affair, Ana discovers Christian Grey’s secrets and explores her own dark desires.&lt;br /&gt;&lt;br /&gt;Erotic, amusing, and deeply moving, the Fifty Shades Trilogy is a tale that will obsess you, possess you, and stay with you forever.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;This book is intended for mature audiences.&lt;/b&gt;</description>
 <authors>
 <author>
@@ -586,7 +276,7 @@
 </small_image_url>
 <link><![CDATA[https://www.goodreads.com/author/show/4725841.E_L_James]]></link>
 <average_rating>3.76</average_rating>
-<ratings_count>3610199</ratings_count>
+<ratings_count>3610220</ratings_count>
 <text_reviews_count>157732</text_reviews_count>
 </author>
 </authors>
@@ -648,7 +338,7 @@
   <publication_year>2019</publication_year>
   <publication_month>10</publication_month>
   <average_rating>4.33</average_rating>
-  <ratings_count>14546</ratings_count>
+  <ratings_count>14548</ratings_count>
   <description>&lt;b&gt;The nail-biting conclusion to the Lightbringer series! &lt;/b&gt;&lt;br /&gt;&lt;br /&gt;Stripped of both magical and political power, the people he once ruled told he's dead, and now imprisoned in his own magical dungeon, former Emperor Gavin Guile has no prospect of escape. But the world faces a calamity greater than the Seven Satrapies has ever seen... and only he can save it.&lt;br /&gt;&lt;br /&gt;As the armies of the White King defeat the Chromeria and old gods are born anew, the fate of worlds will come down to one question: Who is the Lightbringer?</description>
 <authors>
 <author>
@@ -663,7 +353,7 @@
 </small_image_url>
 <link><![CDATA[https://www.goodreads.com/author/show/1370283.Brent_Weeks]]></link>
 <average_rating>4.28</average_rating>
-<ratings_count>618371</ratings_count>
+<ratings_count>618372</ratings_count>
 <text_reviews_count>22727</text_reviews_count>
 </author>
 </authors>
@@ -680,8 +370,7 @@
   
 
 <shelves>
-
-    <shelf exclusive='true' id='315510989' name='to-read' review_shelf_id='2686411004' sortable='true'></shelf>
+    <shelf name="read" exclusive="true" id="315510992" review_shelf_id= ""/>
 
 </shelves>
 
@@ -690,7 +379,7 @@
   <started_at>Wed Nov 06 10:33:53 -0800 2019</started_at>
   <read_at>Wed Nov 06 10:36:16 -0800 2019</read_at>
   <date_added>Wed Nov 06 10:01:36 -0800 2019</date_added>
-  <date_updated>Wed Nov 06 10:36:16 -0800 2019</date_updated>
+  <date_updated>Sat Jun 06 19:05:45 -0700 2020</date_updated>
   <read_count>1</read_count>
   <body>
        it is very good&lt;br /&gt; 
@@ -701,164 +390,6 @@
   <comments_count>0</comments_count>
     <url><![CDATA[https://www.goodreads.com/review/show/3039228994]]></url>
   <link><![CDATA[https://www.goodreads.com/review/show/3039228994]]></link>
-    <owned>0</owned>
-</review>
-
-    <review>
-  <id>3037531564</id>
-    <book>
-  <id type="integer">28811019</id>
-  <isbn nil="true"/>
-  <isbn13 nil="true"/>
-  <text_reviews_count type="integer">209</text_reviews_count>
-  <uri>kca://book/amzn1.gr.book.v1.3_66Ge5cLoSRJBETcA0rTg</uri>
-  <title>Blood of Empire (Gods of Blood and Powder, #3)</title>
-  <title_without_series>Blood of Empire</title_without_series>
-  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551726229l/28811019._SX98_.jpg</image_url>
-  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551726229l/28811019._SY75_.jpg</small_image_url>
-  <large_image_url/>
-  <link>https://www.goodreads.com/book/show/28811019-blood-of-empire</link>
-  <num_pages>592</num_pages>
-  <format></format>
-  <edition_information/>
-  <publisher>Orbit</publisher>
-  <publication_day>3</publication_day>
-  <publication_year>2019</publication_year>
-  <publication_month>12</publication_month>
-  <average_rating>4.44</average_rating>
-  <ratings_count>3420</ratings_count>
-  <description>&lt;b&gt;As the final battle approaches a sellsword, a spy, and a general must find unlikely and dangerous allies in order to turn the tides of war in this epic fantasy tale of magic and gunpowder by acclaimed author Brian McClellan.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;The Dynize have unlocked the Landfall Godstone, and Michel Bravis is tasked with returning to Greenfire Depths to do whatever he can to prevent them from using its power; from sewing dissension among the enemy ranks to rallying the Palo population.&lt;br /&gt;&lt;br /&gt;Ben Styke's invasion of Dynize is curtailed when a storm scatters his fleet. Coming ashore with just twenty lancers, he is forced to rely on brains rather than brawn - gaining new allies in a strange land on the cusp of its own internal violence.&lt;br /&gt;&lt;br /&gt;Bereft of her sorcery and physically and emotionally broken, Lady Vlora Flint now marches on Landfall at the head of an Adran army seeking vengeance against those who have conspired against her. While allied politicians seek to undo her from within, she faces insurmountable odds and Dynize's greatest general.</description>
-<authors>
-<author>
-<id>6524620</id>
-<name>Brian  McClellan</name>
-<role></role>
-<image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1548996608p5/6524620.jpg]]>
-</image_url>
-<small_image_url nophoto='false'>
-<![CDATA[https://images.gr-assets.com/authors/1548996608p2/6524620.jpg]]>
-</small_image_url>
-<link><![CDATA[https://www.goodreads.com/author/show/6524620.Brian_McClellan]]></link>
-<average_rating>4.27</average_rating>
-<ratings_count>133991</ratings_count>
-<text_reviews_count>8428</text_reviews_count>
-</author>
-</authors>
-  <published>2019</published>
-<work>  <id>49026467</id>
-  <uri>kca://work/amzn1.gr.work.v1.ON5PRLDeOJOTVuUQ1MNTug</uri>
-</work></book>
-
-
-  <rating>4</rating>
-  <votes>0</votes>
-  <spoiler_flag>false</spoiler_flag>
-  <spoilers_state>none</spoilers_state>
-  
-
-<shelves>
-    <shelf name="read" exclusive="true" id="315510992" review_shelf_id= ""/>
-
-    <shelf exclusive='false' id='377569657' name='delete' review_shelf_id='3017682578' sortable='false'></shelf>
-
-</shelves>
-
-  <recommended_for></recommended_for>
-  <recommended_by></recommended_by>
-  <started_at></started_at>
-  <read_at></read_at>
-  <date_added>Tue Nov 05 07:25:12 -0800 2019</date_added>
-  <date_updated>Sat Jun 06 18:12:36 -0700 2020</date_updated>
-  <read_count>0</read_count>
-  <body>
-      <![CDATA[ looks great<br />will read sooner<br /> ]]>
-  </body>
-
-  
-
-  <comments_count>0</comments_count>
-    <url><![CDATA[https://www.goodreads.com/review/show/3037531564]]></url>
-  <link><![CDATA[https://www.goodreads.com/review/show/3037531564]]></link>
-    <owned>0</owned>
-</review>
-
-    <review>
-  <id>3037528885</id>
-    <book>
-  <id type="integer">3</id>
-  <isbn nil="true"/>
-  <isbn13 nil="true"/>
-  <text_reviews_count type="integer">77635</text_reviews_count>
-  <uri>kca://book/amzn1.gr.book.v1.tJT_00n8UPpvWa-zWHEAXg</uri>
-  <title>Harry Potter and the Sorcerer's Stone (Harry Potter, #1)</title>
-  <title_without_series>Harry Potter and the Sorcerer's Stone</title_without_series>
-  <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474154022l/3._SX98_.jpg</image_url>
-  <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474154022l/3._SY75_.jpg</small_image_url>
-  <large_image_url/>
-  <link>https://www.goodreads.com/book/show/3.Harry_Potter_and_the_Sorcerer_s_Stone</link>
-  <num_pages>309</num_pages>
-  <format>Hardcover</format>
-  <edition_information>Library Edition</edition_information>
-  <publisher>Scholastic Inc</publisher>
-  <publication_day>1</publication_day>
-  <publication_year>2003</publication_year>
-  <publication_month>11</publication_month>
-  <average_rating>4.47</average_rating>
-  <ratings_count>6731718</ratings_count>
-  <description>Alternate cover edition of ISBN 9780439554930&lt;br /&gt;&lt;br /&gt;Harry Potter's life is miserable. His parents are dead and he's stuck with his heartless relatives, who force him to live in a tiny closet under the stairs. But his fortune changes when he receives a letter that tells him the truth about himself: he's a wizard. A mysterious visitor rescues him from his relatives and takes him to his new home, Hogwarts School of Witchcraft and Wizardry.&lt;br /&gt;&lt;br /&gt;After a lifetime of bottling up his magical powers, Harry finally feels like a normal kid. But even within the Wizarding community, he is special. He is the boy who lived: the only person to have ever survived a killing curse inflicted by the evil Lord Voldemort, who launched a brutal takeover of the Wizarding world, only to vanish after failing to kill Harry.&lt;br /&gt;&lt;br /&gt;Though Harry's first year at Hogwarts is the best of his life, not everything is perfect. There is a dangerous secret object hidden within the castle walls, and Harry believes it's his responsibility to prevent it from falling into evil hands. But doing so will bring him into contact with forces more terrifying than he ever could have imagined.&lt;br /&gt;&lt;br /&gt;Full of sympathetic characters, wildly imaginative situations, and countless exciting details, the first installment in the series assembles an unforgettable magical world and sets the stage for many high-stakes adventures to come.</description>
-<authors>
-<author>
-<id>1077326</id>
-<name>J.K. Rowling</name>
-<role></role>
-<image_url nophoto='true'>
-<![CDATA[https://s.gr-assets.com/assets/nophoto/user/f_200x266-3061b784cc8e7f021c6430c9aba94587.png]]>
-</image_url>
-<small_image_url nophoto='true'>
-<![CDATA[https://s.gr-assets.com/assets/nophoto/user/f_50x66-6a03a5c12233c941481992b82eea8d23.png]]>
-</small_image_url>
-<link><![CDATA[https://www.goodreads.com/author/show/1077326.J_K_Rowling]]></link>
-<average_rating>4.46</average_rating>
-<ratings_count>24620067</ratings_count>
-<text_reviews_count>565498</text_reviews_count>
-</author>
-</authors>
-  <published>2003</published>
-<work>  <id>4640799</id>
-  <uri>kca://work/amzn1.gr.work.v1.TbpxJa2CwiSSz_9W2FruoA</uri>
-</work></book>
-
-
-  <rating>4</rating>
-  <votes>0</votes>
-  <spoiler_flag>false</spoiler_flag>
-  <spoilers_state>none</spoilers_state>
-  
-
-<shelves>
-    <shelf name="read" exclusive="true" id="315510992" review_shelf_id= ""/>
-
-    <shelf exclusive='false' id='377569657' name='delete' review_shelf_id='3017677882' sortable='false'></shelf>
-
-</shelves>
-
-  <recommended_for></recommended_for>
-  <recommended_by></recommended_by>
-  <started_at></started_at>
-  <read_at></read_at>
-  <date_added>Tue Nov 05 07:23:18 -0800 2019</date_added>
-  <date_updated>Sat Jun 06 18:08:53 -0700 2020</date_updated>
-  <read_count>1</read_count>
-  <body>
-      i was fun to read
-  </body>
-
-  
-
-  <comments_count>0</comments_count>
-    <url><![CDATA[https://www.goodreads.com/review/show/3037528885]]></url>
-  <link><![CDATA[https://www.goodreads.com/review/show/3037528885]]></link>
     <owned>0</owned>
 </review>
 
@@ -884,7 +415,7 @@
   <publication_year>2006</publication_year>
   <publication_month>4</publication_month>
   <average_rating>4.24</average_rating>
-  <ratings_count>109525</ratings_count>
+  <ratings_count>109527</ratings_count>
   <description>Written in Greek by the only Roman emperor who was also a philosopher, without any intention of publication, the &lt;i&gt;Meditations&lt;/i&gt; of Marcus Aurelius offer a remarkable series of challenging spiritual reflections and exercises developed as the emperor struggled to understand himself and make sense of the universe. While the &lt;i&gt;Meditations&lt;/i&gt; were composed to provide personal consolation and encouragement, Marcus Aurelius also created one of the greatest of all works of philosophy: a timeless collection that has been consulted and admired by statesmen, thinkers and readers throughout the centuries.</description>
 <authors>
 <author>
@@ -899,7 +430,7 @@
 </small_image_url>
 <link><![CDATA[https://www.goodreads.com/author/show/17212.Marcus_Aurelius]]></link>
 <average_rating>4.23</average_rating>
-<ratings_count>112390</ratings_count>
+<ratings_count>112394</ratings_count>
 <text_reviews_count>5884</text_reviews_count>
 </author>
 </authors>
@@ -1054,7 +585,7 @@
 </small_image_url>
 <link><![CDATA[https://www.goodreads.com/author/show/18149.Tess_Gerritsen]]></link>
 <average_rating>4.06</average_rating>
-<ratings_count>686836</ratings_count>
+<ratings_count>686841</ratings_count>
 <text_reviews_count>36708</text_reviews_count>
 </author>
 </authors>

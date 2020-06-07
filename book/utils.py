@@ -55,9 +55,9 @@ def get_review_id(response):
 
 
 def delete_review(book_id, shelf_name, user):
-    if shelf_name == 'read':
-        print('added to delete')
-        return add_to_shelf('delete', book_id, user)
+    # if shelf_name == 'read':
+    #     print('added to delete')
+    #     return add_to_shelf('delete', book_id, user)
 
     data = {'name': shelf_name, 'book_id': book_id, 'a': 'remove'}
     session = goodreads.get_session((user.access_token,

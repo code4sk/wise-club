@@ -27,12 +27,12 @@
     <reviews_rss_url><![CDATA[https://www.goodreads.com/review/list_rss/97134500?key=Qcn7M48-IJ0BJ9ADcnZV1DPGyzp0eA7RiWNQMuFtwMg-Tb8L&shelf=%23ALL%23]]></reviews_rss_url>
     <friends_count type="integer">7</friends_count>
     <groups_count>1</groups_count>
-    <reviews_count type="integer">14</reviews_count>
+    <reviews_count type="integer">10</reviews_count>
     <user_shelves type="array">
   <user_shelf>
     <id type="integer">315510992</id>
     <name>read</name>
-    <book_count type="integer">7</book_count>
+    <book_count type="integer">4</book_count>
     <exclusive_flag type="boolean">true</exclusive_flag>
     <sort nil="true"/>
     <order nil="true"/>
@@ -58,7 +58,7 @@
   <user_shelf>
     <id type="integer">315510989</id>
     <name>to-read</name>
-    <book_count type="integer">6</book_count>
+    <book_count type="integer">5</book_count>
     <exclusive_flag type="boolean">true</exclusive_flag>
     <sort nil="true"/>
     <order nil="true"/>
@@ -71,7 +71,7 @@
   <user_shelf>
     <id type="integer">377569657</id>
     <name>delete</name>
-    <book_count type="integer">4</book_count>
+    <book_count type="integer">0</book_count>
     <exclusive_flag type="boolean">false</exclusive_flag>
     <sort nil="true"/>
     <order nil="true"/>
@@ -83,145 +83,6 @@
   </user_shelf>
 </user_shelves>
       <updates type="array">
-      <update type="readstatus">
-      <action_text><![CDATA[wants to read <a only_path="false" href="https://www.goodreads.com/review/show/3377600277">Life of Pi</a>]]></action_text>
-      <link>https://www.goodreads.com/read_statuses/3655453976</link>
-      <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
-        <actor>
-  <id type="integer">97134500</id>
-  <name>Shubham Kapoor</name>
-  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
-  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
-</actor>
-      <updated_at>Sat, 06 Jun 2020 18:46:36 -0700</updated_at>
-        <object>
-          <read_status>
-  <id type="integer">3655453976</id>
-  <review_id type="integer">3377600277</review_id>
-  <user_id type="integer">97134500</user_id>
-  <old_status>currently-reading</old_status>
-  <status>to-read</status>
-  <updated_at type="datetime">2020-06-07T01:46:36+00:00</updated_at>
-  <review>
-    <id type="integer">3377600277</id>
-    <user_id type="integer">97134500</user_id>
-    <book_id type="integer">4214</book_id>
-    <rating type="integer">0</rating>
-    <read_status>to-read</read_status>
-    <sell_flag type="boolean">false</sell_flag>
-    <review nil="true"/>
-    <recommendation nil="true"/>
-    <read_at type="datetime" nil="true"/>
-    <updated_at type="datetime">2020-06-07T01:46:35+00:00</updated_at>
-    <created_at type="datetime">2020-06-06T16:53:31+00:00</created_at>
-    <comments_count type="integer">0</comments_count>
-    <weight type="integer">0</weight>
-    <ratings_sum type="integer">0</ratings_sum>
-    <ratings_count type="integer">0</ratings_count>
-    <spoiler_flag type="boolean">false</spoiler_flag>
-    <recommender_user_id1 type="integer">0</recommender_user_id1>
-    <recommender_user_name1 nil="true"/>
-    <work_id type="integer">1392700</work_id>
-    <last_comment_at type="datetime" nil="true"/>
-    <started_at type="datetime">2020-06-07T01:46:31+00:00</started_at>
-    <hidden_flag type="boolean">false</hidden_flag>
-    <language_code type="integer" nil="true"/>
-    <last_revision_at type="datetime">2020-06-07T01:46:35+00:00</last_revision_at>
-    <non_friends_rating_count type="integer">0</non_friends_rating_count>
-    <encrypted_notes nil="true"/>
-    <book_uri>kca://book/amzn1.gr.book.v1.xDVbF6l_LTfMdTx3ajT_qQ</book_uri>
-    <notes nil="true"/>
-    <book>
-      <id type="integer">4214</id>
-      <work_id type="integer">1392700</work_id>
-      <isbn>0770430074</isbn>
-      <isbn13>9780770430078</isbn13>
-      <title>Life of Pi</title>
-      <sort_by_title>life of pi</sort_by_title>
-      <author_id type="integer">811</author_id>
-      <author_role nil="true"/>
-      <asin nil="true"/>
-      <description nil="true"/>
-      <format>Paperback</format>
-      <publication_year type="integer">2006</publication_year>
-      <publication_month type="integer">8</publication_month>
-      <publication_day type="integer">29</publication_day>
-      <num_pages type="integer">460</num_pages>
-      <publisher>Seal Books</publisher>
-      <language_code>eng</language_code>
-      <edition_information nil="true"/>
-      <url nil="true"/>
-      <source_url nil="true"/>
-      <image_uploaded_at type="datetime">2011-11-06T06:46:45+00:00</image_uploaded_at>
-      <s3_image_at type="datetime">2015-05-16T14:49:42+00:00</s3_image_at>
-      <reviews_count type="integer">1860656</reviews_count>
-      <ratings_sum type="integer">4722099</ratings_sum>
-      <ratings_count type="integer">1208282</ratings_count>
-      <text_reviews_count type="integer">35931</text_reviews_count>
-      <book_authors_count type="integer">0</book_authors_count>
-      <updated_at type="datetime">2020-06-06T08:01:03+00:00</updated_at>
-      <created_at type="datetime">2006-12-06T11:01:30+00:00</created_at>
-      <author_id_updater_user_id type="integer">-50</author_id_updater_user_id>
-      <author_role_updater_user_id type="integer">1217925</author_role_updater_user_id>
-      <description_updater_user_id type="integer">66648866</description_updater_user_id>
-      <edition_information_updater_user_id type="integer" nil="true"/>
-      <format_updater_user_id type="integer">-50</format_updater_user_id>
-      <image_updater_user_id type="integer">-50</image_updater_user_id>
-      <isbn_updater_user_id type="integer">171430</isbn_updater_user_id>
-      <isbn13_updater_user_id type="integer">171430</isbn13_updater_user_id>
-      <language_updater_user_id type="integer">-110</language_updater_user_id>
-      <num_pages_updater_user_id type="integer">5407952</num_pages_updater_user_id>
-      <publication_date_updater_user_id type="integer">-50</publication_date_updater_user_id>
-      <publisher_updater_user_id type="integer">-50</publisher_updater_user_id>
-      <title_updater_user_id type="integer">845495</title_updater_user_id>
-      <url_updater_user_id type="integer" nil="true"/>
-      <title_language_code nil="true"/>
-      <publisher_language_code nil="true"/>
-      <description_language_code nil="true"/>
-      <asin_updater_user_id type="integer" nil="true"/>
-      <book_uri>kca://book/amzn1.gr.book.v1.xDVbF6l_LTfMdTx3ajT_qQ</book_uri>
-      <author>
-        <id type="integer">811</id>
-        <name>Yann Martel</name>
-        <updated_at type="datetime">2020-06-06T22:02:12+00:00</updated_at>
-        <created_at type="datetime">2006-09-09T20:27:34+00:00</created_at>
-        <image_uploaded_at type="datetime">2016-01-28T20:28:23+00:00</image_uploaded_at>
-        <user_id type="integer" nil="true"/>
-        <gender>M</gender>
-        <country_code>ES</country_code>
-        <born_at type="date">1963-06-25</born_at>
-        <died_at type="datetime" nil="true"/>
-        <about>Yann Martel is the author of &lt;i&gt;Life of Pi&lt;/i&gt;, the #1 international bestseller and winner of the 2002 Man Booker (among many other prizes). He is also the award-winning author of &lt;i&gt;The Facts Behind the Helsinki Roccamatios&lt;/i&gt; (winner of the Journey Prize), &lt;i&gt;Self&lt;/i&gt;, &lt;i&gt;Beatrice &amp; Virgil&lt;/i&gt;, and &lt;i&gt;101 Letters to a Prime Minister&lt;/i&gt;. Born in Spain in 1963, Martel studied philosophy at Trent University, worked at odd jobs—tree planter, dishwasher, security guard—and traveled widely before turning to writing. He lives in Saskatoon, Canada, with the writer Alice Kuipers and their four children.
-&lt;br&gt;
-&lt;a href="http://www.facebook.com/pages/Yann-Martel/337952694514?ref=ts/"&gt; Become a fan&lt;/a&gt; of Yann on Facebook.</about>
-        <uploader_user_id type="integer">603238</uploader_user_id>
-        <image_copyright>Photo Credit: Emma Love. Image provided by publisher.</image_copyright>
-        <influences></influences>
-        <url></url>
-        <genre1>Fiction</genre1>
-        <genre2></genre2>
-        <genre3></genre3>
-        <books_count type="integer">583</books_count>
-        <reviews_count type="integer">2105094</reviews_count>
-        <ratings_sum type="integer">5217900</ratings_sum>
-        <works_count type="integer">25</works_count>
-        <hometown>Salamanca</hometown>
-        <rating_dist>5:44346|4:57645|3:36340|2:13114|1:6510|total:157955</rating_dist>
-        <s3_image_at type="datetime" nil="true"/>
-        <ratings_count type="integer">1340964</ratings_count>
-        <text_reviews_count type="integer">53057</text_reviews_count>
-        <author_program_at type="datetime" nil="true"/>
-        <best_book_id type="integer">4214</best_book_id>
-        <sort_by_name>martel, yann</sort_by_name>
-        <shelf_display_name>Martel, Yann</shelf_display_name>
-        <author_uri>kca://author/amzn1.gr.author.v1.eQXBviNkBhdDjsI3zhUtRg</author_uri>
-      </author>
-    </book>
-  </review>
-</read_status>
-
-        </object>
-    </update>
       <update type="review">
       <action_text><![CDATA[gave 5 stars to <a href="https://www.goodreads.com/book/show/960.Angels_Demons">Angels & Demons (Robert Langdon, #1)</a> by <a href="https://www.goodreads.com/author/show/630.Dan_Brown">Dan Brown</a>]]></action_text>
       <link>https://www.goodreads.com/review/show/3377572267</link>
@@ -301,46 +162,6 @@
           </book>
         </object>
         <body> &lt;br /&gt; </body>
-    </update>
-      <update type="review">
-      <action_text><![CDATA[gave 3 stars to <a href="https://www.goodreads.com/book/show/18802174-wake-for-me">Wake for Me (Life or Death, #1)</a> by <a href="https://www.goodreads.com/author/show/7389142.Isobel_Irons">Isobel Irons</a>]]></action_text>
-      <link>https://www.goodreads.com/review/show/3378228376</link>
-      <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1395597476l/18802174._SY75_.jpg</image_url>
-        <actor>
-  <id type="integer">97134500</id>
-  <name>Shubham Kapoor</name>
-  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
-  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
-</actor>
-      <updated_at>Sat, 06 Jun 2020 17:22:01 -0700</updated_at>
-          <action type="rating">
-            <rating>3</rating>
-          </action>
-        <object>
-          <book>
-            <id>18802174</id>
-            <title><![CDATA[Wake for Me (Life or Death, #1)]]></title>
-            <link>https://www.goodreads.com/book/show/18802174-wake-for-me</link>
-            <authors>
-<author>
-<id>7389142</id>
-<name>Isobel Irons</name>
-<role></role>
-<image_url nophoto='true'>
-<![CDATA[https://s.gr-assets.com/assets/nophoto/user/f_200x266-3061b784cc8e7f021c6430c9aba94587.png]]>
-</image_url>
-<small_image_url nophoto='true'>
-<![CDATA[https://s.gr-assets.com/assets/nophoto/user/f_50x66-6a03a5c12233c941481992b82eea8d23.png]]>
-</small_image_url>
-<link><![CDATA[https://www.goodreads.com/author/show/7389142.Isobel_Irons]]></link>
-<average_rating>3.80</average_rating>
-<ratings_count>902</ratings_count>
-<text_reviews_count>165</text_reviews_count>
-</author>
-</authors>
-          </book>
-        </object>
-        <body>Excited to read</body>
     </update>
       <update type="review">
       <action_text><![CDATA[gave 5 stars to <a href="https://www.goodreads.com/book/show/960.Angels_Demons">Angels & Demons (Robert Langdon, #1)</a> by <a href="https://www.goodreads.com/author/show/630.Dan_Brown">Dan Brown</a>]]></action_text>
@@ -559,7 +380,7 @@ Michael writes in what his daughters' refer to as his 'cabana of cruelty' on Syd
         <genre2>Crime</genre2>
         <genre3>Thriller</genre3>
         <books_count type="integer">735</books_count>
-        <reviews_count type="integer">257508</reviews_count>
+        <reviews_count type="integer">257509</reviews_count>
         <ratings_sum type="integer">465680</ratings_sum>
         <works_count type="integer">29</works_count>
         <hometown></hometown>
@@ -651,8 +472,8 @@ Michael writes in what his daughters' refer to as his 'cabana of cruelty' on Syd
       <image_uploaded_at type="datetime">2019-02-04T00:46:48+00:00</image_uploaded_at>
       <s3_image_at type="datetime">2019-07-17T23:02:58+00:00</s3_image_at>
       <reviews_count type="integer">251206</reviews_count>
-      <ratings_sum type="integer">307393</ratings_sum>
-      <ratings_count type="integer">73774</ratings_count>
+      <ratings_sum type="integer">307413</ratings_sum>
+      <ratings_count type="integer">73778</ratings_count>
       <text_reviews_count type="integer">8899</text_reviews_count>
       <book_authors_count type="integer">0</book_authors_count>
       <updated_at type="datetime">2020-06-06T08:46:15+00:00</updated_at>
@@ -704,7 +525,7 @@ In the fall of 1971, Stephen began teaching English at Hampden Academy, the publ
         <genre2>Mystery</genre2>
         <genre3>Literature &amp; Fiction</genre3>
         <books_count type="integer">16823</books_count>
-        <reviews_count type="integer">24070847</reviews_count>
+        <reviews_count type="integer">24070924</reviews_count>
         <ratings_sum type="integer">56497966</ratings_sum>
         <works_count type="integer">1657</works_count>
         <hometown>Portland, Maine</hometown>
@@ -800,8 +621,8 @@ But refusing to give up, Gordon maintains his sanity with the help of Batman in 
       <image_uploaded_at type="datetime">2012-08-30T13:03:55+00:00</image_uploaded_at>
       <s3_image_at type="datetime">2015-05-16T15:04:15+00:00</s3_image_at>
       <reviews_count type="integer">202836</reviews_count>
-      <ratings_sum type="integer">651624</ratings_sum>
-      <ratings_count type="integer">148971</ratings_count>
+      <ratings_sum type="integer">651637</ratings_sum>
+      <ratings_count type="integer">148974</ratings_count>
       <text_reviews_count type="integer">3758</text_reviews_count>
       <book_authors_count type="integer">2</book_authors_count>
       <updated_at type="datetime">2020-06-06T08:02:29+00:00</updated_at>
@@ -848,7 +669,7 @@ As a comics writer, Moore is notable for being one of the first writers to apply
         <genre2>Literature &amp; Fiction</genre2>
         <genre3>Poetry</genre3>
         <books_count type="integer">3014</books_count>
-        <reviews_count type="integer">2294523</reviews_count>
+        <reviews_count type="integer">2294536</reviews_count>
         <ratings_sum type="integer">5849741</ratings_sum>
         <works_count type="integer">916</works_count>
         <hometown>Northampton, England</hometown>
@@ -940,7 +761,7 @@ As a comics writer, Moore is notable for being one of the first writers to apply
       <source_url nil="true"/>
       <image_uploaded_at type="datetime">2013-11-23T11:57:23+00:00</image_uploaded_at>
       <s3_image_at type="datetime">2015-06-16T00:46:02+00:00</s3_image_at>
-      <reviews_count type="integer">2404535</reviews_count>
+      <reviews_count type="integer">2404542</reviews_count>
       <ratings_sum type="integer">6417957</ratings_sum>
       <ratings_count type="integer">1745672</ratings_count>
       <text_reviews_count type="integer">68965</text_reviews_count>
@@ -993,7 +814,7 @@ http://www.youtube.com/user/eljamesauthor?feature=mhee</about>
         <genre2></genre2>
         <genre3></genre3>
         <books_count type="integer">1060</books_count>
-        <reviews_count type="integer">5250830</reviews_count>
+        <reviews_count type="integer">5250851</reviews_count>
         <ratings_sum type="integer">13562583</ratings_sum>
         <works_count type="integer">23</works_count>
         <hometown>London</hometown>
@@ -1012,6 +833,46 @@ http://www.youtube.com/user/eljamesauthor?feature=mhee</about>
 </read_status>
 
         </object>
+    </update>
+      <update type="review">
+      <action_text><![CDATA[gave 4 stars to <a href="https://www.goodreads.com/book/show/30169100-the-burning-white">The Burning White (Lightbringer, #5)</a> by <a href="https://www.goodreads.com/author/show/1370283.Brent_Weeks">Brent Weeks</a>]]></action_text>
+      <link>https://www.goodreads.com/review/show/3039228994</link>
+      <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1533264732l/30169100._SY75_.jpg</image_url>
+        <actor>
+  <id type="integer">97134500</id>
+  <name>Shubham Kapoor</name>
+  <image_url>https://images.gr-assets.com/users/1571064163p2/97134500.jpg</image_url>
+  <link>https://www.goodreads.com/user/show/97134500-shubham-kapoor</link>
+</actor>
+      <updated_at>Wed, 06 Nov 2019 10:36:47 -0800</updated_at>
+          <action type="rating">
+            <rating>4</rating>
+          </action>
+        <object>
+          <book>
+            <id>30169100</id>
+            <title><![CDATA[The Burning White (Lightbringer, #5)]]></title>
+            <link>https://www.goodreads.com/book/show/30169100-the-burning-white</link>
+            <authors>
+<author>
+<id>1370283</id>
+<name>Brent Weeks</name>
+<role></role>
+<image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1583875279p5/1370283.jpg]]>
+</image_url>
+<small_image_url nophoto='false'>
+<![CDATA[https://images.gr-assets.com/authors/1583875279p2/1370283.jpg]]>
+</small_image_url>
+<link><![CDATA[https://www.goodreads.com/author/show/1370283.Brent_Weeks]]></link>
+<average_rating>4.28</average_rating>
+<ratings_count>618371</ratings_count>
+<text_reviews_count>22727</text_reviews_count>
+</author>
+</authors>
+          </book>
+        </object>
+        <body> it is very good&lt;br /&gt; </body>
     </update>
 </updates>
     <user_statuses>
