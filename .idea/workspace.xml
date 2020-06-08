@@ -4,7 +4,6 @@
     <list default="true" id="8a9fc663-ae91-4658-af90-76ede61a8373" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book/templates/book/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/book/templates/book/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bin/req" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../sms/vkarmaSMS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
