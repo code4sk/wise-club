@@ -126,13 +126,19 @@ class AddToShelf(View):
         shelf_name = request.POST.get('shelf')
         book_id = request.POST.get('book_id')
         shelf = Shelf.objects.get(name=shelf_name, user=request.user)
+
         response = add_to_shelf(shelf_name, book_id, request.user)
         print(response)
         book = Book.objects.get(book_id=book_id)
+        review = Review.objects.filter(book=book, user=request.user)
         if response.status_code == 201:
             if book.shelf_set.all():
                 book.shelf_set.clear()
             shelf.books.add(book)
+            if review:
+                review = review[0]
+                review.shelf = shelf
+                review.save()
             return HttpResponse(book.title + ' is added to your shelf')
         return HttpResponse('learn')
 
