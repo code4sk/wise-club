@@ -98,6 +98,9 @@ class CallbackView(View):
             print(request.GET)
             request_token = request.GET.get('oauth_token')
             user = CustomUser.objects.get(request_token=request_token)
+            if str(request.GET.get('authorize')) == '0':
+                user.delete()
+                return redirect('library:library')
             session = goodreads.get_auth_session(request_token, user.request_token_secret)
             user.access_token = session.access_token
             user.access_token_secret = session.access_token_secret
