@@ -152,6 +152,7 @@ body.author__detail__body {
 
 body {
   padding: 16px;
+background-color: blue;
   height: 100%;
   position: relative;
 }
